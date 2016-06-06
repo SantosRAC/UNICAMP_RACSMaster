@@ -46,7 +46,11 @@ if(!$normOutput){
  &usage;
  exit(1);
 }
-#TODO Check if the output matrix exists.
+if(-e $normOutput){
+ print STDERR "FATAL: The output file you informed already exists. Please, change the name or delete the older file.\n";
+ &usage;
+ exit(1);
+}
 
 getMapInfo($protSizeMap);
 
