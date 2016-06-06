@@ -86,7 +86,7 @@ while(<INMATRIX>){
  print OUTMATRIX "$speciesID";
  foreach my $count (@countsForSpecies) {
  $normalizedCount = ($count/$spe2protSize{$speciesID})*100;
- print OUTMATRIX "\t$normalizedCount";
+ print OUTMATRIX "\t".sprintf("%.3f", $normalizedCount);
  }
  print OUTMATRIX "\n";
  close(OUTMATRIX);
@@ -131,7 +131,7 @@ USAGE
 
 OPTIONS
     --in_matrix       -in   Matrix with non-normalized protein counts per species              REQUIRED
-    --proteome_sizes  -ps   Mapping file with two columns with species and protein counts.     REQUIRED
+    --proteome_size   -ps   Mapping file with two columns with species and protein counts.     REQUIRED
     --out_matrix      -out  Output matrix with normalized counts.                              REQUIRED
     --help            -h    This help.
     --license         -l    License.
