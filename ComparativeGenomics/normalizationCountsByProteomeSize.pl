@@ -85,7 +85,7 @@ while(<INMATRIX>){
  open(OUTMATRIX,">>",$normOutput);
  print OUTMATRIX "$speciesID";
  foreach my $count (@countsForSpecies) {
- $normalizedCount = ($count/$spe2protSize{$speciesID})*100;
+ $normalizedCount = ($count/$spe2protSize{$speciesID})*1000;
  print OUTMATRIX "\t".sprintf("%.3f", $normalizedCount);
  }
  print OUTMATRIX "\n";
