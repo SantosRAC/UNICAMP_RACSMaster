@@ -303,11 +303,6 @@ There is/are ".scalar(@productsInReactions)." involved products in reactions of 
 
 }
 
-sub getHTML{
- my $file = shift;
- 
- return $html;
-}
 
 ##############################################
 #Usage
