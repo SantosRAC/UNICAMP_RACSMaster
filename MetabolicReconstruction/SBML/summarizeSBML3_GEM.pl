@@ -109,6 +109,21 @@ sub parseXML {
  my @models = $root->children('model');
 
  foreach my $mod (@models){
+
+  # Parsing unit definitions
+
+#unit kind="mole" scale="-3"/>
+#unit kind="gram" exponent="-1"/>
+#unit kind="second" multiplier=".00027777" exponent="-1"/
+  my @unitDefinitions = $mod->children('listOfUnitDefinitions');
+  foreach my $unitDefs (@unitDefinitions) {
+   my @unitDefInfo = $unitDefs->children('unitDefinition');
+   foreach my $unitInfo (@unitDefInfo) {
+    my $unitKind='';
+    $unitKind=$unitInfo->att('kind');
+    print "$unitKind\n";
+   }
+  }
  
   # Parsing compartments
   my @compartmentLists = $mod->children('listOfCompartments');
