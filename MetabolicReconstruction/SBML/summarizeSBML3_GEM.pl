@@ -72,19 +72,19 @@ if(!$summary_species && !$summary_reaction){
  $summary=1;
 }
 
-unless ($valitateBoolean) {
- 
- $ua->agent("CTBE-summarizeSBML3/0.1");
- $ua->from("bce.ctbe\@gmail.com");
- $ua->env_proxy;
-
- my $htmlValidateFile = getHTML($infile);
- my $twigValidator=XML::Twig->new();
- $twigValidator->parsefile($htmlValidateFile);
- my $rootValitator = $twigValidator->root;
- #print $rootValitator->name."\n";
-
-}
+#unless ($valitateBoolean) {
+# 
+# $ua->agent("CTBE-summarizeSBML3/0.1");
+# $ua->from("bce.ctbe\@gmail.com");
+# $ua->env_proxy;
+#
+# my $htmlValidateFile = getHTML($infile);
+# my $twigValidator=XML::Twig->new();
+# $twigValidator->parsefile($htmlValidateFile);
+# my $rootValitator = $twigValidator->root;
+# #print $rootValitator->name."\n";
+#
+#}
 
 parseXML();
 
@@ -111,17 +111,44 @@ sub parseXML {
  foreach my $mod (@models){
 
   # Parsing unit definitions
-
-#unit kind="mole" scale="-3"/>
-#unit kind="gram" exponent="-1"/>
-#unit kind="second" multiplier=".00027777" exponent="-1"/
+  print "Checking unit definitions in GEM\n";
   my @unitDefinitions = $mod->children('listOfUnitDefinitions');
   foreach my $unitDefs (@unitDefinitions) {
+   my @observedUnitDefinitions=();
    my @unitDefInfo = $unitDefs->children('unitDefinition');
    foreach my $unitInfo (@unitDefInfo) {
-    my $unitKind='';
-    $unitKind=$unitInfo->att('kind');
-    print "$unitKind\n";
+    my @Units=$unitInfo->children('listOfUnits');
+    foreach my $uL (@Units){
+     my @UnitsPerList=$uL->children('unit');
+     foreach my $u (@UnitsPerList) {
+      my $unitKind='';
+      $unitKind=$u->att('kind');
+      if($unitKind eq 'mole'){
+       push(@observedUnitDefinitions,$unitKind);
+       my $unitScale=$u->att('scale');
+       print "Unit: $unitKind\tScale: $unitScale\n";
+      } elsif ($unitKind eq 'gram') {
+       push(@observedUnitDefinitions,$unitKind);
+       my $unitExponent=$u->att('exponent');
+       print "Unit: $unitKind\tExponent: $unitExponent\n";
+      } elsif ($unitKind eq 'second') {
+       push(@observedUnitDefinitions,$unitKind);
+       my $unitMultiplier=$u->att('multiplier');
+       my $unitExponent=$u->att('exponent');
+       print "Unit: $unitKind\tMultiplier: $unitMultiplier\tExponent: $unitExponent\n";
+      } else {
+       die "Something wrong in $unitKind\n";
+      }
+     }
+    }    
+   }
+   my @requiredUnitDefinitions=('mole','gram','second');
+   foreach my $rU (@requiredUnitDefinitions){
+    if($rU ~~ @observedUnitDefinitions){
+     next;
+    } else {
+     die "Definition \"$rU\" is not present in your model\n";
+    }
    }
   }
  
@@ -314,7 +341,7 @@ sub usage{
     print STDERR "type `$0 -l' for details.\n";
     print STDERR <<EOF;
 NAME
-    $0 Summarizes SBML file Level 3 Version 1 reconstruction file with KEGG identifiers
+    $0 Summarizes SBML file Level 3 Version 1 reconstruction file with BiGG identifiers
     
 USAGE
     $0 -i infile.xml (same as using --summary)
