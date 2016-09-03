@@ -21,6 +21,8 @@ my $debug=0;
 # Variables used for summarizing SBML elements 
 ######################
 
+my @geneProductsInModel=();
+my @fluxBalanceConstraints=();
 my @compartmentsInModel=();
 my @reactantsInReactions=();
 my @productsInReactions=();
@@ -152,7 +154,7 @@ sub parseXML {
    }
   }
 
-  #Checking FBC
+  #Checking FBC objectives
   my @ObjectivesLists = $mod->children('fbc:listOfObjectives');
   foreach my $obj(@ObjectivesLists){
    my @objectives = $obj->children('fbc:objective');
@@ -165,6 +167,27 @@ sub parseXML {
       my $freaction=$fo->att('fbc:reaction');
      }
     }    
+   }
+  }
+
+  #Checking FBC list of gene products
+  #The model must have at least one, according to the fbc package specification
+  my @GeneProductLists = $mod->children('fbc:listOfGeneProducts');
+  foreach my $geneProduct (@GeneProductLists){
+   my @geneProducts=$geneProduct->children('fbc:geneProduct');
+   foreach my $gp (@geneProducts){
+    my $gpID='';
+    my $gpLabel='';
+    my $gpName='';
+    $gpID = $gp->att('fbc:id');
+    $gpLabel = $gp->att('fbc:label');
+    $gpName = $gp->att('fbc:name');
+    # check if gene identifier starts with 'G_' (required by BiGG, paper of 2015)
+    if($gpID =~ /^G_/){ 
+     print "$gpID\t$gpLabel\t$gpName\n";
+    } else {
+     die "Gene $gpName does not follow required regular expression in BiGG paper (check King et al, 2015).\n";
+    }
    }
   }
 
