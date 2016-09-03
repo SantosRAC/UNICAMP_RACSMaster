@@ -151,7 +151,23 @@ sub parseXML {
     }
    }
   }
- 
+
+  #Checking FBC
+  my @ObjectivesLists = $mod->children('fbc:listOfObjectives');
+  foreach my $obj(@ObjectivesLists){
+   my @objectives = $obj->children('fbc:objective');
+   foreach my $fluxObj (@objectives){
+    my @listFluxObjectives = $fluxObj->children('fbc:listOfFluxObjectives');
+    foreach my $folElement (@listFluxObjectives){
+     my @fluxObjectives = $folElement->children('fbc:fluxObjective');
+     foreach my $fo (@fluxObjectives) {
+      my $fcoeff=$fo->att('fbc:coefficient');
+      my $freaction=$fo->att('fbc:reaction');
+     }
+    }    
+   }
+  }
+
   # Parsing compartments
   my @compartmentLists = $mod->children('listOfCompartments');
   foreach my $compl (@compartmentLists) {
