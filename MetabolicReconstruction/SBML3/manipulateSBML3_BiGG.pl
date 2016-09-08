@@ -22,11 +22,16 @@ my $reactionTable='';
 ##############################################
 #Variables related to the novel reactions
 ##############################################
+my %reaction2associatedLinks;
+my %reaction2name;
+my %reaction2id;
+my %reaction2associatedGenes;
 my %reaction2reversibility;
 my %reaction2type;
 my %reaction2products;
 my %reaction2reactants;
 my %reaction2compartment;
+my %reaction2EC;
 my @allowedCompartments=('UNK_COMP','cytoplasm','mitochondrion','peroxisome','Golgi','vacuole','ER','plasma_membrane','nucleus','extracellular');
 
 ##############################################
