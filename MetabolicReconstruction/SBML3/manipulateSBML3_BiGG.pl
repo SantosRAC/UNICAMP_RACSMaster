@@ -20,7 +20,7 @@ my $reactionTable='';
 #my $ua = LWP::UserAgent->new; # This will be used only when the online validator is available
 
 ##############################################
-#Variables related to the novel reactions
+#Variables related to reactions being included in model
 ##############################################
 my %reaction2associatedLinks;
 my %reaction2name;
@@ -32,18 +32,23 @@ my %reaction2products;
 my %reaction2reactants;
 my %reaction2compartment;
 my %reaction2EC;
-my @allowedCompartments=('UNK_COMP','cytoplasm','mitochondrion','peroxisome','Golgi','vacuole','ER','plasma_membrane','nucleus','extracellular');
+my @allowedCompartments=('UNK_COMP','cytoplasm','Cytosol','mitochondrion','Mitochondria','peroxisome','Golgi','Golgi_Apparatus','vacuole','ER','Endoplasmic_Reticulum','plasma_membrane','nucleus','extracellular','Vacuole','Nucleus','Peroxisome','Extra_organism');
 
 ##############################################
 #Variables related to info existent in model
 ##############################################
 my @compartmentsInModel=();
+my @reactionsInModel=();
+my @metabolitesInModel=();
+my @genesInModel=();
+my %speciesModelInfo;
+my %reactionsModelInfo;
 
 GetOptions(
     'license|l'       => \$license,
     'help|h|?'        => \$help,
     'infile|i=s'      => \$infile,
-    'input_table|t=s' => \$reactionTable,
+    'input_reaction_table|t=s' => \$reactionTable,
 );
 
 if($help){
@@ -65,103 +70,74 @@ if(!-s $reactionTable){
     exit 0;
 }
 
-checkInputTable();
 parseXML();
+checkInputTable();
 
 ##############################################
 #Check input table with information about
 #reactions and metabolites
 ##############################################
 
+#Information about metabolites in reactions
+my %inputTableReactionProductsStoic;
+my %inputTableReactionReactantsStoic;
+my %inputTableReactionProductsComp;
+my %inputTableReactionReactantsComp;
+my %inputTableReactionProductsUpperBoundFlux;
+my %inputTableReactionReactantsUpperBoundFlux;
+my %inputTableReactionProductsLowerBoundFlux;
+my %inputTableReactionReactantsLowerBoundFlux;
+
 sub checkInputTable {
-
  open(INPUTTABLE,$reactionTable);
-
  while(<INPUTTABLE>){
   chomp;
   next if (/^#/);
-  my ($reactionBiGG,$reactionType,$reversible,$metaboliteBiGG,$metaboliteType,$stoichiometry,$compartment) = split(/\t/,$_);
-  # Check if reaction ID is a BiGG identifier
-  if($reactionBiGG =~ /^R\d{5}$/) {
-   $reactionType = lc($reactionType);
-   # Check if reaction type is allowed (conversion or transport)
-   if(($reactionType =~ /conversion/) or ($reactionType =~ /transport/)){
-    # Check if reaction type was previously set. If it exists, check if next lines for the reaction have the same type.
-    if ($reaction2type{$reactionBiGG}){
-     if($reaction2type{$reactionBiGG} eq $reactionType) {
-      #print "$reactionBiGG\t$reactionType (check reaction type)\n";
-     } else {
-      die "FATAL: Ambiguous reaction type for reaction: $reactionBiGG\n";
-     }
-    } else {
-     $reaction2type{$reactionBiGG}=$reactionType;
-    }
-    $reversible = lc($reversible);
-    if(($reversible =~ /true/) or ($reversible =~ /false/)){
-     # Check if reaction reversibility was previously set. If it exists, check if next lines for the reaction have the same reversibility.
-     if($reaction2reversibility{$reactionBiGG}){
-      if($reaction2reversibility{$reactionBiGG} eq $reversible){
-       #print "$reactionBiGG\t$reactionType\t$reversible (check reaction reversibility)\n";
-      } else{
-       die "FATAL: Ambiguous reaction reversibility for reaction: $reactionBiGG\n";
-      }
-     } else {
-      $reaction2reversibility{$reactionBiGG}=$reversible;
-     }
-    } else {
-     die "FATAL: The reaction reversibility must be 'true' or 'false'\n";
-    }
-    # Check metabolite ID (must be a BiGG identifier)
-    if($metaboliteBiGG =~ /C\d{5}/) {
-     #print "$reactionBiGG\t$reactionType\t$reversible\t$metaboliteBiGG(Check metabolite for BiGG reactions)\n";
-     $metaboliteType=lc($metaboliteType);
-     if(($metaboliteType eq "product") or ($metaboliteType eq "reactant")){
-      # Addes metabolite
-      if($metaboliteType eq "product"){
-       push(@{$reaction2products{$reactionBiGG}},$metaboliteBiGG);
-      }
-      if($metaboliteType eq "reactant"){
-       push(@{$reaction2reactants{$reactionBiGG}},$metaboliteBiGG);
-      }
-      if ($compartment ~~ @allowedCompartments) {
-       if($reaction2compartment{$reactionBiGG}) {
-        #print "";
-       } else {
-        $reaction2compartment{$reactionBiGG}=$compartment;
-       }
-      } else {
-       die "FATAL: compartment ($compartment) for metabolite $metaboliteBiGG in reaction $reactionBiGG is not allowed.\nOptions are: UNK_COMP (if compartment is unknown), cytoplasm, mitochondrion, peroxisome, Golgi, vacuole, ER, plasma_membrane, nucleus, extracellular\n";
-      }
-     } else {
-      die "FATAL: a metabolite in your table does not have an allowed type (product or reactant)\n";
-     }
-    } else {
-     die "FATAL: a metabolite in your table does not satisfy BiGG rules for compound ID.\n Check reaction $reactionBiGG, metabolite $metaboliteBiGG\n";
-    }
+  my ($reactionBiGGID,$reactionBiGGName,$reactionType,$reactionECorTCDB,$transportBoolean,$reversible,$metaboliteBiGGID,$metaboliteType,$metStoichiometry,$metCompartment,$geneAssociation,$upperBoundFlux,$lowerBoundFlux) = split(/\t/,$_);
+
+  #Checks BiGG standards for reaction and pseudo-reaction in input table
+  $reactionType=lc($reactionType);
+  if($reactionType eq 'reaction'){
+   if($reactionBiGGID =~ /R_(\S+)?/){
+    print "Reaction \"$reactionBiGGID\" is OK!\n"; 
    } else {
-    die "FATAL: You must provide an allowed reaction type: 'Transport' or 'Conversion'\n";
+    print "Reaction \"$reactionBiGGID\" does not follow BiGG standard\n";
    }
-  } elsif ($reactionBiGG =~ /^BIOMASS$/) {
-   #TODO Include case in which the BIOMASS reaction is being added
+  }
+  elsif(($reactionType eq 'pseudoreaction') or ($reactionType eq 'pseudo-reaction')){
+   #Checks if the pseudoreaction identifier follows BiGG standards
+   if(($reactionBiGGID =~ /EX_(\S+)?/) or ($reactionBiGGID =~ /DM_(\S+)?/) or ($reactionBiGGID =~ /SK_(\S+)?/) or ($reactionBiGGID =~ /(R_)?ATPM/)){
+    print "Pseudo-reaction \"$reactionBiGGID\" is OK!\n";
+   } else {
+    print "Pseudo-reaction \"$reactionBiGGID\" does not follow BiGG standard\n";
+   }
   } else {
-    die "FATAL: Reaction type is not as expected ($reactionBiGG).\nIt must be a reaction in BiGG REACTION (e.g. R02108) or 'BIOMASS' (biomass pseudo-reaction)\n";
+   die "Reaction \"$reactionBiGGID\" is neither a reaction nor a pseudo-reaction (ATPM, biomass, exchange, sink, or demand reactions)\n";
   }
- }
 
- #Check if a reaction has product but no reactant(s)
- foreach my $rea (keys %reaction2products){
-  if(!$reaction2reactants{$rea}) {
-   die "$rea has products but does not have reactants!\n";
+  #Checks BiGG standards for metabolite in input table
+  if($metaboliteBiGGID =~ /M_(\S+)(_\S+)?/){
+   if($metaboliteBiGGID ~~ @metabolitesInModel){die "Metabolite ($metaboliteBiGGID) already exists in model\nInformation for new reaction ($reactionBiGGID) will be retrieved from existing metabolite.\n";}
+   $metaboliteType=lc($metaboliteType);
+   if($metaboliteType eq 'product'){
+    $inputTableReactionProductsStoic{$reactionBiGGID}{$metaboliteBiGGID}=$metStoichiometry;
+    $inputTableReactionProductsComp{$reactionBiGGID}{$metaboliteBiGGID}=$metCompartment;
+    $inputTableReactionProductsUpperBoundFlux{$reactionBiGGID}{$metaboliteBiGGID}=$upperBoundFlux;
+    $inputTableReactionProductsLowerBoundFlux{$reactionBiGGID}{$metaboliteBiGGID}=$lowerBoundFlux;
+   }
+   elsif($metaboliteType eq 'reactant'){
+    $inputTableReactionReactantsStoic{$reactionBiGGID}{$metaboliteBiGGID}=$metStoichiometry;
+    $inputTableReactionReactantsComp{$reactionBiGGID}{$metaboliteBiGGID}=$metCompartment;
+    $inputTableReactionReactantsUpperBoundFlux{$reactionBiGGID}{$metaboliteBiGGID}=$upperBoundFlux;
+    $inputTableReactionReactantsLowerBoundFlux{$reactionBiGGID}{$metaboliteBiGGID}=$lowerBoundFlux;
+   } else {
+    die "Metabolite BiGG ID \"$metaboliteBiGGID\" is neither a \'reactant\' nor a \'product\'\n";
+   }
+  } else {
+   die "Metabolite in input table \"$metaboliteBiGGID\" does not follow the BiGG standards\n";
   }
- }
 
- #Check if a reaction has reactant but no product(s)
- foreach my $rea (keys %reaction2reactants){
-  if(!$reaction2products{$rea}) {
-   die "$rea has reactants but does not have products!\n";
-  }
  }
-
  close(INPUTTABLE);
 }
 
@@ -188,53 +164,198 @@ sub parseXML {
  # Check if there is a model (required inside sbml)
  if (!$root->children('model')){ die "SBML Level 3 Version 1 must have a model object inside <sbml> ... </sbml>!\n"; }
  
- my @rootChildren=$root->children('model');
+ my @models = $root->children('model');
 
- foreach my $rootChild (@rootChildren) {
-  my @modelChildren=$rootChild->children();
-  foreach my $modChild (@modelChildren) {
+ foreach my $mod (@models){
 
-   #Get species in the model
-   my @internModelChildrenSpe=$modChild->children('species');
-   foreach my $intModChildSpe (@internModelChildrenSpe) {
-    my $idCheckSpeciesInModel=$intModChildSpe->att('id');
-    #Add species informed in the input table to the model
-   }
-
-   #Get compartments in the model
-   my @internModelChildrenComp=$modChild->children('compartment');
-   foreach my $intModChildComp (@internModelChildrenComp) {
-    my $idCheckCompInModel=$intModChildComp->att('id');
-    if($idCheckCompInModel ~~ @compartmentsInModel){
-     #do nothing!
+  #Checking FBC list of gene products
+  #The model must have at least one, according to the fbc package specification
+  my @GeneProductLists = $mod->children('fbc:listOfGeneProducts');
+  foreach my $geneProduct (@GeneProductLists){
+   my @geneProducts=$geneProduct->children('fbc:geneProduct');
+   foreach my $gp (@geneProducts){
+    my $gpID='';
+    my $gpLabel='';
+    my $gpName='';
+    $gpID = $gp->att('fbc:id');
+    $gpLabel = $gp->att('fbc:label');
+    $gpName = $gp->att('fbc:name');
+    # check if gene identifier starts with 'G_' (required by BiGG, paper of 2015)
+    if($gpID =~ /^G_(\S+)$/){
+     if($gpID ~~ @genesInModel){
+      #TODO
+     } else {
+      push(@genesInModel,$gpID);
+     }
     } else {
-     push(@compartmentsInModel,$idCheckCompInModel);
+     die "Gene $gpName does not follow required regular expression in BiGG paper (check King et al, 2015).\n";
     }
    }
-   #Check if compartment being added (for a given reaction) was existent in the model;
-   #The script must add the compartment to the model if is doesn't exist.
-   foreach my $comp (values %reaction2compartment){
-    if($comp ~~ @compartmentsInModel){
-     #print "Compartment $comp is in the model\n";
-    } else {
-     #Include here code to add compartment to the model
-     print "Compartment \"$comp\" is not in the model!\n";
-    }
-   }
+  }
 
-   #Get reactions in the model
-   my @internModelChildrenRea=$modChild->children('reaction');
-   foreach my $intModChildRea (@internModelChildrenRea) {
-    my $idCheckReactionInModel=$intModChildRea->att('id');
-    # Check if reaction being added was existent in the model; die if it already exists
-    foreach my $rea (keys %reaction2type){
-     if($rea eq $idCheckReactionInModel) {die "Reaction ($rea) already exists in model\n";}
+  # Parsing compartments
+  my @compartmentLists = $mod->children('listOfCompartments');
+  foreach my $compl (@compartmentLists) {
+   my @AllCompartments = $compl->children('compartment');
+   foreach my $comp (@AllCompartments) {
+    my $compId='';
+    my $compName='';
+    $compId = $comp->att('id');
+    $compName = $comp->att('name');
+    if ($compId ~~ @allowedCompartments){
+     push(@compartmentsInModel,$compId);
+    } else {
+     die "Compartment ($compId) present in model is not among allowed compartments!\n";
     }
+   }
+  }
+ 
+  # Parsing species in the model
+  my @speciesList = $mod->children('listOfSpecies');
+  foreach my $spemodell (@speciesList) {
+   my @AllSpeciesModel = $spemodell->children('species');
+   foreach my $spemodel (@AllSpeciesModel) {
+
+    #######################################
+    # Variables for each species
+    #######################################
+    my $modSpeciesID = $spemodel->att('id');
+    if ($modSpeciesID =~ /M_(\S+)(_\S+)?/){
+     if($modSpeciesID ~~ @metabolitesInModel){
+      die "There is a duplicated metabolite in existing model: $modSpeciesID. Please check this!\n";
+     } else {
+      push(@metabolitesInModel,$modSpeciesID);
+     }
+    } else {
+     die "Identifier for metabolite in model is not regular BiGG ID: $modSpeciesID\n";
+    }
+    my $modSpeciescharge = $spemodel->att('fbc:charge');
+    my $modSpecieshasOnlySubstanceUnits = $spemodel->att('hasOnlySubstanceUnits');
+    my $modSpeciesConstant = $spemodel->att('constant');
+    my $modSpeciesboundaryCondition = $spemodel->att('boundaryCondition');
+    my $modSpeciesName = $spemodel->att('name') ? $spemodel->att('name') : $spemodel->att('id');
+    my $modSpeciesCompartment = $spemodel->att('compartment');
+    my $modeSpeciesMetaID = $spemodel->att('metaid');
+    my $annotResource='';
+
+    # Parsing annotations for a given species in the model
+    my @spInModelAnnotations = $spemodel->children('annotation');
+    foreach my $annot (@spInModelAnnotations) {
+     my $firstAnnotChild = $annot->first_child();
+     my $secondAnnotChild = $firstAnnotChild->first_child();
+     my $thirdAnnotChild = $secondAnnotChild->first_child();
+     my $fourthAnnotChild = $thirdAnnotChild->first_child();
+     my $fifthAnnotChild = $fourthAnnotChild->first_child();
+     if($fifthAnnotChild->name =~ /rdf:li/) {
+      $annotResource=$fifthAnnotChild->att('rdf:resource');
+     }
+    }
+
+    # Adding information about model species in hash
+    $speciesModelInfo{$modSpeciesID}{'overall'}{'id'}=$modSpeciesID;
+    $speciesModelInfo{$modSpeciesID}{'overall'}{'metaid'}=$modeSpeciesMetaID;
+    $speciesModelInfo{$modSpeciesID}{'overall'}{'charge'}=$modSpeciescharge;
+    $speciesModelInfo{$modSpeciesID}{'overall'}{'hasOnlySubstanceUnits'}=$modSpecieshasOnlySubstanceUnits;
+    $speciesModelInfo{$modSpeciesID}{'overall'}{'boundaryCondition'}=$modSpeciesboundaryCondition;
+    $speciesModelInfo{$modSpeciesID}{'overall'}{'constant'}=$modSpeciesConstant;
+    $speciesModelInfo{$modSpeciesID}{'overall'}{'name'}=$modSpeciesName;
+    $speciesModelInfo{$modSpeciesID}{'overall'}{'compartment'}=$modSpeciesCompartment;
+    $speciesModelInfo{$modSpeciesID}{'annotation'}{'resource'}=$annotResource;
+   }
+  }
+
+  # Parsing reactions
+  my @reactionLists = $mod->children('listOfReactions');
+  foreach my $real (@reactionLists) {
+
+   my @AllReactions = $real->children('reaction');
+   foreach my $rea (@AllReactions) {
+    my $modReactID='';
+    my $modReactMetaID='';
+    my $modReactName='';
+    my $modReactFast='';
+    my $modReactReversibility='';
+    my $modReactLowerBoundary='';
+    my $modReactUpperBoundary='';
+    my $reactAnnotResource='';
+    my @reactantsReaction=();
+    my @productsReaction=();
+
+    $modReactID=$rea->att('id');
+    if ($modReactID =~ /R_(\S+)?/){
+     if($modReactID ~~ @reactionsInModel){
+      die "There is a duplicated reaction in existing model: $modReactID. Please check this!\n";
+     } else {
+      push(@reactionsInModel,$modReactID); 
+     }
+    } else {
+     die "Identifier for reaction in model is not regular BiGG ID: \n";
+    }
+    $modReactName=$rea->att('name');
+    $modReactFast=$rea->att('fast');
+    $modReactMetaID=$rea->att('metaid');
+    $modReactReversibility=$rea->att('reversible');
+    $modReactLowerBoundary=$rea->att('fbc:lowerFluxBound');
+    $modReactUpperBoundary=$rea->att('fbc:upperFluxBound');
+
+    # Parsing list of reactants of a given reaction
+    my @reactantList = $rea->children('listOfReactants');
+    foreach my $reactl (@reactantList) {
+     my $spID='';
+     my @AllReactants = $reactl->children('speciesReference');
+     foreach my $reaspe (@AllReactants) {
+      $spID = $reaspe->att('species');
+     }
+    }
+
+    # Parsing list of products of a given reaction
+    my @productList = $rea->children('listOfProducts');
+    foreach my $productl (@productList) {
+     my $spID='';
+     my @AllProducts = $productl->children('speciesReference');
+     foreach my $productspe (@AllProducts) {
+      $spID = $productspe->att('species');
+     }
+    }
+
+    # Parsing annotations in reactions
+    my @reacInModelAnnotations = $rea->children('annotation');
+    foreach my $annot (@reacInModelAnnotations) {
+     my $firstAnnotChild = $annot->first_child();
+     my $secondAnnotChild = $firstAnnotChild->first_child();
+     my $thirdAnnotChild = $secondAnnotChild->first_child();
+     my $fourthAnnotChild = $thirdAnnotChild->first_child();
+     my $fifthAnnotChild = $fourthAnnotChild->first_child();
+     if($fifthAnnotChild->name =~ /rdf:li/) {
+      $reactAnnotResource=$fifthAnnotChild->att('rdf:resource');
+     }
+    }
+
+    # Adding information about model reaction in hash
+    $reactionsModelInfo{$modReactID}{'overall'}{'id'}=$modReactID;
+    $reactionsModelInfo{$modReactID}{'overall'}{'name'}=$modReactName;
+    $reactionsModelInfo{$modReactID}{'overall'}{'fast'}=$modReactFast;
+    $reactionsModelInfo{$modReactID}{'overall'}{'metaid'}=$modReactMetaID;
+    $reactionsModelInfo{$modReactID}{'overall'}{'resource'}=$reactAnnotResource;
+    $reactionsModelInfo{$modReactID}{'overall'}{'reversible'}=$modReactReversibility;
+    $reactionsModelInfo{$modReactID}{'overall'}{'lowerboundflux'}=$modReactLowerBoundary;
+    $reactionsModelInfo{$modReactID}{'overall'}{'upperboundflux'}=$modReactUpperBoundary;
+    @{ $reactionsModelInfo{$modReactID}{'reaction'}{'listOfReactants'} }=@reactantsReaction;
+    @{ $reactionsModelInfo{$modReactID}{'reaction'}{'listOfProducts'} }=@productsReaction;
+
    }
   }
  }
 
 }
+
+##############################################
+#Main function that includes reactions in model
+##############################################
+
+
+
+
 
 ##############################################
 #Usage
@@ -250,30 +371,31 @@ NAME
     
 USAGE
     $0 -i infile.xml --input_table table.txt
-
+i
 OPTIONS
-    --infile          -i       Input file (XML,SBML3)                           REQUIRED
-    --input_table     -t       Input table (separated by TAB)                   REQUIRED
-                               Lines in table must present information about metabolite and reaction association,
-                               and the following fields (in this order) are required:
+    --infile                   -i       Input file (SBML3 format)                        REQUIRED
+    --input_reaction_table     -t       Input table (separated by TAB)                   REQUIRED
+                                        Lines in table must present information about metabolite and reaction association,
+                                        and the following fields (in this order) are required:
 
-                               a) Reaction (BiGG identifier),
-                               b) Type of reaction (transport or conversion)
-                               c) A boolean field indicating whether the reaction is reversible (yes/no)
-                               d) Metabolite/ compound/ species BiGG identifier
-                               e) Type of metabolite/ compound/ species (reactant or product)
-                               f) Species Stoichiometry
-                               g) Metabolite Compartment
+                                        a) Reaction BiGG ID,
+                                        b) Reaction name
+                                        c) Reaction type (reaction or pseudoreaction)
+                                        d) Reaction EC/TCDB code
+                                        e) A boolean field whether it is a transport reaction or not
+                                        f) A boolean field indicating whether the reaction is reversible or not
+                                        g) Metabolite BiGG ID
+                                        h) Metabolite type in reaction (reactant or product)
+                                        i) Metabolite stoichiometry coefficient in reaction
+                                        j) Metabolite compartment
+                                        k) Gene association: list of gene names in BiGG format, separated by comma
+                                        m) Upper bound flux
+                                        n) Lower bound flux
 
-                               Notes:
-                               1) If the compounds involved in reaction are present in different compartments,
-                               the reaction is assumed to be of the type 'transport'
-                               2) If the reaction is of type 'BIOMASS' #TODO
+    --help                     -h       This help.
+    --license                  -l       License.
 
-    --help            -h       This help.
-    --license         -l       License.
-
-    --k                        Skip online validator (not implemented yet)
+    --k                                 Skip online validator (not implemented yet)
 
 EOF
 }
