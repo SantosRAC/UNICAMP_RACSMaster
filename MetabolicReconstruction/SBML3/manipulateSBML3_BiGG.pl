@@ -75,71 +75,71 @@ sub checkInputTable {
  while(<INPUTTABLE>){
   chomp;
   next if (/^#/);
-  my ($reactionKEGG,$reactionType,$reversible,$metaboliteKEGG,$metaboliteType,$stoichiometry,$compartment) = split(/\t/,$_);
-  # Check if reaction ID is a KEGG identifier
-  if($reactionKEGG =~ /^R\d{5}$/) {
+  my ($reactionBiGG,$reactionType,$reversible,$metaboliteBiGG,$metaboliteType,$stoichiometry,$compartment) = split(/\t/,$_);
+  # Check if reaction ID is a BiGG identifier
+  if($reactionBiGG =~ /^R\d{5}$/) {
    $reactionType = lc($reactionType);
    # Check if reaction type is allowed (conversion or transport)
    if(($reactionType =~ /conversion/) or ($reactionType =~ /transport/)){
     # Check if reaction type was previously set. If it exists, check if next lines for the reaction have the same type.
-    if ($reaction2type{$reactionKEGG}){
-     if($reaction2type{$reactionKEGG} eq $reactionType) {
-      #print "$reactionKEGG\t$reactionType (check reaction type)\n";
+    if ($reaction2type{$reactionBiGG}){
+     if($reaction2type{$reactionBiGG} eq $reactionType) {
+      #print "$reactionBiGG\t$reactionType (check reaction type)\n";
      } else {
-      die "FATAL: Ambiguous reaction type for reaction: $reactionKEGG\n";
+      die "FATAL: Ambiguous reaction type for reaction: $reactionBiGG\n";
      }
     } else {
-     $reaction2type{$reactionKEGG}=$reactionType;
+     $reaction2type{$reactionBiGG}=$reactionType;
     }
     $reversible = lc($reversible);
     if(($reversible =~ /true/) or ($reversible =~ /false/)){
      # Check if reaction reversibility was previously set. If it exists, check if next lines for the reaction have the same reversibility.
-     if($reaction2reversibility{$reactionKEGG}){
-      if($reaction2reversibility{$reactionKEGG} eq $reversible){
-       #print "$reactionKEGG\t$reactionType\t$reversible (check reaction reversibility)\n";
+     if($reaction2reversibility{$reactionBiGG}){
+      if($reaction2reversibility{$reactionBiGG} eq $reversible){
+       #print "$reactionBiGG\t$reactionType\t$reversible (check reaction reversibility)\n";
       } else{
-       die "FATAL: Ambiguous reaction reversibility for reaction: $reactionKEGG\n";
+       die "FATAL: Ambiguous reaction reversibility for reaction: $reactionBiGG\n";
       }
      } else {
-      $reaction2reversibility{$reactionKEGG}=$reversible;
+      $reaction2reversibility{$reactionBiGG}=$reversible;
      }
     } else {
      die "FATAL: The reaction reversibility must be 'true' or 'false'\n";
     }
-    # Check metabolite ID (must be a KEGG identifier)
-    if($metaboliteKEGG =~ /C\d{5}/) {
-     #print "$reactionKEGG\t$reactionType\t$reversible\t$metaboliteKEGG(Check metabolite for KEGG reactions)\n";
+    # Check metabolite ID (must be a BiGG identifier)
+    if($metaboliteBiGG =~ /C\d{5}/) {
+     #print "$reactionBiGG\t$reactionType\t$reversible\t$metaboliteBiGG(Check metabolite for BiGG reactions)\n";
      $metaboliteType=lc($metaboliteType);
      if(($metaboliteType eq "product") or ($metaboliteType eq "reactant")){
       # Addes metabolite
       if($metaboliteType eq "product"){
-       push(@{$reaction2products{$reactionKEGG}},$metaboliteKEGG);
+       push(@{$reaction2products{$reactionBiGG}},$metaboliteBiGG);
       }
       if($metaboliteType eq "reactant"){
-       push(@{$reaction2reactants{$reactionKEGG}},$metaboliteKEGG);
+       push(@{$reaction2reactants{$reactionBiGG}},$metaboliteBiGG);
       }
       if ($compartment ~~ @allowedCompartments) {
-       if($reaction2compartment{$reactionKEGG}) {
+       if($reaction2compartment{$reactionBiGG}) {
         #print "";
        } else {
-        $reaction2compartment{$reactionKEGG}=$compartment;
+        $reaction2compartment{$reactionBiGG}=$compartment;
        }
       } else {
-       die "FATAL: compartment ($compartment) for metabolite $metaboliteKEGG in reaction $reactionKEGG is not allowed.\nOptions are: UNK_COMP (if compartment is unknown), cytoplasm, mitochondrion, peroxisome, Golgi, vacuole, ER, plasma_membrane, nucleus, extracellular\n";
+       die "FATAL: compartment ($compartment) for metabolite $metaboliteBiGG in reaction $reactionBiGG is not allowed.\nOptions are: UNK_COMP (if compartment is unknown), cytoplasm, mitochondrion, peroxisome, Golgi, vacuole, ER, plasma_membrane, nucleus, extracellular\n";
       }
      } else {
       die "FATAL: a metabolite in your table does not have an allowed type (product or reactant)\n";
      }
     } else {
-     die "FATAL: a metabolite in your table does not satisfy KEGG rules for compound ID.\n Check reaction $reactionKEGG, metabolite $metaboliteKEGG\n";
+     die "FATAL: a metabolite in your table does not satisfy BiGG rules for compound ID.\n Check reaction $reactionBiGG, metabolite $metaboliteBiGG\n";
     }
    } else {
     die "FATAL: You must provide an allowed reaction type: 'Transport' or 'Conversion'\n";
    }
-  } elsif ($reactionKEGG =~ /^BIOMASS$/) {
+  } elsif ($reactionBiGG =~ /^BIOMASS$/) {
    #TODO Include case in which the BIOMASS reaction is being added
   } else {
-    die "FATAL: Reaction type is not as expected ($reactionKEGG).\nIt must be a reaction in KEGG REACTION (e.g. R02108) or 'BIOMASS' (biomass pseudo-reaction)\n";
+    die "FATAL: Reaction type is not as expected ($reactionBiGG).\nIt must be a reaction in BiGG REACTION (e.g. R02108) or 'BIOMASS' (biomass pseudo-reaction)\n";
   }
  }
 
