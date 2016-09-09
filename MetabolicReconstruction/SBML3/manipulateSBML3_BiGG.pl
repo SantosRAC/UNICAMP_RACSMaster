@@ -20,22 +20,7 @@ my $reactionTable='';
 #my $ua = LWP::UserAgent->new; # This will be used only when the online validator is available
 
 ##############################################
-#Variables related to reactions being included in model
-##############################################
-my %reaction2associatedLinks;
-my %reaction2name;
-my %reaction2id;
-my %reaction2associatedGenes;
-my %reaction2reversibility;
-my %reaction2type;
-my %reaction2products;
-my %reaction2reactants;
-my %reaction2compartment;
-my %reaction2EC;
-my @allowedCompartments=('UNK_COMP','cytoplasm','Cytosol','mitochondrion','Mitochondria','peroxisome','Golgi','Golgi_Apparatus','vacuole','ER','Endoplasmic_Reticulum','plasma_membrane','nucleus','extracellular','Vacuole','Nucleus','Peroxisome','Extra_organism');
-
-##############################################
-#Variables related to info existent in model
+#Variables related to info in existing model
 ##############################################
 my @compartmentsInModel=();
 my @reactionsInModel=();
@@ -43,6 +28,23 @@ my @metabolitesInModel=();
 my @genesInModel=();
 my %speciesModelInfo;
 my %reactionsModelInfo;
+my @allowedCompartments=('UNK_COMP','cytoplasm','Cytosol','mitochondrion','Mitochondria','peroxisome','Golgi','Golgi_Apparatus','vacuole','ER','Endoplasmic_Reticulum','plasma_membrane','nucleus','extracellular','Vacuole','Nucleus','Peroxisome','Extra_organism');
+
+##############################################
+#Variables for reactions in input table
+##############################################
+my %inputTableReactionProductsStoic;
+my %inputTableReactionReactantsStoic;
+my %inputTableReactionProductsComp;
+my %inputTableReactionReactantsComp;
+my %inputTableReactionProductsUpperBoundFlux;
+my %inputTableReactionReactantsUpperBoundFlux;
+my %inputTableReactionProductsLowerBoundFlux;
+my %inputTableReactionReactantsLowerBoundFlux;
+my %inputTableReactionReactionType;
+my @reactionInTable=();
+my %reaction2productsInTable;
+my %reaction2reactantsInTable;
 
 GetOptions(
     'license|l'       => \$license,
@@ -71,24 +73,14 @@ if(!-s $reactionTable){
 }
 
 parseXML();
+getInputTable();
 checkInputTable();
 
 ##############################################
 #Check input table with information about
 #reactions and metabolites
 ##############################################
-
-#Information about metabolites in reactions
-my %inputTableReactionProductsStoic;
-my %inputTableReactionReactantsStoic;
-my %inputTableReactionProductsComp;
-my %inputTableReactionReactantsComp;
-my %inputTableReactionProductsUpperBoundFlux;
-my %inputTableReactionReactantsUpperBoundFlux;
-my %inputTableReactionProductsLowerBoundFlux;
-my %inputTableReactionReactantsLowerBoundFlux;
-
-sub checkInputTable {
+sub getInputTable {
  open(INPUTTABLE,$reactionTable);
  while(<INPUTTABLE>){
   chomp;
@@ -98,16 +90,19 @@ sub checkInputTable {
   #Checks BiGG standards for reaction and pseudo-reaction in input table
   $reactionType=lc($reactionType);
   if($reactionType eq 'reaction'){
+   $inputTableReactionReactionType{$reactionBiGGID}=$reactionType;
    if($reactionBiGGID =~ /R_(\S+)?/){
-    print "Reaction \"$reactionBiGGID\" is OK!\n"; 
+    print "Reaction \"$reactionBiGGID\" is OK!\n";
+    unless ($reactionBiGGID ~~ @reactionInTable) {push(@reactionInTable,$reactionBiGGID);}
    } else {
     print "Reaction \"$reactionBiGGID\" does not follow BiGG standard\n";
    }
   }
   elsif(($reactionType eq 'pseudoreaction') or ($reactionType eq 'pseudo-reaction')){
-   #Checks if the pseudoreaction identifier follows BiGG standards
+   $inputTableReactionReactionType{$reactionBiGGID}=$reactionType;
    if(($reactionBiGGID =~ /EX_(\S+)?/) or ($reactionBiGGID =~ /DM_(\S+)?/) or ($reactionBiGGID =~ /SK_(\S+)?/) or ($reactionBiGGID =~ /(R_)?ATPM/)){
     print "Pseudo-reaction \"$reactionBiGGID\" is OK!\n";
+    unless ($reactionBiGGID ~~ @reactionInTable) {push(@reactionInTable,$reactionBiGGID);}
    } else {
     print "Pseudo-reaction \"$reactionBiGGID\" does not follow BiGG standard\n";
    }
@@ -117,15 +112,21 @@ sub checkInputTable {
 
   #Checks BiGG standards for metabolite in input table
   if($metaboliteBiGGID =~ /M_(\S+)(_\S+)?/){
-   if($metaboliteBiGGID ~~ @metabolitesInModel){die "Metabolite ($metaboliteBiGGID) already exists in model\nInformation for new reaction ($reactionBiGGID) will be retrieved from existing metabolite.\n";}
+   if($metaboliteBiGGID ~~ @metabolitesInModel){print "Metabolite ($metaboliteBiGGID) already exists in model\nInformation for new reaction ($reactionBiGGID) will be retrieved from existing metabolite.\n";} # only information specific for metabolite, not those specific for reactions.
    $metaboliteType=lc($metaboliteType);
    if($metaboliteType eq 'product'){
+    unless($metaboliteBiGGID ~~ @{$reaction2productsInTable{$reactionBiGGID}}){
+     push(@{$reaction2productsInTable{$reactionBiGGID}},$metaboliteBiGGID);
+    }
     $inputTableReactionProductsStoic{$reactionBiGGID}{$metaboliteBiGGID}=$metStoichiometry;
     $inputTableReactionProductsComp{$reactionBiGGID}{$metaboliteBiGGID}=$metCompartment;
     $inputTableReactionProductsUpperBoundFlux{$reactionBiGGID}{$metaboliteBiGGID}=$upperBoundFlux;
     $inputTableReactionProductsLowerBoundFlux{$reactionBiGGID}{$metaboliteBiGGID}=$lowerBoundFlux;
    }
    elsif($metaboliteType eq 'reactant'){
+    unless($metaboliteBiGGID ~~ @{$reaction2reactantsInTable{$reactionBiGGID}}){
+     push(@{$reaction2reactantsInTable{$reactionBiGGID}},$metaboliteBiGGID);
+    }
     $inputTableReactionReactantsStoic{$reactionBiGGID}{$metaboliteBiGGID}=$metStoichiometry;
     $inputTableReactionReactantsComp{$reactionBiGGID}{$metaboliteBiGGID}=$metCompartment;
     $inputTableReactionReactantsUpperBoundFlux{$reactionBiGGID}{$metaboliteBiGGID}=$upperBoundFlux;
@@ -349,7 +350,48 @@ sub parseXML {
 
 }
 
+#############################################
+#Function that checks some things from the input reactions (reaction table)
 ##############################################
+
+sub checkInputTable {
+ foreach my $rct (@reactionInTable){
+  print "Reaction: $rct\tReaction type: $inputTableReactionReactionType{$rct}\n";
+  my $lbFlux='';
+  my $ubFlux='';
+ 
+  #TODO 
+  # Control of pseudo-reactions. Defined variables related to pseudo-reactions
+  # Exchange reactions have just one metabolite
+  # Demand and sink reaction have just one metabolite
+  # Biomass reactions have many metaobolite
+  # ATP maintenance reaction is a special case
+
+  foreach my $met (@{$reaction2reactantsInTable{$rct}}){
+   #Check the lower bound flux
+   if($ubFlux){
+    if($ubFlux!=$inputTableReactionReactantsUpperBoundFlux{$rct}{$met}){
+     die "Something wrong. Different lines for the same reaction with different upper bound flux set\n";
+    }
+   } else {
+    $ubFlux=$inputTableReactionReactantsUpperBoundFlux{$rct}{$met};
+   }
+   if($lbFlux){
+    if($lbFlux!=$inputTableReactionReactantsLowerBoundFlux{$rct}{$met}){
+     die "Something wrong. Different lines for the same reaction with different lower bound flux set\n";
+    }
+   } else {
+    $lbFlux=$inputTableReactionReactantsLowerBoundFlux{$rct}{$met};
+   }
+   print "----|Reactant| Metabolite: $met\tstoichiometry: $inputTableReactionReactantsStoic{$rct}{$met}\tCompartment: $inputTableReactionReactantsComp{$rct}{$met}\tReaction upper bound flux: $inputTableReactionReactantsUpperBoundFlux{$rct}{$met}\tReaction lower bound flux: $inputTableReactionProductsLowerBoundFlux{$rct}{$met}\n";
+  }
+  foreach my $met (@{$reaction2productsInTable{$rct}}){
+   print "----|Product| Metabolite: $met\tstoichiometry: $inputTableReactionProductsStoic{$rct}{$met}\tCompartment: $inputTableReactionProductsComp{$rct}{$met}\tReaction upper bound flux: $inputTableReactionProductsUpperBoundFlux{$rct}{$met}\tReaction lower bound flux: $inputTableReactionProductsLowerBoundFlux{$rct}{$met}\n";
+  }
+ }
+}
+
+#############################################
 #Main function that includes reactions in model
 ##############################################
 
