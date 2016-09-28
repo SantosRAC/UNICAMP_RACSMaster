@@ -7,6 +7,8 @@ use diagnostics;
 #use LWP::UserAgent; # This will be used when the Perl code to connect to SBML validator is available
 use Getopt::Long;
 use XML::Twig;
+use XML::Writer; # helper module for Perl programs that write an XML document.
+use HTML::Entities; # Encode or decode strings with HTML entities
 
 my $version='0.1';
 my $sbmlLevel='';
@@ -26,9 +28,12 @@ my @compartmentsInModel=();
 my @reactionsInModel=();
 my @metabolitesInModel=();
 my @genesInModel=();
+my %unitsModelInfo;
 my %speciesModelInfo;
 my %reactionsModelInfo;
-my @allowedCompartments=('UNK_COMP','cytoplasm','Cytosol','mitochondrion','Mitochondria','peroxisome','Golgi','Golgi_Apparatus','vacuole','ER','Endoplasmic_Reticulum','plasma_membrane','nucleus','extracellular','Vacuole','Nucleus','Peroxisome','Extra_organism');
+my @allowedCompartments=('UNK_COMP','cytoplasm','Cytosol','mitochondrion','Mitochondria','peroxisome','Golgi','Golgi_Apparatus','vacuole','ER','Endoplasmic_Reticulum','plasma_membrane','nucleus','Periplasm','extracellular','Vacuole','Nucleus','Peroxisome','Extra_organism','Extraorganism');
+my %infoSBMLLine;
+my %infoModelLine;
 
 ##############################################
 #Variables for reactions in input table
@@ -152,8 +157,43 @@ sub parseXML {
  my $twig=XML::Twig->new();
  $twig->parsefile($infile) or die "cannot parse $infile";
  my $root = $twig->root;
- $sbmlLevel = $root->att('level');
- $sbmlVersion = $root->att('version');
+
+ # Lines below get information from the line with 'sbml' tag
+ my $sbmlLevel='';
+ if($root->att('level')){
+  $sbmlLevel=$root->att('level');
+  $infoSBMLLine{'level'}=$sbmlLevel;
+ }
+
+ my $sbmlVersion='';
+ if($root->att('version')){
+  $sbmlVersion=$root->att('version');
+  $infoSBMLLine{'version'}=$sbmlVersion;
+ }
+
+ my $xmlnsFBC='';
+ if($root->att('xmlns:fbc')){
+  $xmlnsFBC = $root->att('xmlns:fbc');
+  $infoSBMLLine{'xmlns:fbc'}=$xmlnsFBC;
+ }
+
+ my $sboTerm='';
+ if($root->att('sboTerm')){
+  $sboTerm = $root->att('sboTerm');
+  $infoSBMLLine{'sboTerm'}=$sboTerm;
+ }
+
+ my $xmlns='';
+ if($root->att('xmlns')){
+  $xmlns = $root->att('xmlns');
+  $infoSBMLLine{'xmlns'}=$xmlns;
+ }
+
+ my $fbcRequired='';
+ if($root->att('fbc:required')){
+  $fbcRequired = $root->att('fbc:required');
+  $infoSBMLLine{'fbc:required'}=$fbcRequired;
+ }
 
  # Check if user input is a SBML Level 3, Version 1
  if (($sbmlLevel == 3) and ($sbmlVersion == 1)) {
@@ -168,6 +208,37 @@ sub parseXML {
  my @models = $root->children('model');
 
  foreach my $mod (@models){
+
+  my $ModelID='';
+  if($mod->att('id')){
+   $ModelID = $mod->att('id');
+   $infoModelLine{'id'}=$ModelID;
+  }
+
+  my $ModelFBCStrict='';
+  if($mod->att('fbc:strict')){
+   $ModelFBCStrict = $mod->att('fbc:strict');
+   $infoModelLine{'fbc:strict'}=$ModelID;
+  }
+  
+  #Checking list of unit definitions
+  my @listOfUnitDefinitions = $mod->children('listOfUnitDefinitions');
+  foreach my $unitDefinition (@listOfUnitDefinitions){
+   my @listOfUnits = $unitDefinition->children('unitDefinition');
+   foreach my $unit (@listOfUnits){
+    my @listOfUnits2 = $unit->children('listOfUnits');
+    foreach my $unit2 (@listOfUnits2){
+     my @listOfUnits3 = $unit2->children('unit');
+     my $countUnits=0;
+     foreach my $unit3 (@listOfUnits3){
+      $unitsModelInfo{$countUnits}{'exponent'}=$unit3->att('exponent');
+      $unitsModelInfo{$countUnits}{'kind'}=$unit3->att('kind');
+      $unitsModelInfo{$countUnits}{'multiplier'}=$unit3->att('multiflier');
+      $unitsModelInfo{$countUnits}{'scale'}=$unit3->att('scale');
+     }
+    }
+   }
+  }
 
   #Checking FBC list of gene products
   #The model must have at least one, according to the fbc package specification
@@ -203,10 +274,14 @@ sub parseXML {
     my $compName='';
     $compId = $comp->att('id');
     $compName = $comp->att('name');
-    if ($compId ~~ @allowedCompartments){
+    if (($compId ~~ @allowedCompartments) or ($compName ~~ @allowedCompartments)){
      push(@compartmentsInModel,$compId);
     } else {
-     die "Compartment ($compId) present in model is not among allowed compartments!\n";
+     if($compId and $compName){
+      die "Compartment (ID: $compId, name: $compName) present in model is not among allowed compartments!\n";
+     } else {
+      die "Compartment (ID: $compId) present in model is not among allowed compartments!\n";
+     }
     }
    }
   }
@@ -392,12 +467,32 @@ sub checkInputTable {
 }
 
 #############################################
-#Main function that includes reactions in model
+# Main function that includes reactions in model
+# Should use module XML::Writer
+# Should the module IO::File to output the resulting model
 ##############################################
 
+#
 
 
+#
+my $MODELwriter = XML::Writer->new(OUTPUT => 'self', NEWLINES => 0);
+$MODELwriter->startTag('model', %infoModelLine);
+$MODELwriter->characters("Hello, world!");
+$MODELwriter->endTag('model');
 
+#
+my $SBMLwriter = XML::Writer->new(OUTPUT => 'self', NEWLINES => 0);
+$SBMLwriter->startTag('sbml', %infoSBMLLine);
+my $ModelTagString=$MODELwriter->to_string;
+$SBMLwriter->characters($ModelTagString);
+$SBMLwriter->endTag('sbml');
+
+#
+my $finalResult=$SBMLwriter->to_string;
+$finalResult =~ s/&lt;/</g;
+$finalResult =~ s/&gt;/>/g;
+print $finalResult."\n";
 
 ##############################################
 #Usage
@@ -427,7 +522,7 @@ OPTIONS
                                         e) A boolean field whether it is a transport reaction or not
                                         f) A boolean field indicating whether the reaction is reversible or not
                                         g) Metabolite BiGG ID
-                                        h) Metabolite type in reaction (reactant or product)
+                                        ih) Metabolite type in reaction (reactant or product)
                                         i) Metabolite stoichiometry coefficient in reaction
                                         j) Metabolite compartment
                                         k) Gene association: list of gene names in BiGG format, separated by comma
