@@ -88,6 +88,14 @@ getInputTable();
 checkInputTable();
 
 ##############################################
+#Check input table with objectives
+#TODO: Allow user to include objectives in the model
+##############################################
+
+
+
+
+##############################################
 #Check input table with information about
 #reactions and metabolites
 ##############################################
