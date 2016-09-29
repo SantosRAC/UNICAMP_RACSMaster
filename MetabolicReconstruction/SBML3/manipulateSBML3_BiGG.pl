@@ -34,6 +34,8 @@ my %unitDefinitionModelInfo;
 # Objectives in model
 my %objectivesInModelInfo;
 my %fluxObjectivesInModelInfo;
+# Parameters in model
+my %listOfParametersInModelInfo;
 # Species, reactions
 my %speciesModelInfo;
 my %reactionsModelInfo;
@@ -283,6 +285,26 @@ sub parseXML {
      }
     }
     $objectiveCount++;
+   }
+  }
+
+  # Checking list of parameters in model
+  my @listOfParameters = $mod->children('listOfParameters');
+  foreach my $listOfparameter (@listOfParameters){
+   my @parameters = $listOfparameter->children('parameter');
+   foreach my $parameter (@parameters){
+    my $parameterID = $parameter->att('id');
+    if($listOfParametersInModelInfo{$parameterID}){
+     die "Parameter ID $parameterID is duplicated. Check your input model.\n";
+    } else {
+     $listOfParametersInModelInfo{$parameterID}{'constant'}=$parameter->att('constant');
+     $listOfParametersInModelInfo{$parameterID}{'sboTerm'}=$parameter->att('sboTerm');
+     $listOfParametersInModelInfo{$parameterID}{'units'}=$parameter->att('units');
+     $listOfParametersInModelInfo{$parameterID}{'value'}=$parameter->att('value');
+    }
+    foreach my $key (keys $listOfParametersInModelInfo{$parameterID}){
+     print "$parameterID: ($key, $listOfParametersInModelInfo{$parameterID}{$key})\n";
+    }
    }
   }
 
