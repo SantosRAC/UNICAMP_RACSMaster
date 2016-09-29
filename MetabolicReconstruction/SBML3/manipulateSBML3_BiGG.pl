@@ -28,7 +28,13 @@ my @compartmentsInModel=();
 my @reactionsInModel=();
 my @metabolitesInModel=();
 my @genesInModel=();
+# Units in model
 my %unitsModelInfo;
+my %unitDefinitionModelInfo;
+# Objectives in model
+my %objectivesInModelInfo;
+my %fluxObjectivesInModelInfo;
+# Species, reactions
 my %speciesModelInfo;
 my %reactionsModelInfo;
 my @allowedCompartments=('UNK_COMP','cytoplasm','Cytosol','mitochondrion','Mitochondria','peroxisome','Golgi','Golgi_Apparatus','vacuole','ER','Endoplasmic_Reticulum','plasma_membrane','nucleus','Periplasm','extracellular','Vacuole','Nucleus','Peroxisome','Extra_organism','Extraorganism');
@@ -225,7 +231,10 @@ sub parseXML {
   my @listOfUnitDefinitions = $mod->children('listOfUnitDefinitions');
   foreach my $unitDefinition (@listOfUnitDefinitions){
    my @listOfUnits = $unitDefinition->children('unitDefinition');
+   my $countUnitsDef=0;
    foreach my $unit (@listOfUnits){
+    $unitDefinitionModelInfo{$countUnitsDef}=$unit->att('id');
+    $countUnitsDef++;
     my @listOfUnits2 = $unit->children('listOfUnits');
     foreach my $unit2 (@listOfUnits2){
      my @listOfUnits3 = $unit2->children('unit');
@@ -233,10 +242,39 @@ sub parseXML {
      foreach my $unit3 (@listOfUnits3){
       $unitsModelInfo{$countUnits}{'exponent'}=$unit3->att('exponent');
       $unitsModelInfo{$countUnits}{'kind'}=$unit3->att('kind');
-      $unitsModelInfo{$countUnits}{'multiplier'}=$unit3->att('multiflier');
+      $unitsModelInfo{$countUnits}{'multiplier'}=$unit3->att('multiplier');
       $unitsModelInfo{$countUnits}{'scale'}=$unit3->att('scale');
+      $countUnits++;
      }
     }
+   }
+  }
+
+  #Checking list of objectives in model
+  my @listOfObjectives = $mod->children('fbc:listOfObjectives');
+  foreach my $objectiveListUnit (@listOfObjectives){
+   if($objectiveListUnit->att('fbc:activeObjective') eq 'obj'){
+    print "Objective fbc:activeObjective: \'".$objectiveListUnit->att('fbc:activeObjective')."\'\n";
+   } else {
+    die "Objective fbc:activeObjective attribute is not as expected.\n";
+   }
+   my @objectives = $objectiveListUnit->children('fbc:objective');
+   my $objectiveCount=1;
+   foreach my $objective (@objectives){
+    $objectivesInModelInfo{$objectiveCount}{'fbc:id'}=$objective->att('fbc:id');
+    $objectivesInModelInfo{$objectiveCount}{'fbc:type'}=$objective->att('fbc:type');
+    my @listOfFluxObjectives = $objective->children('fbc:listOfFluxObjectives');
+    foreach my $fluxObjective (@listOfFluxObjectives){
+     my @fluxObjectives = $fluxObjective->children('fbc:fluxObjective');
+     my $foCount=1;
+     foreach my $fo (@fluxObjectives){
+      $fluxObjectivesInModelInfo{$objectiveCount}{$foCount}{'fbc:coefficient'}=$fo->att('fbc:coefficient');
+      $fluxObjectivesInModelInfo{$objectiveCount}{$foCount}{'fbc:reaction'}=$fo->att('fbc:reaction');
+      #TODO: Check if the reaction is in model. If it is not, complain!!
+      print "$objectivesInModelInfo{$objectiveCount}{'fbc:id'}\t$objectivesInModelInfo{$objectiveCount}{'fbc:type'}\t$fluxObjectivesInModelInfo{$objectiveCount}{$foCount}{'fbc:coefficient'}\t$fluxObjectivesInModelInfo{$objectiveCount}{$foCount}{'fbc:reaction'}\n";
+     }
+    }
+    $objectiveCount++;
    }
   }
 
@@ -473,7 +511,30 @@ sub checkInputTable {
 ##############################################
 
 #
+my $LISTOFUNITSDEFwriter = XML::Writer->new(OUTPUT => 'self', NEWLINES => 0);
+$LISTOFUNITSDEFwriter->startTag('listOfUnitDefinitions');
+$LISTOFUNITSDEFwriter->endTag('listOfUnitDefinitions');
 
+my $UNITDEFwriter = XML::Writer->new(OUTPUT => 'self', NEWLINES => 0);
+$UNITDEFwriter->startTag('unitDefinition',%unitDefinitionModelInfo);
+$UNITDEFwriter->endTag('unitDefinition');
+
+my $LISTOFUNITSwriter = XML::Writer->new(OUTPUT => 'self', NEWLINES => 0);
+$LISTOFUNITSwriter->startTag('listOfUnits');
+$LISTOFUNITSwriter->endTag('listOfUnits');
+
+my $allStringsOfUnitsInModel='';
+foreach my $key (keys %unitsModelInfo){
+ my $stringOfUnitsInModel="\<unit";
+ foreach my $key2 (keys $unitsModelInfo{$key}){
+  $stringOfUnitsInModel=$stringOfUnitsInModel." $key2=\"$unitsModelInfo{$key}{$key2}\"";
+ }
+ $stringOfUnitsInModel=$stringOfUnitsInModel." \/\>\n";
+ $allStringsOfUnitsInModel=$allStringsOfUnitsInModel.$stringOfUnitsInModel;
+ #print "STRING UNIT: $stringOfUnitsInModel";
+}
+print "$allStringsOfUnitsInModel\n";
+#TODO Allow the incorporation of new units?
 
 #
 my $MODELwriter = XML::Writer->new(OUTPUT => 'self', NEWLINES => 0);
