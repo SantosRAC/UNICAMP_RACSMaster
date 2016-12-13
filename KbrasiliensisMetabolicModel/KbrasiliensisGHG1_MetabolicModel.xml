@@ -28,6 +28,103 @@
         <compartment id="Vacuole" outside="Extra_organism"/>
     </listOfCompartments>
     <listOfSpecies>
+      <species metaid="racs_addedSpecies_0001" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Ergosterol" id="C01694">
+       <notes><html:p>COMPOUND_ID: C01694</html:p></notes>
+       <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="racs_addedSpecies_0001">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01694"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="racs_addedSpecies_0002" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Octadecanoic acid" id="C01530">
+       <notes><html:p>COMPOUND_ID: C01530</html:p></notes>
+       <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="racs_addedSpecies_0002">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01530"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="racs_addedSpecies_0003" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Oleate" id="C00712">
+       <notes><html:p>COMPOUND_ID: C00712</html:p></notes>
+       <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="racs_addedSpecies_0003">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00712"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="racs_addedSpecies_0004" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Linoleic acid" id="C01595">
+       <notes><html:p>COMPOUND_ID: C01595</html:p></notes>
+       <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="racs_addedSpecies_0004">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01595"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="racs_addedSpecies_0005" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="alpha-Linolenic acid" id="C06427">
+       <notes><html:p>COMPOUND_ID: C06427</html:p></notes>
+       <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="racs_addedSpecies_0005">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C06427"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="racs_addedSpecies_0006" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="alpha-D-ribofuranose" id="CPD__45__10330">
+       <notes><html:p>COMPOUND_ID: CPD__45__10330</html:p></notes>
+       <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="racs_addedSpecies_0006">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource="http://biocyc.org/compound?orgid=META&id=CPD-10330"/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
+      <species metaid="racs_addedSpecies_0007" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Biomass" id="BIOMASS">
+       <annotation>
+          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+            <rdf:Description rdf:about="racs_addedSpecies_0007">
+              <bqbiol:is>
+                <rdf:Bag>
+                  <rdf:li rdf:resource=""/>
+                </rdf:Bag>
+              </bqbiol:is>
+            </rdf:Description>
+          </rdf:RDF>
+        </annotation>
+      </species>
       <species metaid="_33526d90_a8de_40df_b834_42e832c63556" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="dTMP" id="C00364">
 <notes><html:p>COMPOUND_ID: C00364</html:p></notes>
         <annotation>
@@ -17247,6 +17344,79 @@
      <fbc:geneProduct fbc:id="G_EVM_prediction_KI545895_1_219" fbc:label="EVM_prediction_KI545895_1_219" fbc:name="EVM_prediction_KI545895_1_219" />
     </fbc:listOfGeneProducts>
     <listOfReactions>
+      <reaction metaid="racs_addedReaction_0001" reversible="false" id="BIOMASS_formation" fast="" name="Artificial reaction - Biomass formation">
+       <annotation>
+        <rdf:RDF xmlns:rdf="" xmlns:bqbiol="" xmlns:bqmodel="">
+         <rdf:Description rdf:about="racs_addedReaction_0001">
+          <bqbiol:is>
+           <rdf:Bag>
+            <rdf:li rdf:resource=""/>
+           </rdf:Bag>
+          </bqbiol:is>
+         </rdf:Description>
+        </rdf:RDF>
+       </annotation>
+       <listOfReactants>
+        <speciesReference constant="false" species="C00041" stoichiometry="0.292"/>
+        <speciesReference constant="false" species="C00062" stoichiometry="0.176"/>
+        <speciesReference constant="false" species="C00152" stoichiometry="0.09"/>
+        <speciesReference constant="false" species="C00049" stoichiometry="0.160"/>
+        <speciesReference constant="false" species="C00021" stoichiometry="0.029"/>
+        <speciesReference constant="false" species="C00064" stoichiometry="0.123"/>
+        <speciesReference constant="false" species="C00025" stoichiometry="0.148"/>
+        <speciesReference constant="false" species="C00037" stoichiometry="0.178"/>
+        <speciesReference constant="false" species="C00135" stoichiometry="0.072"/>
+        <speciesReference constant="false" species="C00407" stoichiometry="0.115"/>
+        <speciesReference constant="false" species="C00123" stoichiometry="0.248"/>
+        <speciesReference constant="false" species="C00047" stoichiometry="0.122"/>
+        <speciesReference constant="false" species="C00073" stoichiometry="0.053"/>
+        <speciesReference constant="false" species="C00079" stoichiometry="0.089"/>
+        <speciesReference constant="false" species="C00148" stoichiometry="0.162"/>
+        <speciesReference constant="false" species="C00065" stoichiometry="0.279"/>
+        <speciesReference constant="false" species="C00188" stoichiometry="0.166"/>
+        <speciesReference constant="false" species="C00078" stoichiometry="0.032"/>
+        <speciesReference constant="false" species="C00082" stoichiometry="0.062"/>
+        <speciesReference constant="false" species="C00183" stoichiometry="0.162"/>
+        <speciesReference constant="false" species="C00020" stoichiometry="0.07055"/>
+        <speciesReference constant="false" species="C00055" stoichiometry="0.08293"/>
+        <speciesReference constant="false" species="C00144" stoichiometry="0.08293"/>
+        <speciesReference constant="false" species="C00365" stoichiometry="0.07055"/>
+        <speciesReference constant="false" species="C00131" stoichiometry="0.00220"/>
+        <speciesReference constant="false" species="C00458" stoichiometry="0.00259"/>
+        <speciesReference constant="false" species="C00286" stoichiometry="0.00259"/>
+        <speciesReference constant="false" species="C00459" stoichiometry="0.00220"/>
+        <speciesReference constant="false" species="C00461" stoichiometry="0.17393"/>
+        <speciesReference constant="false" species="C01694" stoichiometry="0.2414"/>
+        <speciesReference constant="false" species="C00157" stoichiometry="0.13025"/>
+        <speciesReference constant="false" species="C00350" stoichiometry="0.20633"/>
+        <speciesReference constant="false" species="C00249" stoichiometry="0.0297"/>
+        <speciesReference constant="false" species="C01530" stoichiometry="0.0331"/>
+        <speciesReference constant="false" species="C00712" stoichiometry="0.009"/>
+        <speciesReference constant="false" species="C01595" stoichiometry="0.0364"/>
+        <speciesReference constant="false" species="C06427" stoichiometry="0.0005"/>
+        <speciesReference constant="false" species="C00275" stoichiometry="0.317"/>
+        <speciesReference constant="false" species="C00984" stoichiometry="0.152"/>
+        <speciesReference constant="false" species="C00267" stoichiometry="0.358"/>
+        <speciesReference constant="false" species="CPD__45__10330_c" stoichiometry="0.069"/>
+        <speciesReference constant="false" species="C00002" stoichiometry="46.3"/>
+        <speciesReference constant="false" species="C00001" stoichiometry="46.3"/>
+       </listOfReactants>
+       <listOfProducts>
+        <speciesReference constant="false" species="C00008" stoichiometry="46.3"/>
+        <speciesReference constant="false" species="C00009" stoichiometry="46.3"/>
+        <speciesReference constant="false" species="BIOMASS" stoichiometry="1"/>
+       </listOfProducts>
+      <kineticLaw>
+       <math xmlns="http://www.w3.org/1998/Math/MathML">
+        <ci> FLUX_VALUE </ci>
+        </math>
+        <listOfLocalParameters>
+         <localParameter value="0" id="FLUX_VALUE"/>
+         <localParameter value="-99999" id="LOWER_BOUNDo"/>
+         <localParameter value="99999" id="UPPER_BOUND"/>
+        </listOfLocalParameters>
+       </kineticLaw>
+      </reaction>
       <reaction metaid="_8d550091_a2ca_48ac_b0bd_5a624aeada1d" reversible="true" id="R02108" fast="false">
 <notes><html:p>CLASSIFICATION: 3.2.1.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm.model.KI545884.1.179)</html:p><html:p>PROP PRIAM_probability=0.8299999833106995</html:p></notes>
         <annotation>
