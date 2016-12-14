@@ -18,14 +18,14 @@
       </fbc:objective>
     </fbc:listOfObjectives>
     <listOfCompartments>
-        <compartment id="Extra_organism"/>
-        <compartment id="Cytosol"/>
-        <compartment id="Endoplasmic_Reticulum"/>
-        <compartment id="Golgi_Apparatus"/>
-        <compartment id="Mitochondria"/>
-        <compartment id="Nucleus"/>
-        <compartment id="Peroxisome"/>
-        <compartment id="Vacuole"/>
+        <compartment id="e" name="Extra_organism" constant="true"/>
+        <compartment id="c" name="Cytosol" constant="true"/>
+        <compartment id="r" name="Endoplasmic_Reticulum" constant="true"/>
+        <compartment id="g" name="Golgi_Apparatus" constant="true"/>
+        <compartment id="m" name="Mitochondria" constant="true"/>
+        <compartment id="n" name="Nucleus" constant="true"/>
+        <compartment id="p" name="Peroxisome" constant="true"/>
+        <compartment id="v" name="Vacuole" constant="true"/>
     </listOfCompartments>
     <listOfSpecies>
       <species metaid="racs_addedSpecies_0001" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Ergosterol" id="C01694">
