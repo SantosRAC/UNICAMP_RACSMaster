@@ -105,7 +105,7 @@
             <rdf:Description rdf:about="racs_addedSpecies_0006">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://biocyc.org/compound?orgid=META&id=CPD-10330"/>
+                  <rdf:li rdf:resource="http://biocyc.org/compound?orgid=META&amp;id=CPD-10330"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
