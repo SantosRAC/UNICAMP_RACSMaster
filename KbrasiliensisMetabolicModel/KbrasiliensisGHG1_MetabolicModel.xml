@@ -4,9 +4,9 @@
     <listOfUnitDefinitions>
         <unitDefinition id="mmol_per_gDW_per_hr">
                 <listOfUnits>
-                        <unit kind="mole" scale="-3"/>
-                        <unit kind="gram" exponent="-1"/>
-                        <unit kind="second" multiplier=".00027777" exponent="-1"/>
+                   <unit exponent="-1" kind="gram" multiplier="1" scale="0" />
+                   <unit exponent="1" kind="mole" multiplier="1" scale="-3" />
+                   <unit exponent="-1" kind="second" multiplier="3600" scale="0" />
                 </listOfUnits>
         </unitDefinition>
     </listOfUnitDefinitions>
@@ -17344,18 +17344,7 @@
      <fbc:geneProduct fbc:id="G_EVM_prediction_KI545895_1_219" fbc:label="EVM_prediction_KI545895_1_219" fbc:name="EVM_prediction_KI545895_1_219" />
     </fbc:listOfGeneProducts>
     <listOfReactions>
-      <reaction metaid="racs_addedReaction_0001" reversible="false" id="BIOMASS_formation" fast="" name="Artificial reaction - Biomass formation">
-       <annotation>
-        <rdf:RDF xmlns:rdf="" xmlns:bqbiol="" xmlns:bqmodel="">
-         <rdf:Description rdf:about="racs_addedReaction_0001">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource=""/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
+      <reaction metaid="racs_addedReaction_0001" reversible="false" id="BIOMASS_formation" fast="false" name="Biomass formation">
        <listOfReactants>
         <speciesReference constant="false" species="C00041" stoichiometry="0.292"/>
         <speciesReference constant="false" species="C00062" stoichiometry="0.176"/>
