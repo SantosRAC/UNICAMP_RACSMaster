@@ -18,6 +18,7 @@
       </fbc:objective>
     </fbc:listOfObjectives>
     <listOfCompartments>
+        <compartment id="UNK_COMP" name="UNK_COMP" constant="true"/>
         <compartment id="e" name="Extra_organism" constant="true"/>
         <compartment id="c" name="Cytosol" constant="true"/>
         <compartment id="r" name="Endoplasmic_Reticulum" constant="true"/>
@@ -17386,7 +17387,7 @@
         <speciesReference constant="false" species="C00275" stoichiometry="0.317"/>
         <speciesReference constant="false" species="C00984" stoichiometry="0.152"/>
         <speciesReference constant="false" species="C00267" stoichiometry="0.358"/>
-        <speciesReference constant="false" species="CPD__45__10330_c" stoichiometry="0.069"/>
+        <speciesReference constant="false" species="CPD__45__10330" stoichiometry="0.069"/>
         <speciesReference constant="false" species="C00002" stoichiometry="46.3"/>
         <speciesReference constant="false" species="C00001" stoichiometry="46.3"/>
        </listOfReactants>
