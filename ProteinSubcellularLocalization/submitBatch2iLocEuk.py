@@ -12,22 +12,39 @@ from Bio import SeqIO
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
+import os.path
 
 parser = argparse.ArgumentParser(description='Run iLoc-Euk for a set of proteins')
 parser.add_argument('-o','--out', dest='out', metavar='file.tab', type=str, help='Output with proteins and corresponding locations', required=True)
 parser.add_argument('-f','--fasta', dest='fasta', metavar='proteome.fasta', type=str, help='FASTA with proteome', required=True)
 parser.add_argument('-t','--time', dest='wTime', metavar='N', type=int, help='Integer with waiting time for each request (it depends on the internet connect and server responsinevess)', required=True)
 
+listOfProteinsWithSubLoc=[]
+
 args = parser.parse_args()
 fastaOBJ = open(args.fasta,"r")
-outOBJ = open(args.out,"w")
 waitingTime = args.wTime
+
+if os.path.isfile(args.out):
+ outOBJ = open(args.out,"r")
+ for line in outOBJ:
+  a,b=line.split("\t")
+  #print("%s\t%s" % (a,b)).rstrip("\n")
+  if not a in listOfProteinsWithSubLoc:
+   listOfProteinsWithSubLoc.append(a)
+ outOBJ.close()
+
+driver = webdriver.Firefox()
 
 for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  seqIdentifier = seq_record.id
  seqItself = seq_record.seq
+ print("Checking protein %s" % (seqIdentifier))
+ if seqIdentifier in listOfProteinsWithSubLoc:
+  print("Protein %s is already with predicted location" % (seqIdentifier))
+  continue
  # Open Firefox
- driver = webdriver.Firefox()
+ print("Analizing protein %s" % (seqIdentifier))
  # Go to iLoc-Euk page, fill form, then submit request
  driver.get("http://www.jci-bioinfo.cn/iLoc-Euk")
  time.sleep(3)
@@ -47,8 +64,10 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  #print("%s\n" % results_text)
  regex = re.compile(r"Predicted Result: (\w+) \( Predicted By PSS\)")
  for res in regex.findall(results_text):
+  outOBJ = open(args.out,"a")
   outOBJ.write("%s\t%s" % (seqIdentifier,res))
   outOBJ.write("\n")
- driver.quit()
+  outOBJ.close()
 
-outOBJ.close()
+driver.quit()
+fastaOBJ.close()
