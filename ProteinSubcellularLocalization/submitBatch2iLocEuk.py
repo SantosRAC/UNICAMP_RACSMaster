@@ -3,6 +3,7 @@
 # Using Python 2.7.12
 # Should set PATH to geckodriver
 
+import argparse
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
@@ -12,7 +13,15 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 
-for seq_record in SeqIO.parse("/home/renato/Projects/CNPEM/Pseudozyma/Annotation/AnnotationCuration_03112016/Proteome03162016/KbrasiliensisGHG001_evm.out.all.mod.proteome.mod.fasta", "fasta"):
+parser = argparse.ArgumentParser(description='Run iLoc-Euk for a set of proteins')
+parser.add_argument('-o','--out', dest='out', metavar='file.tab', type=str, help='Output with proteins and corresponding locations', required=True)
+parser.add_argument('-f','--fasta', dest='fasta', metavar='proteome.fasta', type=str, help='FASTA with proteome', required=True)
+
+args = parser.parse_args()
+fastaOBJ = open(args.fasta,"r")
+outOBJ = open(args.out,"w")
+
+for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  seqIdentifier = seq_record.id
  seqItself = seq_record.seq
  # Open Firefox
@@ -20,7 +29,6 @@ for seq_record in SeqIO.parse("/home/renato/Projects/CNPEM/Pseudozyma/Annotation
  # Go to iLoc-Euk page, fill form, then submit request
  driver.get("http://www.jci-bioinfo.cn/iLoc-Euk")
  time.sleep(3)
- assert "iLic-Euk" in driver.title
  form = driver.find_element_by_id("seq")
  form.clear()
  form.send_keys(">%s\n%s" % (seqIdentifier,seqItself))
@@ -37,5 +45,8 @@ for seq_record in SeqIO.parse("/home/renato/Projects/CNPEM/Pseudozyma/Annotation
  #print("%s\n" % results_text)
  regex = re.compile(r"Predicted Result: (\w+) \( Predicted By PSS\)")
  for res in regex.findall(results_text):
-  print("%s\t%s" % (seqIdentifier,res))
+  outOBJ.write("%s\t%s" % (seqIdentifier,res))
+  outOBJ.write("\n")
  driver.quit()
+
+outOBJ.close()
