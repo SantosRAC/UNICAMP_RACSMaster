@@ -16,10 +16,12 @@ from selenium.common.exceptions import TimeoutException
 parser = argparse.ArgumentParser(description='Run iLoc-Euk for a set of proteins')
 parser.add_argument('-o','--out', dest='out', metavar='file.tab', type=str, help='Output with proteins and corresponding locations', required=True)
 parser.add_argument('-f','--fasta', dest='fasta', metavar='proteome.fasta', type=str, help='FASTA with proteome', required=True)
+parser.add_argument('-t','--time', dest='wTime', metavar='N', type=int, help='Integer with waiting time for each request (it depends on the internet connect and server responsinevess)', required=True)
 
 args = parser.parse_args()
 fastaOBJ = open(args.fasta,"r")
 outOBJ = open(args.out,"w")
+waitingTime = args.wTime
 
 for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  seqIdentifier = seq_record.id
@@ -38,7 +40,7 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  sendButton.send_keys(Keys.RETURN)
  assert "No results found." not in driver.page_source
  # Waiting time to process result
- time.sleep(120)
+ time.sleep(waitingTime)
  # Try to find element on the page (driver source code)
  results = driver.find_element_by_id('resultDetail')
  results_text = results.text
