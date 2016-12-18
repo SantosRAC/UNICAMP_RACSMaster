@@ -62,12 +62,22 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  results = driver.find_element_by_id('resultDetail')
  results_text = results.text
  #print("%s\n" % results_text)
- regex = re.compile(r"Predicted Result: (.+) \( Predicted By PSS\)")
- for res in regex.findall(results_text):
-  outOBJ = open(args.out,"a")
-  outOBJ.write("%s\t%s" % (seqIdentifier,res))
-  outOBJ.write("\n")
-  outOBJ.close()
+ regex1 = re.compile(r"Predicted Result: (.+) \( Predicted By PSS\)")
+ regex2 = re.compile(r"Predicted Result: (.+) \( Predicted By GO\)")
+ if regex1.match(results_text):
+  for res in regex1.findall(results_text):
+   outOBJ = open(args.out,"a")
+   outOBJ.write("%s\t%s" % (seqIdentifier,res))
+   outOBJ.write("\n")
+   outOBJ.close()
+ elif regex2.match(results_text):
+  for res in regex2.findall(results_text):
+   outOBJ = open(args.out,"a")
+   outOBJ.write("%s\t%s" % (seqIdentifier,res))
+   outOBJ.write("\n")
+   outOBJ.close()
+ else:
+  print("Something weird happened. Check online result for protein %s" % seqIdentifier)
 
 driver.quit()
 fastaOBJ.close()
