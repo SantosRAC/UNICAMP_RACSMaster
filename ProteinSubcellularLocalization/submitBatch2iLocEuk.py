@@ -62,7 +62,7 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  results = driver.find_element_by_id('resultDetail')
  results_text = results.text
  #print("%s\n" % results_text)
- regex = re.compile(r"Predicted Result: (\w+) \( Predicted By PSS\)")
+ regex = re.compile(r"Predicted Result: (.+) \( Predicted By PSS\)")
  for res in regex.findall(results_text):
   outOBJ = open(args.out,"a")
   outOBJ.write("%s\t%s" % (seqIdentifier,res))
