@@ -64,13 +64,13 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  #print("%s\n" % results_text)
  regex1 = re.compile(r"Predicted Result: (.+) \( Predicted By PSS\)")
  regex2 = re.compile(r"Predicted Result: (.+) \( Predicted By GO\)")
- if regex1.match(results_text):
+ if regex1.search(results_text):
   for res in regex1.findall(results_text):
    outOBJ = open(args.out,"a")
    outOBJ.write("%s\t%s" % (seqIdentifier,res))
    outOBJ.write("\n")
    outOBJ.close()
- elif regex2.match(results_text):
+ elif regex2.search(results_text):
   for res in regex2.findall(results_text):
    outOBJ = open(args.out,"a")
    outOBJ.write("%s\t%s" % (seqIdentifier,res))
