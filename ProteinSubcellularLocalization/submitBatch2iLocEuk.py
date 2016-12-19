@@ -72,6 +72,7 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  #print("%s\n" % results_text)
  regex1 = re.compile(r"Predicted Result: (.+) \( Predicted By PSS\)")
  regex2 = re.compile(r"Predicted Result: (.+) \( Predicted By GO\)")
+ regex3 = re.compile(r"Predicted Result: (.+) \( Predicted By Gene Ontolog\)")
  if regex1.search(results_text):
   for res in regex1.findall(results_text):
    outOBJ = open(args.out,"a")
@@ -81,6 +82,13 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
    listOfProteinsWithSubLoc.append(seqIdentifier)
  elif regex2.search(results_text):
   for res in regex2.findall(results_text):
+   outOBJ = open(args.out,"a")
+   outOBJ.write("%s\t%s" % (seqIdentifier,res))
+   outOBJ.write("\n")
+   outOBJ.close()
+   listOfProteinsWithSubLoc.append(seqIdentifier)
+ elif regex3.search(results_text):
+  for res in regex3.findall(results_text):
    outOBJ = open(args.out,"a")
    outOBJ.write("%s\t%s" % (seqIdentifier,res))
    outOBJ.write("\n")
