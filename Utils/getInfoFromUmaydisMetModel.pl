@@ -43,6 +43,7 @@ my $root = $twig->root;
 my @models = $root->children('model');
 
 my %speciesInfo;
+my %speciesKeggID;
 
 foreach my $mod (@models){
  # Getting information about each species in model
@@ -54,6 +55,27 @@ foreach my $mod (@models){
    my $speciesName = $species->att('name');
    if((not $speciesID) or (not $speciesName)) { die "Species name or identifier don't exist. Check model.\n" }
    $speciesInfo{$speciesID}=$speciesName;
+   my @notes = $species->children('notes');
+   foreach my $note (@notes) {
+    my @bodies = $note->children('body');
+    foreach my $body (@bodies) {
+     my @paragraphs = $body->children('p');
+     foreach my $p (@paragraphs) {
+      my $textParagraph = $p->text();
+      if ($textParagraph =~ /KEGG:/) {
+       my $speKeggID = $textParagraph;
+       $speKeggID =~ s/KEGG: //g;
+       #$speciesID =~ s/__45__/-/g;
+       #$speciesID =~ s/__43__/+/g;
+       #$speciesID =~ s/_c$//g;
+       #$speciesID =~ s/_e$//g;
+       #$speciesID =~ s/_p$//g;
+       #$speciesID =~ s/_m$//g;
+       $speciesKeggID{$speciesID}=$speKeggID;
+      }
+     }
+    }
+   }
   }
  }
  # Getting information about each reaction in U. maydis metabolic model
@@ -113,8 +135,11 @@ foreach my $mod (@models){
     foreach my $spe (@species) {
      my $speID=$spe->att('species');
      my $speStoic=$spe->att('stoichiometry');
-     #push(@reacReactants,$speciesInfo{$speID});
-     push(@reacReactants,$speID);
+     if($speciesKeggID{$speID}) {
+      push(@reacReactants,$speciesKeggID{$speID});
+     } else {
+      push(@reacReactants,$speID);
+     }
     }
    }
    my @products = $reaction->children('listOfProducts');
@@ -123,8 +148,11 @@ foreach my $mod (@models){
     foreach my $spe (@species) {
      my $speID=$spe->att('species');
      my $speStoic=$spe->att('stoichiometry');
-     push(@reacProducts,$speID);
-     #push(@reacProducts,$speciesInfo{$speID});
+     if($speciesKeggID{$speID}) {
+      push(@reacProducts,$speciesKeggID{$speID});
+     } else {
+      push(@reacProducts,$speID);
+     }
     }
    }
    my $booleanFoundUmaydisExclusive='';
