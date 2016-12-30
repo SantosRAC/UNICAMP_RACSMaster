@@ -137,9 +137,11 @@ foreach my $mod (@models){
      my $speID=$spe->att('species');
      my $speStoic=$spe->att('stoichiometry');
      if($speciesKeggID{$speID}) {
-      push(@reacReactants,$speciesKeggID{$speID});
+      my $finalSpecies = "$speciesKeggID{$speID}".":$speStoic";
+      push(@reacReactants,$finalSpecies);
      } else {
-      push(@reacReactants,$speID);
+      my $finalSpecies = "$speID".":$speStoic";
+      push(@reacReactants,$finalSpecies);
      }
     }
    }
@@ -150,9 +152,11 @@ foreach my $mod (@models){
      my $speID=$spe->att('species');
      my $speStoic=$spe->att('stoichiometry');
      if($speciesKeggID{$speID}) {
-      push(@reacProducts,$speciesKeggID{$speID});
+      my $finalSpecies = "$speciesKeggID{$speID}".":$speStoic";
+      push(@reacProducts,$finalSpecies);
      } else {
-      push(@reacProducts,$speID);
+      my $finalSpecies = "$speID".":$speStoic";
+      push(@reacProducts,$finalSpecies);
      }
     }
    }
