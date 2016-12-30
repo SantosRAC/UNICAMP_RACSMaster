@@ -33,7 +33,7 @@ while(<GENEASSOCFILE>){
 }
 close(GENEASSOCFILE);
 
-print "Reaction_Name\tReaction_Genes\tReaction_Boolean_Model\tGenes_Kalmanozyma\tReaction_Reactants\tReaction_Products\tEC_number\tBiocyc\tSubsystem\n";
+print "Reaction_Name\tReaction_Genes\tReaction_Boolean_Model\tReaction_Reversibility\tGenes_Kalmanozyma\tReaction_Reactants\tReaction_Products\tEC_number\tBiocyc\tSubsystem\n";
 
 # Getting models in SBML file
 # This script was designed to work with the SBML2 metabolic model of U. maydis provided by MSc Christian Lieven
@@ -84,6 +84,7 @@ foreach my $mod (@models){
   my @reactionsThemselves = $allReactions->children('reaction');
   foreach my $reaction (@reactionsThemselves) {
    my $reactionName = $reaction->att('id');
+   my $reactionReversibility = $reaction->att('reversible');
    my @reacGenes=();
    my $reacBoolean='';
    my @reacReactants=();
@@ -164,7 +165,7 @@ foreach my $mod (@models){
     }
    }
    if($booleanFoundUmaydisExclusive) {
-    print "$reactionName\t".join(",",@reacGenes)."\t".$reacBoolean."\t".join(",",@genesKbr)."\t".join(",",@reacReactants)."\t".join(",",@reacProducts)."\t$reacECnumber\t$reactBiocyc\t$reacSubsystem\n";
+    print "$reactionName\t".join(",",@reacGenes)."\t$reacBoolean\t$reactionReversibility\t".join(",",@genesKbr)."\t".join(",",@reacReactants)."\t".join(",",@reacProducts)."\t$reacECnumber\t$reactBiocyc\t$reacSubsystem\n";
    }
   }
  }
