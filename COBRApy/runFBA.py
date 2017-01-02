@@ -1,5 +1,3 @@
-#!/home/renato/Software/Anaconda/anaconda2/bin/python
-
 import sys
 import cobra
 from cobra import Model, Reaction, Metabolite
