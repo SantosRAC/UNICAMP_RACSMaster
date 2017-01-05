@@ -66,7 +66,6 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  # Try to find element on the page (driver source code)
  results = driver.find_element_by_tag_name('table')
  results_text = results.text
- print(results_text)
  regex1 = re.compile(r"evm.model.(.+)\.(\d+)\.(\d+) (.+)")
  if regex1.search(results_text):
   for res in regex1.findall(results_text):
