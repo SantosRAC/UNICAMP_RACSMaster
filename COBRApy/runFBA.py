@@ -11,7 +11,7 @@ if sys.version_info[0] != 2 or sys.version_info[1] < 7 or sys.version_info[2] < 
 parser = argparse.ArgumentParser(description='Flux Balance Analysis', add_help=True)
 parser.add_argument('-m','--model', dest='model', metavar='importedModel', type=str, help='Model (SBML3)', required=True)
 parser.add_argument('-t','--model_type', default='sbml', dest='fileformat', metavar='formatFile', type=str, help='Model file format (sbml, mat)', required=False)
-parser.add_argument('--optimize', dest='optimizeBoolean', action='store_true', help='Model file format (sbml, mat)', required=False)
+parser.add_argument('--optimize', dest='optimizeBoolean', action='store_true', help='Turn on optimization (GLPK)', required=False)
 
 args = parser.parse_args()
 
