@@ -55,11 +55,11 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
  print("Analizing protein %s" % (seqIdentifier))
  # Go to iLoc-Euk page, fill form, then submit request
  driver.get("http://www.jci-bioinfo.cn/iLoc-Euk")
- time.sleep(3)
+ time.sleep(10)
  form = driver.find_element_by_id("seq")
  form.clear()
  form.send_keys(">%s\n%s" % (seqIdentifier,seqItself))
- time.sleep(3)
+ time.sleep(10)
  #<input type="button" id="sbmitBtn" value="Submit">
  sendButton = driver.find_element_by_id("sbmitBtn")
  sendButton.send_keys(Keys.RETURN)
@@ -95,10 +95,15 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
    outOBJ.close()
    listOfProteinsWithSubLoc.append(seqIdentifier)
  else:
-  print("Something weird happened. Check online result for protein %s" % seqIdentifier)
+  outOBJ = open(args.out,"a")
+  outOBJ.write("%s\tIMPOSSIBLE_COMPLETE_PROBLEM" % (seqIdentifier))
+  outOBJ.write("\n")
+  outOBJ.close()
+  listOfProteinsWithSubLoc.append(seqIdentifier)
+  #print("Something weird happened. Check online result for protein %s" % seqIdentifier)
   if makeSound:
    os.system("/usr/bin/canberra-gtk-play --id='bell' --loop=10") 
-  sys.exit()
+  #sys.exit()
  if seqIdentifier in listOfProteinsWithSubLoc:
   continue
  else:
