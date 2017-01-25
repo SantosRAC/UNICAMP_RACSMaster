@@ -1,0 +1,2 @@
+!!SBtab	SBtabVersion=’1.0’	TableType=’Reaction’	TableName=’K. brasiliensis SBTab Reaction Table’
+!ID	!ReactionFormula	!Identifiers:kegg.reaction	!Identifiers:biocyc	!Gene:Symbol	!IsReversible
