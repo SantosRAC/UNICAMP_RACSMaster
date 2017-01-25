@@ -54,7 +54,7 @@ foreach my $mod (@models) {
      }
     }
    }
-   my $sbtabReactID='sbtabcomp'.$reactionSBTabID;
+   my $sbtabReactID='sbtabreact'.$reactionSBTabID;
    my $geneTestID='testGeneSymbol'.$geneNumberTest; #TODO: Remove this line in the future (Gene and Enzyme tables)
    if($reactID =~ /R\d\d\d\d\d/){
     print "$sbtabReactID\t".join(" + ",@reactantsReaction)." <=> ".join(" + ",@productsReaction)."\t$reactID\t\t$geneTestID\t$reversibilityReaction\n";
