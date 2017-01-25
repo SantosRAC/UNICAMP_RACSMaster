@@ -604,7 +604,7 @@ sbtabcomp601	S-(2,4-Dinitrophenyl)glutathione	C11175	S24dnphgth
 sbtabcomp602	Dolichyl diphosphooligosaccharide	C04213	Dchyldppsac	
 sbtabcomp603	Cyclopentanone	C00557	cpent	
 sbtabcomp604	5-Valerolactone	C02240	vall	
-sbtabcomp605	Maltoheptaose		malthep	G00689 (CPD0-1133)
+sbtabcomp605	Maltoheptaose		malthep	G00689
 sbtabcomp606	Alpha-Maltose	C00897	Amalt	
 sbtabcomp607	3alpha,7alpha,12alpha,24-Tetrahydroxy-5beta-cholestanoyl-CoA	C05450	3A7A12A24tBccoa	
 sbtabcomp608	n-Alkanal	C15596	alkal	
