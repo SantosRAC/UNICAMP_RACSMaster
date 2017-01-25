@@ -8,7 +8,7 @@ sbtabcomp5	3-Phospho-D-glyceroyl phosphate	C00236	13dpg
 sbtabcomp6	Cadaverine	C01672	15dap	
 sbtabcomp7	1-Aminocyclopropane-1-carboxylate	C01234	1acpc	
 sbtabcomp8	1-Acyl-sn-glycerol 3-phosphate	C00681	1ag3p_SC	
-sbtabcomp9	1-Butanol	C06142	1btol	i
+sbtabcomp9	1-Butanol	C06142	1btol	
 sbtabcomp10	alpha-D-Galactosyl-(1->3)-1D-myo-inositol	C01235	1Dgali	
 sbtabcomp11	1-Methylnicotinamide	C02918	1mncam	
 sbtabcomp12	L-1-Pyrroline-3-hydroxy-5-carboxylate	C04281	1p3h5c	
