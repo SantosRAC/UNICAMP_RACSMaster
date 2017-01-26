@@ -1,4 +1,4 @@
-!!SBTab	SBtabVersion=’1.0’	TableName=’K. brasiliensis SBTab Compound Table’	TableType=’Compound’
+!!SBtab	SBtabVersion=’1.0’	TableName=’K. brasiliensis SBTab Compound Table’	TableType=’Compound’
 !ID	!Name	!Identifiers:kegg.compound	!Identifiers:bigg.metabolite	!Identifiers:biocyc
 sbtabcomp1	10-Formyltetrahydrofolate	C00234	10fthf	
 sbtabcomp2	1,2-Diacyl-sn-glycerol	C00641	12dgr_EC	
