@@ -718,29 +718,29 @@ sbtabcomp715	Acetone cyanohydrin	C02659	acetonech
 sbtabcomp716	Neolinustatin	C08336	neolntt	
 sbtabcomp717	Scopolin	C01527	scpl	
 sbtabcomp718	Scopoletin	C01752	scpln	
-sbtabcomp719	Oxidized flavodoxin	C02869	pwdPYTx4	
-sbtabcomp720	Reduced flavodoxin	C02745	WNjpjbcP	
-sbtabcomp721	Oxidized ferredoxin	C00139	Zv3IwN6j	
-sbtabcomp722	4,8,12-Trimethyltridecanoyl-CoA	C07296	8cOzgi43	
-sbtabcomp723	3-Oxopristanoyl-CoA	C07297	uGvo89M2	
-sbtabcomp724	1-Acyl-2-oleoyl-sn-glycero-3-phosphocholine	C01282	QEhWqWs5	
-sbtabcomp725	1-Acyl-2-linoleoyl-sn-glycero-3-phosphocholine	C04636	pl5jzsN7	
-sbtabcomp726	4-Hydroxyphenylethanol	C06044	11EVwlgp	
-sbtabcomp727	D-Mannosylglycoprotein	C03268	VTHa3PSY	
-sbtabcomp728	Glycoprotein 6-(D-glucose-1-phospho)-D-mannose	C04645	n5q9ekC1	
-sbtabcomp729	5-Dehydroepisterol	C15780	PP4yG23a	
-sbtabcomp730	3-Methoxy-4-hydroxyphenylethyleneglycol	C05594	UnWlUNPV	
+sbtabcomp719	Oxidized flavodoxin	C02869	fldox	
+sbtabcomp720	Reduced flavodoxin	C02745	flxr	
+sbtabcomp721	Oxidized ferredoxin	C00139	fdxo_2_2	
+sbtabcomp722	4,8,12-Trimethyltridecanoyl-CoA	C07296	tmtdcacoa	
+sbtabcomp723	3-Oxopristanoyl-CoA	C07297	3xptncoa	
+sbtabcomp724	1-Acyl-2-oleoyl-sn-glycero-3-phosphocholine	C01282	a2oSNg3pc	
+sbtabcomp725	1-Acyl-2-linoleoyl-sn-glycero-3-phosphocholine	C04636	a2lSNg3pc	
+sbtabcomp726	4-Hydroxyphenylethanol	C06044	hphetoh	
+sbtabcomp727	D-Mannosylglycoprotein	C03268	manglprot	
+sbtabcomp728	Glycoprotein 6-(D-glucose-1-phospho)-D-mannose	C04645	xxxxxxxxx	
+sbtabcomp729	5-Dehydroepisterol	C15780	dhepis	
+sbtabcomp730	3-Methoxy-4-hydroxyphenylethyleneglycol	C05594	3mox4hoxpeg	
 sbtabcomp731	2-Monoacylglycerol	C02112	2mag	
-sbtabcomp732	3-Indoleglycolaldehyde	C03230	so4UG2Z3	
+sbtabcomp732	3-Indoleglycolaldehyde	C03230	indgcald	
 sbtabcomp733	Deoxyribose	C01801	drib	
 sbtabcomp734	Hydroxybenzoquinone	C07103	hbqn	
-sbtabcomp735	(+)-7-Isojasmonic acid	C16317	9DAkikB4	
-sbtabcomp736	3-cis-Dodecenoyl-CoA	C02944	UGXGuUU1	
+sbtabcomp735	(+)-7-Isojasmonic acid	C16317	ijsmac	
+sbtabcomp736	3-cis-Dodecenoyl-CoA	C02944	cisddcecoa	
 sbtabcomp737	1-Octanal	C01545	octal	
-sbtabcomp738	Salicylaldehyde	C06202	65C7xsKg	
+sbtabcomp738	Salicylaldehyde	C06202	salald	
 sbtabcomp739	Farnesoic acid	C16502	fnsoicacid	
-sbtabcomp740	Fluoroacetaldehyde	C15488	qq6l678l	
-sbtabcomp741	3-Aminopropanal	C05665	PqJc1Kkh	
+sbtabcomp740	Fluoroacetaldehyde	C15488	flacald	
+sbtabcomp741	3-Aminopropanal	C05665	aproa	
 sbtabcomp742	beta-D-Mannoside	C02478	wA4Dw2QA	
 sbtabcomp743	beta-D-Mannose	C02209	Oq7kax2e	
 sbtabcomp744	Uracil 5-carboxylate	C03030	2ORH8lg3	
