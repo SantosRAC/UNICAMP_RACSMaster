@@ -653,71 +653,71 @@ sbtabcomp650	Plastoquinol-1	C02185	pqh2
 sbtabcomp651	4alpha-Methyl-5alpha-cholest-7-en-3-one	C04453	4am4achol7en3n	
 sbtabcomp652	sn-Glycerol 1-phosphate	C00623	glyc1p	
 sbtabcomp653	Hydroxyhydroquinone	C02814	hhqn	
-sbtabcomp654	Maleylacetate	C02222	7379IXhc	
-sbtabcomp655	Benzoylsuccinyl-CoA	C09820	fj8NYOHh	
-sbtabcomp656	(5Z,8Z,11Z,14Z,17Z)-Icosapentaenoic acid	C06428	GekwlGHk	
+sbtabcomp654	Maleylacetate	C02222	mac	
+sbtabcomp655	Benzoylsuccinyl-CoA	C09820	bzosuccoa	
+sbtabcomp656	(5Z,8Z,11Z,14Z,17Z)-Icosapentaenoic acid	C06428	ipcoac	
 sbtabcomp657	alpha-N-Acetyl-D-glucosaminyl-(1->4)-beta-D-glucuronosyl-(1->3)-beta-D-galactosyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-xylosylproteoglycan	C15656	Tqkv35VT	
 sbtabcomp658	(E)-2-(Methoxycarbonylmethyl)butenedioate	C11515	9h5fLOvZ	
-sbtabcomp659	D-Galacturonolactone	C06430	KrgnShrP	
+sbtabcomp659	D-Galacturonolactone	C06430	galurlac__D	
 sbtabcomp660	L-Glyceraldehyde	C02426	glyald__L	
-sbtabcomp661	Retinyl palmitate	C02588	U8q6DgFp	
+sbtabcomp661	Retinyl palmitate	C02588	retpalm	
 sbtabcomp662	Methyl salicylate	C12305	metsalc	
-sbtabcomp663	Ester	C02391	EUjV4OmE	
+sbtabcomp663	Ester	C02391	est	
 sbtabcomp664	alpha-D-Galactosyl-1,3-beta-D-galactosyl-1,4-N-acetyl-D-glucosaminyl-R	C04855	b4mQJEdL	
 sbtabcomp665	DMSP	C04022	DMSP	
 sbtabcomp666	2-Propynal	C05985	2ppnal	
 sbtabcomp667	Propynoate	C00804	ppn	
 sbtabcomp668	Tributyrin	C13870	tbtr	
 sbtabcomp669	Long-chain fatty acid	C00638	lcfa	
-sbtabcomp670	D-myo-Inositol 1,4,5-trisphosphate	C01245	iaYcNw6a	
-sbtabcomp671	1-Palmitoylglycerophosphocholine	C04102	BWWqaI75	
+sbtabcomp670	D-myo-Inositol 1,4,5-trisphosphate	C01245	mi145tp	
+sbtabcomp671	1-Palmitoylglycerophosphocholine	C04102	pagpc	
 sbtabcomp672	S-(Hydroxymethyl)glutathione	C14180	Shgth	
 sbtabcomp673	(25R)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA	C15613	S3WElRqp	
 sbtabcomp674	(25S)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA	C17343	htGokatN	
 sbtabcomp675	(25S)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA	C17346	1ZBlgX16	
-sbtabcomp676	(2S)-2-Methylacyl-CoA	C05232	I3a6n8AS	
-sbtabcomp677	(2R)-2-Methylacyl-CoA	C05329	LvdIIgIe	
+sbtabcomp676	(2S)-2-Methylacyl-CoA	C05232	2s2metacoa	
+sbtabcomp677	(2R)-2-Methylacyl-CoA	C05329	2r2metacoa	
 sbtabcomp678	1-Phosphatidyl-1D-myo-inositol 5-phosphate	C11557	ZTwvEl8g	
-sbtabcomp679	Glycerophosphodiester	C03120	6vlnxnam	
+sbtabcomp679	Glycerophosphodiester	C03120	gpdstr	
 sbtabcomp680	trans-Farnesol	C01126	fnsol	
 sbtabcomp681	Farnesal	C03461	fnsal	
-sbtabcomp682	D-Amino acid	C00405	e2kNOSVV	
-sbtabcomp683	Aryl beta-D-glucoside	C03097	en4M1svK	
+sbtabcomp682	D-Amino acid	C00405	aa__D	
+sbtabcomp683	Aryl beta-D-glucoside	C03097	abDgsd	
 sbtabcomp684	4-Nitrophenyl phosphate	C03360	4dnphp	
 sbtabcomp685	NMNH	C21113	NMNH	
-sbtabcomp686	Iron chelate	C06704	cvxBSYhq	
-sbtabcomp687	Lipid hydroperoxide	C01025	bqCGOzjh	
+sbtabcomp686	Iron chelate	C06704	ironC	
+sbtabcomp687	Lipid hydroperoxide	C01025	lhp	
 sbtabcomp688	N-Acetyl-D-glucosaminylphosphatidylinositol	C01288	y9i2BnSY	
 sbtabcomp689	Platelet-activating factor	C04598	PAF	
 sbtabcomp690	1-Organyl-2-lyso-sn-glycero-3-phosphocholine	C04317	DfDGKBsH	
-sbtabcomp691	Nicotine	C00745	wSS71qkq	
-sbtabcomp692	Dimethylaminobenzene	C02846	f9TvJTt4	
-sbtabcomp693	N,N-Dimethylaniline N-oxide	C01183	TdTrdGCB	
-sbtabcomp694	Dehydro-D-arabinono-1,4-lactone	C06316	a5nFbDKK	
-sbtabcomp695	N6-Hydroxy-L-lysine	C01028	XhixpfJw	
-sbtabcomp696	N6-Acetyl-N6-hydroxy-L-lysine	C03955	xCiDLync	
+sbtabcomp691	Nicotine	C00745	nct	
+sbtabcomp692	Dimethylaminobenzene	C02846	dmabz	
+sbtabcomp693	N,N-Dimethylaniline N-oxide	C01183	dmetanl	
+sbtabcomp694	Dehydro-D-arabinono-1,4-lactone	C06316	Dharb14l	
+sbtabcomp695	N6-Hydroxy-L-lysine	C01028	N6hlys	
+sbtabcomp696	N6-Acetyl-N6-hydroxy-L-lysine	C03955	N6achlys	
 sbtabcomp697	5-Hydroxyferulic acid methyl ester	C05619	51hZGG9n	
 sbtabcomp698	5-Hydroxyferuloyl-CoA	C12203	DqLIy4my	
-sbtabcomp699	Sinapate	C00482	SsNGMrYU	
-sbtabcomp700	Sinapoyl-CoA	C00411	YhkXVFjs	
+sbtabcomp699	Sinapate	C00482	sinpt	
+sbtabcomp700	Sinapoyl-CoA	C00411	sincoa	
 sbtabcomp701	8-[(1R,2R)-3-Oxo-2-{(Z)-pent-2-enyl}cyclopentyl]octanoate	C04780	PlaetOdb	
 sbtabcomp702	Ethylene glycol	C01380	etlngc	
-sbtabcomp703	Long-chain acyl-CoA	C02843	R5bzcKBf	
-sbtabcomp704	O-Acylcarnitine	C02301	qHO6UCUj	
-sbtabcomp705	N-Carbamoyl-L-amino acid	C11529	wwDi4h4h	
+sbtabcomp703	Long-chain acyl-CoA	C02843	lcacoa	
+sbtabcomp704	O-Acylcarnitine	C02301	Oacylcrn	
+sbtabcomp705	N-Carbamoyl-L-amino acid	C11529	cb__L__aa	
 sbtabcomp706	L-Amino acid	C00151	aa__L	
 sbtabcomp707	1,2-Bis(4-hydroxy-3-methoxyphenyl)ethylene	C04547	FeRIAqCd	
 sbtabcomp708	Inositol 1,2,4,5,6-pentakisphosphate	C04563	JdlPbnGh	
-sbtabcomp709	Hymecromone	C03081	tK6e5DaZ	
-sbtabcomp710	Taxiphyllin	C01855	zkBWILEb	
+sbtabcomp709	Hymecromone	C03081	hcmn	
+sbtabcomp710	Taxiphyllin	C01855	txpll	
 sbtabcomp711	Icosenoyl-CoA	C16530	kquaXuG2	
 sbtabcomp712	Lotaustralin	C08334	lttrln	
 sbtabcomp713	Linustatin	C08333	lnttn	
 sbtabcomp714	Linamarin	C01594	lnmrn	
-sbtabcomp715	Acetone cyanohydrin	C02659	9sVSJYwH	
-sbtabcomp716	Neolinustatin	C08336	a5zIKUyK	
-sbtabcomp717	Scopolin	C01527	z1N2zyxa	
-sbtabcomp718	Scopoletin	C01752	MjxaiyQj	
+sbtabcomp715	Acetone cyanohydrin	C02659	acetonech	
+sbtabcomp716	Neolinustatin	C08336	neolntt	
+sbtabcomp717	Scopolin	C01527	scpl	
+sbtabcomp718	Scopoletin	C01752	scpln	
 sbtabcomp719	Oxidized flavodoxin	C02869	pwdPYTx4	
 sbtabcomp720	Reduced flavodoxin	C02745	WNjpjbcP	
 sbtabcomp721	Oxidized ferredoxin	C00139	Zv3IwN6j	
