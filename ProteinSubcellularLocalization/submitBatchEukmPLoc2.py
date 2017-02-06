@@ -75,7 +75,6 @@ for seq_record in SeqIO.parse(fastaOBJ, "fasta"):
    outOBJ.close()
    listOfProteinsWithSubLoc.append(seqIdentifier)
  else:
-  exit(1)
   outOBJ = open(args.out,"a")
   outOBJ.write("%s\tIMPOSSIBLE_COMPLETE_PROBLEM" % (seqIdentifier))
   outOBJ.write("\n")
