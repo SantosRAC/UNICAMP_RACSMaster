@@ -741,14 +741,14 @@ sbtabcomp738	Salicylaldehyde	C06202	salald
 sbtabcomp739	Farnesoic acid	C16502	fnsoicacid	
 sbtabcomp740	Fluoroacetaldehyde	C15488	flacald	
 sbtabcomp741	3-Aminopropanal	C05665	aproa	
-sbtabcomp742	beta-D-Mannoside	C02478	wA4Dw2QA	
-sbtabcomp743	beta-D-Mannose	C02209	Oq7kax2e	
-sbtabcomp744	Uracil 5-carboxylate	C03030	2ORH8lg3	
+sbtabcomp742	beta-D-Mannoside	C02478	b__D__mand	
+sbtabcomp743	beta-D-Mannose	C02209	b__D__man	
+sbtabcomp744	Uracil 5-carboxylate	C03030	ura5c	
 sbtabcomp745	delta-(L-2-Aminoadipyl)-L-cysteinyl-D-valine	C05556	5lzoU6gl	
-sbtabcomp746	4-Chlorocatechol	C02375	UZiYgwF4	
-sbtabcomp747	4-Methylsalicylate	C14103	iJHv8eqO	
+sbtabcomp746	4-Chlorocatechol	C02375	clcatechol	
+sbtabcomp747	4-Methylsalicylate	C14103	4metsalc	
 sbtabcomp748	beta-Apo-4'-carotenal	C19892	dDycmLFv	
-sbtabcomp749	Neurosporaxanthin	C08607	MLSxH5Dr	
+sbtabcomp749	Neurosporaxanthin	C08607	nrpxan	
 sbtabcomp750	3,4-Dehydrolycopene	C15867	34dhlpn	
 sbtabcomp751	Linoleic acid	C01595	lnlc	
 sbtabcomp752	alpha-Linolenate	C06427	kc8oDK4D	
