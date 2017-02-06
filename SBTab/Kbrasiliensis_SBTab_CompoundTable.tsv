@@ -637,22 +637,22 @@ sbtabcomp634	5alpha-Cholestan-3-one	C03238	5Ac3one
 sbtabcomp635	Cholestenone	C00599	chone	
 sbtabcomp636	3-Hydroxykynurenine	C02794	3hxkine	
 sbtabcomp637	4alpha-Methylcholesta-8-en-3beta-ol	C05110	4Amch83Bol	
-sbtabcomp638	Myosin light chain phosphate	C03875	36Aw3L7U	
-sbtabcomp639	Myosin light chain	C01003	beyKknii	
-sbtabcomp640	4,4-Dimethyl-5alpha-cholesta-8-en-3beta-ol	C15915	nLp7PTDF	
-sbtabcomp641	D-myo-Inositol 1,2-cyclic phosphate	C04299	6p2kqg4Y	
-sbtabcomp642	Ketone	C01450	QAcSMhH8	
-sbtabcomp643	Secondary alcohol	C01612	hCXWqVTf	
-sbtabcomp644	1-Phosphatidyl-1D-myo-inositol 3,5-bisphosphate	C11556	pail35bp	
-sbtabcomp645	Phosphatidylinositol-3,4,5-trisphosphate	C05981	K8hg9B36	
-sbtabcomp646	1-Phosphatidyl-1D-myo-inositol 3,4-bisphosphate	C11554	zAJlkt5D	
-sbtabcomp647	15,9'-dicis-Phytofluene	C19765	kqMyIPrD	
-sbtabcomp648	Plastoquinone	C02061	rzbt13sW	
-sbtabcomp649	9,15,9'-tricis-zeta-Carotene	C19764	r4yjaCTn	
-sbtabcomp650	Plastoquinol-1	C02185	Ugj9NJrp	
-sbtabcomp651	4alpha-Methyl-5alpha-cholest-7-en-3-one	C04453	XforepLm	
-sbtabcomp652	sn-Glycerol 1-phosphate	C00623	DIGshWyU	
-sbtabcomp653	Hydroxyhydroquinone	C02814	SfIy7B6V	
+sbtabcomp638	Myosin light chain phosphate	C03875	myolcp	
+sbtabcomp639	Myosin light chain	C01003	myolc	
+sbtabcomp640	4,4-Dimethyl-5alpha-cholesta-8-en-3beta-ol	C15915	44dm5ac83bol	
+sbtabcomp641	D-myo-Inositol 1,2-cyclic phosphate	C04299	mi12cp__D	
+sbtabcomp642	Ketone	C01450	ktn	
+sbtabcomp643	Secondary alcohol	C01612	secalc	
+sbtabcomp644	1-Phosphatidyl-1D-myo-inositol 3,5-bisphosphate	C11556	pail35p	
+sbtabcomp645	Phosphatidylinositol-3,4,5-trisphosphate	C05981	pail345p	
+sbtabcomp646	1-Phosphatidyl-1D-myo-inositol 3,4-bisphosphate	C11554	pail34p
+sbtabcomp647	15,9'-dicis-Phytofluene	C19765	159dcphyotf
+sbtabcomp648	Plastoquinone	C02061	pq	
+sbtabcomp649	9,15,9'-tricis-zeta-Carotene	C19764	9159tzcarote	
+sbtabcomp650	Plastoquinol-1	C02185	pqh2	
+sbtabcomp651	4alpha-Methyl-5alpha-cholest-7-en-3-one	C04453	4am4achol7en3n	
+sbtabcomp652	sn-Glycerol 1-phosphate	C00623	glyc1p	
+sbtabcomp653	Hydroxyhydroquinone	C02814	hhqn	
 sbtabcomp654	Maleylacetate	C02222	7379IXhc	
 sbtabcomp655	Benzoylsuccinyl-CoA	C09820	fj8NYOHh	
 sbtabcomp656	(5Z,8Z,11Z,14Z,17Z)-Icosapentaenoic acid	C06428	GekwlGHk	
