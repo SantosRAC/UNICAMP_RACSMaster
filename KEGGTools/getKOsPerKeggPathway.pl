@@ -69,8 +69,6 @@ while(<KEGGPATHWAYS>) {
   open(GMT,">>",$gmtFile);
   print GMT "$keggPathwayID\t$keggPathwayDesc\t".join("\t",@{$path2KO{$keggPathwayID}})."\n";
   close(GMT);
- } else {
-  die "Format is not expected\n";
  }
  sleep 5;
 }
