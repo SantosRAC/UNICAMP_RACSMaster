@@ -985,337 +985,337 @@ sbtabcomp982	Phospholipid	C00865	pplp		C5H6O8PR3
 sbtabcomp983	L-Histidinal	C01929	histdal		C6H9N3O
 sbtabcomp984	1-Nitro-5-hydroxy-6-glutathionyl-5,6-dihydronaphthalene	C14805	ANjRTRHY		C20H24N4O9S
 sbtabcomp985	5,7,24(28)-Ergostatrienol	C15778	eKsMhCZx		C28H44O
-sbtabcomp986	2-trans-undecenoyl-CoA		HSVAOGgZ	CPD-15656	
-sbtabcomp987	(3R)-hydroxy-undecanoyl-CoA		6cZtzvlb	CPD-15657	
-sbtabcomp988	2-trans, 4-trans-undecadienoyl-CoA		LqbpRPmo	CPD-15661	
-sbtabcomp989	3-trans-undecenoyl-CoA		k4mfZlUb	CPD-15655	
-sbtabcomp990	(3R)-hydroxy, 6-trans-tridecenoyl-CoA		timOoJKd	CPD-15652	
-sbtabcomp991	6-trans-3-oxo-tridecenoyl-CoA		NOaJ2IQ4	CPD-15676	
-sbtabcomp992	2-trans-6-trans-tridecadienoyl-CoA		IQdUKNjg	CPD-15675	
-sbtabcomp993	2-trans, 4-cis-undecadienoyl-CoA		SAGNek3H	CPD-15654	
-sbtabcomp994	(3R)-hydroxy, 6-cis-tridecenoyl-CoA		Ftc22pjW	CPD-15653	
-sbtabcomp995	6-cis, 3-oxo-tridecenoyl-CoA		ThAKB3um	CPD-15667	
-sbtabcomp996	6-cis, 2-trans-tridecadienoyl-CoA		CmE5k3Eg	CPD-15666	
-sbtabcomp997	OPC4-CoA		d8hWVOoh	CPD-11525	
-sbtabcomp998	OPC4-trans-2-enoyl-CoA		lXV8qwMQ	CPD-11526	
-sbtabcomp999	(3R)-hydroxy-5-trans-dodecenoyl-CoA		ri2o5KNr	CPD-15690	
-sbtabcomp1000	5-trans-3-oxo-dodecenoyl-CoA		247rW232	CPD-15691	
-sbtabcomp1001	2-trans, 5-trans-dodecadienoyl-CoA		3ochthkk	CPD-15689	
-sbtabcomp1002	4-trans-undecenoyl-CoA		3rlh9n3X	CPD-15677	
-sbtabcomp1003	(3R)-hydroxy- 5-cis, 7-trans-tetradecadienoyl-CoA		MJkoYYPC	CPD-15686	
-sbtabcomp1004	5-cis, 7-trans-3-oxo-tetradecadienoyl-CoA		BGZHfkeS	CPD-15687	
-sbtabcomp1005	2-trans, 5-cis, 7-trans-tetradecatrienoyl-CoA		wpOLRKUW	CPD-15685	
-sbtabcomp1006	5-cis, 7-trans-tetradecadienoyl-CoA		1YY75JVS	CPD-15684	
-sbtabcomp1007	6-cis-tridecenoyl-CoA		CFQmMY1H	CPD-15637	
-sbtabcomp1008	3-oxo-2-(cis-2'-pentenyl)-cyclopentane-1-octanoyl-CoA		rAfPP4uR	CPD-11517	
-sbtabcomp1009	3-oxo-2-(cis-2'-pentenyl)-cyclopentane-1-octa-2-enoyl-CoA		SbbuxAp3	CPD-11518	
+sbtabcomp986	2-trans-undecenoyl-CoA		HSVAOGgZ	CPD__45__15656	C32H50N7O17P3S
+sbtabcomp987	(3R)-hydroxy-undecanoyl-CoA		6cZtzvlb	CPD__45__15657	C32H52N7O18P3S
+sbtabcomp988	2-trans, 4-trans-undecadienoyl-CoA		LqbpRPmo	CPD__45__15661	C32H48N7O17P3S
+sbtabcomp989	3-trans-undecenoyl-CoA		k4mfZlUb	CPD__45__15655	C32H50N7O17P3S
+sbtabcomp990	(3R)-hydroxy, 6-trans-tridecenoyl-CoA		timOoJKd	CPD__45__15652	C34H54N7O18P3S
+sbtabcomp991	6-trans-3-oxo-tridecenoyl-CoA		NOaJ2IQ4	CPD__45__15676	C34H52N7O18P3S
+sbtabcomp992	2-trans-6-trans-tridecadienoyl-CoA		IQdUKNjg	CPD__45__15675	C34H52N7O17P3S
+sbtabcomp993	2-trans, 4-cis-undecadienoyl-CoA		SAGNek3H	CPD__45__15654	C32H48N7O17P3S
+sbtabcomp994	(3R)-hydroxy, 6-cis-tridecenoyl-CoA		Ftc22pjW	CPD__45__15653	C34H54N7O18P3S
+sbtabcomp995	6-cis, 3-oxo-tridecenoyl-CoA		ThAKB3um	CPD__45__15667	C34H52N7O18P3S
+sbtabcomp996	6-cis, 2-trans-tridecadienoyl-CoA		CmE5k3Eg	CPD__45__15666	C34H52N7O17P3S
+sbtabcomp997	OPC4-CoA		d8hWVOoh	CPD__45__11525	C35H52N7O18P3S
+sbtabcomp998	OPC4-trans-2-enoyl-CoA		lXV8qwMQ	CPD__45__11526	C35H50N7O18P3S
+sbtabcomp999	(3R)-hydroxy-5-trans-dodecenoyl-CoA		ri2o5KNr	CPD__45__15690	C33H52N7O18P3S
+sbtabcomp1000	5-trans-3-oxo-dodecenoyl-CoA		247rW232	CPD__45__15691	C33H50N7O18P3S
+sbtabcomp1001	2-trans, 5-trans-dodecadienoyl-CoA		3ochthkk	CPD__45__15689	C33H50N7O17P3S
+sbtabcomp1002	4-trans-undecenoyl-CoA		3rlh9n3X	CPD__45__15677	C32H50N7O17P3S
+sbtabcomp1003	(3R)-hydroxy- 5-cis, 7-trans-tetradecadienoyl-CoA		MJkoYYPC	CPD__45__15686	C35H54N7O18P3S
+sbtabcomp1004	5-cis, 7-trans-3-oxo-tetradecadienoyl-CoA		BGZHfkeS	CPD__45__15687	C35H52N7O18P3S
+sbtabcomp1005	2-trans, 5-cis, 7-trans-tetradecatrienoyl-CoA		wpOLRKUW	CPD__45__15685	C35H52N7O17P3S
+sbtabcomp1006	5-cis, 7-trans-tetradecadienoyl-CoA		1YY75JVS	CPD__45__15684	C35H54N7O17P3S
+sbtabcomp1007	6-cis-tridecenoyl-CoA		CFQmMY1H	CPD__45__15637	C34H54N7O17P3S
+sbtabcomp1008	3-oxo-2-(cis-2'-pentenyl)-cyclopentane-1-octanoyl-CoA		rAfPP4uR	CPD__45__11517	C39H60N7O18P3S
+sbtabcomp1009	3-oxo-2-(cis-2'-pentenyl)-cyclopentane-1-octa-2-enoyl-CoA		SbbuxAp3	CPD__45__11518	C39H58N7O18P3S
 sbtabcomp1010	OPC6-CoA	C16331	KwrjicxM		C37H60N7O18P3S
-sbtabcomp1011	OPC6-trans-2-enoyl-CoA		2FH4rnKt	CPD-11522	
-sbtabcomp1012	4-cis-undecenoyl-CoA		4Jsq5e6S	CPD-15668	
-sbtabcomp1013	(5Z)-tetradecenoyl-CoA		gOOpH9A9	CPD-15436	
-sbtabcomp1014	(2E,5Z)-tetradecenoyl-CoA		KnJCer5L	CPD0-1162	
+sbtabcomp1011	OPC6-trans-2-enoyl-CoA		2FH4rnKt	CPD__45__11522	C37H54N7O18P3S
+sbtabcomp1012	4-cis-undecenoyl-CoA		4Jsq5e6S	CPD__45__15668	C32H50N7O17P3S
+sbtabcomp1013	(5Z)-tetradecenoyl-CoA		gOOpH9A9	CPD__45__15436	C35H56N7O17P3S
+sbtabcomp1014	(2E,5Z)-tetradecenoyl-CoA		KnJCer5L	CPD0__45__1162	C35H54N7O17P3S
 sbtabcomp1015	Propionamide		1KRAUsQ9	PROPIONAMIDE	C3H7NO
-sbtabcomp1016	6-trans-tridecenoyl-CoA		EQaW5JUY	CPD-15651	
-sbtabcomp1017	a cis-5-enoyl-CoA		UDNCljHf	cis-5-enoyl-CoA	
-sbtabcomp1018	a trans2,cis-5-dienoyl-CoA		Fd9q4q2e	trans-2-cis-5-dienoyl-CoA	
-sbtabcomp1019	a (3R)-3-hydroxy cis Δ7-tetradecenoyl-[acp]		p6aI85hK	_3-hydroxy-cis-D7-tetraecenoyl-ACPs	
-sbtabcomp1020	a 3-oxo-cis-Δ7-tetradecenoyl-[acp]		Ss5pe6UB	_3-oxo-cis-D7-tetradecenoyl-ACPs	
-sbtabcomp1021	blank_description		KcbHLa29	POLYMER-INST-TRANS-D2-ENOYL-COA-C16-H32	
-sbtabcomp1022	blank_description		1Jmqjr2u	POLYMER-INST-TRANS-D2-ENOYL-COA-C12-H24	
-sbtabcomp1023	blank_description		tQsj8JQ9	POLYMER-INST-TRANS-D2-ENOYL-COA-C10-WATER	
-sbtabcomp1024	a cis,cis-delta9,27-3-hydroxyC46:2-[acp]		YdTpl4BB	cis-cis-D9-27-3-hydroxyC46-2-ACPs	
-sbtabcomp1025	a cis,cis-delta9,27-3-oxo-C46:2-[acp]		RM7r9uJh	cis-cis-D9-27-3-oxo-C46-2-ACPs	
-sbtabcomp1026	a cis,cis-delta15,27-3-hydroxyC46:2-[acp]		5ZfOXWjE	cis-cis-D15-27-3-hydroxyC46-2-ACPs	
-sbtabcomp1027	a cis,cis-delta15,27-3-oxo-C46:2-[acp]		JygOS3ll	cis-cis-D15-27-3-oxo-C46-2-ACPs	
-sbtabcomp1028	a cis,cis-delta19,37-3-hydroxy-C56:2-[acp]		VExinBIx	cis-cis-D19-37-3-hydroxyC56-2-ACPs	
-sbtabcomp1029	a cis,cis-delta19,37-3-oxo-C56:2-[acp]		GuQFd4vP	cis-cis-D19-37-3-oxo-C56-2-ACPs	
-sbtabcomp1030	blank_description		9VfbplKT	OH-ACYL-ACP	
-sbtabcomp1031	blank_description		A5aGNbEH	B-KETOACYL-ACP	
-sbtabcomp1032	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→6)]-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		lA9FNft8	CPD-5168	
-sbtabcomp1033	α-D-Glc-(1→3)-α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→6)]-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		CqlAZhtt	CPD-5169	
-sbtabcomp1034	α-D-Man-a-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→6)]-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		n7qjQlSI	CPD-5167	
-sbtabcomp1035	a cis,cis-delta17,29-3-hydroxyC48:2-[acp]		XaI8BSIr	cis-cis-D17-29-3-hydroxyC48-2-ACPs	
-sbtabcomp1036	a cis,cis-delta17,29-3-oxo-C48:2-[acp]		2SdbvUHs	cis-cis-D17-29-3-oxo-C48-2-ACPs	
-sbtabcomp1037	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		VF9OAMTM	CPD-5166	
-sbtabcomp1038	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→3)-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		treiL8dH	CPD-5165	
-sbtabcomp1039	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		pye1YyYY	CPD-5164	
-sbtabcomp1040	α-D-Man-(1→3)-[α-D-Man-(1→6)]-α-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		sZi9RPXF	CPD-5162	
-sbtabcomp1041	blank_description		bk8FETew	b-Hydroxy-cis-D5-dodecenoyl-ACPs	
-sbtabcomp1042	blank_description		77UD9ok2	b-Keto-cis-D5-dodecenoyl-ACPs	
-sbtabcomp1043	a cis,cis-delta13,25-3-hydroxyC44:2-[acp]		mVgv35EX	cis-cis-D13-25-3-hydroxyC44-2-ACPs	
-sbtabcomp1044	a cis,cis-delta13,25-3-oxo-C44:2-[acp]		lOKZv2Xr	cis-cis-D13-25-3-oxo-C44-2-ACPs	
-sbtabcomp1045	a cis,cis-delta7,19-3-hydroxyC38:2-[acp]		YgZiYjUM	cis-cis-D7-19-3-hydroxyC38-2-ACPs	
-sbtabcomp1046	a cis,cis-delta7,19-3-oxo-C38:2-[acp]		4ot6Ga2C	cis-cis-D7-19-3-oxo-C38-2-ACPs	
-sbtabcomp1047	a cis,cis-delta19,31-3-hydroxyC50:2-[acp]		rWmR5Jr3	cis-cis-D19-31-3-hydroxyC50-2-ACPs	
-sbtabcomp1048	a cis,cis-delta19,31-3-oxo-C50:2-[acp]		xgyx9ZWd	cis-cis-D19-31-3-oxo-C50-2-ACPs	
-sbtabcomp1049	a cis,cis-delta11,29-3-hydroxy C48:2-[acp]		tvzXD8p3	cis-cis-D11-29-3-hydroxyC48-2-ACPs	
-sbtabcomp1050	a cis,cis-delta11,29-3-oxo-C48:2-[acp]		esqAc5rT	cis-cis-D11-29-3-oxo-C48-2-ACPs	
-sbtabcomp1051	24-hydroxy-3-oxocholest-4-en-26-oyl-CoA		MolWxue1	CPD-13694	
-sbtabcomp1052	3,24-dioxocholest-4-en-26-oyl-CoA		qcFJtVr4	CPD-13695	
-sbtabcomp1053	a cis,cis-delta21,39-3-hydroxyC58:2-[acp]		dqtv17nP	cis-cis-D21-39-3-hydroxyC58-2-ACPs	
-sbtabcomp1054	a cis,cis-delta21,39-3-oxo-C58:2-[acp]		zsrXMEIe	cis-cis-D21-39-3-oxo-C58-2-ACPs	
-sbtabcomp1055	a cis,cis-delta5,23-3-hydroxyC42:2-[acp]		hN9AiKs4	cis-cis-D5-23-3-hydroxyC42-2-ACPs	
-sbtabcomp1056	a cis,cis-delta5,23-3-oxo-C42:2-[acp]		CiwrhsoD	cis-cis-D5-23-3-oxo-C42-2-ACPs	
-sbtabcomp1057	a cis,cis-delta15,33-3-hydroxy C52:2-[acp]		eoiD5Uki	cis-cis-D15-33-3-hydroxyC52-2-ACPs	
-sbtabcomp1058	a cis,cis-delta15,33-3-oxo-C52:2-[acp]		UV8CxbNW	cis-cis-D15-33-3-oxo-C52-2-ACPs	
-sbtabcomp1059	OPC8-3-hydroxyacyl-CoA		ipMDhctL	CPD-11519	
-sbtabcomp1060	OPC8-3-ketoacyl-CoA		dsux5jEZ	CPD-11520	
-sbtabcomp1061	(2Z)-2-aminobut-2-enoate		Avo7Pa62	CPD-15056	
-sbtabcomp1062	a cis,cis-delta7,25-3-hydroxyC44:2-[acp]		b8N8Ny6s	cis-cis-D7-25-3-hydroxyC44-2-ACPs	
-sbtabcomp1063	a cis,cis-delta7,25-3-oxo-C44:2-[acp]		xU9B2JLh	cis-cis-D7-25-3-oxo-C44-2-ACPs	
-sbtabcomp1064	OPC6-3-hydroxyacyl-CoA		Lohl1y8R	CPD-11523	
-sbtabcomp1065	OPC6-3-ketoacyl-CoA		jKyybvLm	CPD-11524	
-sbtabcomp1066	a (3R)-3-hydroxyglutaryl-[acp] methyl ester		kM2lSjGL	_3-Hydroxyglutaryl-ACP-methyl-ester	
-sbtabcomp1067	a 3-oxo-glutaryl-[acp] methyl ester		v9n6zFso	_3-Ketoglutaryl-ACP-methyl-ester	
-sbtabcomp1068	an L-methionyl-[initiator tRNAmet]		kcaKCRbG	L-methionyl-tRNAfmet	
-sbtabcomp1069	an N-formyl-L-methionyl-[initiator tRNAmet]		JfyceHER	N-formyl-L-methionyl-tRNAfmet	
-sbtabcomp1070	3S-(4-hydroxyphenyl)-3-hydroxy-propanoyl-CoA		mhqwaYlM	CPD-12199	
-sbtabcomp1071	4-hydroxybenzoyl-acetyl-CoA		UGjL3n5U	CPD-10600	
-sbtabcomp1072	a (3R)-3-hydroxypetroselinoyl-[acp]		RhadRNFO	R-3-hydroxypetroselinoyl-ACPs	
-sbtabcomp1073	blank_description		gBj8mFxk	_3-oxo-eetroselinoyl-ACPs	
-sbtabcomp1074	3-[(3aS,4S,5R,7aS)-5-hydroxy-7a-methyl-1-oxo-octahydro-1H-inden-4-yl]-3-hydroxypropanoyl-CoA		hvo4a27t	CPD-13757	
-sbtabcomp1075	3-[(3aS,4S,5R,7aS)-5-hydroxy-7a-methyl-1-oxo-octahydro-1H-inden-4-yl]-3-oxopropanoyl-CoA		A2lht7rx	CPD-13758	
-sbtabcomp1076	a cis,cis-delta11,23-3-hydroxyC42:2-[acp]		Iqw6oB2u	cis-cis-D11-23-3-hydroxyC42-2-ACPs	
-sbtabcomp1077	a cis,cis-delta11,23-3-oxo-C42:2-[acp]		5qVFPBa4	cis-cis-D11-23-3-oxo-C42-2-ACPs	
-sbtabcomp1078	blank_description		wqpydR5T	_3-hydroxypimeloyl-ACP-methyl-esters	
-sbtabcomp1079	blank_description		Yun8DiCT	_3-Ketopimeloyl-ACP-methyl-esters	
-sbtabcomp1080	a cis,cis-delta17,35-3-hydroxyC54:2-[acp]		afRtxVmu	cis-cis-D17-35-3-hydroxyC54-2-ACPs	
-sbtabcomp1081	a cis,cis-delta17,35-3-oxo-C54:2-[acp]		DLYn7kUJ	cis-cis-D17-35-3-oxo-C54-2-ACPs	
-sbtabcomp1082	blank_description		sjLxcRfm	POLYMER-INST-L-3-HYDROXYACYL-COA-C8-H16	
-sbtabcomp1083	blank_description		euGsL6Fe	POLYMER-INST-L-3-HYDROXYACYL-COA-C10-WATER	
-sbtabcomp1084	blank_description		RBAfAaxf	POLYMER-INST-L-3-HYDROXYACYL-COA-C14-H28	
-sbtabcomp1085	blank_description		Opxdsas4	POLYMER-INST-3-KETOACYL-COA-C14-H28	
-sbtabcomp1086	blank_description		r1pMW7NY	POLYMER-INST-L-3-HYDROXYACYL-COA-C16-H32	
-sbtabcomp1087	3-oxoicosanoyl-CoA		MHqUdihN	CPD-14271	
-sbtabcomp1088	a cis,cis-delta5,17-3-hydroxyC36:2[acp]		ClFIX57J	cis-cis-D5-17-3-hydroxyC36-2-ACPs	
-sbtabcomp1089	a cis,cis-delta5,17-3-oxo-C36:2-[acp]		5m1Y6lf9	cis-cis-D5-17-3-oxo-C36-2-ACPs	
-sbtabcomp1090	OPC4-3-hydroxyacyl-CoA		ZhUPAgTI	CPD-11527	
-sbtabcomp1091	OPC4-3-ketoacyl-CoA		mB4qvzlL	CPD-11528	
-sbtabcomp1092	a cis,cis-delta9,21-3-hydroxyC40:2-[acp]		CE1r4tga	cis-cis-D9-21-3-hydroxyC40-2-ACPs	
-sbtabcomp1093	a cis,cis-delta9,21-3-oxo-C40:2-[acp]		YSTu1S4N	cis-cis-D9-21-3-oxo-C40-2-ACPs	
-sbtabcomp1094	a cis,cis-delta13,31-3-hydroxy C50:2-[acp]		nCMkwhsz	cis-cis-D13-31-3-hydroxyC50-2-ACPs	
-sbtabcomp1095	a cis,cis-delta13,31-3-oxo-C50:2-[acp]		pb1DUgA7	cis-cis-D13-31-3-oxo-C50-2-ACPs	
-sbtabcomp1096	blank_description		NJ1ngjSv	Sulfurated-Sulfur-Acceptors	
-sbtabcomp1097	blank_description		4TZ5yAhw	Unsulfurated-Sulfur-Acceptors	
-sbtabcomp1098	3-oxo-icosatrienoyl-CoA		aety6wuo	CPD-14422	
-sbtabcomp1099	3R-hydroxy-icosatrienoyl-CoA		VHAU6Gsq	CPD-14419	
-sbtabcomp1100	3-oxo-docosapentaenoyl-CoA		OBT8CaGc	CPD-14423	
-sbtabcomp1101	(5Z,8Z,11Z,14Z,17Z)-3R-hydroxy-docosapentaenoyl-CoA		x92ctHVp	CPD-14424	
-sbtabcomp1102	2-trans-nonenoyl-CoA		oi73nhTl	CPD-15663	
-sbtabcomp1103	(3R)-hydroxy-nonanoyl-CoA		YqAGkdpY	CPD-15658	
-sbtabcomp1104	(3R)-hydroxy, 4-trans-undecenoyl-CoA		WXntKpQK	CPD-15662	
-sbtabcomp1105	4-trans-3-oxo-undecenoyl-CoA		OeVKnG2n	CPD-15678	
-sbtabcomp1106	an [apo BCAA dehydrogenase E2 protein] N6-lipoyl-L-lysine		82oeomSK	BCAA-dehydrogenase-lipoyl	
-sbtabcomp1107	an [apo BCAA dehydrogenase E2 protein] N6-S-[2-methylpropanoyl]dihydrolipoyl-L-lysine		rzg4LwP4	BCAA-dehydrogenase-2MP-DH-lipoyl	
-sbtabcomp1108	an [apo BCAA dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine		2bJsXQUh	BCAA-dehydrogenase-DH-lipoyl	
-sbtabcomp1109	1-18:1-2-lysophosphatidylethanolamine		1IEsM2Wa	CPD-8355	
-sbtabcomp1110	1-18:1-2-18:1-phosphatidylethanolamine		MxfN2zM5	CPD-8291	
-sbtabcomp1111	4-hydroxy-2-nonenal		41Pa5ipR	CPD-10806	
-sbtabcomp1112	4-hydroxy-2-nonenal-glutathione conjugate		3h2nalgthcj	CPD-14704	
-sbtabcomp1113	3-hydroxyisovaleryl-CoA		Ld79xZcP	_3-HYDROXY-ISOVALERYL-COA	
-sbtabcomp1114	blank_description		CH9ed1Ub	CPD0-2365	
-sbtabcomp1115	blank_description		72HuYH8G	Glycoprotein-Asn-oligosaccharides	
-sbtabcomp1116	3-hydroxy-decanoyl-CoA		y2sxpuQ9	CPD-15694	
-sbtabcomp1117	blank_description		jXAAAdG9	POLYMER-INST-D-3-HYDROXYACYL-COA-C2-H4	
-sbtabcomp1118	blank_description		Hp5mpR2n	POLYMER-INST-D-3-HYDROXYACYL-COA-C4-H8	
-sbtabcomp1119	(3R)-hydroxydecanoyl-CoA		7f79bEJN	CPD-12777	
-sbtabcomp1120	blank_description		Jtj49ajf	POLYMER-INST-D-3-HYDROXYACYL-COA-C8-H16	
-sbtabcomp1121	blank_description		rrVmyNa5	POLYMER-INST-D-3-HYDROXYACYL-COA-C10-WATER	
-sbtabcomp1122	blank_description		LlSW7Ja1	POLYMER-INST-D-3-HYDROXYACYL-COA-C12-H24	
-sbtabcomp1123	(3R)-3-hydroxy-arachidoyl-CoA		XkT55TIb	CPD-14275	
+sbtabcomp1016	6-trans-tridecenoyl-CoA		EQaW5JUY	CPD__45__15651	C34H54N7O17P3S
+sbtabcomp1017	a cis-5-enoyl-CoA		UDNCljHf	cis__45__5__45__enoyl__45__CoA	
+sbtabcomp1018	a trans2,cis-5-dienoyl-CoA		Fd9q4q2e	trans__45__2__45__cis__45__5__45__dienoyl__45__CoA	
+sbtabcomp1019	a (3R)-3-hydroxy cis Δ7-tetradecenoyl-[acp]		p6aI85hK	_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs	
+sbtabcomp1020	a 3-oxo-cis-Δ7-tetradecenoyl-[acp]		Ss5pe6UB	_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs	
+sbtabcomp1021	blank_description		KcbHLa29	POLYMER__45__INST__45__TRANS__45__D2__45__ENOYL__45__COA__45__C16__45__H32	C41H68N7O17P3S
+sbtabcomp1022	blank_description		1Jmqjr2u	POLYMER__45__INST__45__TRANS__45__D2__45__ENOYL__45__COA__45__C12__45__H24	C37H60N7O17P3S
+sbtabcomp1023	blank_description		tQsj8JQ9	POLYMER__45__INST__45__TRANS__45__D2__45__ENOYL__45__COA__45__C10__45__WATER	C35H56N7O17P3S
+sbtabcomp1024	a cis,cis-delta9,27-3-hydroxyC46:2-[acp]		YdTpl4BB	cis__45__cis__45__D9__45__27__45__3__45__hydroxyC46__45__2__45__ACPs	
+sbtabcomp1025	a cis,cis-delta9,27-3-oxo-C46:2-[acp]		RM7r9uJh	cis__45__cis__45__D9__45__27__45__3__45__oxo__45__C46__45__2__45__ACPs	
+sbtabcomp1026	a cis,cis-delta15,27-3-hydroxyC46:2-[acp]		5ZfOXWjE	cis__45__cis__45__D15__45__27__45__3__45__hydroxyC46__45__2__45__ACPs	
+sbtabcomp1027	a cis,cis-delta15,27-3-oxo-C46:2-[acp]		JygOS3ll	cis__45__cis__45__D15__45__27__45__3__45__oxo__45__C46__45__2__45__ACPs	
+sbtabcomp1028	a cis,cis-delta19,37-3-hydroxy-C56:2-[acp]		VExinBIx	cis__45__cis__45__D19__45__37__45__3__45__hydroxyC56__45__2__45__ACPs	
+sbtabcomp1029	a cis,cis-delta19,37-3-oxo-C56:2-[acp]		GuQFd4vP	cis__45__cis__45__D19__45__37__45__3__45__oxo__45__C56__45__2__45__ACPs	
+sbtabcomp1030	blank_description		9VfbplKT	OH__45__ACYL__45__ACP	
+sbtabcomp1031	blank_description		A5aGNbEH	B__45__KETOACYL__45__ACP	
+sbtabcomp1032	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→6)]-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		lA9FNft8	CPD__45__5168	C150H248N2O62P2
+sbtabcomp1033	α-D-Glc-(1→3)-α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→6)]-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		CqlAZhtt	CPD__45__5169	C156H258N2O67P2
+sbtabcomp1034	α-D-Man-a-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→6)]-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		n7qjQlSI	CPD__45__5167	C144H238N2O57P2
+sbtabcomp1035	a cis,cis-delta17,29-3-hydroxyC48:2-[acp]		XaI8BSIr	cis__45__cis__45__D17__45__29__45__3__45__hydroxyC48__45__2__45__ACPs	
+sbtabcomp1036	a cis,cis-delta17,29-3-oxo-C48:2-[acp]		2SdbvUHs	cis__45__cis__45__D17__45__29__45__3__45__oxo__45__C48__45__2__45__ACPs	
+sbtabcomp1037	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		VF9OAMTM	CPD__45__5166	C138H228N2O52P2
+sbtabcomp1038	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→3)-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		treiL8dH	CPD__45__5165	C132H218N2O47P2
+sbtabcomp1039	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		pye1YyYY	CPD__45__5164	C126H208N2O42P2
+sbtabcomp1040	α-D-Man-(1→3)-[α-D-Man-(1→6)]-α-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol		sZi9RPXF	CPD__45__5162	C114H188N2O32P2
+sbtabcomp1041	blank_description		bk8FETew	b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs	
+sbtabcomp1042	blank_description		77UD9ok2	b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs	
+sbtabcomp1043	a cis,cis-delta13,25-3-hydroxyC44:2-[acp]		mVgv35EX	cis__45__cis__45__D13__45__25__45__3__45__hydroxyC44__45__2__45__ACPs	
+sbtabcomp1044	a cis,cis-delta13,25-3-oxo-C44:2-[acp]		lOKZv2Xr	cis__45__cis__45__D13__45__25__45__3__45__oxo__45__C44__45__2__45__ACPs	
+sbtabcomp1045	a cis,cis-delta7,19-3-hydroxyC38:2-[acp]		YgZiYjUM	cis__45__cis__45__D7__45__19__45__3__45__hydroxyC38__45__2__45__ACPs	
+sbtabcomp1046	a cis,cis-delta7,19-3-oxo-C38:2-[acp]		4ot6Ga2C	cis__45__cis__45__D7__45__19__45__3__45__oxo__45__C38__45__2__45__ACPs	
+sbtabcomp1047	a cis,cis-delta19,31-3-hydroxyC50:2-[acp]		rWmR5Jr3	cis__45__cis__45__D19__45__31__45__3__45__hydroxyC50__45__2__45__ACPs	
+sbtabcomp1048	a cis,cis-delta19,31-3-oxo-C50:2-[acp]		xgyx9ZWd	cis__45__cis__45__D19__45__31__45__3__45__oxo__45__C50__45__2__45__ACPs	
+sbtabcomp1049	a cis,cis-delta11,29-3-hydroxy C48:2-[acp]		tvzXD8p3	cis__45__cis__45__D11__45__29__45__3__45__hydroxyC48__45__2__45__ACPs	
+sbtabcomp1050	a cis,cis-delta11,29-3-oxo-C48:2-[acp]		esqAc5rT	cis__45__cis__45__D11__45__29__45__3__45__oxo__45__C48__45__2__45__ACPs	
+sbtabcomp1051	24-hydroxy-3-oxocholest-4-en-26-oyl-CoA		MolWxue1	CPD__45__13694	C48H72N7O19P3S
+sbtabcomp1052	3,24-dioxocholest-4-en-26-oyl-CoA		qcFJtVr4	CPD__45__13695	C48H70N7O19P3S
+sbtabcomp1053	a cis,cis-delta21,39-3-hydroxyC58:2-[acp]		dqtv17nP	cis__45__cis__45__D21__45__39__45__3__45__hydroxyC58__45__2__45__ACPs	
+sbtabcomp1054	a cis,cis-delta21,39-3-oxo-C58:2-[acp]		zsrXMEIe	cis__45__cis__45__D21__45__39__45__3__45__oxo__45__C58__45__2__45__ACPs	
+sbtabcomp1055	a cis,cis-delta5,23-3-hydroxyC42:2-[acp]		hN9AiKs4	cis__45__cis__45__D5__45__23__45__3__45__hydroxyC42__45__2__45__ACPs	
+sbtabcomp1056	a cis,cis-delta5,23-3-oxo-C42:2-[acp]		CiwrhsoD	cis__45__cis__45__D5__45__23__45__3__45__oxo__45__C42__45__2__45__ACPs	
+sbtabcomp1057	a cis,cis-delta15,33-3-hydroxy C52:2-[acp]		eoiD5Uki	cis__45__cis__45__D15__45__33__45__3__45__hydroxyC52__45__2__45__ACPs	
+sbtabcomp1058	a cis,cis-delta15,33-3-oxo-C52:2-[acp]		UV8CxbNW	cis__45__cis__45__D15__45__33__45__3__45__oxo__45__C52__45__2__45__ACPs	
+sbtabcomp1059	OPC8-3-hydroxyacyl-CoA		ipMDhctL	CPD__45__11519	C39H60N7O19P3S
+sbtabcomp1060	OPC8-3-ketoacyl-CoA		dsux5jEZ	CPD__45__11520	C39H58N7O19P3S
+sbtabcomp1061	(2Z)-2-aminobut-2-enoate		Avo7Pa62	CPD__45__15056	C4H6NO2
+sbtabcomp1062	a cis,cis-delta7,25-3-hydroxyC44:2-[acp]		b8N8Ny6s	cis__45__cis__45__D7__45__25__45__3__45__hydroxyC44__45__2__45__ACPs	
+sbtabcomp1063	a cis,cis-delta7,25-3-oxo-C44:2-[acp]		xU9B2JLh	cis__45__cis__45__D7__45__25__45__3__45__oxo__45__C44__45__2__45__ACPs	
+sbtabcomp1064	OPC6-3-hydroxyacyl-CoA		Lohl1y8R	CPD__45__11523	C37H56N7O19P3S
+sbtabcomp1065	OPC6-3-ketoacyl-CoA		jKyybvLm	CPD__45__11524	C37H54N7O19P3S
+sbtabcomp1066	a (3R)-3-hydroxyglutaryl-[acp] methyl ester		kM2lSjGL	_3__45__Hydroxyglutaryl__45__ACP__45__methyl__45__ester	
+sbtabcomp1067	a 3-oxo-glutaryl-[acp] methyl ester		v9n6zFso	_3__45__Ketoglutaryl__45__ACP__45__methyl__45__ester	
+sbtabcomp1068	an L-methionyl-[initiator tRNAmet]		kcaKCRbG	L__45__methionyl__45__tRNAfmet	
+sbtabcomp1069	an N-formyl-L-methionyl-[initiator tRNAmet]		JfyceHER	N__45__formyl__45__L__45__methionyl__45__tRNAfmet	
+sbtabcomp1070	3S-(4-hydroxyphenyl)-3-hydroxy-propanoyl-CoA		mhqwaYlM	CPD__45__12199	C30H40N7O19P3S
+sbtabcomp1071	4-hydroxybenzoyl-acetyl-CoA		UGjL3n5U	CPD__45__10600	C30H38N7O19P3S
+sbtabcomp1072	a (3R)-3-hydroxypetroselinoyl-[acp]		RhadRNFO	R__45__3__45__hydroxypetroselinoyl__45__ACPs	
+sbtabcomp1073	blank_description		gBj8mFxk	_3__45__oxo__45__eetroselinoyl__45__ACPs	
+sbtabcomp1074	3-[(3aS,4S,5R,7aS)-5-hydroxy-7a-methyl-1-oxo-octahydro-1H-inden-4-yl]-3-hydroxypropanoyl-CoA		hvo4a27t	CPD__45__13757	C34H50N7O20P3S
+sbtabcomp1075	3-[(3aS,4S,5R,7aS)-5-hydroxy-7a-methyl-1-oxo-octahydro-1H-inden-4-yl]-3-oxopropanoyl-CoA		A2lht7rx	CPD__45__13758	C34H48N7O20P3S
+sbtabcomp1076	a cis,cis-delta11,23-3-hydroxyC42:2-[acp]		Iqw6oB2u	cis__45__cis__45__D11__45__23__45__3__45__hydroxyC42__45__2__45__ACPs	
+sbtabcomp1077	a cis,cis-delta11,23-3-oxo-C42:2-[acp]		5qVFPBa4	cis__45__cis__45__D11__45__23__45__3__45__oxo__45__C42__45__2__45__ACPs	
+sbtabcomp1078	blank_description		wqpydR5T	_3__45__hydroxypimeloyl__45__ACP__45__methyl__45__esters	
+sbtabcomp1079	blank_description		Yun8DiCT	_3__45__Ketopimeloyl__45__ACP__45__methyl__45__esters	
+sbtabcomp1080	a cis,cis-delta17,35-3-hydroxyC54:2-[acp]		afRtxVmu	cis__45__cis__45__D17__45__35__45__3__45__hydroxyC54__45__2__45__ACPs	
+sbtabcomp1081	a cis,cis-delta17,35-3-oxo-C54:2-[acp]		DLYn7kUJ	cis__45__cis__45__D17__45__35__45__3__45__oxo__45__C54__45__2__45__ACPs	
+sbtabcomp1082	blank_description		sjLxcRfm	POLYMER__45__INST__45__L__45__3__45__HYDROXYACYL__45__COA__45__C8__45__H16	C33H54N7O18P3S
+sbtabcomp1083	blank_description		euGsL6Fe	POLYMER__45__INST__45__L__45__3__45__HYDROXYACYL__45__COA__45__C10__45__WATER	C35H58N7O18P3S
+sbtabcomp1084	blank_description		RBAfAaxf	POLYMER__45__INST__45__L__45__3__45__HYDROXYACYL__45__COA__45__C14__45__H28	C39H66N7O18P3S
+sbtabcomp1085	blank_description		Opxdsas4	POLYMER__45__INST__45__3__45__KETOACYL__45__COA__45__C14__45__H28	C39H64N7O18P3S
+sbtabcomp1086	blank_description		r1pMW7NY	POLYMER__45__INST__45__L__45__3__45__HYDROXYACYL__45__COA__45__C16__45__H32	C41H70N7O18P3S
+sbtabcomp1087	3-oxoicosanoyl-CoA		MHqUdihN	CPD__45__14271	C41H68N7O18P3S
+sbtabcomp1088	a cis,cis-delta5,17-3-hydroxyC36:2[acp]		ClFIX57J	cis__45__cis__45__D5__45__17__45__3__45__hydroxyC36__45__2__45__ACPs	
+sbtabcomp1089	a cis,cis-delta5,17-3-oxo-C36:2-[acp]		5m1Y6lf9	cis__45__cis__45__D5__45__17__45__3__45__oxo__45__C36__45__2__45__ACPs	
+sbtabcomp1090	OPC4-3-hydroxyacyl-CoA		ZhUPAgTI	CPD__45__11527	C35H52N7O19P3S
+sbtabcomp1091	OPC4-3-ketoacyl-CoA		mB4qvzlL	CPD__45__11528	C35H50N7O19P3S
+sbtabcomp1092	a cis,cis-delta9,21-3-hydroxyC40:2-[acp]		CE1r4tga	cis__45__cis__45__D9__45__21__45__3__45__hydroxyC40__45__2__45__ACPs	
+sbtabcomp1093	a cis,cis-delta9,21-3-oxo-C40:2-[acp]		YSTu1S4N	cis__45__cis__45__D9__45__21__45__3__45__oxo__45__C40__45__2__45__ACPs	
+sbtabcomp1094	a cis,cis-delta13,31-3-hydroxy C50:2-[acp]		nCMkwhsz	cis__45__cis__45__D13__45__31__45__3__45__hydroxyC50__45__2__45__ACPs	
+sbtabcomp1095	a cis,cis-delta13,31-3-oxo-C50:2-[acp]		pb1DUgA7	cis__45__cis__45__D13__45__31__45__3__45__oxo__45__C50__45__2__45__ACPs	
+sbtabcomp1096	blank_description		NJ1ngjSv	Sulfurated__45__Sulfur__45__Acceptors	
+sbtabcomp1097	blank_description		4TZ5yAhw	Unsulfurated__45__Sulfur__45__Acceptors	
+sbtabcomp1098	3-oxo-icosatrienoyl-CoA		aety6wuo	CPD__45__14422	C41H62N7O18P3S
+sbtabcomp1099	3R-hydroxy-icosatrienoyl-CoA		VHAU6Gsq	CPD__45__14419	C41H64N7O18P3S
+sbtabcomp1100	3-oxo-docosapentaenoyl-CoA		OBT8CaGc	CPD__45__14423	C43H62N7O18P3S
+sbtabcomp1101	(5Z,8Z,11Z,14Z,17Z)-3R-hydroxy-docosapentaenoyl-CoA		x92ctHVp	CPD__45__14424	C43H64N7O18P3S
+sbtabcomp1102	2-trans-nonenoyl-CoA		oi73nhTl	CPD__45__15663	C30H46N7O17P3S
+sbtabcomp1103	(3R)-hydroxy-nonanoyl-CoA		YqAGkdpY	CPD__45__15658	C30H48N7O18P3S
+sbtabcomp1104	(3R)-hydroxy, 4-trans-undecenoyl-CoA		WXntKpQK	CPD__45__15662	C32H50N7O18P3S
+sbtabcomp1105	4-trans-3-oxo-undecenoyl-CoA		OeVKnG2n	CPD__45__15678	C32H48N7O18P3S
+sbtabcomp1106	an [apo BCAA dehydrogenase E2 protein] N6-lipoyl-L-lysine		82oeomSK	BCAA__45__dehydrogenase__45__lipoyl	
+sbtabcomp1107	an [apo BCAA dehydrogenase E2 protein] N6-S-[2-methylpropanoyl]dihydrolipoyl-L-lysine		rzg4LwP4	BCAA__45__dehydrogenase__45__2MP__45__DH__45__lipoyl	
+sbtabcomp1108	an [apo BCAA dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine		2bJsXQUh	BCAA__45__dehydrogenase__45__DH__45__lipoyl	
+sbtabcomp1109	1-18:1-2-lysophosphatidylethanolamine		1IEsM2Wa	CPD__45__8355	C23H46NO7P
+sbtabcomp1110	1-18:1-2-18:1-phosphatidylethanolamine		MxfN2zM5	CPD__45__8291	C41H78NO8P
+sbtabcomp1111	4-hydroxy-2-nonenal		41Pa5ipR	CPD__45__10806	C9H16O2
+sbtabcomp1112	4-hydroxy-2-nonenal-glutathione conjugate		3h2nalgthcj	CPD__45__14704	C19H32N3O8S
+sbtabcomp1113	3-hydroxyisovaleryl-CoA		Ld79xZcP	_3__45__HYDROXY__45__ISOVALERYL__45__COA	C26H40N7O18P3S
+sbtabcomp1114	blank_description		CH9ed1Ub	CPD0__45__2365	C27H37N7O19P3S
+sbtabcomp1115	blank_description		72HuYH8G	Glycoprotein__45__Asn__45__oligosaccharides	
+sbtabcomp1116	3-hydroxy-decanoyl-CoA		y2sxpuQ9	CPD__45__15694	C31H50N7O18P3S
+sbtabcomp1117	blank_description		jXAAAdG9	POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C2__45__H4	C27H42N7O18P3S
+sbtabcomp1118	blank_description		Hp5mpR2n	POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C4__45__H8	C29H46N7O18P3S
+sbtabcomp1119	(3R)-hydroxydecanoyl-CoA		7f79bEJN	CPD__45__12777	C31H50N7O18P3S
+sbtabcomp1120	blank_description		Jtj49ajf	POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C8__45__H16	C33H54N7O18P3S
+sbtabcomp1121	blank_description		rrVmyNa5	POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C10__45__WATER	C35H58N7O18P3S
+sbtabcomp1122	blank_description		LlSW7Ja1	POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C12__45__H24	C37H62N7O18P3S
+sbtabcomp1123	(3R)-3-hydroxy-arachidoyl-CoA		XkT55TIb	CPD__45__14275	C41H70N7O18P3S
 sbtabcomp1124	3alpha,7alpha-Dihydroxy-5beta-cholest-24-enoyl-CoA	C05447	7kVqHFSs		C48H78N7O19P3S
 sbtabcomp1125	3alpha,7alpha,24-Trihydroxy-5beta-cholestanoyl-CoA	C05448	csiWAS5K		C48H80N7O20P3S
-sbtabcomp1126	1-oleyl-2-lyso-phosphatidate		xD82aVWY	L-1-LYSOPHOSPHATIDATE	
-sbtabcomp1127	an aliphatic amine		7GCfrHyU	Aliphatic-Amines	
-sbtabcomp1128	(R)-3-hydroxy-cis-vacc-11-enoyl-[acp]		R21huvJo	R-3-hydroxy-cis-vaccenoyl-ACPs	
-sbtabcomp1129	a 3-oxo-cis-vacc-11-enoyl-[acp]		x7QsCRys	_3-oxo-cis-vaccenoyl-ACPs	
-sbtabcomp1130	D-xylopyranose		X2h9Df6L	D-Xylopyranose	
-sbtabcomp1131	a (3R)-3-hydroxy cis Δ9-hexadecenoyl-[acp]		HpVmh3YC	_3-hydroxy-cis-D9-hexaecenoyl-ACPs	
-sbtabcomp1132	a 3-oxo-cis-Δ9-hexadecenoyl-[acp]		1KKwtxkG	_3-oxo-cis-D9-hexadecenoyl-ACPs	
-sbtabcomp1133	a cis-delta21-3-hydroxyC40:1-[acp]		CvB4rnrV	cis-delta21-3-hydroxyC40-ACPs	
-sbtabcomp1134	a cis-delta21-3-oxo-C40:1-[acp]		aNtq1FH4	cis-delta21-3-oxo-C40-ACPs	
-sbtabcomp1135	a cis-delta19-3-hydroxyC38:1-[acp]		3UZh24Y9	cis-delta19-3-hydroxyC38-ACPs	
-sbtabcomp1136	a cis-delta19-3-oxo-C38:1-[acp]		ljAAWLWk	cis-delta19-3-oxo-C38-ACPs	
-sbtabcomp1137	a cis-delta17-3-hydroxyC36:1-[acp]		wYHVrc25	cis-delta17-3-hydroxyC36-ACPs	
-sbtabcomp1138	a cis-delta17-3-oxo-C36:1-[acp]		ahXaA9uz	cis-delta17-3-oxo-C36-ACPs	
-sbtabcomp1139	a cis-delta15-3-hydroxyC34:1-[acp]		z9CsHA6J	cis-delta15-3-hydroxygheddoyl-ACPs	
-sbtabcomp1140	a cis-delta15-3-oxo-C34:1-[acp]		bwzjtx4L	cis-delta15-3-oxo-gheddoyl-ACPs	
-sbtabcomp1141	a cis-delta13-3-hydroxyC32:1-[acp]		mC1vOG31	cis-delta13-3-hydroxylacceroyl-ACPs	
-sbtabcomp1142	a cis-delta13-3-oxo-C32:1-[acp]		tEUDKioz	cis-delta13-3-oxo-lacceroyl-ACPs	
-sbtabcomp1143	D-mannopyranose		rMIP2ZXf	D-mannopyranose	
-sbtabcomp1144	a cis-delta11-3-hydroxyC30:1-[acp]		2kYM4Lrk	cis-delta11-3-hydroxymelissoyl-ACPs	
-sbtabcomp1145	a cis-delta11-3-oxo-C30:1-[acp]		UaoFfZ9w	cis-delta11-3-oxo-melissoyl-ACPs	
-sbtabcomp1146	a cis-delta9-3-hydroxyC28:1-[acp]		1cD1sM7u	cis-delta9-3-hydroxymontanoyl-ACPs	
-sbtabcomp1147	a cis-delta9-3-oxo-C28:1-[acp]		OrKTmi5V	cis-delta9-3-oxo-montanoyl-ACPs	
-sbtabcomp1148	a cis-delta7-3-hydroxyC26:1-[acp]		oT3euFUO	cis-delta7-3-hydroxycerotoyl-ACPs	
-sbtabcomp1149	a cis-delta7-3-oxo-C26:1-[acp]		vYtrLJle	cis-delta7-3-oxo-cerotoyl-ACPs	
-sbtabcomp1150	a cis-delta5-3-hydroxyC24:1-[acp]		5EOARGbH	cis-delta5-3-hydroxylignoceroyl-ACPs	
-sbtabcomp1151	a cis-delta5-3-oxo-C24:1-[acp]		dIgeWCxq	cis-delta5-3-oxo-lignoceroyl-ACPs	
-sbtabcomp1152	a (3R)-3-hydroxybehenoyl-[acp]		rjkcvknf	R-3-hydroxybehenoyl-ACPs	
-sbtabcomp1153	a 3-oxo-behenoyl-[acp]		j8jx5ysE	_3-oxo-behenoyl-ACPs	
-sbtabcomp1154	an N-acyl-sphingosylphosphorylcholine		lY4GJxJQ	N-acyl-sphingosylphosphorylcholine	
-sbtabcomp1155	a sphingosine ceramide		di1DthUf	N-Acylsphingosine	
-sbtabcomp1156	β-ketovaleryl-CoA		j9KMsJaD	CPD-13534	
-sbtabcomp1157	O-ureidohomoserine		IZz7lpYL	O-UREIDOHOMOSERINE	
-sbtabcomp1158	a non glycosylated sugar acceptor		CEkT622u	Non-Glycosylated-sugar-Acceptors	
-sbtabcomp1159	a citryl-[holo citrate lyase acyl-carrier protein]		aSKHDDhH	Citrate-Lyase-Citryl-Form	
-sbtabcomp1160	a holo citrate-lyase		bITg9BaP	CPD-15860	
-sbtabcomp1161	phytenate		mzTn1KBu	CPD-14927	
-sbtabcomp1162	phytenoyl-CoA		PGJZIKCH	CPD-14928	
-sbtabcomp1163	blank_description		AXLswuyP	POLYMER-INST-CPD66-39-C2-H4	
-sbtabcomp1164	blank_description		uiQu7sol	POLYMER-INST-CPD66-39-C10-WATER	
-sbtabcomp1165	blank_description		X1LVOo3u	POLYMER-INST-CPD66-39-C16-H32	
-sbtabcomp1166	an odd numbered straight chain 2,3,4-saturated fatty acid		peddDhaC	Odd-Straight-Chain-234-Sat-FA	
-sbtabcomp1167	an odd numbered straight chain 2,3,4-saturated fatty acyl CoA		VWLvJc6f	Odd-Saturated-Fatty-Acyl-CoA	
-sbtabcomp1168	a 3-methyl-branched 2,3,4-saturated fatty acid		FAhOAxIh	_3-Methyl-Saturated-Fatty-Acids	
-sbtabcomp1169	a 3-methyl-branched 2,3,4-saturated fatty acyl-CoA		GgOPgbeJ	_3-Methyl-Saturated-Fatty-Acyl-CoA	
-sbtabcomp1170	(15Z)-tetracosenoate		Jc3gZFQw	CPD-14268	
+sbtabcomp1126	1-oleyl-2-lyso-phosphatidate		xD82aVWY	L__45__1__45__LYSOPHOSPHATIDATE	C21H39O7P
+sbtabcomp1127	an aliphatic amine		7GCfrHyU	Aliphatic__45__Amines	
+sbtabcomp1128	(R)-3-hydroxy-cis-vacc-11-enoyl-[acp]		R21huvJo	R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs	
+sbtabcomp1129	a 3-oxo-cis-vacc-11-enoyl-[acp]		x7QsCRys	_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs	
+sbtabcomp1130	D-xylopyranose		X2h9Df6L	D__45__Xylopyranose	C5H10O5
+sbtabcomp1131	a (3R)-3-hydroxy cis Δ9-hexadecenoyl-[acp]		HpVmh3YC	_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs	
+sbtabcomp1132	a 3-oxo-cis-Δ9-hexadecenoyl-[acp]		1KKwtxkG	_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs	
+sbtabcomp1133	a cis-delta21-3-hydroxyC40:1-[acp]		CvB4rnrV	cis__45__delta21__45__3__45__hydroxyC40__45__ACPs	
+sbtabcomp1134	a cis-delta21-3-oxo-C40:1-[acp]		aNtq1FH4	cis__45__delta21__45__3__45__oxo__45__C40__45__ACPs	
+sbtabcomp1135	a cis-delta19-3-hydroxyC38:1-[acp]		3UZh24Y9	cis__45__delta19__45__3__45__hydroxyC38__45__ACPs	
+sbtabcomp1136	a cis-delta19-3-oxo-C38:1-[acp]		ljAAWLWk	cis__45__delta19__45__3__45__oxo__45__C38__45__ACPs	
+sbtabcomp1137	a cis-delta17-3-hydroxyC36:1-[acp]		wYHVrc25	cis__45__delta17__45__3__45__hydroxyC36__45__ACPs	
+sbtabcomp1138	a cis-delta17-3-oxo-C36:1-[acp]		ahXaA9uz	cis__45__delta17__45__3__45__oxo__45__C36__45__ACPs	
+sbtabcomp1139	a cis-delta15-3-hydroxyC34:1-[acp]		z9CsHA6J	cis__45__delta15__45__3__45__hydroxygheddoyl__45__ACPs	
+sbtabcomp1140	a cis-delta15-3-oxo-C34:1-[acp]		bwzjtx4L	cis__45__delta15__45__3__45__oxo__45__gheddoyl__45__ACPs	
+sbtabcomp1141	a cis-delta13-3-hydroxyC32:1-[acp]		mC1vOG31	cis__45__delta13__45__3__45__hydroxylacceroyl__45__ACPs	
+sbtabcomp1142	a cis-delta13-3-oxo-C32:1-[acp]		tEUDKioz	cis__45__delta13__45__3__45__oxo__45__lacceroyl__45__ACPs	
+sbtabcomp1143	D-mannopyranose		rMIP2ZXf	D__45__mannopyranose	C6H12O6
+sbtabcomp1144	a cis-delta11-3-hydroxyC30:1-[acp]		2kYM4Lrk	cis__45__delta11__45__3__45__hydroxymelissoyl__45__ACPs	
+sbtabcomp1145	a cis-delta11-3-oxo-C30:1-[acp]		UaoFfZ9w	cis__45__delta11__45__3__45__oxo__45__melissoyl__45__ACPs	
+sbtabcomp1146	a cis-delta9-3-hydroxyC28:1-[acp]		1cD1sM7u	cis__45__delta9__45__3__45__hydroxymontanoyl__45__ACPs	
+sbtabcomp1147	a cis-delta9-3-oxo-C28:1-[acp]		OrKTmi5V	cis__45__delta9__45__3__45__oxo__45__montanoyl__45__ACPs	
+sbtabcomp1148	a cis-delta7-3-hydroxyC26:1-[acp]		oT3euFUO	cis__45__delta7__45__3__45__hydroxycerotoyl__45__ACPs	
+sbtabcomp1149	a cis-delta7-3-oxo-C26:1-[acp]		vYtrLJle	cis__45__delta7__45__3__45__oxo__45__cerotoyl__45__ACPs	
+sbtabcomp1150	a cis-delta5-3-hydroxyC24:1-[acp]		5EOARGbH	cis__45__delta5__45__3__45__hydroxylignoceroyl__45__ACPs	
+sbtabcomp1151	a cis-delta5-3-oxo-C24:1-[acp]		dIgeWCxq	cis__45__delta5__45__3__45__oxo__45__lignoceroyl__45__ACPs	
+sbtabcomp1152	a (3R)-3-hydroxybehenoyl-[acp]		rjkcvknf	R__45__3__45__hydroxybehenoyl__45__ACPs	
+sbtabcomp1153	a 3-oxo-behenoyl-[acp]		j8jx5ysE	_3__45__oxo__45__behenoyl__45__ACPs	
+sbtabcomp1154	an N-acyl-sphingosylphosphorylcholine		lY4GJxJQ	N__45__acyl__45__sphingosylphosphorylcholine	
+sbtabcomp1155	a sphingosine ceramide		di1DthUf	N__45__Acylsphingosine	
+sbtabcomp1156	β-ketovaleryl-CoA		j9KMsJaD	CPD__45__13534	C26H38N7O18P3S
+sbtabcomp1157	O-ureidohomoserine		IZz7lpYL	O__45__UREIDOHOMOSERINE	C5H11N3O4
+sbtabcomp1158	a non glycosylated sugar acceptor		CEkT622u	Non__45__Glycosylated__45__sugar__45__Acceptors	
+sbtabcomp1159	a citryl-[holo citrate lyase acyl-carrier protein]		aSKHDDhH	Citrate__45__Lyase__45__Citryl__45__Form	
+sbtabcomp1160	a holo citrate-lyase		bITg9BaP	CPD__45__15860	
+sbtabcomp1161	phytenate		mzTn1KBu	CPD__45__14927	C20H37O2
+sbtabcomp1162	phytenoyl-CoA		PGJZIKCH	CPD__45__14928	C41H68N7O17P3S
+sbtabcomp1163	blank_description		AXLswuyP	POLYMER__45__INST__45__CPD66__45__39__45__C2__45__H4	C6H11O2
+sbtabcomp1164	blank_description		uiQu7sol	POLYMER__45__INST__45__CPD66__45__39__45__C10__45__WATER	C14H27O2
+sbtabcomp1165	blank_description		X1LVOo3u	POLYMER__45__INST__45__CPD66__45__39__45__C16__45__H32	C20H39O2
+sbtabcomp1166	an odd numbered straight chain 2,3,4-saturated fatty acid		peddDhaC	Odd__45__Straight__45__Chain__45__234__45__Sat__45__FA	
+sbtabcomp1167	an odd numbered straight chain 2,3,4-saturated fatty acyl CoA		VWLvJc6f	Odd__45__Saturated__45__Fatty__45__Acyl__45__CoA	
+sbtabcomp1168	a 3-methyl-branched 2,3,4-saturated fatty acid		FAhOAxIh	_3__45__Methyl__45__Saturated__45__Fatty__45__Acids	
+sbtabcomp1169	a 3-methyl-branched 2,3,4-saturated fatty acyl-CoA		GgOPgbeJ	_3__45__Methyl__45__Saturated__45__Fatty__45__Acyl__45__CoA	
+sbtabcomp1170	(15Z)-tetracosenoate		Jc3gZFQw	CPD__45__14268	C24H45O2
 sbtabcomp1171	PRISTANATE		UzMB4nIX	PRISTANATE	C19H37O2
-sbtabcomp1172	pristanoyl-CoA		4jbUfrA4	CPD-14675	
-sbtabcomp1173	blank_description		jlfs9I5O	ETF-Reduced	
-sbtabcomp1174	Hexadecanedioyl-CoA		4ogvcaKA	CPD-14772	
-sbtabcomp1175	1-C16:0-α,ω-dicarboxyl-2-lysophosphatidate		JRvvT9og	CPD-14828	
-sbtabcomp1176	a 1,2-diacyl-sn-glycerol 3-phosphate		fYBDi845	_2-3-4-Saturated-L-Phosphatidates	
-sbtabcomp1177	a CDP-2,3,4-saturated-diacylglycerol		IF3TfUNF	CDP-2-3-4-Saturated-Diacylglycerols	
-sbtabcomp1178	Glc3Man9GlcNAc2		HHT2zFe9	CPD-13936	
-sbtabcomp1179	Glc2Man9GlcNAc2		af8pdhXz	CPD-13937	
-sbtabcomp1180	keto-L-sorbose		t4nBoW2C	CPD-15616	
-sbtabcomp1181	keto-D-fructose		pvHhrfvK	CPD-15382	
-sbtabcomp1182	4α-carboxy-5α-cholesta-8,24-dien-3β-ol		dW4rslcD	CPD-4702	
-sbtabcomp1183	4α-carboxy-5α-cholesta-8-en-3β-ol		phATjYwo	CPD-8619	
-sbtabcomp1184	4α-carboxy-4β-methyl-5α-cholesta-8-en-3β-ol		Bw9L9kb6	CPD-8613	
-sbtabcomp1185	an N-terminal L-glutamyl-[protein]		cbpRGema	L-Glutamyl-Peptides	
-sbtabcomp1186	N-acetylglutaminylglutamine		MDRN5ttg	CPD-14437	
-sbtabcomp1187	N-acetylglutaminylglutamine amide		GHEstB9s	CPD-14436	
-sbtabcomp1188	5α-cholesta-8,24-dien-3-one		Fjy4zvPm	CPD-4581	
-sbtabcomp1189	5α-cholesta-8-en-3-one		T6MvG5yO	CPD-8620	
+sbtabcomp1172	pristanoyl-CoA		4jbUfrA4	CPD__45__14675	C40H68N7O17P3S
+sbtabcomp1173	blank_description		jlfs9I5O	ETF__45__Reduced	
+sbtabcomp1174	Hexadecanedioyl-CoA		4ogvcaKA	CPD__45__14772	C37H59N7O19P3S
+sbtabcomp1175	1-C16:0-α,ω-dicarboxyl-2-lysophosphatidate		JRvvT9og	CPD__45__14828	C19H34O9P
+sbtabcomp1176	a 1,2-diacyl-sn-glycerol 3-phosphate		fYBDi845	_2__45__3__45__4__45__Saturated__45__L__45__Phosphatidates	
+sbtabcomp1177	a CDP-2,3,4-saturated-diacylglycerol		IF3TfUNF	CDP__45__2__45__3__45__4__45__Saturated__45__Diacylglycerols	
+sbtabcomp1178	Glc3Man9GlcNAc2		HHT2zFe9	CPD__45__13936	C87H146N2O72
+sbtabcomp1179	Glc2Man9GlcNAc2		af8pdhXz	CPD__45__13937	C81H136N2O67
+sbtabcomp1180	keto-L-sorbose		t4nBoW2C	CPD__45__15616	C6H12O6
+sbtabcomp1181	keto-D-fructose		pvHhrfvK	CPD__45__15382	C6H12O6
+sbtabcomp1182	4α-carboxy-5α-cholesta-8,24-dien-3β-ol		dW4rslcD	CPD__45__4702	C28H43O3
+sbtabcomp1183	4α-carboxy-5α-cholesta-8-en-3β-ol		phATjYwo	CPD__45__8619	C28H45O3
+sbtabcomp1184	4α-carboxy-4β-methyl-5α-cholesta-8-en-3β-ol		Bw9L9kb6	CPD__45__8613	C29H47O3
+sbtabcomp1185	an N-terminal L-glutamyl-[protein]		cbpRGema	L__45__Glutamyl__45__Peptides	
+sbtabcomp1186	N-acetylglutaminylglutamine		MDRN5ttg	CPD__45__14437	C12H19N4O6
+sbtabcomp1187	N-acetylglutaminylglutamine amide		GHEstB9s	CPD__45__14436	C12H21N5O5
+sbtabcomp1188	5α-cholesta-8,24-dien-3-one		Fjy4zvPm	CPD__45__4581	C27H42O
+sbtabcomp1189	5α-cholesta-8-en-3-one		T6MvG5yO	CPD__45__8620	C27H44O
 sbtabcomp1190	2,5-Diamino-6-(5-phospho-D-ribitylamino)pyrimidin-4(3H)-one	C18910	NzUsOg22		C9H18N5O8P
-sbtabcomp1191	blank_description		2f23pCPa	BCCP-monomers	
-sbtabcomp1192	blank_description		EwCria1o	BCCP-biotin-monomers	
-sbtabcomp1193	blank_description		xupYARp4	Glycerol-1-ehosphate	
+sbtabcomp1191	blank_description		2f23pCPa	BCCP__45__monomers	
+sbtabcomp1192	blank_description		EwCria1o	BCCP__45__biotin__45__monomers	
+sbtabcomp1193	blank_description		xupYARp4	Glycerol__45__1__45__ehosphate	C3H7O6P
 sbtabcomp1194	2-(1,2-Epoxy-1,2-dihydrophenyl)acetyl-CoA	C20062	suAWlS9T		C29H42N7O18P3S
 sbtabcomp1195	2-Oxepin-2(3H)-ylideneacetyl-CoA	C19975	sEPFyngm		C29H42N7O18P3S
-sbtabcomp1196	3-oxo-5,6-didehydrosuberyl-CoA		RyfbmeFX	CPD0-2364	
-sbtabcomp1197	blank_description		uvO9AENL	Carboxybiotin-BCCP	
-sbtabcomp1198	blank_description		wzf9rqdo	BCCP-dimers	
-sbtabcomp1199	a long-chain (3S)-3-hydroxyacyl-CoA		DEiDjkX2	Long-Chain-3S-Hydroxyacyl-CoAs	
-sbtabcomp1200	a long-chain trans-2,3-dehydroacyl-CoA		RUUFPmjZ	Long-Chain-Trans-23-Dehydroacyl-CoA	
-sbtabcomp1201	icosapentaenoyl-CoA		mNr5FcSG	CPD-14018	
-sbtabcomp1202	a [protein]-3-O-(β-D-GlcA-(1→3)-β-D-Gal-(1→3)-β-D-Gal-(1→4)-β-D-Xyl)-L-serine		jSGLQh7p	GlcA-Gal-Gal-Xyl-Proteins	
-sbtabcomp1203	(S)-3-hydroxy-(5Z)-tetradecenoyl-CoA		NPPUwvDM	CPD0-1163	
-sbtabcomp1204	3-oxo-(5Z)-tetradecenoyl-CoA		vXoBHi59	CPD-15244	
-sbtabcomp1205	L-xylo-3-hexulose		T6uu1HD7	CPD-13036	
-sbtabcomp1206	an odd numbered straight chain 2,3,4-saturated fatty aldehyde		f6wpuuLg	Odd-Straight-Chain-234-Sat-FALD	
-sbtabcomp1207	3-hexaprenyl-4-aminobenzoate		gk8NVMxP	CPD-15190	
-sbtabcomp1208	3-hexaprenyl-4-amino-5-hydroxybenzoate		oGF3o2vs	CPD-15191	
+sbtabcomp1196	3-oxo-5,6-didehydrosuberyl-CoA		RyfbmeFX	CPD0__45__2364	C29H39N7O20P3S
+sbtabcomp1197	blank_description		uvO9AENL	Carboxybiotin__45__BCCP	
+sbtabcomp1198	blank_description		wzf9rqdo	BCCP__45__dimers	
+sbtabcomp1199	a long-chain (3S)-3-hydroxyacyl-CoA		DEiDjkX2	Long__45__Chain__45__3S__45__Hydroxyacyl__45__CoAs	
+sbtabcomp1200	a long-chain trans-2,3-dehydroacyl-CoA		RUUFPmjZ	Long__45__Chain__45__Trans__45__23__45__Dehydroacyl__45__CoA	
+sbtabcomp1201	icosapentaenoyl-CoA		mNr5FcSG	CPD__45__14018	C41H60N7O17P3S
+sbtabcomp1202	a [protein]-3-O-(β-D-GlcA-(1→3)-β-D-Gal-(1→3)-β-D-Gal-(1→4)-β-D-Xyl)-L-serine		jSGLQh7p	GlcA__45__Gal__45__Gal__45__Xyl__45__Proteins	
+sbtabcomp1203	(S)-3-hydroxy-(5Z)-tetradecenoyl-CoA		NPPUwvDM	CPD0__45__1163	C35H56N7O18P3S
+sbtabcomp1204	3-oxo-(5Z)-tetradecenoyl-CoA		vXoBHi59	CPD__45__15244	C35H54N7O18P3S
+sbtabcomp1205	L-xylo-3-hexulose		T6uu1HD7	CPD__45__13036	C6H12O6
+sbtabcomp1206	an odd numbered straight chain 2,3,4-saturated fatty aldehyde		f6wpuuLg	Odd__45__Straight__45__Chain__45__234__45__Sat__45__FALD	
+sbtabcomp1207	3-hexaprenyl-4-aminobenzoate		gk8NVMxP	CPD__45__15190	C37H54NO2
+sbtabcomp1208	3-hexaprenyl-4-amino-5-hydroxybenzoate		oGF3o2vs	CPD__45__15191	C37H54NO3
 sbtabcomp1209	methyl (indol-3-yl)acetate	C20635	56unfZBo		C11H11NO2
-sbtabcomp1210	salicyl-6-hydroxy-2-cyclohexene-on-oyl		28y78CN3	CPD-13174	
-sbtabcomp1211	6-hydroxy-2-cyclohexen-one-carboxylate		PAEzIygB	CPD-13172	
-sbtabcomp1212	perillate		AFn2doyK	CPD-12443	
+sbtabcomp1210	salicyl-6-hydroxy-2-cyclohexene-on-oyl		28y78CN3	CPD__45__13174	C14H14O5
+sbtabcomp1211	6-hydroxy-2-cyclohexen-one-carboxylate		PAEzIygB	CPD__45__13172	C7H7O4
+sbtabcomp1212	perillate		AFn2doyK	CPD__45__12443	C10H13O2
 sbtabcomp1213	Methyl jasmonate	C11512	vFTQb7jF		C13H20O3
 sbtabcomp1214	Jasmonic acid	C08491	nO8RvshH		C12H18O3
-sbtabcomp1215	a type 2 histo-blood group antigen precursor disaccharide		ZAh9Dnh7	B-Gal-14-NacGlc-R	
-sbtabcomp1216	3-dimethylsulfoniopropionaldehyde		HPNrOrro	CPD-10472	
-sbtabcomp1217	a 2-methyl branched 2,3,4-saturated fatty aldehyde		bMelJb84	_2-Me-Branched-234-Sat-FALD	
-sbtabcomp1218	a 2-methyl branched 2,3,4-saturated fatty acid		m3iz7VhA	_2-Me-Branched-234-Sat-FA	
-sbtabcomp1219	a 2,3,4-saturated fatty acyl CoA		pbUBZmln	Saturated-Fatty-Acyl-CoA	
-sbtabcomp1220	1,2-dibutyrin		gkpCwjhH	CPD-13040	
-sbtabcomp1221	a dietary all-trans-retinyl ester		KPpMyrwV	Dietary-retinyl-esters	
-sbtabcomp1222	4-nitrobenzyl alcohol		vNdVFasm	CPD-702	
-sbtabcomp1223	4-nitrobenzaldehyde		vOOfO7Vw	CPD-703	
-sbtabcomp1224	D-ribulose 1-phosphate		LPUcrFmK	D-RIBULOSE-1-P	
-sbtabcomp1225	1,2-dipalmitoyl-phosphatidylcholine		E6KLHV9f	_1-2-DIPALMITOYLPHOSPHATIDYLCHOLINE	
+sbtabcomp1215	a type 2 histo-blood group antigen precursor disaccharide		ZAh9Dnh7	B__45__Gal__45__14__45__NacGlc__45__R	
+sbtabcomp1216	3-dimethylsulfoniopropionaldehyde		HPNrOrro	CPD__45__10472	C5H11OS
+sbtabcomp1217	a 2-methyl branched 2,3,4-saturated fatty aldehyde		bMelJb84	_2__45__Me__45__Branched__45__234__45__Sat__45__FALD	
+sbtabcomp1218	a 2-methyl branched 2,3,4-saturated fatty acid		m3iz7VhA	_2__45__Me__45__Branched__45__234__45__Sat__45__FA	
+sbtabcomp1219	a 2,3,4-saturated fatty acyl CoA		pbUBZmln	Saturated__45__Fatty__45__Acyl__45__CoA	
+sbtabcomp1220	1,2-dibutyrin		gkpCwjhH	CPD__45__13040	C11H20O5
+sbtabcomp1221	a dietary all-trans-retinyl ester		KPpMyrwV	Dietary__45__retinyl__45__esters	
+sbtabcomp1222	4-nitrobenzyl alcohol		vNdVFasm	CPD__45__702	C7H7NO3
+sbtabcomp1223	4-nitrobenzaldehyde		vOOfO7Vw	CPD__45__703	C7H5NO3
+sbtabcomp1224	D-ribulose 1-phosphate		LPUcrFmK	D__45__RIBULOSE__45__1__45__P	C5H9O8P
+sbtabcomp1225	1,2-dipalmitoyl-phosphatidylcholine		E6KLHV9f	_1__45__2__45__DIPALMITOYLPHOSPHATIDYLCHOLINE	C40H80NO8P
 sbtabcomp1226	(25R)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA	C17345	4Iordxdz		C48H80N7O19P3S
-sbtabcomp1227	an N-acetyl-β-D-hexosaminide		T977LFm5	N-Acetyl-beta-D-Hexosaminides	
-sbtabcomp1228	an N-acetyl-β-D-hexosamine		XgQ3GzxC	N-acetyl-beta-D-hexosamines	
-sbtabcomp1229	a 3-oxo-hexanoyl-[acyl-carrier protein]		2ZW4oWQk	_3-oxo-hexanoyl-ACPs	
-sbtabcomp1230	a (3R)-3-hydroxyhexanoyl-[acp]		gyvSUXl1	R-3-hydroxyhexanoyl-ACPs	
-sbtabcomp1231	an Fe(II)-siderophore		6y3NSKZT	Fe2-siderophores	
-sbtabcomp1232	a (3R)-3-hydroxybutanoyl-[acp]		DLzvwJu5	Beta-3-hydroxybutyryl-ACPs	
-sbtabcomp1233	an α-D-galactoside		cYrQqXGk	Alpha-D-Galactosides	
-sbtabcomp1234	Non-Galactosylated-Galactose-Acceptors		H3TJuUKW	Non-Galactosylated-Galactose-Acceptors	
-sbtabcomp1235	a 3-oxo-dodecanoyl-[acp]		3DCHMLvm	_3-oxo-dodecanoyl-ACPs	
-sbtabcomp1236	a (3R)-3-hydroxydodecanoyl-[acp]		ssHhwwFE	R-3-hydroxydodecanoyl-ACPs	
-sbtabcomp1237	a 3-oxo-decanoyl-[acp]		zWRoj3HA	_3-oxo-decanoyl-ACPs	
-sbtabcomp1238	a (3R)-3-hydroxydecanoyl-[acp]		dy3rHrVv	Beta-hydroxydecanoyl-ACPs	
-sbtabcomp1239	a 3-oxo-octanoyl-[acp]		D3oqWbIq	_3-Oxo-octanoyl-ACPs	
-sbtabcomp1240	a (3R)-3-hydroxyoctanoyl-[acp]		xCewJYeS	_3-Hydroxy-octanoyl-ACPs	
-sbtabcomp1241	a 3-oxo-myristoyl-[acp]		AJDsUMI6	_3-oxo-myristoyl-ACPs	
-sbtabcomp1242	a (3R)-3-hydroxymyristoyl-[acp]		i64sPkbJ	R-3-hydroxymyristoyl-ACPs	
-sbtabcomp1243	nicotine-1'-N-oxide		NMChsAqN	CPD-2743	
-sbtabcomp1244	blank_description		pzL1FnbV	_3-oxo-ealmitoyl-ACPs	
-sbtabcomp1245	a (3R)-3-hydroxy-docosapentaenoyl-[acp]		JswbATZV	_3-HYDROXY-DOCOSAPENTAENOYL-ACP	
-sbtabcomp1246	blank_description		VfZi4cBE	_3-OXO-EICOSAPENTAENOYL-ACP	
-sbtabcomp1247	a (2R)-2-hydroxy even numbered straight chain 2,3,4-saturated fatty acid		8N66UNQe	R2OH-Straight-Chain-234-Sat-FA	
-sbtabcomp1248	a (R)-2-hydroxy even numbered straight chain 2,3,4-saturated fatty acyl CoA		4hAEh5Eh	R2-2OH-Straight-Chain-234-Sat-FA-CoA	
-sbtabcomp1249	a [ubiquitin] C-terminal glycine		3QtRJYtf	Ubiquitin-C-Terminal-Glycine	
-sbtabcomp1250	15,15'-dihydroxy-β-carotene		OediKVIP	CPD-14387	
-sbtabcomp1251	β-carotene 15,15' epoxide		rSNDWQH8	CPD-14386	
-sbtabcomp1252	D-myo-inositol (1,2,3,5,6) pentakisphosphate		bF5Z5AoW	CPD-6741	
-sbtabcomp1253	4-methylumbelliferyl glucoside		tXzpHUns	CPD-11641	
-sbtabcomp1254	trans-arachido-2-enoyl-CoA		ZbiCGDnI	CPD-14280	
-sbtabcomp1255	trans-lesqueroloyl-CoA		UpOvL2SA	CPD-15370	
-sbtabcomp1256	lesqueroloyl-CoA		58AzWDMT	CPD-15366	
-sbtabcomp1257	(2E,11Z)-icosa-2,11-dienoyl-CoA		kwwZa4dQ	CPD-15362	
-sbtabcomp1258	(2R)-2-hydroxy-2-methylbutanenitrile		2EfHPIrL	CPD-12699	
-sbtabcomp1259	trans-docos-2-enoyl-CoA		EJO1y75S	CPD-14281	
+sbtabcomp1227	an N-acetyl-β-D-hexosaminide		T977LFm5	N__45__Acetyl__45__beta__45__D__45__Hexosaminides	
+sbtabcomp1228	an N-acetyl-β-D-hexosamine		XgQ3GzxC	N__45__acetyl__45__beta__45__D__45__hexosamines	C8H15NO6
+sbtabcomp1229	a 3-oxo-hexanoyl-[acyl-carrier protein]		2ZW4oWQk	_3__45__oxo__45__hexanoyl__45__ACPs	
+sbtabcomp1230	a (3R)-3-hydroxyhexanoyl-[acp]		gyvSUXl1	R__45__3__45__hydroxyhexanoyl__45__ACPs	
+sbtabcomp1231	an Fe(II)-siderophore		6y3NSKZT	Fe2__45__siderophores	
+sbtabcomp1232	a (3R)-3-hydroxybutanoyl-[acp]		DLzvwJu5	Beta__45__3__45__hydroxybutyryl__45__ACPs	
+sbtabcomp1233	an α-D-galactoside		cYrQqXGk	Alpha__45__D__45__Galactosides	
+sbtabcomp1234	Non-Galactosylated-Galactose-Acceptors		H3TJuUKW	Non__45__Galactosylated__45__Galactose__45__Acceptors	
+sbtabcomp1235	a 3-oxo-dodecanoyl-[acp]		3DCHMLvm	_3__45__oxo__45__dodecanoyl__45__ACPs	
+sbtabcomp1236	a (3R)-3-hydroxydodecanoyl-[acp]		ssHhwwFE	R__45__3__45__hydroxydodecanoyl__45__ACPs	
+sbtabcomp1237	a 3-oxo-decanoyl-[acp]		zWRoj3HA	_3__45__oxo__45__decanoyl__45__ACPs	
+sbtabcomp1238	a (3R)-3-hydroxydecanoyl-[acp]		dy3rHrVv	Beta__45__hydroxydecanoyl__45__ACPs	
+sbtabcomp1239	a 3-oxo-octanoyl-[acp]		D3oqWbIq	_3__45__Oxo__45__octanoyl__45__ACPs	
+sbtabcomp1240	a (3R)-3-hydroxyoctanoyl-[acp]		xCewJYeS	_3__45__Hydroxy__45__octanoyl__45__ACPs	
+sbtabcomp1241	a 3-oxo-myristoyl-[acp]		AJDsUMI6	_3__45__oxo__45__myristoyl__45__ACPs	
+sbtabcomp1242	a (3R)-3-hydroxymyristoyl-[acp]		i64sPkbJ	R__45__3__45__hydroxymyristoyl__45__ACPs	
+sbtabcomp1243	nicotine-1'-N-oxide		NMChsAqN	CPD__45__2743	C10H14N2O
+sbtabcomp1244	blank_description		pzL1FnbV	_3__45__oxo__45__ealmitoyl__45__ACPs	
+sbtabcomp1245	a (3R)-3-hydroxy-docosapentaenoyl-[acp]		JswbATZV	_3__45__HYDROXY__45__DOCOSAPENTAENOYL__45__ACP	
+sbtabcomp1246	blank_description		VfZi4cBE	_3__45__OXO__45__EICOSAPENTAENOYL__45__ACP	
+sbtabcomp1247	a (2R)-2-hydroxy even numbered straight chain 2,3,4-saturated fatty acid		8N66UNQe	R2OH__45__Straight__45__Chain__45__234__45__Sat__45__FA	
+sbtabcomp1248	a (R)-2-hydroxy even numbered straight chain 2,3,4-saturated fatty acyl CoA		4hAEh5Eh	R2__45__2OH__45__Straight__45__Chain__45__234__45__Sat__45__FA__45__CoA	
+sbtabcomp1249	a [ubiquitin] C-terminal glycine		3QtRJYtf	Ubiquitin__45__C__45__Terminal__45__Glycine	
+sbtabcomp1250	15,15'-dihydroxy-β-carotene		OediKVIP	CPD__45__14387	C40H58O2
+sbtabcomp1251	β-carotene 15,15' epoxide		rSNDWQH8	CPD__45__14386	C40H56O
+sbtabcomp1252	D-myo-inositol (1,2,3,5,6) pentakisphosphate		bF5Z5AoW	CPD__45__6741	C6H7O21P5
+sbtabcomp1253	4-methylumbelliferyl glucoside		tXzpHUns	CPD__45__11641	C16H18O8
+sbtabcomp1254	trans-arachido-2-enoyl-CoA		ZbiCGDnI	CPD__45__14280	C41H68N7O17P3S
+sbtabcomp1255	trans-lesqueroloyl-CoA		UpOvL2SA	CPD__45__15370	C41H66N7O18P3S
+sbtabcomp1256	lesqueroloyl-CoA		58AzWDMT	CPD__45__15366	C41H68N7O18P3S
+sbtabcomp1257	(2E,11Z)-icosa-2,11-dienoyl-CoA		kwwZa4dQ	CPD__45__15362	C41H66N7O17P3S
+sbtabcomp1258	(2R)-2-hydroxy-2-methylbutanenitrile		2EfHPIrL	CPD__45__12699	C5H9NO
+sbtabcomp1259	trans-docos-2-enoyl-CoA		EJO1y75S	CPD__45__14281	C43H72N7O17P3S
 sbtabcomp1260	Docosanoyl-CoA	C16528	uV86Dkmn		C43H78N7O17P3S
-sbtabcomp1261	trans-lignocer-2-enoyl-CoA		fAhbB6ib	CPD-14282	
+sbtabcomp1261	trans-lignocer-2-enoyl-CoA		fAhbB6ib	CPD__45__14282	C45H76N7O17P3S
 sbtabcomp1262	Tetracosanoyl-CoA	C16529	PriVfFSN		C45H82N7O17P3S
-sbtabcomp1263	trans-cerot-2-enoyl-CoA		43kgbcCn	CPD-14283	
-sbtabcomp1264	Cerotoyl-CoA		kWRaQFIZ	CPD1G-277	
+sbtabcomp1263	trans-cerot-2-enoyl-CoA		43kgbcCn	CPD__45__14283	C47H80N7O17P3S
+sbtabcomp1264	Cerotoyl-CoA		kWRaQFIZ	CPD1G__45__277	C47H82N7O17P3S
 sbtabcomp1265	Beta-D-Glucoside	C00963	ddvnfCQG		C6H11O6R
-sbtabcomp1266	a non glucosylated D-glucose acceptor		Uy4JwJBS	Non-Glucosylated-Glucose-Acceptors	
-sbtabcomp1267	a (1'-hydroxy-3',5'-dioxo-2'-(3''-oxobutanoyl)cyclohexyl)-3,5-dioxohexanethioate-[PKS-acp]		PIHYMLUT	Actinorhodin-Intermediate-1	
-sbtabcomp1268	9-hydroxy-3,5,7,11,13,15-hexaoxohexadecanoyl-[PKS-acp]		Zc2zSHDe	Actinorhodin-Intermediate-2	
-sbtabcomp1269	(3R)-3-hydroxy-cerotoyl-CoA		f1vzSbMF	CPD-14278	
-sbtabcomp1270	(3R)-3-hydroxy-lignoceroyl-CoA		kKS58Vr2	CPD-14277	
-sbtabcomp1271	(3R)-3-hydroxy-behenoyl-CoA		JEF7Fteq	CPD-14276	
-sbtabcomp1272	a [protein]-(L-serine/L-threonine)		A9LEJa8u	Protein-L-serine-or-L-threonine	
-sbtabcomp1273	Unavaiable		rpM93bIK	Protein-Ser-or-Thr-ehosphate	
-sbtabcomp1274	a uridine38-40 in tRNA		FAOFySeR	tRNA-uridine-38-40	
-sbtabcomp1275	an [eIF5A-precursor]-N-(4-aminobutylidene)-lysine		rYYUSbZo	N-4-aminobutylidene-eIF5A-lysine	
-sbtabcomp1276	a [deoxyhypusine synthase]-N-(4-aminobutylidene)-lysine		KvJHLfTO	N-4-aminobutylidene-enzyme-lysine	
-sbtabcomp1277	a [deoxyhypusine synthase]-L-lysine		jARgtuO9	Deoxyhypusine-Synthase-Lysine	
-sbtabcomp1278	a protein L-serine phosphate		jHLwJCvk	Protein-Phosphoserines	
-sbtabcomp1279	a [protein]-L-threonine		HRgfdeAL	Proteins-L-Threonines	
-sbtabcomp1280	a [protein] L-threonine phosphate		I9RuW5Ik	Protein-Phosphothreonines	
-sbtabcomp1281	N,N',N''-triacetylchitotriose		ZpCxjjAY	CPD-13227	
-sbtabcomp1282	ethylphosphate		CqRftrX4	CPD-8978	
-sbtabcomp1283	2,6-dioxo-6-phenylhexa-3-enoate		y8e6Y82k	CPD-14298	
-sbtabcomp1284	a 1,2-diglyceride		12dag_cho	_1-2-Diglycerides	
-sbtabcomp1285	isobutanal		AfwuPsb1	CPD-7000	
-sbtabcomp1286	2-methylbutanol		KLQRwTsv	CPD-7033	
-sbtabcomp1287	indole-3-glycol		bsnnsFjK	INDOLE-3-GLYCOL	
-sbtabcomp1288	3-methylthiopropanal		iSWkHWJC	CPD-7036	
-sbtabcomp1289	methionol		HBoruMAO	CPD-7037	
-sbtabcomp1290	5-hydroxytryptophol		kzt78PVM	CPD-11671	
-sbtabcomp1291	4α-formyl-5α-cholesta-8-en-3β-ol		oYckGX4U	CPD-8618	
-sbtabcomp1292	4α-hydroxymethyl-5α-cholesta-8-en-3β-ol		1CQPdpKq	CPD-8617	
-sbtabcomp1293	phytenal		mHgXK9nm	CPD-14926	
-sbtabcomp1294	4α-methyl-5α-cholesta-8-en-3-one		xZp4CALy	CPD-8614	
-sbtabcomp1295	4α-formyl-4β-methyl-5α-cholesta-8-en-3β-ol		ybOmPKfL	CPD-8612	
-sbtabcomp1296	4α-hydroxymethyl-4β-methyl-5α-cholesta-8-en-3β-ol		d4nHNWqu	CPD-8611	
-sbtabcomp1297	Jasmonoyl-CoA		SU23hSzo	CPD-11529	
-sbtabcomp1298	3-cis, 5-trans-dodecadienoyl-CoA		8bS4DdVm	CPD-15688	
-sbtabcomp1299	4α-formyl-5α-cholesta-8,24-dien-3β-ol		1cvohqml	CPD-4580	
-sbtabcomp1300	4α-hydroxymethyl-5α-cholesta-8,24-dien-3β-ol		etT6BpaQ	CPD-4579	
-sbtabcomp1301	4α-formyl-4β-methyl-5α-cholesta-8,24-dien-3β-ol		4Af4Bm5Ac824d3Bol	CPD-4576	
-sbtabcomp1302	4α-hydroxymethyl-4β-methyl-5α-cholesta-8,24-dien-3β-ol		4Ahm4Bm5Ac824d3Bol	CPD-4575	
-sbtabcomp1303	3-trans-decenoyl-CoA		3trdececoa	CPD-15692	
-sbtabcomp1304	3-oxo-4-pregnene-20-carboxyl-CoA		3oxo4preg20ccoa	CPD-13700	
-sbtabcomp1305	3,22-dioxochol-4-en-24-oyl-CoA		322dioxochol4en24coa	CPD-13699	
+sbtabcomp1266	a non glucosylated D-glucose acceptor		Uy4JwJBS	Non__45__Glucosylated__45__Glucose__45__Acceptors	
+sbtabcomp1267	a (1'-hydroxy-3',5'-dioxo-2'-(3''-oxobutanoyl)cyclohexyl)-3,5-dioxohexanethioate-[PKS-acp]		PIHYMLUT	Actinorhodin__45__Intermediate__45__1	
+sbtabcomp1268	9-hydroxy-3,5,7,11,13,15-hexaoxohexadecanoyl-[PKS-acp]		Zc2zSHDe	Actinorhodin__45__Intermediate__45__2	
+sbtabcomp1269	(3R)-3-hydroxy-cerotoyl-CoA		f1vzSbMF	CPD__45__14278	C47H82N7O18P3S
+sbtabcomp1270	(3R)-3-hydroxy-lignoceroyl-CoA		kKS58Vr2	CPD__45__14277	C45H78N7O18P3S
+sbtabcomp1271	(3R)-3-hydroxy-behenoyl-CoA		JEF7Fteq	CPD__45__14276	C43H74N7O18P3S
+sbtabcomp1272	a [protein]-(L-serine/L-threonine)		A9LEJa8u	Protein__45__L__45__serine__45__or__45__L__45__threonine	
+sbtabcomp1273	Unavaiable		rpM93bIK	Protein__45__Ser__45__or__45__Thr__45__ehosphate	
+sbtabcomp1274	a uridine38-40 in tRNA		FAOFySeR	tRNA__45__uridine__45__38__45__40	
+sbtabcomp1275	an [eIF5A-precursor]-N-(4-aminobutylidene)-lysine		rYYUSbZo	N__45__4__45__aminobutylidene__45__eIF5A__45__lysine	
+sbtabcomp1276	a [deoxyhypusine synthase]-N-(4-aminobutylidene)-lysine		KvJHLfTO	N__45__4__45__aminobutylidene__45__enzyme__45__lysine	
+sbtabcomp1277	a [deoxyhypusine synthase]-L-lysine		jARgtuO9	Deoxyhypusine__45__Synthase__45__Lysine	
+sbtabcomp1278	a protein L-serine phosphate		jHLwJCvk	Protein__45__Phosphoserines	
+sbtabcomp1279	a [protein]-L-threonine		HRgfdeAL	Proteins__45__L__45__Threonines	
+sbtabcomp1280	a [protein] L-threonine phosphate		I9RuW5Ik	Protein__45__Phosphothreonines	
+sbtabcomp1281	N,N',N''-triacetylchitotriose		ZpCxjjAY	CPD__45__13227	C24H41N3O16
+sbtabcomp1282	ethylphosphate		CqRftrX4	CPD__45__8978	C2H5O4P
+sbtabcomp1283	2,6-dioxo-6-phenylhexa-3-enoate		y8e6Y82k	CPD__45__14298	C12H9O4
+sbtabcomp1284	a 1,2-diglyceride		12dag_cho	_1__45__2__45__Diglycerides	
+sbtabcomp1285	isobutanal		AfwuPsb1	CPD__45__7000	C4H8O
+sbtabcomp1286	2-methylbutanol		KLQRwTsv	CPD__45__7033	C5H12O
+sbtabcomp1287	indole-3-glycol		bsnnsFjK	INDOLE__45__3__45__GLYCOL	C10H11NO2
+sbtabcomp1288	3-methylthiopropanal		iSWkHWJC	CPD__45__7036	C4H8OS
+sbtabcomp1289	methionol		HBoruMAO	CPD__45__7037	C4H10OS
+sbtabcomp1290	5-hydroxytryptophol		kzt78PVM	CPD__45__11671	C10H11NO2
+sbtabcomp1291	4α-formyl-5α-cholesta-8-en-3β-ol		oYckGX4U	CPD__45__8618	C28H46O2
+sbtabcomp1292	4α-hydroxymethyl-5α-cholesta-8-en-3β-ol		1CQPdpKq	CPD__45__8617	C28H48O2
+sbtabcomp1293	phytenal		mHgXK9nm	CPD__45__14926	C20H38O
+sbtabcomp1294	4α-methyl-5α-cholesta-8-en-3-one		xZp4CALy	CPD__45__8614	C28H46O
+sbtabcomp1295	4α-formyl-4β-methyl-5α-cholesta-8-en-3β-ol		ybOmPKfL	CPD__45__8612	C29H48O2
+sbtabcomp1296	4α-hydroxymethyl-4β-methyl-5α-cholesta-8-en-3β-ol		d4nHNWqu	CPD__45__8611	C29H50O2
+sbtabcomp1297	Jasmonoyl-CoA		SU23hSzo	CPD__45__11529	C33H48N7O18P3S
+sbtabcomp1298	3-cis, 5-trans-dodecadienoyl-CoA		8bS4DdVm	CPD__45__15688	C33H50N7O17P3S
+sbtabcomp1299	4α-formyl-5α-cholesta-8,24-dien-3β-ol		1cvohqml	CPD__45__4580	C28H44O2
+sbtabcomp1300	4α-hydroxymethyl-5α-cholesta-8,24-dien-3β-ol		etT6BpaQ	CPD__45__4579	C28H46O2
+sbtabcomp1301	4α-formyl-4β-methyl-5α-cholesta-8,24-dien-3β-ol		4Af4Bm5Ac824d3Bol	CPD__45__4576	C29H46O2
+sbtabcomp1302	4α-hydroxymethyl-4β-methyl-5α-cholesta-8,24-dien-3β-ol		4Ahm4Bm5Ac824d3Bol	CPD__45__4575	C29H48O2
+sbtabcomp1303	3-trans-decenoyl-CoA		3trdececoa	CPD__45__15692	C31H48N7O17P3S
+sbtabcomp1304	3-oxo-4-pregnene-20-carboxyl-CoA		3oxo4preg20ccoa	CPD__45__13700	C43H62N7O18P3S
+sbtabcomp1305	3,22-dioxochol-4-en-24-oyl-CoA		322dioxochol4en24coa	CPD__45__13699	C45H64N7O19P3S
 sbtabcomp1306	LysW-L-ornithine	C20951	lysWLorn		C10H18N3O5R
 sbtabcomp1307	LysW-L-glutamate 5-semialdehyde	C20950	lysWLglu5smald		C10H15N2O6R
-sbtabcomp1308	3-oxo-behenoyl-CoA		3oxobhcoa	CPD-10283	
+sbtabcomp1308	3-oxo-behenoyl-CoA		3oxobhcoa	CPD__45__10283	C43H72N7O18P3S
 sbtabcomp1309	Fluoroacetate	C06108	flac		C2H3FO2
-sbtabcomp1310	D,L-malic semialdehyde		Dlmlcsmald	CPD-5682	
-sbtabcomp1311	2-carboxy-cerotoyl-CoA		2carbcercoa	CPD1G-332	
-sbtabcomp1312	aldehydo-D-mannose		aldDman	CPD-15373	
-sbtabcomp1313	4-chlorosalicylate		4chlosalc	CPD-10576	
-sbtabcomp1314	5-methylsalicylate		5metsalc	CPD-10664	
-sbtabcomp1315	5-chlorosalicylate		5chlosalc	CPD-10663	
-sbtabcomp1316	alpha-D-ribofuranose		aDrbfur	CPD-10330	
+sbtabcomp1310	D,L-malic semialdehyde		Dlmlcsmald	CPD__45__5682	C4H5O4
+sbtabcomp1311	2-carboxy-cerotoyl-CoA		2carbcercoa	CPD1G__45__332	C48H81N7O19P3S
+sbtabcomp1312	aldehydo-D-mannose		aldDman	CPD__45__15373	C6H12O6
+sbtabcomp1313	4-chlorosalicylate		4chlosalc	CPD__45__10576	C7H4O3Cl
+sbtabcomp1314	5-methylsalicylate		5metsalc	CPD__45__10664	C8H7O3
+sbtabcomp1315	5-chlorosalicylate		5chlosalc	CPD__45__10663	C7H4O3Cl
+sbtabcomp1316	alpha-D-ribofuranose		aDrbfur	CPD__45__10330	C5H10O5
 sbtabcomp1317	blank_description		HC9Nr5ko	BIOMASS	
 sbtabcomp1318	Nitrite	C00088	no2		HNO2
 sbtabcomp1319	Nitrate	C00244	no3		HNO3
