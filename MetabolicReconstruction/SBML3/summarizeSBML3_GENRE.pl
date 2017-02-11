@@ -72,19 +72,19 @@ if(!$summary_species && !$summary_reaction){
  $summary=1;
 }
 
-unless ($valitateBoolean) {
- 
- $ua->agent("CTBE-summarizeSBML3/0.1");
- $ua->from("bce.ctbe\@gmail.com");
- $ua->env_proxy;
+#unless ($valitateBoolean) {
+# 
+# $ua->agent("CTBE-summarizeSBML3/0.1");
+# $ua->from("bce.ctbe\@gmail.com");
+# $ua->env_proxy;
 
- my $htmlValidateFile = getHTML($infile);
- my $twigValidator=XML::Twig->new();
- $twigValidator->parsefile($htmlValidateFile);
- my $rootValitator = $twigValidator->root;
- #print $rootValitator->name."\n";
+# my $htmlValidateFile = getHTML($infile);
+# my $twigValidator=XML::Twig->new();
+# $twigValidator->parsefile($htmlValidateFile);
+# my $rootValitator = $twigValidator->root;
+# #print $rootValitator->name."\n";
 
-}
+#}
 
 parseXML();
 
@@ -288,11 +288,6 @@ There is/are ".scalar(@productsInReactions)." involved products in reactions of 
 
 }
 
-sub getHTML{
- my $file = shift;
- 
- return $html;
-}
 
 ##############################################
 #Usage
