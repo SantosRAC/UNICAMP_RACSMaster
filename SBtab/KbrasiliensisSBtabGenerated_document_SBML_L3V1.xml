@@ -8928,7 +8928,7 @@
             <rdf:Description rdf:about="#sbtabcomp638_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/36Aw3L7U"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/myolcp"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03875"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -8942,7 +8942,7 @@
             <rdf:Description rdf:about="#sbtabcomp639_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/beyKknii"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/myolc"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01003"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -8956,7 +8956,7 @@
             <rdf:Description rdf:about="#sbtabcomp640_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/nLp7PTDF"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/44dm5ac83bol"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C15915"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -8970,7 +8970,7 @@
             <rdf:Description rdf:about="#sbtabcomp641_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/6p2kqg4Y"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mi12cp__D"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C04299"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -8984,7 +8984,7 @@
             <rdf:Description rdf:about="#sbtabcomp642_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/QAcSMhH8"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ktn"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01450"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -8998,7 +8998,7 @@
             <rdf:Description rdf:about="#sbtabcomp643_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/hCXWqVTf"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/secalc"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01612"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9012,7 +9012,7 @@
             <rdf:Description rdf:about="#sbtabcomp644_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pail35bp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pail35p"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C11556"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9026,7 +9026,7 @@
             <rdf:Description rdf:about="#sbtabcomp645_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/K8hg9B36"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pail345p"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05981"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9040,7 +9040,7 @@
             <rdf:Description rdf:about="#sbtabcomp646_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/zAJlkt5D"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pail34p"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C11554"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9054,7 +9054,7 @@
             <rdf:Description rdf:about="#sbtabcomp647_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/kqMyIPrD"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/159dcphyotf"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C19765"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9068,7 +9068,7 @@
             <rdf:Description rdf:about="#sbtabcomp648_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rzbt13sW"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pq"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02061"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9082,7 +9082,7 @@
             <rdf:Description rdf:about="#sbtabcomp649_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/r4yjaCTn"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/9159tzcarote"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C19764"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9096,7 +9096,7 @@
             <rdf:Description rdf:about="#sbtabcomp650_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Ugj9NJrp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pqh2"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02185"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9110,7 +9110,7 @@
             <rdf:Description rdf:about="#sbtabcomp651_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/XforepLm"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4am4achol7en3n"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C04453"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9124,7 +9124,7 @@
             <rdf:Description rdf:about="#sbtabcomp652_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/DIGshWyU"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/glyc1p"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00623"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9138,7 +9138,7 @@
             <rdf:Description rdf:about="#sbtabcomp653_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/SfIy7B6V"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/hhqn"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02814"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9152,7 +9152,7 @@
             <rdf:Description rdf:about="#sbtabcomp654_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/7379IXhc"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mac"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02222"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9166,7 +9166,7 @@
             <rdf:Description rdf:about="#sbtabcomp655_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/fj8NYOHh"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/bzosuccoa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C09820"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9180,7 +9180,7 @@
             <rdf:Description rdf:about="#sbtabcomp656_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/GekwlGHk"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ipcoac"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C06428"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9222,7 +9222,7 @@
             <rdf:Description rdf:about="#sbtabcomp659_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/KrgnShrP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/galurlac__D"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C06430"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9250,7 +9250,7 @@
             <rdf:Description rdf:about="#sbtabcomp661_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/U8q6DgFp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/retpalm"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02588"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9278,7 +9278,7 @@
             <rdf:Description rdf:about="#sbtabcomp663_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/EUjV4OmE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/est"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02391"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9376,7 +9376,7 @@
             <rdf:Description rdf:about="#sbtabcomp670_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/iaYcNw6a"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mi145tp"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01245"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9390,7 +9390,7 @@
             <rdf:Description rdf:about="#sbtabcomp671_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BWWqaI75"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pagpc"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C04102"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9460,7 +9460,7 @@
             <rdf:Description rdf:about="#sbtabcomp676_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/I3a6n8AS"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2s2metacoa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05232"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9474,7 +9474,7 @@
             <rdf:Description rdf:about="#sbtabcomp677_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/LvdIIgIe"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2r2metacoa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05329"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9502,7 +9502,7 @@
             <rdf:Description rdf:about="#sbtabcomp679_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/6vlnxnam"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/gpdstr"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03120"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9544,7 +9544,7 @@
             <rdf:Description rdf:about="#sbtabcomp682_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/e2kNOSVV"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/aa__D"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00405"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9558,7 +9558,7 @@
             <rdf:Description rdf:about="#sbtabcomp683_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/en4M1svK"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/abDgsd"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03097"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9600,7 +9600,7 @@
             <rdf:Description rdf:about="#sbtabcomp686_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cvxBSYhq"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ironC"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C06704"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9614,7 +9614,7 @@
             <rdf:Description rdf:about="#sbtabcomp687_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/bqCGOzjh"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/lhp"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01025"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9670,7 +9670,7 @@
             <rdf:Description rdf:about="#sbtabcomp691_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/wSS71qkq"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/nct"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00745"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9684,7 +9684,7 @@
             <rdf:Description rdf:about="#sbtabcomp692_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/f9TvJTt4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/dmabz"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02846"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9698,7 +9698,7 @@
             <rdf:Description rdf:about="#sbtabcomp693_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/TdTrdGCB"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/dmetanl"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01183"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9712,7 +9712,7 @@
             <rdf:Description rdf:about="#sbtabcomp694_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/a5nFbDKK"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Dharb14l"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C06316"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9726,7 +9726,7 @@
             <rdf:Description rdf:about="#sbtabcomp695_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/XhixpfJw"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N6hlys"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01028"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9740,7 +9740,7 @@
             <rdf:Description rdf:about="#sbtabcomp696_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/xCiDLync"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N6achlys"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03955"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9782,7 +9782,7 @@
             <rdf:Description rdf:about="#sbtabcomp699_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/SsNGMrYU"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/sinpt"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00482"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9796,7 +9796,7 @@
             <rdf:Description rdf:about="#sbtabcomp700_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/YhkXVFjs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/sincoa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00411"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9838,7 +9838,7 @@
             <rdf:Description rdf:about="#sbtabcomp703_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R5bzcKBf"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/lcacoa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02843"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9852,7 +9852,7 @@
             <rdf:Description rdf:about="#sbtabcomp704_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/qHO6UCUj"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Oacylcrn"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02301"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9866,7 +9866,7 @@
             <rdf:Description rdf:about="#sbtabcomp705_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/wwDi4h4h"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cb__L__aa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C11529"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9922,7 +9922,7 @@
             <rdf:Description rdf:about="#sbtabcomp709_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/tK6e5DaZ"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/hcmn"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03081"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -9936,7 +9936,7 @@
             <rdf:Description rdf:about="#sbtabcomp710_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/zkBWILEb"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/txpll"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01855"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10006,7 +10006,7 @@
             <rdf:Description rdf:about="#sbtabcomp715_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/9sVSJYwH"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/acetonech"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02659"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10020,7 +10020,7 @@
             <rdf:Description rdf:about="#sbtabcomp716_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/a5zIKUyK"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/neolntt"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C08336"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10034,7 +10034,7 @@
             <rdf:Description rdf:about="#sbtabcomp717_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/z1N2zyxa"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/scpl"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01527"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10048,7 +10048,7 @@
             <rdf:Description rdf:about="#sbtabcomp718_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/MjxaiyQj"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/scpln"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01752"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10062,7 +10062,7 @@
             <rdf:Description rdf:about="#sbtabcomp719_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pwdPYTx4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/fldox"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02869"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10076,7 +10076,7 @@
             <rdf:Description rdf:about="#sbtabcomp720_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/WNjpjbcP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/flxr"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02745"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10090,7 +10090,7 @@
             <rdf:Description rdf:about="#sbtabcomp721_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Zv3IwN6j"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/fdxo_2_2"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00139"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10104,7 +10104,7 @@
             <rdf:Description rdf:about="#sbtabcomp722_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/8cOzgi43"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/tmtdcacoa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C07296"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10118,7 +10118,7 @@
             <rdf:Description rdf:about="#sbtabcomp723_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/uGvo89M2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3xptncoa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C07297"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10132,7 +10132,7 @@
             <rdf:Description rdf:about="#sbtabcomp724_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/QEhWqWs5"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/a2oSNg3pc"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01282"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10146,7 +10146,7 @@
             <rdf:Description rdf:about="#sbtabcomp725_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pl5jzsN7"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/a2lSNg3pc"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C04636"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10160,7 +10160,7 @@
             <rdf:Description rdf:about="#sbtabcomp726_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/11EVwlgp"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/hphetoh"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C06044"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10174,7 +10174,7 @@
             <rdf:Description rdf:about="#sbtabcomp727_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/VTHa3PSY"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/manglprot"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03268"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10188,7 +10188,7 @@
             <rdf:Description rdf:about="#sbtabcomp728_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/n5q9ekC1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/xxxxxxxxx"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C04645"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10202,7 +10202,7 @@
             <rdf:Description rdf:about="#sbtabcomp729_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/PP4yG23a"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/dhepis"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C15780"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10216,7 +10216,7 @@
             <rdf:Description rdf:about="#sbtabcomp730_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/UnWlUNPV"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3mox4hoxpeg"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05594"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10244,7 +10244,7 @@
             <rdf:Description rdf:about="#sbtabcomp732_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/so4UG2Z3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/indgcald"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03230"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10286,7 +10286,7 @@
             <rdf:Description rdf:about="#sbtabcomp735_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/9DAkikB4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ijsmac"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16317"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10300,7 +10300,7 @@
             <rdf:Description rdf:about="#sbtabcomp736_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/UGXGuUU1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cisddcecoa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02944"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10328,7 +10328,7 @@
             <rdf:Description rdf:about="#sbtabcomp738_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/65C7xsKg"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/salald"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C06202"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10356,7 +10356,7 @@
             <rdf:Description rdf:about="#sbtabcomp740_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/qq6l678l"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/flacald"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C15488"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10370,7 +10370,7 @@
             <rdf:Description rdf:about="#sbtabcomp741_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/PqJc1Kkh"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/aproa"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05665"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10384,7 +10384,7 @@
             <rdf:Description rdf:about="#sbtabcomp742_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/wA4Dw2QA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/b__D__mand"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02478"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10398,7 +10398,7 @@
             <rdf:Description rdf:about="#sbtabcomp743_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Oq7kax2e"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/b__D__man"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02209"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10412,7 +10412,7 @@
             <rdf:Description rdf:about="#sbtabcomp744_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2ORH8lg3"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ura5c"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03030"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10440,7 +10440,7 @@
             <rdf:Description rdf:about="#sbtabcomp746_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/UZiYgwF4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/clcatechol"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02375"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10454,7 +10454,7 @@
             <rdf:Description rdf:about="#sbtabcomp747_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/iJHv8eqO"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4metsalc"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C14103"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -10482,7 +10482,7 @@
             <rdf:Description rdf:about="#sbtabcomp749_meta">
               <bqbiol:is>
                 <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/MLSxH5Dr"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/nrpxan"/>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C08607"/>
                 </rdf:Bag>
               </bqbiol:is>
@@ -13801,7 +13801,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/HSVAOGgZ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15656"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15656"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13815,7 +13815,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/6cZtzvlb"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15657"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15657"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13829,7 +13829,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/LqbpRPmo"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15661"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15661"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13843,7 +13843,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/k4mfZlUb"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15655"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15655"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13857,7 +13857,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/timOoJKd"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15652"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15652"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13871,7 +13871,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/NOaJ2IQ4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15676"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15676"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13885,7 +13885,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/IQdUKNjg"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15675"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15675"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13899,7 +13899,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/SAGNek3H"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15654"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15654"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13913,7 +13913,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Ftc22pjW"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15653"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15653"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13927,7 +13927,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ThAKB3um"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15667"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15667"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13941,7 +13941,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CmE5k3Eg"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15666"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15666"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13955,7 +13955,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/d8hWVOoh"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11525"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11525"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13969,7 +13969,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/lXV8qwMQ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11526"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11526"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13983,7 +13983,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ri2o5KNr"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15690"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15690"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -13997,7 +13997,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/247rW232"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15691"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15691"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14011,7 +14011,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3ochthkk"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15689"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15689"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14025,7 +14025,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3rlh9n3X"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15677"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15677"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14039,7 +14039,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/MJkoYYPC"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15686"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15686"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14053,7 +14053,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BGZHfkeS"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15687"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15687"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14067,7 +14067,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/wpOLRKUW"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15685"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15685"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14081,7 +14081,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/1YY75JVS"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15684"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15684"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14095,7 +14095,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CFQmMY1H"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15637"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15637"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14109,7 +14109,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rAfPP4uR"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11517"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11517"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14123,7 +14123,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/SbbuxAp3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11518"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11518"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14151,7 +14151,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2FH4rnKt"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11522"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11522"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14165,7 +14165,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4Jsq5e6S"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15668"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15668"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14179,7 +14179,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/gOOpH9A9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15436"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15436"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14193,7 +14193,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/KnJCer5L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD0-1162"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD0__45__1162"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14221,7 +14221,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/EQaW5JUY"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15651"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15651"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14235,7 +14235,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/UDNCljHf"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-5-enoyl-CoA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__5__45__enoyl__45__CoA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14249,7 +14249,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Fd9q4q2e"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/trans-2-cis-5-dienoyl-CoA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/trans__45__2__45__cis__45__5__45__dienoyl__45__CoA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14263,7 +14263,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/p6aI85hK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-hydroxy-cis-D7-tetraecenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__hydroxy__45__cis__45__D7__45__tetraecenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14277,7 +14277,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Ss5pe6UB"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-cis-D7-tetradecenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__cis__45__D7__45__tetradecenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14291,7 +14291,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/KcbHLa29"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-TRANS-D2-ENOYL-COA-C16-H32"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__TRANS__45__D2__45__ENOYL__45__COA__45__C16__45__H32"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14305,7 +14305,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/1Jmqjr2u"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-TRANS-D2-ENOYL-COA-C12-H24"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__TRANS__45__D2__45__ENOYL__45__COA__45__C12__45__H24"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14319,7 +14319,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/tQsj8JQ9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-TRANS-D2-ENOYL-COA-C10-WATER"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__TRANS__45__D2__45__ENOYL__45__COA__45__C10__45__WATER"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14333,7 +14333,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/YdTpl4BB"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D9-27-3-hydroxyC46-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D9__45__27__45__3__45__hydroxyC46__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14347,7 +14347,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/RM7r9uJh"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D9-27-3-oxo-C46-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D9__45__27__45__3__45__oxo__45__C46__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14361,7 +14361,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/5ZfOXWjE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D15-27-3-hydroxyC46-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D15__45__27__45__3__45__hydroxyC46__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14375,7 +14375,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/JygOS3ll"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D15-27-3-oxo-C46-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D15__45__27__45__3__45__oxo__45__C46__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14389,7 +14389,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/VExinBIx"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D19-37-3-hydroxyC56-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D19__45__37__45__3__45__hydroxyC56__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14403,7 +14403,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/GuQFd4vP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D19-37-3-oxo-C56-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D19__45__37__45__3__45__oxo__45__C56__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14417,7 +14417,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/9VfbplKT"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/OH-ACYL-ACP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/OH__45__ACYL__45__ACP"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14431,7 +14431,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/A5aGNbEH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/B-KETOACYL-ACP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/B__45__KETOACYL__45__ACP"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14445,7 +14445,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/lA9FNft8"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-5168"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__5168"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14459,7 +14459,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CqlAZhtt"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-5169"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__5169"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14473,7 +14473,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/n7qjQlSI"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-5167"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__5167"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14487,7 +14487,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/XaI8BSIr"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D17-29-3-hydroxyC48-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D17__45__29__45__3__45__hydroxyC48__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14501,7 +14501,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2SdbvUHs"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D17-29-3-oxo-C48-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D17__45__29__45__3__45__oxo__45__C48__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14515,7 +14515,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/VF9OAMTM"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-5166"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__5166"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14529,7 +14529,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/treiL8dH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-5165"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__5165"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14543,7 +14543,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pye1YyYY"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-5164"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__5164"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14557,7 +14557,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/sZi9RPXF"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-5162"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__5162"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14571,7 +14571,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/bk8FETew"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/b-Hydroxy-cis-D5-dodecenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/b__45__Hydroxy__45__cis__45__D5__45__dodecenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14585,7 +14585,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/77UD9ok2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/b-Keto-cis-D5-dodecenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/b__45__Keto__45__cis__45__D5__45__dodecenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14599,7 +14599,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mVgv35EX"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D13-25-3-hydroxyC44-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D13__45__25__45__3__45__hydroxyC44__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14613,7 +14613,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/lOKZv2Xr"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D13-25-3-oxo-C44-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D13__45__25__45__3__45__oxo__45__C44__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14627,7 +14627,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/YgZiYjUM"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D7-19-3-hydroxyC38-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D7__45__19__45__3__45__hydroxyC38__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14641,7 +14641,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4ot6Ga2C"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D7-19-3-oxo-C38-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D7__45__19__45__3__45__oxo__45__C38__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14655,7 +14655,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rWmR5Jr3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D19-31-3-hydroxyC50-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D19__45__31__45__3__45__hydroxyC50__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14669,7 +14669,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/xgyx9ZWd"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D19-31-3-oxo-C50-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D19__45__31__45__3__45__oxo__45__C50__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14683,7 +14683,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/tvzXD8p3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D11-29-3-hydroxyC48-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D11__45__29__45__3__45__hydroxyC48__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14697,7 +14697,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/esqAc5rT"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D11-29-3-oxo-C48-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D11__45__29__45__3__45__oxo__45__C48__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14711,7 +14711,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/MolWxue1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13694"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13694"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14725,7 +14725,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/qcFJtVr4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13695"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13695"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14739,7 +14739,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/dqtv17nP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D21-39-3-hydroxyC58-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D21__45__39__45__3__45__hydroxyC58__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14753,7 +14753,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/zsrXMEIe"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D21-39-3-oxo-C58-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D21__45__39__45__3__45__oxo__45__C58__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14767,7 +14767,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/hN9AiKs4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D5-23-3-hydroxyC42-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D5__45__23__45__3__45__hydroxyC42__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14781,7 +14781,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CiwrhsoD"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D5-23-3-oxo-C42-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D5__45__23__45__3__45__oxo__45__C42__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14795,7 +14795,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/eoiD5Uki"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D15-33-3-hydroxyC52-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D15__45__33__45__3__45__hydroxyC52__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14809,7 +14809,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/UV8CxbNW"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D15-33-3-oxo-C52-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D15__45__33__45__3__45__oxo__45__C52__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14823,7 +14823,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ipMDhctL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11519"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11519"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14837,7 +14837,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/dsux5jEZ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11520"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11520"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14851,7 +14851,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Avo7Pa62"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15056"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15056"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14865,7 +14865,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/b8N8Ny6s"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D7-25-3-hydroxyC44-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D7__45__25__45__3__45__hydroxyC44__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14879,7 +14879,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/xU9B2JLh"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D7-25-3-oxo-C44-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D7__45__25__45__3__45__oxo__45__C44__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14893,7 +14893,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Lohl1y8R"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11523"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11523"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14907,7 +14907,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/jKyybvLm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11524"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11524"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14921,7 +14921,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/kM2lSjGL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-Hydroxyglutaryl-ACP-methyl-ester"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__Hydroxyglutaryl__45__ACP__45__methyl__45__ester"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14935,7 +14935,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/v9n6zFso"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-Ketoglutaryl-ACP-methyl-ester"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__Ketoglutaryl__45__ACP__45__methyl__45__ester"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14949,7 +14949,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/kcaKCRbG"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/L-methionyl-tRNAfmet"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/L__45__methionyl__45__tRNAfmet"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14963,7 +14963,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/JfyceHER"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N-formyl-L-methionyl-tRNAfmet"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N__45__formyl__45__L__45__methionyl__45__tRNAfmet"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14977,7 +14977,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mhqwaYlM"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-12199"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__12199"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14991,7 +14991,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/UGjL3n5U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-10600"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__10600"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15005,7 +15005,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/RhadRNFO"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R-3-hydroxypetroselinoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R__45__3__45__hydroxypetroselinoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15019,7 +15019,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/gBj8mFxk"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-eetroselinoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__eetroselinoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15033,7 +15033,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/hvo4a27t"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13757"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13757"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15047,7 +15047,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/A2lht7rx"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13758"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13758"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15061,7 +15061,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Iqw6oB2u"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D11-23-3-hydroxyC42-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D11__45__23__45__3__45__hydroxyC42__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15075,7 +15075,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/5qVFPBa4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D11-23-3-oxo-C42-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D11__45__23__45__3__45__oxo__45__C42__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15089,7 +15089,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/wqpydR5T"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-hydroxypimeloyl-ACP-methyl-esters"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__hydroxypimeloyl__45__ACP__45__methyl__45__esters"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15103,7 +15103,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Yun8DiCT"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-Ketopimeloyl-ACP-methyl-esters"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__Ketopimeloyl__45__ACP__45__methyl__45__esters"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15117,7 +15117,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/afRtxVmu"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D17-35-3-hydroxyC54-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D17__45__35__45__3__45__hydroxyC54__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15131,7 +15131,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/DLYn7kUJ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D17-35-3-oxo-C54-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D17__45__35__45__3__45__oxo__45__C54__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15145,7 +15145,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/sjLxcRfm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-L-3-HYDROXYACYL-COA-C8-H16"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__L__45__3__45__HYDROXYACYL__45__COA__45__C8__45__H16"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15159,7 +15159,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/euGsL6Fe"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-L-3-HYDROXYACYL-COA-C10-WATER"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__L__45__3__45__HYDROXYACYL__45__COA__45__C10__45__WATER"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15173,7 +15173,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/RBAfAaxf"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-L-3-HYDROXYACYL-COA-C14-H28"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__L__45__3__45__HYDROXYACYL__45__COA__45__C14__45__H28"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15187,7 +15187,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Opxdsas4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-3-KETOACYL-COA-C14-H28"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__3__45__KETOACYL__45__COA__45__C14__45__H28"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15201,7 +15201,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/r1pMW7NY"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-L-3-HYDROXYACYL-COA-C16-H32"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__L__45__3__45__HYDROXYACYL__45__COA__45__C16__45__H32"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15215,7 +15215,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/MHqUdihN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14271"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14271"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15229,7 +15229,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ClFIX57J"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D5-17-3-hydroxyC36-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D5__45__17__45__3__45__hydroxyC36__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15243,7 +15243,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/5m1Y6lf9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D5-17-3-oxo-C36-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D5__45__17__45__3__45__oxo__45__C36__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15257,7 +15257,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ZhUPAgTI"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11527"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11527"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15271,7 +15271,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mB4qvzlL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11528"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11528"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15285,7 +15285,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CE1r4tga"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D9-21-3-hydroxyC40-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D9__45__21__45__3__45__hydroxyC40__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15299,7 +15299,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/YSTu1S4N"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D9-21-3-oxo-C40-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D9__45__21__45__3__45__oxo__45__C40__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15313,7 +15313,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/nCMkwhsz"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D13-31-3-hydroxyC50-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D13__45__31__45__3__45__hydroxyC50__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15327,7 +15327,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pb1DUgA7"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-cis-D13-31-3-oxo-C50-2-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__cis__45__D13__45__31__45__3__45__oxo__45__C50__45__2__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15341,7 +15341,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/NJ1ngjSv"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Sulfurated-Sulfur-Acceptors"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Sulfurated__45__Sulfur__45__Acceptors"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15355,7 +15355,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4TZ5yAhw"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Unsulfurated-Sulfur-Acceptors"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Unsulfurated__45__Sulfur__45__Acceptors"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15369,7 +15369,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/aety6wuo"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14422"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14422"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15383,7 +15383,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/VHAU6Gsq"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14419"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14419"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15397,7 +15397,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/OBT8CaGc"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14423"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14423"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15411,7 +15411,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/x92ctHVp"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14424"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14424"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15425,7 +15425,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/oi73nhTl"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15663"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15663"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15439,7 +15439,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/YqAGkdpY"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15658"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15658"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15453,7 +15453,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/WXntKpQK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15662"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15662"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15467,7 +15467,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/OeVKnG2n"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15678"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15678"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15481,7 +15481,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/82oeomSK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCAA-dehydrogenase-lipoyl"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCAA__45__dehydrogenase__45__lipoyl"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15495,7 +15495,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rzg4LwP4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCAA-dehydrogenase-2MP-DH-lipoyl"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCAA__45__dehydrogenase__45__2MP__45__DH__45__lipoyl"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15509,7 +15509,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2bJsXQUh"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCAA-dehydrogenase-DH-lipoyl"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCAA__45__dehydrogenase__45__DH__45__lipoyl"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15523,7 +15523,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/1IEsM2Wa"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8355"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8355"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15537,7 +15537,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/MxfN2zM5"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8291"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8291"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15551,7 +15551,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/41Pa5ipR"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-10806"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__10806"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15565,7 +15565,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3h2nalgthcj"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14704"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14704"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15579,7 +15579,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Ld79xZcP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-HYDROXY-ISOVALERYL-COA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__HYDROXY__45__ISOVALERYL__45__COA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15593,7 +15593,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CH9ed1Ub"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD0-2365"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD0__45__2365"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15607,7 +15607,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/72HuYH8G"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Glycoprotein-Asn-oligosaccharides"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Glycoprotein__45__Asn__45__oligosaccharides"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15621,7 +15621,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/y2sxpuQ9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15694"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15694"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15635,7 +15635,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/jXAAAdG9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-D-3-HYDROXYACYL-COA-C2-H4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C2__45__H4"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15649,7 +15649,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Hp5mpR2n"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-D-3-HYDROXYACYL-COA-C4-H8"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C4__45__H8"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15663,7 +15663,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/7f79bEJN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-12777"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__12777"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15677,7 +15677,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Jtj49ajf"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-D-3-HYDROXYACYL-COA-C8-H16"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C8__45__H16"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15691,7 +15691,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rrVmyNa5"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-D-3-HYDROXYACYL-COA-C10-WATER"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C10__45__WATER"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15705,7 +15705,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/LlSW7Ja1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-D-3-HYDROXYACYL-COA-C12-H24"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__D__45__3__45__HYDROXYACYL__45__COA__45__C12__45__H24"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15719,7 +15719,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/XkT55TIb"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14275"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14275"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15761,7 +15761,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/xD82aVWY"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/L-1-LYSOPHOSPHATIDATE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/L__45__1__45__LYSOPHOSPHATIDATE"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15775,7 +15775,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/7GCfrHyU"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Aliphatic-Amines"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Aliphatic__45__Amines"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15789,7 +15789,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R21huvJo"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R-3-hydroxy-cis-vaccenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R__45__3__45__hydroxy__45__cis__45__vaccenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15803,7 +15803,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/x7QsCRys"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-cis-vaccenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__cis__45__vaccenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15817,7 +15817,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/X2h9Df6L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/D-Xylopyranose"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/D__45__Xylopyranose"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15831,7 +15831,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/HpVmh3YC"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-hydroxy-cis-D9-hexaecenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__hydroxy__45__cis__45__D9__45__hexaecenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15845,7 +15845,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/1KKwtxkG"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-cis-D9-hexadecenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__cis__45__D9__45__hexadecenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15859,7 +15859,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CvB4rnrV"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta21-3-hydroxyC40-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta21__45__3__45__hydroxyC40__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15873,7 +15873,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/aNtq1FH4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta21-3-oxo-C40-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta21__45__3__45__oxo__45__C40__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15887,7 +15887,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3UZh24Y9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta19-3-hydroxyC38-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta19__45__3__45__hydroxyC38__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15901,7 +15901,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ljAAWLWk"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta19-3-oxo-C38-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta19__45__3__45__oxo__45__C38__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15915,7 +15915,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/wYHVrc25"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta17-3-hydroxyC36-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta17__45__3__45__hydroxyC36__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15929,7 +15929,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ahXaA9uz"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta17-3-oxo-C36-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta17__45__3__45__oxo__45__C36__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15943,7 +15943,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/z9CsHA6J"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta15-3-hydroxygheddoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta15__45__3__45__hydroxygheddoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15957,7 +15957,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/bwzjtx4L"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta15-3-oxo-gheddoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta15__45__3__45__oxo__45__gheddoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15971,7 +15971,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mC1vOG31"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta13-3-hydroxylacceroyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta13__45__3__45__hydroxylacceroyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15985,7 +15985,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/tEUDKioz"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta13-3-oxo-lacceroyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta13__45__3__45__oxo__45__lacceroyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -15999,7 +15999,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rMIP2ZXf"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/D-mannopyranose"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/D__45__mannopyranose"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16013,7 +16013,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2kYM4Lrk"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta11-3-hydroxymelissoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta11__45__3__45__hydroxymelissoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16027,7 +16027,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/UaoFfZ9w"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta11-3-oxo-melissoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta11__45__3__45__oxo__45__melissoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16041,7 +16041,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/1cD1sM7u"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta9-3-hydroxymontanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta9__45__3__45__hydroxymontanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16055,7 +16055,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/OrKTmi5V"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta9-3-oxo-montanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta9__45__3__45__oxo__45__montanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16069,7 +16069,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/oT3euFUO"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta7-3-hydroxycerotoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta7__45__3__45__hydroxycerotoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16083,7 +16083,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/vYtrLJle"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta7-3-oxo-cerotoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta7__45__3__45__oxo__45__cerotoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16097,7 +16097,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/5EOARGbH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta5-3-hydroxylignoceroyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta5__45__3__45__hydroxylignoceroyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16111,7 +16111,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/dIgeWCxq"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis-delta5-3-oxo-lignoceroyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cis__45__delta5__45__3__45__oxo__45__lignoceroyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16125,7 +16125,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rjkcvknf"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R-3-hydroxybehenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R__45__3__45__hydroxybehenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16139,7 +16139,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/j8jx5ysE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-behenoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__behenoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16153,7 +16153,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/lY4GJxJQ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N-acyl-sphingosylphosphorylcholine"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N__45__acyl__45__sphingosylphosphorylcholine"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16167,7 +16167,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/di1DthUf"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N-Acylsphingosine"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N__45__Acylsphingosine"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16181,7 +16181,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/j9KMsJaD"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13534"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13534"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16195,7 +16195,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/IZz7lpYL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/O-UREIDOHOMOSERINE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/O__45__UREIDOHOMOSERINE"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16209,7 +16209,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CEkT622u"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Non-Glycosylated-sugar-Acceptors"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Non__45__Glycosylated__45__sugar__45__Acceptors"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16223,7 +16223,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/aSKHDDhH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Citrate-Lyase-Citryl-Form"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Citrate__45__Lyase__45__Citryl__45__Form"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16237,7 +16237,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/bITg9BaP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15860"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15860"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16251,7 +16251,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mzTn1KBu"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14927"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14927"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16265,7 +16265,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/PGJZIKCH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14928"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14928"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16279,7 +16279,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/AXLswuyP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-CPD66-39-C2-H4"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__CPD66__45__39__45__C2__45__H4"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16293,7 +16293,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/uiQu7sol"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-CPD66-39-C10-WATER"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__CPD66__45__39__45__C10__45__WATER"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16307,7 +16307,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/X1LVOo3u"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER-INST-CPD66-39-C16-H32"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/POLYMER__45__INST__45__CPD66__45__39__45__C16__45__H32"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16321,7 +16321,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/peddDhaC"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Odd-Straight-Chain-234-Sat-FA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Odd__45__Straight__45__Chain__45__234__45__Sat__45__FA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16335,7 +16335,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/VWLvJc6f"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Odd-Saturated-Fatty-Acyl-CoA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Odd__45__Saturated__45__Fatty__45__Acyl__45__CoA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16349,7 +16349,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/FAhOAxIh"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-Methyl-Saturated-Fatty-Acids"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__Methyl__45__Saturated__45__Fatty__45__Acids"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16363,7 +16363,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/GgOPgbeJ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-Methyl-Saturated-Fatty-Acyl-CoA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__Methyl__45__Saturated__45__Fatty__45__Acyl__45__CoA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16377,7 +16377,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Jc3gZFQw"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14268"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14268"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16405,7 +16405,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4jbUfrA4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14675"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14675"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16419,7 +16419,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/jlfs9I5O"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ETF-Reduced"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ETF__45__Reduced"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16433,7 +16433,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4ogvcaKA"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14772"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14772"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16447,7 +16447,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/JRvvT9og"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14828"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14828"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16461,7 +16461,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/fYBDi845"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_2-3-4-Saturated-L-Phosphatidates"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_2__45__3__45__4__45__Saturated__45__L__45__Phosphatidates"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16475,7 +16475,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/IF3TfUNF"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CDP-2-3-4-Saturated-Diacylglycerols"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CDP__45__2__45__3__45__4__45__Saturated__45__Diacylglycerols"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16489,7 +16489,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/HHT2zFe9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13936"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13936"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16503,7 +16503,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/af8pdhXz"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13937"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13937"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16517,7 +16517,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/t4nBoW2C"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15616"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15616"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16531,7 +16531,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pvHhrfvK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15382"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15382"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16545,7 +16545,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/dW4rslcD"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-4702"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__4702"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16559,7 +16559,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/phATjYwo"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8619"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8619"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16573,7 +16573,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Bw9L9kb6"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8613"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8613"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16587,7 +16587,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cbpRGema"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/L-Glutamyl-Peptides"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/L__45__Glutamyl__45__Peptides"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16601,7 +16601,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/MDRN5ttg"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14437"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14437"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16615,7 +16615,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/GHEstB9s"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14436"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14436"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16629,7 +16629,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Fjy4zvPm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-4581"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__4581"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16643,7 +16643,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/T6MvG5yO"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8620"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8620"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16671,7 +16671,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2f23pCPa"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCCP-monomers"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCCP__45__monomers"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16685,7 +16685,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/EwCria1o"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCCP-biotin-monomers"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCCP__45__biotin__45__monomers"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16699,7 +16699,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/xupYARp4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Glycerol-1-ehosphate"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Glycerol__45__1__45__ehosphate"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16741,7 +16741,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/RyfbmeFX"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD0-2364"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD0__45__2364"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16755,7 +16755,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/uvO9AENL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Carboxybiotin-BCCP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Carboxybiotin__45__BCCP"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16769,7 +16769,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/wzf9rqdo"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCCP-dimers"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/BCCP__45__dimers"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16783,7 +16783,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/DEiDjkX2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Long-Chain-3S-Hydroxyacyl-CoAs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Long__45__Chain__45__3S__45__Hydroxyacyl__45__CoAs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16797,7 +16797,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/RUUFPmjZ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Long-Chain-Trans-23-Dehydroacyl-CoA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Long__45__Chain__45__Trans__45__23__45__Dehydroacyl__45__CoA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16811,7 +16811,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mNr5FcSG"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14018"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14018"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16825,7 +16825,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/jSGLQh7p"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/GlcA-Gal-Gal-Xyl-Proteins"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/GlcA__45__Gal__45__Gal__45__Xyl__45__Proteins"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16839,7 +16839,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/NPPUwvDM"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD0-1163"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD0__45__1163"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16853,7 +16853,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/vXoBHi59"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15244"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15244"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16867,7 +16867,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/T6uu1HD7"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13036"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13036"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16881,7 +16881,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/f6wpuuLg"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Odd-Straight-Chain-234-Sat-FALD"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Odd__45__Straight__45__Chain__45__234__45__Sat__45__FALD"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16895,7 +16895,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/gk8NVMxP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15190"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15190"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16909,7 +16909,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/oGF3o2vs"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15191"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15191"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16937,7 +16937,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/28y78CN3"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13174"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13174"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16951,7 +16951,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/PAEzIygB"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13172"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13172"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16965,7 +16965,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/AFn2doyK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-12443"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__12443"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17007,7 +17007,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ZAh9Dnh7"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/B-Gal-14-NacGlc-R"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/B__45__Gal__45__14__45__NacGlc__45__R"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17021,7 +17021,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/HPNrOrro"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-10472"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__10472"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17035,7 +17035,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/bMelJb84"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_2-Me-Branched-234-Sat-FALD"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_2__45__Me__45__Branched__45__234__45__Sat__45__FALD"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17049,7 +17049,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/m3iz7VhA"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_2-Me-Branched-234-Sat-FA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_2__45__Me__45__Branched__45__234__45__Sat__45__FA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17063,7 +17063,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pbUBZmln"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Saturated-Fatty-Acyl-CoA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Saturated__45__Fatty__45__Acyl__45__CoA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17077,7 +17077,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/gkpCwjhH"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13040"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13040"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17091,7 +17091,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/KPpMyrwV"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Dietary-retinyl-esters"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Dietary__45__retinyl__45__esters"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17105,7 +17105,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/vNdVFasm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-702"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__702"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17119,7 +17119,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/vOOfO7Vw"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-703"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__703"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17133,7 +17133,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/LPUcrFmK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/D-RIBULOSE-1-P"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/D__45__RIBULOSE__45__1__45__P"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17147,7 +17147,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/E6KLHV9f"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_1-2-DIPALMITOYLPHOSPHATIDYLCHOLINE"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_1__45__2__45__DIPALMITOYLPHOSPHATIDYLCHOLINE"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17175,7 +17175,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/T977LFm5"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N-Acetyl-beta-D-Hexosaminides"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N__45__Acetyl__45__beta__45__D__45__Hexosaminides"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17189,7 +17189,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/XgQ3GzxC"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N-acetyl-beta-D-hexosamines"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N__45__acetyl__45__beta__45__D__45__hexosamines"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17203,7 +17203,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2ZW4oWQk"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-hexanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__hexanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17217,7 +17217,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/gyvSUXl1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R-3-hydroxyhexanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R__45__3__45__hydroxyhexanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17231,7 +17231,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/6y3NSKZT"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Fe2-siderophores"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Fe2__45__siderophores"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17245,7 +17245,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/DLzvwJu5"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Beta-3-hydroxybutyryl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Beta__45__3__45__hydroxybutyryl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17259,7 +17259,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/cYrQqXGk"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Alpha-D-Galactosides"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Alpha__45__D__45__Galactosides"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17273,7 +17273,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/H3TJuUKW"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Non-Galactosylated-Galactose-Acceptors"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Non__45__Galactosylated__45__Galactose__45__Acceptors"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17287,7 +17287,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3DCHMLvm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-dodecanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__dodecanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17301,7 +17301,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ssHhwwFE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R-3-hydroxydodecanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R__45__3__45__hydroxydodecanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17315,7 +17315,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/zWRoj3HA"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-decanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__decanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17329,7 +17329,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/dy3rHrVv"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Beta-hydroxydecanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Beta__45__hydroxydecanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17343,7 +17343,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/D3oqWbIq"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-Oxo-octanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__Oxo__45__octanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17357,7 +17357,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/xCewJYeS"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-Hydroxy-octanoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__Hydroxy__45__octanoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17371,7 +17371,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/AJDsUMI6"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-myristoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__myristoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17385,7 +17385,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/i64sPkbJ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R-3-hydroxymyristoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R__45__3__45__hydroxymyristoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17399,7 +17399,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/NMChsAqN"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-2743"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__2743"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17413,7 +17413,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/pzL1FnbV"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-oxo-ealmitoyl-ACPs"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__oxo__45__ealmitoyl__45__ACPs"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17427,7 +17427,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/JswbATZV"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-HYDROXY-DOCOSAPENTAENOYL-ACP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__HYDROXY__45__DOCOSAPENTAENOYL__45__ACP"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17441,7 +17441,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/VfZi4cBE"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3-OXO-EICOSAPENTAENOYL-ACP"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_3__45__OXO__45__EICOSAPENTAENOYL__45__ACP"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17455,7 +17455,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/8N66UNQe"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R2OH-Straight-Chain-234-Sat-FA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R2OH__45__Straight__45__Chain__45__234__45__Sat__45__FA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17469,7 +17469,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4hAEh5Eh"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R2-2OH-Straight-Chain-234-Sat-FA-CoA"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/R2__45__2OH__45__Straight__45__Chain__45__234__45__Sat__45__FA__45__CoA"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17483,7 +17483,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3QtRJYtf"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Ubiquitin-C-Terminal-Glycine"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Ubiquitin__45__C__45__Terminal__45__Glycine"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17497,7 +17497,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/OediKVIP"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14387"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14387"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17511,7 +17511,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rSNDWQH8"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14386"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14386"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17525,7 +17525,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/bF5Z5AoW"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-6741"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__6741"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17539,7 +17539,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/tXzpHUns"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11641"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11641"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17553,7 +17553,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ZbiCGDnI"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14280"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14280"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17567,7 +17567,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/UpOvL2SA"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15370"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15370"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17581,7 +17581,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/58AzWDMT"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15366"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15366"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17595,7 +17595,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/kwwZa4dQ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15362"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15362"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17609,7 +17609,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2EfHPIrL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-12699"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__12699"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17623,7 +17623,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/EJO1y75S"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14281"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14281"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17651,7 +17651,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/fAhbB6ib"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14282"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14282"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17679,7 +17679,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/43kgbcCn"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14283"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14283"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17693,7 +17693,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/kWRaQFIZ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD1G-277"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD1G__45__277"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17721,7 +17721,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Uy4JwJBS"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Non-Glucosylated-Glucose-Acceptors"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Non__45__Glucosylated__45__Glucose__45__Acceptors"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17735,7 +17735,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/PIHYMLUT"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Actinorhodin-Intermediate-1"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Actinorhodin__45__Intermediate__45__1"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17749,7 +17749,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Zc2zSHDe"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Actinorhodin-Intermediate-2"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Actinorhodin__45__Intermediate__45__2"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17763,7 +17763,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/f1vzSbMF"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14278"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14278"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17777,7 +17777,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/kKS58Vr2"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14277"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14277"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17791,7 +17791,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/JEF7Fteq"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14276"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14276"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17805,7 +17805,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/A9LEJa8u"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein-L-serine-or-L-threonine"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein__45__L__45__serine__45__or__45__L__45__threonine"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17819,7 +17819,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rpM93bIK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein-Ser-or-Thr-ehosphate"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein__45__Ser__45__or__45__Thr__45__ehosphate"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17833,7 +17833,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/FAOFySeR"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/tRNA-uridine-38-40"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/tRNA__45__uridine__45__38__45__40"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17847,7 +17847,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/rYYUSbZo"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N-4-aminobutylidene-eIF5A-lysine"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N__45__4__45__aminobutylidene__45__eIF5A__45__lysine"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17861,7 +17861,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/KvJHLfTO"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N-4-aminobutylidene-enzyme-lysine"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N__45__4__45__aminobutylidene__45__enzyme__45__lysine"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17875,7 +17875,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/jARgtuO9"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Deoxyhypusine-Synthase-Lysine"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Deoxyhypusine__45__Synthase__45__Lysine"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17889,7 +17889,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/jHLwJCvk"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein-Phosphoserines"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein__45__Phosphoserines"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17903,7 +17903,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/HRgfdeAL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Proteins-L-Threonines"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Proteins__45__L__45__Threonines"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17917,7 +17917,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/I9RuW5Ik"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein-Phosphothreonines"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein__45__Phosphothreonines"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17931,7 +17931,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ZpCxjjAY"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13227"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13227"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17945,7 +17945,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CqRftrX4"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8978"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8978"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17959,7 +17959,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/y8e6Y82k"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14298"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14298"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17973,7 +17973,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/12dag_cho"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_1-2-Diglycerides"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/_1__45__2__45__Diglycerides"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -17987,7 +17987,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/AfwuPsb1"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-7000"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__7000"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18001,7 +18001,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/KLQRwTsv"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-7033"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__7033"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18015,7 +18015,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/bsnnsFjK"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/INDOLE-3-GLYCOL"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/INDOLE__45__3__45__GLYCOL"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18029,7 +18029,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/iSWkHWJC"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-7036"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__7036"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18043,7 +18043,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/HBoruMAO"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-7037"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__7037"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18057,7 +18057,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/kzt78PVM"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11671"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11671"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18071,7 +18071,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/oYckGX4U"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8618"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8618"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18085,7 +18085,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/1CQPdpKq"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8617"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8617"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18099,7 +18099,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/mHgXK9nm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-14926"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__14926"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18113,7 +18113,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/xZp4CALy"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8614"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8614"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18127,7 +18127,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/ybOmPKfL"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8612"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8612"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18141,7 +18141,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/d4nHNWqu"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-8611"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__8611"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18155,7 +18155,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/SU23hSzo"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-11529"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__11529"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18169,7 +18169,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/8bS4DdVm"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15688"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15688"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18183,7 +18183,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/1cvohqml"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-4580"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__4580"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18197,7 +18197,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/etT6BpaQ"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-4579"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__4579"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18211,7 +18211,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4Af4Bm5Ac824d3Bol"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-4576"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__4576"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18225,7 +18225,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4Ahm4Bm5Ac824d3Bol"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-4575"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__4575"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18239,7 +18239,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3trdececoa"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15692"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15692"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18253,7 +18253,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3oxo4preg20ccoa"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13700"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13700"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18267,7 +18267,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/322dioxochol4en24coa"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-13699"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__13699"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18309,7 +18309,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/3oxobhcoa"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-10283"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__10283"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18337,7 +18337,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Dlmlcsmald"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-5682"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__5682"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18351,7 +18351,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/2carbcercoa"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD1G-332"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD1G__45__332"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18365,7 +18365,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/aldDman"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-15373"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__15373"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18379,7 +18379,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/4chlosalc"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-10576"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__10576"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18393,7 +18393,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/5metsalc"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-10664"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__10664"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18407,7 +18407,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/5chlosalc"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-10663"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__10663"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -18421,7 +18421,7 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/aDrbfur"/>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD-10330"/>
+                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/CPD__45__10330"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
