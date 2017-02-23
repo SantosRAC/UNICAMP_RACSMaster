@@ -1663,7 +1663,7 @@ sbtabreact1660	C00117 + C00014 + C00118 <=> C00009 + C00018 + C00001	R10088		tes
 sbtabreact1661	C00049 + C00169 <=> C00009 + C00438	R01397		testGeneSymbol1661	True	sbtabreact1661
 sbtabreact1662	C00155 + C04489 <=> C04144 + C00073	R04405		testGeneSymbol1662	False	sbtabreact1662
 !!SBtab SBtabVersion=’1.0’	TableName=’K. brasiliensis SBTab Compound Table’	TableType=’Compound’
-!ID	!Name	!Identifiers:kegg.compound	!Identifiers:bigg.metabolite	!Identifiers:biocyc	!StructureFormula	!SBML:species:id
+!ID	!Name	!Identifiers:kegg.compound	!Identifiers:bigg.metabolite	!Identifiers:biocyc	!CompoundSumFormula	!SBML:species:id
 sbtabcomp1	10-Formyltetrahydrofolate	C00234	10fthf		C20H23N7O7	sbtabcomp1
 sbtabcomp2	1,2-Diacyl-sn-glycerol	C00641	12dgr_EC		C5H6O5R2	sbtabcomp2
 sbtabcomp3	(R)-Propane-1,2-diol	C02912	12ppd__R		C3H8O2	sbtabcomp3
