@@ -1,0 +1,1525 @@
+IdentifierInModel	OriginalBiGGIdentifier	MetaboliteName	CreatedOrFixedBiGGIdentifier	RandomIdentifierPerlBoolean
+C00234	10fthf	blank_description	10fthf	FALSE
+C00641	12dgr_EC	blank_description	12dgr_EC	FALSE
+C02912	12ppd__R	blank_description	12ppd__R	FALSE
+C02917	12ppd__S	blank_description	12ppd__S	FALSE
+C00236	13dpg	blank_description	13dpg	FALSE
+C01672	15dap	blank_description	15dap	FALSE
+C01234	1acpc	blank_description	1acpc	FALSE
+C00681	1ag3p_SC	blank_description	1ag3p_SC	FALSE
+C06142	1btol	blank_description	1btol	FALSE
+C01235	1Dgali	blank_description	1Dgali	FALSE
+C02918	1mncam	blank_description	1mncam	FALSE
+C04281	1p3h5c	blank_description	1p3h5c	FALSE
+C03912	1pyr5c	blank_description	1pyr5c	FALSE
+C00196	23dhb	blank_description	23dhb	FALSE
+C04272	23dhmb	blank_description	23dhmb	FALSE
+C06007	23dhmp	blank_description	23dhmp	FALSE
+C04823	25aics	blank_description	25aics	FALSE
+C02780	25dkglcn	blank_description	25dkglcn	FALSE
+C01304	25drapp	blank_description	25drapp	FALSE
+C06006	2ahbut	blank_description	2ahbut	FALSE
+C05125	2ahethmpp	blank_description	2ahethmpp	FALSE
+C02218	2amac	blank_description	2amac	FALSE
+C11822	2amsa	blank_description	2amsa	FALSE
+C05838	2coum	blank_description	2coum	FALSE
+C01302	2cpr5p	blank_description	2cpr5p	FALSE
+C04691	2dda7p	blank_description	2dda7p	FALSE
+C02782	2dglcn	blank_description	2dglcn	FALSE
+C06473	2dhglcn	blank_description	2dhglcn	FALSE
+C00966	2dhp	blank_description	2dhp	FALSE
+C00673	2dr5p	blank_description	2dr5p	FALSE
+C01179	2h34hppr	blank_description	2h34hppr	FALSE
+C01146	2h3oppan	blank_description	2h3oppan	FALSE
+C02323	2hymeph	blank_description	2hymeph	FALSE
+C02631	2ippm	blank_description	2ippm	FALSE
+C03344	2maacoa	blank_description	2maacoa	FALSE
+C04752	2mahmp	blank_description	2mahmp	FALSE
+C03345	2mb2coa	blank_description	2mb2coa	FALSE
+C02223	2mbald	blank_description	2mbald	FALSE
+C04225	2mcacn	blank_description	2mcacn	FALSE
+C02225	2mcit	blank_description	2mcit	FALSE
+C03460	2mp2coa	blank_description	2mp2coa	FALSE
+C00109	2obut	blank_description	2obut	FALSE
+C05811	2ohph	blank_description	2ohph	FALSE
+C05813	2ombz	blank_description	2ombz	FALSE
+C05814	2ommb	blank_description	2ommb	FALSE
+C05812	2omph	blank_description	2omph	FALSE
+C00322	2oxoadp	blank_description	2oxoadp	FALSE
+C00631	2pg	blank_description	2pg	FALSE
+C05853	2phetoh	blank_description	2phetoh	FALSE
+C00230	34dhbz	blank_description	34dhbz	FALSE
+C01197	34dhcinm	blank_description	34dhcinm	FALSE
+C05577	34dhmald	blank_description	34dhmald	FALSE
+C05580	34dhoxmand	blank_description	34dhoxmand	FALSE
+C05576	34dhoxpeg	blank_description	34dhoxpeg	FALSE
+C04043	34dhpac	blank_description	34dhpac	FALSE
+C01161	34dhpha	blank_description	34dhpha	FALSE
+C00355	34dhphe	blank_description	34dhphe	FALSE
+C00942	35cgmp	blank_description	35cgmp	FALSE
+C01205	3aib__D	blank_description	3aib__D	FALSE
+C04411	3c2hmp	blank_description	3c2hmp	FALSE
+C02504	3c3hmp	blank_description	3c3hmp	FALSE
+C04236	3c4mop	blank_description	3c4mop	FALSE
+C03926	3ddgc	blank_description	3ddgc	FALSE
+C00944	3dhq	blank_description	3dhq	FALSE
+C02637	3dhsk	blank_description	3dhsk	FALSE
+C02934	3dsphgn	blank_description	3dsphgn	FALSE
+C01271	3haACP	blank_description	3haACP	FALSE
+C00640	3hacoa	blank_description	3hacoa	FALSE
+C14145	3hadpcoa	blank_description	3hadpcoa	FALSE
+C00632	3hanthrn	blank_description	3hanthrn	FALSE
+C01144	3hbcoa	blank_description	3hbcoa	FALSE
+C03561	3hbcoa__R	blank_description	3hbcoa__R	FALSE
+C04618	3hbutACP	blank_description	3hbutACP	FALSE
+C05264	3hdcoa	blank_description	3hdcoa	FALSE
+C05757	3hddecACP	blank_description	3hddecACP	FALSE
+C04619	3hdecACP	blank_description	3hdecACP	FALSE
+C05268	3hhcoa	blank_description	3hhcoa	FALSE
+C05258	3hhdcoa	blank_description	3hhdcoa	FALSE
+C05747	3hhexACP	blank_description	3hhexACP	FALSE
+C06001	3hib	blank_description	3hib	FALSE
+C06000	3hibutcoa	blank_description	3hibutcoa	FALSE
+C04405	3hmbcoa	blank_description	3hmbcoa	FALSE
+C04181	3hmoa	blank_description	3hmoa	FALSE
+C14463	3hmop	blank_description	3hmop	FALSE
+C04688	3hmrsACP	blank_description	3hmrsACP	FALSE
+C05266	3hocoa	blank_description	3hocoa	FALSE
+C16220	3hoctaACP	blank_description	3hoctaACP	FALSE
+C04620	3hoctACP	blank_description	3hoctACP	FALSE
+C16217	3hodcoa	blank_description	3hodcoa	FALSE
+C04633	3hpalmACP	blank_description	3hpalmACP	FALSE
+C01259	3htmelys	blank_description	3htmelys	FALSE
+C03506	3ig3p	blank_description	3ig3p	FALSE
+C05583	3m4hpga	blank_description	3m4hpga	FALSE
+C03069	3mb2coa	blank_description	3mb2coa	FALSE
+C07329	3mbald	blank_description	3mbald	FALSE
+C03231	3mgcoa	blank_description	3mgcoa	FALSE
+C00141	3mob	blank_description	3mob	FALSE
+C00671	3mop	blank_description	3mop	FALSE
+C05584	3mox4hoxm	blank_description	3mox4hoxm	FALSE
+C05265	3odcoa	blank_description	3odcoa	FALSE
+C05263	3oddcoa	blank_description	3oddcoa	FALSE
+C05756	3oddecACP	blank_description	3oddecACP	FALSE
+C05753	3odecACP	blank_description	3odecACP	FALSE
+C05269	3ohcoa	blank_description	3ohcoa	FALSE
+C05259	3ohdcoa	blank_description	3ohdcoa	FALSE
+C05746	3ohexACP	blank_description	3ohexACP	FALSE
+C16216	3ohodcoa	blank_description	3ohodcoa	FALSE
+C05759	3omrsACP	blank_description	3omrsACP	FALSE
+C05267	3oocoa	blank_description	3oocoa	FALSE
+C05750	3ooctACP	blank_description	3ooctACP	FALSE
+C05762	3opalmACP	blank_description	3opalmACP	FALSE
+C05809	3ophb	blank_description	3ophb	FALSE
+C13425	3ophb_5	blank_description	3ophb_5	FALSE
+C05261	3otdcoa	blank_description	3otdcoa	FALSE
+C00846	3oxoadp	blank_description	3oxoadp	FALSE
+C00197	3pg	blank_description	3pg	FALSE
+C03232	3php	blank_description	3php	FALSE
+C01269	3psme	blank_description	3psme	FALSE
+C00606	3sala	blank_description	3sala	FALSE
+C05528	3spyr	blank_description	3spyr	FALSE
+C05100	3uib	blank_description	3uib	FALSE
+C05645	42A3HP24DB	blank_description	42A3HP24DB	FALSE
+C02946	4aabutn	blank_description	4aabutn	FALSE
+C00334	4abut	blank_description	4abut	FALSE
+C00555	4abutn	blank_description	4abutn	FALSE
+C00568	4abz	blank_description	4abz	FALSE
+C11355	4adcho	blank_description	4adcho	FALSE
+C01279	4ahmmp	blank_description	4ahmmp	FALSE
+C04556	4ampm	blank_description	4ampm	FALSE
+C01252	4aphdob	blank_description	4aphdob	FALSE
+C03078	4gudbd	blank_description	4gudbd	FALSE
+C01035	4gudbutn	blank_description	4gudbutn	FALSE
+C00633	4hbald	blank_description	4hbald	FALSE
+C00156	4hbz	blank_description	4hbz	FALSE
+C02949	4hbzcoa	blank_description	4hbzcoa	FALSE
+C03765	4hoxpacd	blank_description	4hoxpacd	FALSE
+C01157	4hpro_LT	blank_description	4hpro_LT	FALSE
+C06730	4mcat	blank_description	4mcat	FALSE
+C04294	4mhetz	blank_description	4mhetz	FALSE
+C00233	4mop	blank_description	4mop	FALSE
+C04327	4mpetz	blank_description	4mpetz	FALSE
+C05103	4mzym	blank_description	4mzym	FALSE
+C15816	4mzym_int2	blank_description	4mzym_int2	FALSE
+C00870	4nph	blank_description	4nph	FALSE
+C03082	4pasp	blank_description	4pasp	FALSE
+C03492	4ppan	blank_description	4ppan	FALSE
+C04352	4ppcys	blank_description	4ppcys	FALSE
+C04732	4r5au	blank_description	4r5au	FALSE
+C03917	5adtststerone	blank_description	5adtststerone	FALSE
+C04751	5aizc	blank_description	5aizc	FALSE
+C00430	5aop	blank_description	5aop	FALSE
+C01062	5dglcn	blank_description	5dglcn	FALSE
+C01143	5dpmev	blank_description	5dpmev	FALSE
+C03479	5fthf	blank_description	5fthf	FALSE
+C11821	5hiu	blank_description	5hiu	FALSE
+C12248	5houdic	blank_description	5houdic	FALSE
+C05634	5hoxindact	blank_description	5hoxindact	FALSE
+C05635	5hoxindoa	blank_description	5hoxindoa	FALSE
+C00643	5htrp	blank_description	5htrp	FALSE
+C04188	5mdr1p	blank_description	5mdr1p	FALSE
+C00170	5mta	blank_description	5mta	FALSE
+C00440	5mthf	blank_description	5mthf	FALSE
+C03586	5odhf2a	blank_description	5odhf2a	FALSE
+C01879	5oxpro	blank_description	5oxpro	FALSE
+C01107	5pmev	blank_description	5pmev	FALSE
+C03239	6a2ohxnt	blank_description	6a2ohxnt	FALSE
+C01300	6hmhpt	blank_description	6hmhpt	FALSE
+C04807	6hmhptpp	blank_description	6hmhptpp	FALSE
+C00345	6pgc	blank_description	6pgc	FALSE
+C01236	6pgl	blank_description	6pgl	FALSE
+C01092	8aonn	blank_description	8aonn	FALSE
+C01659	aa	blank_description	aa	FALSE
+C06735	aacald	blank_description	aacald	FALSE
+C00332	aacoa	blank_description	aacoa	FALSE
+C01888	aact	blank_description	aact	FALSE
+C00532	abt	blank_description	abt	FALSE
+C01904	abt__D	blank_description	abt__D	FALSE
+C00033	ac	blank_description	ac	FALSE
+C00164	acac	blank_description	acac	FALSE
+C03939	acACP	blank_description	acACP	FALSE
+C00084	acald	blank_description	acald	FALSE
+C00024	accoa	blank_description	accoa	FALSE
+C04133	acg5p	blank_description	acg5p	FALSE
+C01250	acg5sa	blank_description	acg5sa	FALSE
+C00140	acgam	blank_description	acgam	FALSE
+C04256	acgam1p	blank_description	acDgam1p	FALSE
+C04501	acgam1p	blank_description	acgam1p	FALSE
+C00357	acgam6p	blank_description	acgam6p	FALSE
+C00624	acglu	blank_description	acglu	FALSE
+C01077	achms	blank_description	achms	FALSE
+C00040	acoa	blank_description	acoa	FALSE
+C00417	acon_C	blank_description	acon_C	FALSE
+C02341	acon_T	blank_description	acon_T	FALSE
+C00437	acorn	blank_description	acorn	FALSE
+C16736	ACP	Thiol-containing reductant	tcred	FALSE
+C00229	ACP	blank_description	ACP	FALSE
+C00145	ACP	Thiol	thiol	FALSE
+C11482	ACP	Holo-Lys2	hlys2	FALSE
+C02571	acrn	blank_description	acrn	FALSE
+C00511	acryl	blank_description	acryl	FALSE
+C00979	acser	blank_description	acser	FALSE
+C05744	actACP	blank_description	actACP	FALSE
+C00810	actn__R	blank_description	actn__R	FALSE
+C00227	actp	blank_description	actp	FALSE
+C06244	ad	blank_description	ad	FALSE
+C00147	ade	blank_description	ade	FALSE
+C00212	adn	blank_description	adn	FALSE
+C00008	adp	blank_description	adp	FALSE
+C00179	agm	blank_description	agm	FALSE
+C00021	ahcys	blank_description	ahcys	FALSE
+C04895	ahdt	blank_description	ahdt	FALSE
+C04677	aicar	blank_description	aicar	FALSE
+C03373	air	blank_description	air	FALSE
+C00026	akg	blank_description	akg	FALSE
+C00041	ala__L	blank_description	ala__L	FALSE
+C00099	ala_B	blank_description	ala_B	FALSE
+C06010	alac__S	blank_description	alac__S	FALSE
+C00886	alatrna	blank_description	alatrna	FALSE
+C00499	alltt	blank_description	alltt	FALSE
+C01242	alpro	blank_description	alpro	FALSE
+C03824	am6sa	blank_description	am6sa	FALSE
+C00019	amet	blank_description	amet	FALSE
+C01137	ametam	blank_description	ametam	FALSE
+C04425	amob	blank_description	amob	FALSE
+C00020	amp	blank_description	amp	FALSE
+C00674	andrstandn	blank_description	andrstandn	FALSE
+C00280	andrstndn	blank_description	andrstndn	FALSE
+C00108	anth	blank_description	anth	FALSE
+C03011	apep	blank_description	apep	FALSE
+C03688	apoACP	blank_description	apoACP	FALSE
+C02248	apocytc	blank_description	apocytc	FALSE
+C06197	apppa	blank_description	apppa	FALSE
+C02714	aprut	blank_description	aprut	FALSE
+C00224	aps	blank_description	aps	FALSE
+C00259	arab__L	blank_description	arab__L	FALSE
+C00062	arg__L	blank_description	arg__L	FALSE
+C03406	argsuc	blank_description	argsuc	FALSE
+C02163	argtrna	blank_description	argtrna	FALSE
+C00152	asn__L	blank_description	asn__L	FALSE
+C03402	asntrna	blank_description	asntrna	FALSE
+C00402	asp__D	blank_description	asp__D	FALSE
+C00049	asp__L	blank_description	asp__L	FALSE
+C00441	aspsa	blank_description	aspsa	FALSE
+C02984	asptrna	blank_description	asptrna	FALSE
+C00002	atp	blank_description	atp	FALSE
+C00877	b2coa	blank_description	b2coa	FALSE
+C05839	bdg2hc	blank_description	bdg2hc	FALSE
+C00576	betald	blank_description	betald	FALSE
+C00500	biliverd	blank_description	biliverd	FALSE
+C01412	btal	blank_description	btal	FALSE
+C05921	btamp	blank_description	btamp	FALSE
+C00136	btcoa	blank_description	btcoa	FALSE
+C00120	btn	blank_description	btn	FALSE
+C06250	btnCCP	blank_description	btnCCP	FALSE
+C00246	but	blank_description	but	FALSE
+C04246	but2eACP	blank_description	but2eACP	FALSE
+C05745	butACP	blank_description	butACP	FALSE
+C00180	bz	blank_description	bz	FALSE
+C00261	bzal	blank_description	bzal	FALSE
+C00556	bzalc	blank_description	bzalc	FALSE
+C00076	ca2	blank_description	ca2	FALSE
+C00323	caffcoa	blank_description	caffcoa	FALSE
+C02642	cala	blank_description	cala	FALSE
+C00575	camp	blank_description	camp	FALSE
+C04441	caphis	blank_description	caphis	FALSE
+C02094	caro	blank_description	caro	FALSE
+C00090	catechol	blank_description	catechol	FALSE
+C01785	catechol	Benzenediol	bzdiol	FALSE
+C00438	cbasp	blank_description	cbasp	FALSE
+C01563	cbm	blank_description	cbm	FALSE
+C00169	cbp	blank_description	cbp	FALSE
+C04419	cbtnCCP	blank_description	cbtnCCP	FALSE
+C02480	ccmuac	blank_description	ccmuac	FALSE
+C00112	cdp	blank_description	cdp	FALSE
+C00307	cdpchol	blank_description	cdpchol	FALSE
+C06422	cellb	blank_description	bcellb	FALSE
+C00185	cellb	blank_description	cellb	FALSE
+C01419	cgly	blank_description	cgly	FALSE
+C00734	chitos	blank_description	chitos	FALSE
+C00114	chol	blank_description	chol	FALSE
+C05460	cholcoads	blank_description	cholcoads	FALSE
+C00588	cholp	blank_description	cholp	FALSE
+C00919	chols	blank_description	chols	FALSE
+C00251	chor	blank_description	chor	FALSE
+C01674	chtbs	blank_description	chtbs	FALSE
+C00461	chtn	blank_description	chtn	FALSE
+C00423	cinnm	blank_description	cinnm	FALSE
+C00158	cit	blank_description	cit	FALSE
+C00327	citr__L	blank_description	citr__L	FALSE
+C00698	cl	blank_description	cl	FALSE
+C04692	cmaphis	blank_description	cmaphis	FALSE
+C00055	cmp	blank_description	cmp	FALSE
+C04409	cmusa	blank_description	cmusa	FALSE
+C00237	co	blank_description	co	FALSE
+C00011	co2	blank_description	co2	FALSE
+C00010	coa	blank_description	coa	FALSE
+C00762	cortsn	blank_description	cortsn	FALSE
+C00223	coucoa	blank_description	coucoa	FALSE
+C18239	cpmp	blank_description	cpmp	FALSE
+C05768	cpppg1	blank_description	cpppg1	FALSE
+C03263	cpppg3	blank_description	cpppg3	FALSE
+C00318	crn	blank_description	crn	FALSE
+C00380	csn	blank_description	csn	FALSE
+C00063	ctp	blank_description	ctp	FALSE
+C01326	cyan	blank_description	cyan	FALSE
+C01902	cyart	blank_description	cyart	FALSE
+C01417	cynt	blank_description	cynt	FALSE
+C00097	cys__L	blank_description	cys__L	FALSE
+C02291	cyst__L	blank_description	cyst__L	FALSE
+C03125	cystrna	blank_description	cystrna	FALSE
+C00524	cytcc	blank_description	cytcc	FALSE
+C00475	cytd	blank_description	cytd	FALSE
+C00559	dad_2	blank_description	dad_2	FALSE
+C05198	dad_5	blank_description	dad_5	FALSE
+C00206	dadp	blank_description	dadp	FALSE
+C01037	dann	blank_description	dann	FALSE
+C00131	datp	blank_description	datp	FALSE
+C15556	db4p	blank_description	db4p	FALSE
+C05275	dc2coa	blank_description	dc2coa	FALSE
+C01571	dca	blank_description	dca	FALSE
+C05755	dcaACP	blank_description	dcaACP	FALSE
+C05274	dcacoa	blank_description	dcacoa	FALSE
+C03794	dcamp	blank_description	dcamp	FALSE
+C00705	dcdp	blank_description	dcdp	FALSE
+C00239	dcmp	blank_description	dcmp	FALSE
+C00458	dctp	blank_description	dctp	FALSE
+C03221	dd2coa	blank_description	dd2coa	FALSE
+C02679	ddca	blank_description	ddca	FALSE
+C05223	ddcaACP	blank_description	ddcaACP	FALSE
+C01832	ddcacoa	blank_description	ddcacoa	FALSE
+C00361	dgdp	blank_description	dgdp	FALSE
+C00362	dgmp	blank_description	dgmp	FALSE
+C00330	dgsn	blank_description	dgsn	FALSE
+C00286	dgtp	blank_description	dgtp	FALSE
+C00184	dha	blank_description	dha	FALSE
+C00111	dhap	blank_description	dhap	FALSE
+C00268	dhbpt	blank_description	dhbpt	FALSE
+C05422	dhdascb	blank_description	dhdascb	FALSE
+C00415	dhf	blank_description	dhf	FALSE
+C02972	dhlpro	blank_description	dhlpro	FALSE
+C04874	dhnpt	blank_description	dhnpt	FALSE
+C00337	dhor__S	blank_description	dhor__S	FALSE
+C00921	dhpt	blank_description	dhpt	FALSE
+C00741	diact	blank_description	diact	FALSE
+C01344	didp	blank_description	didp	FALSE
+C06126	digalside_hs	blank_description	digalside_hs	FALSE
+C05512	din	blank_description	din	FALSE
+C01345	ditp	blank_description	ditp	FALSE
+C04332	dmlz	blank_description	dmlz	FALSE
+C00235	dmpp	blank_description	dmpp	FALSE
+C00039	dna	blank_description	dna	FALSE
+C02967	dna5mtc	blank_description	dna5mtc	FALSE
+C00857	dnad	blank_description	dnad	FALSE
+C00621	doldp	blank_description	doldp	FALSE
+C00381	dolichol	blank_description	dolichol	FALSE
+C00110	dolp	blank_description	dolp	FALSE
+C01246	dolpglc	blank_description	dolpglc	FALSE
+C03758	dopa	blank_description	dopa	FALSE
+C00882	dpcoa	blank_description	dpcoa	FALSE
+C02463	dscl	blank_description	dscl	FALSE
+C01909	dtbt	blank_description	dtbt	FALSE
+C00363	dtdp	blank_description	dtdp	FALSE
+C00364	dtmp	blank_description	dtmp	FALSE
+C00459	dttp	blank_description	dttp	FALSE
+C01346	dudp	blank_description	dudp	FALSE
+C00365	dump	blank_description	dump	FALSE
+C00460	dutp	blank_description	dutp	FALSE
+C05947	e4hglu	blank_description	e4hglu	FALSE
+C00279	e4p	blank_description	e4p	FALSE
+C04666	eig3p	blank_description	eig3p	FALSE
+C15777	epist	blank_description	epist	FALSE
+C05400	epm	blank_description	epm	FALSE
+C01694	ergst	blank_description	ergst	FALSE
+C00189	etha	blank_description	etha	FALSE
+C00346	ethamp	blank_description	ethamp	FALSE
+C00469	etoh	blank_description	etoh	FALSE
+C00085	f6p	blank_description	f6p	FALSE
+C05345	f6p_B	blank_description	f6p_B	FALSE
+C00016	fad	blank_description	fad	FALSE
+C01352	fadh2	blank_description	fadh2	FALSE
+C00067	fald	blank_description	fald	FALSE
+C01099	fc1p	blank_description	fc1p	FALSE
+C00354	fdp	blank_description	fdp	FALSE
+C05378	fdp_B	blank_description	fdp_B	FALSE
+C00138	fdxrd	blank_description	fdxrd	FALSE
+C14818	fe2	blank_description	fe2	FALSE
+C04525	fecost	blank_description	fecost	FALSE
+C01494	fer	blank_description	fer	FALSE
+C04376	fgam	blank_description	fgam	FALSE
+C00996	ficytb5	blank_description	ficytb5	FALSE
+C00125	ficytC	blank_description	ficytC	FALSE
+C00061	fmn	blank_description	fmn	FALSE
+C00999	focytb5	blank_description	focytb5	FALSE
+C00126	focytC	blank_description	focytC	FALSE
+C00504	fol	blank_description	fol	FALSE
+C00058	for	blank_description	for	FALSE
+C04640	fpram	blank_description	fpram	FALSE
+C04734	fprica	blank_description	fprica	FALSE
+C00448	frdp	blank_description	frdp	FALSE
+C00095	fru	blank_description	fru	FALSE
+C02336	fru_B	blank_description	fru_B	FALSE
+C00122	fum	blank_description	fum	FALSE
+C00103	g1p	blank_description	g1p	FALSE
+C00118	g3p	blank_description	g3p	FALSE
+C00670	g3pc	blank_description	g3pc	FALSE
+C01233	g3pe	blank_description	g3pe	FALSE
+C00092	g6p	blank_description	g6p	FALSE
+C00668	g6p_A	blank_description	g6p_A	FALSE
+C01172	g6p_B	blank_description	g6p_B	FALSE
+C00124	gal	blank_description	gal	FALSE
+C00962	gal_bD	blank_description	gal_bD	FALSE
+C00446	gal1p	blank_description	gal1p	FALSE
+C01697	galt	blank_description	galt	FALSE
+C00352	gam6p	blank_description	gam6p	FALSE
+C03838	gar	blank_description	gar	FALSE
+C01181	gbbtn,4tmeabutn	blank_description	gbbtn,4tmeabutn	FALSE
+C00266	gcald	blank_description	gcald	FALSE
+C05435	gcarote	blank_description	gcarote	FALSE
+C00035	gdp	blank_description	gdp	FALSE
+C00096	gdpmann	blank_description	gdpmann	FALSE
+C00353	ggdp	blank_description	ggdp	FALSE
+C00031	glc__D	blank_description	glc__D	FALSE
+C00267	Glc_aD	blank_description	Glc_aD	FALSE
+C00257	glcn	blank_description	glcn	FALSE
+C00818	glcr	blank_description	glcr	FALSE
+C00191	glcur	blank_description	glcur	FALSE
+C00064	gln__L	blank_description	gln__L	FALSE
+C02282	glntrna	blank_description	glntrna	FALSE
+C02038	glp	blank_description	glp	FALSE
+C00025	glu__L	blank_description	glu__L	FALSE
+C03287	glu5p	blank_description	glu5p	FALSE
+C01165	glu5sa	blank_description	glu5sa	FALSE
+C00669	glucys	blank_description	glucys	FALSE
+C00527	glutcoa	blank_description	glutcoa	FALSE
+C02987	glutrna	blank_description	glutrna	FALSE
+C06112	glutrna_gln	blank_description	glutrna_gln	FALSE
+C00048	glx	blank_description	glx	FALSE
+C00037	gly	blank_description	gly	FALSE
+C00577	glyald	blank_description	glyald	FALSE
+C00719	glyb	blank_description	glyb	FALSE
+C00116	glyc	blank_description	glyc	FALSE
+C00258	glyc__R	blank_description	glyc__R	FALSE
+C00093	glyc3p	blank_description	glyc3p	FALSE
+C00160	glyclt	blank_description	glyclt	FALSE
+C02412	glytrna	blank_description	glytrna	FALSE
+C00144	gmp	blank_description	gmp	FALSE
+C01261	gp4g	blank_description	gp4g	FALSE
+C04248	gpail_hs	blank_description	gpail_hs	FALSE
+C00341	grdp	blank_description	grdp	FALSE
+C00127	gthox	blank_description	gthox	FALSE
+C00044	gtp	blank_description	gtp	FALSE
+C01040	gullac	blank_description	gullac	FALSE
+C00080	h	blank_description	h	FALSE
+C00001	h2o,oh1	blank_description	h2o,oh1	FALSE
+C00027	h2o2	blank_description	h2o2	FALSE
+C00283	h2s	blank_description	h2s	FALSE
+C04002	hacon_T,hacon_C	blank_description	hacon_T,hacon_C	FALSE
+C00288	hco3	blank_description	hco3	FALSE
+C00155	hcys__L	blank_description	hcys__L	FALSE
+C00249	hdca	blank_description	hdca	FALSE
+C05749	hexACP	blank_description	hexACP	FALSE
+C01230	hexdp	blank_description	hexdp	FALSE
+C05662	hicit	blank_description	hicit	FALSE
+C00135	his__L	blank_description	his__L	FALSE
+C01100	hisp	blank_description	hisp	FALSE
+C00860	histd	blank_description	histd	FALSE
+C02988	histrna	blank_description	histrna	FALSE
+C03227	hLkynr	blank_description	hLkynr	FALSE
+C01024	hmbil	blank_description	hmbil	FALSE
+C00356	hmgcoa	blank_description	hmgcoa	FALSE
+C09819	hmpscoa	blank_description	hmpscoa	FALSE
+C00263	hom__L	blank_description	hom__L	FALSE
+C04144	hpglu	blank_description	hpglu	FALSE
+C00168	hpyr	blank_description	hpyr	FALSE
+C15603	hqn	blank_description	hqn	FALSE
+C06366	hspmd	blank_description	hspmd	FALSE
+C05271	hx2coa	blank_description	hx2coa	FALSE
+C00262	hxan	blank_description	hxan	FALSE
+C05270	hxcoa	blank_description	hxcoa	FALSE
+C00517	hxdcal	blank_description	hxdcal	FALSE
+C00519	hyptaur	blank_description	hyptaur	FALSE
+C02693	iad	blank_description	iad	FALSE
+C07328	iamoh	blank_description	iamoh	FALSE
+C00630	ibcoa	blank_description	ibcoa	FALSE
+C14710	ibutoh	blank_description	ibutoh	FALSE
+C00311	icit	blank_description	icit	FALSE
+C00637	id3acald	blank_description	id3acald	FALSE
+C00104	idp	blank_description	idp	FALSE
+C00407	ile__L	blank_description	ile__L	FALSE
+C03127	iletrna	blank_description	iletrna	FALSE
+C02835	im4ac	blank_description	im4ac	FALSE
+C05130	im4act	blank_description	im4act	FALSE
+C01267	imacp	blank_description	imacp	FALSE
+C00130	imp	blank_description	imp	FALSE
+C00954	ind3ac	blank_description	ind3ac	FALSE
+C02938	ind3acnl	blank_description	ind3acnl	FALSE
+C00463	indole	blank_description	indole	FALSE
+C00331	indpyr	blank_description	indpyr	FALSE
+C00137	inost	blank_description	inost	FALSE
+C00294	ins	blank_description	ins	FALSE
+C00129	ipdp	blank_description	ipdp	FALSE
+C00081	itp	blank_description	itp	FALSE
+C02939	ivcoa	blank_description	ivcoa	FALSE
+C00956	L2aadp	blank_description	L2aadp	FALSE
+C04076	L2aadp6sa	blank_description	L2aadp6sa	FALSE
+C00256	lac__D	blank_description	lac__D	FALSE
+C00186	lac__L	blank_description	lac__L	FALSE
+C00937	lald__D	blank_description	lald__D	FALSE
+C00424	lald__L	blank_description	lald__L	FALSE
+C01724	lanost	blank_description	lanost	FALSE
+C00243	lcts	blank_description	lcts	FALSE
+C00506	Lcyst	blank_description	Lcyst	FALSE
+C00123	leu__L	blank_description	leu__L	FALSE
+C00909	leuktrA4	blank_description	leuktrA4	FALSE
+C02165	leuktrB4	blank_description	leuktrB4	FALSE
+C02047	leutrna	blank_description	leutrna	FALSE
+C02700	Lfmkynr	blank_description	Lfmkynr	FALSE
+C15605	Lfmkynr	blank_description	LfmDkynr	FALSE
+C03451	lgt__S	blank_description	lgt__S	FALSE
+C16238	lipoamp	blank_description	lipoamp	FALSE
+C01718	Lkynr	blank_description	kynr	FALSE
+C00328	Lkynr	blank_description	Lkynr	FALSE
+C02050	lnlccoa	blank_description	lnlccoa	FALSE
+C16162	lnlncacoa	blank_description	lnlncacoa	FALSE
+C03035	lnlncgcoa	blank_description	lnlncgcoa	FALSE
+C02051	lpro	blank_description	lpro	FALSE
+C05432	lycop	blank_description	lycop	FALSE
+C00739	lys__D	blank_description	lys__D	FALSE
+C00047	lys__L	blank_description	lys__L	FALSE
+C01931	lystrna	blank_description	lystrna	FALSE
+C05864	m4macchitppdol	blank_description	m4macchitppdol	FALSE
+C05860	macchitppdol	blank_description	macchitppdol	FALSE
+C00497	mal__D	blank_description	mal__D	FALSE
+C00149	mal__L	blank_description	mal__L	FALSE
+C01209	malACP	blank_description	malACP	FALSE
+C00083	malcoa	blank_description	malcoa	FALSE
+C00208	malt	blank_description	malt	FALSE
+C01936	malthx	blank_description	malthx	FALSE
+C01835	malttr	blank_description	malttr	FALSE
+C02052	maltttr	blank_description	maltttr	FALSE
+C00159	man	blank_description	man	FALSE
+C00636	man1p	blank_description	man1p	FALSE
+C00275	man6p	blank_description	man6p	FALSE
+C16699	man6pglyc	blank_description	man6pglyc	FALSE
+C05402	melib	blank_description	melib	FALSE
+C08830	menecyart	blank_description	menecyart	FALSE
+C00132	meoh	blank_description	meoh	FALSE
+C00957	mercppyr	blank_description	mercppyr	FALSE
+C00073	met__L	blank_description	met__L	FALSE
+C00445	methf	blank_description	methf	FALSE
+C15999	metsox_S__L	blank_description	metsox_S__L	FALSE
+C02430	mettrna	blank_description	mettrna	FALSE
+C00418	mev__R	blank_description	mev__R	FALSE
+C04489	mhpglu	blank_description	mhpglu	FALSE
+C01220	mi14p	blank_description	mi14p	FALSE
+C04006	mi3p__D	blank_description	mi3p__D	FALSE
+C04593	micit	blank_description	micit	FALSE
+C01204	minohp,ppmi1346p	blank_description	minohp,ppmi1346p	FALSE
+C00143	mlthf	blank_description	mlthf	FALSE
+C00683	mmcoa__S	blank_description	mmcoa__S	FALSE
+C06002	mmtsa	blank_description	mmtsa	FALSE
+C00392	mnl	blank_description	mnl	FALSE
+C05404	mnt	blank_description	mnt	FALSE
+C06232	mobd	blank_description	mobd	FALSE
+C19848	mptamp	blank_description	mptamp	FALSE
+C00222	msa	blank_description	msa	FALSE
+C00546	mthgxl	blank_description	mthgxl	FALSE
+C05761	myrsACP	blank_description	myrsACP	FALSE
+C00612	N1aspmd	blank_description	N1aspmd	FALSE
+C02567	N1sprm	blank_description	N1sprm	FALSE
+C05936	n4abutn	blank_description	n4abutn	FALSE
+C00253	nac	blank_description	nac	FALSE
+C00978	Nacsertn	blank_description	Nacsertn	FALSE
+C00003	nad	blank_description	nad	FALSE
+C00004	nadh	blank_description	nadh	FALSE
+C00006	nadp	blank_description	nadp	FALSE
+C00005	nadph	blank_description	nadph	FALSE
+C00153	ncam	blank_description	ncam	FALSE
+C05545	Ndmelys	blank_description	Ndmelys	FALSE
+C05431	neuspn	blank_description	neuspn	FALSE
+C01342	nh3	blank_description	AmnIon	FALSE
+C00014	nh3	blank_description	nh3	FALSE
+C01185	nicrnt	blank_description	nicrnt	FALSE
+C03702	Nmelys	blank_description	Nmelys	FALSE
+C00455	nmn	blank_description	nmn	FALSE
+C00414	NO_BiGG	Cyclohexanone	cclhxnn	FALSE
+C01880	NO_BiGG	Hexano-6-lactone	hxn6lac	FALSE
+C01054	NO_BiGG	Squalene 2,3-oxide	sql23ox	FALSE
+C01041	NO_BiGG	Monodehydroascorbate	mdhascb	FALSE
+C02041	NO_BiGG	Eicosanoyl-CoA	eiccoa	FALSE
+C21067	NO_BiGG	D-Arabinofuranose	arab__D	FALSE
+C00652	NO_BiGG	D-Arabinono-1,4-lactone	Dara14lac	FALSE
+C02143	NO_BiGG	D-threo-Aldose; (2S,3R)-Aldose	Dthrald	FALSE
+C16581	NO_BiGG	D-threo-Aldono-1,5-lactone; (2S,3R)-Aldono-1,5-lactone	Dthrald15lac	FALSE
+C06741	NO_BiGG	Feruloyl-polysaccharide	ferulps	FALSE
+C00420	NO_BiGG	Polysaccharide; Glycan; Polyglycose	glycn	FALSE
+C05440	NO_BiGG	Ergosta-5,7,22,24(28)-tetraen-3beta-ol	ergtetrol	FALSE
+C03269	NO_BiGG	D-galacto-Hexodialdose	Dgalhxdald	FALSE
+C05056	NO_BiGG	a cis-2-enoyl-CoA	cis2coa	FALSE
+C14397	NO_BiGG	Dinitrochlorobenzene	dnchlobz	FALSE
+C11175	NO_BiGG	S-(2,4-Dinitrophenyl)glutathione	S24dnphgth	FALSE
+C04213	NO_BiGG	Dolichyl diphosphooligosaccharide	Dchyldppsac	FALSE
+C00557	NO_BiGG	Cyclopentanone	cpent	FALSE
+C02240	NO_BiGG	5-Valerolactone	vall	FALSE
+G00689	NO_BiGG	Maltoheptaose	malthep	FALSE
+C00897	NO_BiGG	Alpha-Maltose	Amalt	FALSE
+C05450	NO_BiGG	3alpha,7alpha,12alpha,24-Tetrahydroxy-5beta-cholestanoyl-CoA	3A7A12A24tBccoa	FALSE
+C15596	NO_BiGG	n-Alkanal	alkal	FALSE
+C15597	NO_BiGG	Alk-2-enal	alk2enal	FALSE
+C03289	NO_BiGG	L-xylo-Hexulonolactone	Lxhlac	FALSE
+C00550	NO_BiGG	Sphingomyelin	sphmyln	FALSE
+C12455	NO_BiGG	5-Aminopentanal	aptal	FALSE
+C00375	NO_BiGG	RCH2NH2	Rch2nh2	FALSE
+C16219	NO_BiGG	3-Oxostearoyl-[acp]	3oxacp	FALSE
+C08270	NO_BiGG	Canaline	cnln	FALSE
+C02603	NO_BiGG	Alpha-D-Mannoside	aDmand	FALSE
+C00726	NO_BiGG	Nitrile	rCN	FALSE
+C00525	NO_BiGG	D-Tryptophan	trp__D	FALSE
+C16532	NO_BiGG	Tetracosenoyl-CoA	tcoscoa	FALSE
+C00198	NO_BiGG	Gluconolactone	glac	FALSE
+C03043	NO_BiGG	(R)-6-Hydroxynicotine	R6hnct	FALSE
+C01297	NO_BiGG	6-Hydroxypseudooxynicotine	6hpsenct	FALSE
+C04036	NO_BiGG	1-Palmitoylglycerol 3-phosphate	1plg3p	FALSE
+C01229	NO_BiGG	Phospholipid olefinic fatty acid	ppolefa	FALSE
+C04340	NO_BiGG	Phospholipid cyclopropane fatty acid	ppcfa	FALSE
+C04221	NO_BiGG	trans-1,2-Dihydrobenzene-1,2-diol	t12dhbz12ol	FALSE
+C02940	NO_BiGG	3-Oxo-5alpha-steroid	3ox5ast	FALSE
+C00619	NO_BiGG	3-Oxo-delta4-steroid	3oxD4st	FALSE
+C00451	NO_BiGG	D-threo-Isocitric acid	Dthrcit	FALSE
+C03681	NO_BiGG	5alpha-Dihydroprogesterone	5aDhdropgst	FALSE
+C03588	NO_BiGG	4,5alpha-Dihydrocortisone	45Adhcort	FALSE
+C01507	NO_BiGG	L-Iditol	iditol__L	FALSE
+C15808	NO_BiGG	4alpha-Methylzymosterol-4-carboxylate	4Amzol4c	FALSE
+C03238	NO_BiGG	5alpha-Cholestan-3-one	5Ac3one	FALSE
+C00599	NO_BiGG	Cholestenone	chone	FALSE
+C02794	NO_BiGG	3-Hydroxykynurenine	3hxkine	FALSE
+C05110	NO_BiGG	4alpha-Methylcholesta-8-en-3beta-ol	4Amch83Bol	FALSE
+C03875	NO_BiGG	Myosin light chain phosphate	36Aw3L7U	TRUE
+C01003	NO_BiGG	Myosin light chain	beyKknii	TRUE
+C15915	NO_BiGG	4,4-Dimethyl-5alpha-cholesta-8-en-3beta-ol	nLp7PTDF	TRUE
+C04299	NO_BiGG	D-myo-Inositol 1,2-cyclic phosphate	6p2kqg4Y	TRUE
+C01450	NO_BiGG	Ketone	QAcSMhH8	TRUE
+C01612	NO_BiGG	Secondary alcohol	hCXWqVTf	TRUE
+C11556	NO_BiGG	1-Phosphatidyl-1D-myo-inositol 3,5-bisphosphate	pail35bp	FALSE
+C05981	NO_BiGG	Phosphatidylinositol-3,4,5-trisphosphate	K8hg9B36	TRUE
+C11554	NO_BiGG	1-Phosphatidyl-1D-myo-inositol 3,4-bisphosphate	zAJlkt5D	TRUE
+C19765	NO_BiGG	15,9'-dicis-Phytofluene	kqMyIPrD	TRUE
+C02061	NO_BiGG	Plastoquinone	rzbt13sW	TRUE
+C19764	NO_BiGG	9,15,9'-tricis-zeta-Carotene	r4yjaCTn	TRUE
+C02185	NO_BiGG	Plastoquinol-1	Ugj9NJrp	TRUE
+C04453	NO_BiGG	4alpha-Methyl-5alpha-cholest-7-en-3-one	XforepLm	TRUE
+C00623	NO_BiGG	sn-Glycerol 1-phosphate	DIGshWyU	TRUE
+C02814	NO_BiGG	Hydroxyhydroquinone	SfIy7B6V	TRUE
+C02222	NO_BiGG	Maleylacetate	7379IXhc	TRUE
+C09820	NO_BiGG	Benzoylsuccinyl-CoA	fj8NYOHh	TRUE
+C06428	NO_BiGG	(5Z,8Z,11Z,14Z,17Z)-Icosapentaenoic acid	GekwlGHk	TRUE
+C15656	NO_BiGG	alpha-N-Acetyl-D-glucosaminyl-(1->4)-beta-D-glucuronosyl-(1->3)-beta-D-galactosyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-xylosylproteoglycan	Tqkv35VT	TRUE
+C11515	NO_BiGG	(E)-2-(Methoxycarbonylmethyl)butenedioate	9h5fLOvZ	TRUE
+C06430	NO_BiGG	D-Galacturonolactone	KrgnShrP	TRUE
+C02426	NO_BiGG	L-Glyceraldehyde	glyald__L	FALSE
+C02588	NO_BiGG	Retinyl palmitate	U8q6DgFp	TRUE
+C12305	NO_BiGG	Methyl salicylate	metsalc	FALSE
+C02391	NO_BiGG	Ester	EUjV4OmE	TRUE
+C04855	NO_BiGG	alpha-D-Galactosyl-1,3-beta-D-galactosyl-1,4-N-acetyl-D-glucosaminyl-R	b4mQJEdL	TRUE
+C04022	NO_BiGG	DMSP	DMSP	FALSE
+C05985	NO_BiGG	2-Propynal	2ppnal	FALSE
+C00804	NO_BiGG	Propynoate	ppn	FALSE
+C13870	NO_BiGG	Tributyrin	tbtr	FALSE
+C00638	NO_BiGG	Long-chain fatty acid	lcfa	FALSE
+C01245	NO_BiGG	D-myo-Inositol 1,4,5-trisphosphate	iaYcNw6a	TRUE
+C04102	NO_BiGG	1-Palmitoylglycerophosphocholine	BWWqaI75	TRUE
+C14180	NO_BiGG	S-(Hydroxymethyl)glutathione	Shgth	FALSE
+C15613	NO_BiGG	(25R)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA	S3WElRqp	TRUE
+C17343	NO_BiGG	(25S)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA	htGokatN	TRUE
+C17346	NO_BiGG	(25S)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA	1ZBlgX16	TRUE
+C05232	NO_BiGG	(2S)-2-Methylacyl-CoA	I3a6n8AS	TRUE
+C05329	NO_BiGG	(2R)-2-Methylacyl-CoA	LvdIIgIe	TRUE
+C11557	NO_BiGG	1-Phosphatidyl-1D-myo-inositol 5-phosphate	ZTwvEl8g	TRUE
+C03120	NO_BiGG	Glycerophosphodiester	6vlnxnam	TRUE
+C01126	NO_BiGG	trans-Farnesol	fnsol	FALSE
+C03461	NO_BiGG	Farnesal	fnsal	FALSE
+C00405	NO_BiGG	D-Amino acid	e2kNOSVV	TRUE
+C03097	NO_BiGG	Aryl beta-D-glucoside	en4M1svK	TRUE
+C03360	NO_BiGG	4-Nitrophenyl phosphate	4dnphp	FALSE
+C21113	NO_BiGG	NMNH	NMNH	FALSE
+C06704	NO_BiGG	Iron chelate	cvxBSYhq	TRUE
+C01025	NO_BiGG	Lipid hydroperoxide	bqCGOzjh	TRUE
+C01288	NO_BiGG	N-Acetyl-D-glucosaminylphosphatidylinositol	y9i2BnSY	TRUE
+C04598	NO_BiGG	Platelet-activating factor	PAF	FALSE
+C04317	NO_BiGG	1-Organyl-2-lyso-sn-glycero-3-phosphocholine	DfDGKBsH	TRUE
+C00745	NO_BiGG	Nicotine	wSS71qkq	TRUE
+C02846	NO_BiGG	Dimethylaminobenzene	f9TvJTt4	TRUE
+C01183	NO_BiGG	N,N-Dimethylaniline N-oxide	TdTrdGCB	TRUE
+C06316	NO_BiGG	Dehydro-D-arabinono-1,4-lactone	a5nFbDKK	TRUE
+C01028	NO_BiGG	N6-Hydroxy-L-lysine	XhixpfJw	TRUE
+C03955	NO_BiGG	N6-Acetyl-N6-hydroxy-L-lysine	xCiDLync	TRUE
+C05619	NO_BiGG	5-Hydroxyferulic acid methyl ester	51hZGG9n	TRUE
+C12203	NO_BiGG	5-Hydroxyferuloyl-CoA	DqLIy4my	TRUE
+C00482	NO_BiGG	Sinapate	SsNGMrYU	TRUE
+C00411	NO_BiGG	Sinapoyl-CoA	YhkXVFjs	TRUE
+C04780	NO_BiGG	8-[(1R,2R)-3-Oxo-2-{(Z)-pent-2-enyl}cyclopentyl]octanoate	PlaetOdb	TRUE
+C01380	NO_BiGG	Ethylene glycol	etlngc	FALSE
+C02843	NO_BiGG	Long-chain acyl-CoA	R5bzcKBf	TRUE
+C02301	NO_BiGG	O-Acylcarnitine	qHO6UCUj	TRUE
+C11529	NO_BiGG	N-Carbamoyl-L-amino acid	wwDi4h4h	TRUE
+C00151	NO_BiGG	L-Amino acid	aa__L	FALSE
+C04547	NO_BiGG	1,2-Bis(4-hydroxy-3-methoxyphenyl)ethylene	FeRIAqCd	TRUE
+C04563	NO_BiGG	Inositol 1,2,4,5,6-pentakisphosphate	JdlPbnGh	TRUE
+C03081	NO_BiGG	Hymecromone	tK6e5DaZ	TRUE
+C01855	NO_BiGG	Taxiphyllin	zkBWILEb	TRUE
+C16530	NO_BiGG	Icosenoyl-CoA	kquaXuG2	TRUE
+C08334	NO_BiGG	Lotaustralin	lttrln	FALSE
+C08333	NO_BiGG	Linustatin	lnttn	FALSE
+C01594	NO_BiGG	Linamarin	lnmrn	FALSE
+C02659	NO_BiGG	Acetone cyanohydrin	9sVSJYwH	TRUE
+C08336	NO_BiGG	Neolinustatin	a5zIKUyK	TRUE
+C01527	NO_BiGG	Scopolin	z1N2zyxa	TRUE
+C01752	NO_BiGG	Scopoletin	MjxaiyQj	TRUE
+C02869	NO_BiGG	Oxidized flavodoxin	pwdPYTx4	TRUE
+C02745	NO_BiGG	Reduced flavodoxin	WNjpjbcP	TRUE
+C00139	NO_BiGG	Oxidized ferredoxin; Oxidized ferredoxin [iron-sulfur] cluster	Zv3IwN6j	TRUE
+C07296	NO_BiGG	4,8,12-Trimethyltridecanoyl-CoA	8cOzgi43	TRUE
+C07297	NO_BiGG	3-Oxopristanoyl-CoA	uGvo89M2	TRUE
+C01282	NO_BiGG	1-Acyl-2-oleoyl-sn-glycero-3-phosphocholine	QEhWqWs5	TRUE
+C04636	NO_BiGG	1-Acyl-2-linoleoyl-sn-glycero-3-phosphocholine	pl5jzsN7	TRUE
+C06044	NO_BiGG	4-Hydroxyphenylethanol; Tyrosol	11EVwlgp	TRUE
+C03268	NO_BiGG	D-Mannosylglycoprotein; Glycoprotein D-mannose	VTHa3PSY	TRUE
+C04645	NO_BiGG	Glycoprotein 6-(D-glucose-1-phospho)-D-mannose	n5q9ekC1	TRUE
+C15780	NO_BiGG	5-Dehydroepisterol	PP4yG23a	TRUE
+C05594	NO_BiGG	3-Methoxy-4-hydroxyphenylethyleneglycol	UnWlUNPV	TRUE
+C02112	NO_BiGG	2-Monoacylglycerol	2mag	FALSE
+C03230	NO_BiGG	3-Indoleglycolaldehyde	so4UG2Z3	TRUE
+C01801	NO_BiGG	Deoxyribose	drib	FALSE
+C07103	NO_BiGG	Hydroxybenzoquinone	hbqn	FALSE
+C16317	NO_BiGG	(+)-7-Isojasmonic acid	9DAkikB4	TRUE
+C02944	NO_BiGG	3-cis-Dodecenoyl-CoA	UGXGuUU1	TRUE
+C01545	NO_BiGG	1-Octanal	octal	FALSE
+C06202	NO_BiGG	Salicylaldehyde	65C7xsKg	TRUE
+C16502	NO_BiGG	Farnesoic acid	fnsoicacid	FALSE
+C15488	NO_BiGG	Fluoroacetaldehyde	qq6l678l	TRUE
+C05665	aproa	3-Aminopropanal	PqJc1Kkh	TRUE
+C02478	NO_BiGG	beta-D-Mannoside	wA4Dw2QA	TRUE
+C02209	NO_BiGG	beta-D-Mannose	Oq7kax2e	TRUE
+C03030	NO_BiGG	Uracil 5-carboxylate; Uracil 5-carboxylic acid; 5-Carboxyuracil	2ORH8lg3	TRUE
+C05556	NO_BiGG	delta-(L-2-Aminoadipyl)-L-cysteinyl-D-valine	5lzoU6gl	TRUE
+C02375	NO_BiGG	4-Chlorocatechol	UZiYgwF4	TRUE
+C14103	NO_BiGG	4-Methylsalicylate	iJHv8eqO	TRUE
+C19892	NO_BiGG	beta-Apo-4'-carotenal	dDycmLFv	TRUE
+C08607	NO_BiGG	Neurosporaxanthin	MLSxH5Dr	TRUE
+C15867	NO_BiGG	3,4-Dehydrolycopene	34dhlpn	FALSE
+C01595	NO_BiGG	Linoleic acid	lnlc	FALSE
+C06427	NO_BiGG	alpha-Linolenate	kc8oDK4D	TRUE
+C02031	NO_BiGG	Guanosine 5'-triphospho-mRNA	V6HNpMPX	TRUE
+C05764	NO_BiGG	Palmitoyl-[acyl-carrier protein]	NdsqNuRz	TRUE
+C15811	NO_BiGG	Thiamine biosynthesis intermediate 2	56ddiG72	TRUE
+C04748	NO_BiGG	Protein C-terminal S-farnesyl-L-cysteine methyl ester	Sb77Urj7	TRUE
+C00721	NO_BiGG	Dextrin	L4okKQor	TRUE
+C07300	NO_BiGG	Cutin monomer	jviCpWEk	TRUE
+C03798	NO_BiGG	Peptidylproline (omega=180)	apXvvHh6	TRUE
+C07281	NO_BiGG	[enzyme]-lysine	cMrxVXWd	TRUE
+C00072	ascb__L	L-Ascorbate	ascb__L	FALSE
+C16663	NO_BiGG	Tryparedoxin	T3aVJlFe	TRUE
+C04160	NO_BiGG	tRNA containing N7-methylguanine	RqZJwS96	TRUE
+C00986	13dampp	1,3-Diaminopropane	13dampp	FALSE
+C07282	NO_BiGG	[eIF5A-precursor]-deoxyhypusine	XBJfFFSH	TRUE
+C00173	NO_BiGG	Acyl-[acyl-carrier protein]	lwc87oyj	TRUE
+C00046	NO_BiGG	RNA	FA2ZZ93b	TRUE
+C04833	NO_BiGG	m7G(5')pppm6Am-mRNA	EbjcHOJS	TRUE
+C05796	NO_BiGG	Galactan	YhMpHNVV	TRUE
+C00422	tag_cho	Triglyceride	tag_cho	FALSE
+C04253	NO_BiGG	Electron-transferring flavoprotein	2F1WhfM5	TRUE
+C01251	NO_BiGG	Homocitrate	hcit	FALSE
+C20751	NO_BiGG	N6-L-Threonylcarbamoyladenine in tRNA; t6A in tRNA	r1daVMKl	TRUE
+C02320	NO_BiGG	R-S-Glutathione	RSgth	FALSE
+C17552	NO_BiGG	2-Polyprenyl-6-methoxyphenol	tDR7Vatu	TRUE
+C00496	NO_BiGG	Ubiquitin	kTLZh8dw	TRUE
+C00585	NO_BiGG	Protein tyrosine; [Protein]-L-tyrosine	Z2m3lC4t	TRUE
+C00030	NO_BiGG	Hydrogen-donor	7a3syC3k	TRUE
+C01997	NO_BiGG	Histone N6-acetyl-L-lysine	dH9FYrL4	TRUE
+C04696	NO_BiGG	m7GpppX	m7GpppX	FALSE
+C06123	NO_BiGG	Hexadecenal	hxdceal	FALSE
+C04856	NO_BiGG	(6S)-6beta-Hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide	HEAPitMH	TRUE
+C14793	NO_BiGG	(1R)-Glutathionyl-(2R)-hydroxy-1,2-dihydronaphthalene	dhGeK2sn	TRUE
+C00693	NO_BiGG	trans-2,3-Dehydroacyl-[acyl-carrier protein]	Sug1qIXA	TRUE
+C00454	NO_BiGG	NDP	NDP	FALSE
+C17509	NO_BiGG	Thymine dimer; Cyclobutadithymine (in DNA); cis-syn Thymine dimer; T-T dimer	tthym	FALSE
+C05924	NO_BiGG	Molybdopterin	mpt	FALSE
+C11509	NO_BiGG	3beta-Hydroxy-4beta-methyl-5alpha-cholest-7-ene-4alpha-carbaldehyde	X2rJ4h5o	TRUE
+C17561	NO_BiGG	2-Polyprenyl-3-methyl-6-methoxy-1,4-benzoquinone	Xoi8KCIC	TRUE
+C17324	NO_BiGG	tRNA adenine	3cBDzHEt	TRUE
+C00195	NO_BiGG	N-Acylsphingosine	crm_cho	FALSE
+C05394	NO_BiGG	3-Keto-beta-D-galactose	ySH9jaeI	TRUE
+C16237	NO_BiGG	Protein N6-(lipoyl)lysine	Xv1si9sw	TRUE
+C19858	NO_BiGG	2-Methoxy-6-all-trans-polyprenyl-1,4-benzoquinol	XYqo7cpZ	TRUE
+C16254	NO_BiGG	S-Succinyldihydrolipoamide-E	sdhlame	FALSE
+C02415	NO_BiGG	Histone-L-lysine	hisLlys	FALSE
+C15972	NO_BiGG	Lipoamide-E	lpamE	FALSE
+C20850	NO_BiGG	delta-N-Hydroxyornithine	dNhorn	FALSE
+C02090	NO_BiGG	Trypanothione	trpthn	FALSE
+C03023	NO_BiGG	Peptide-L-methionine	GFGdCQyk	TRUE
+C20648	NO_BiGG	Adenine in rRNA	nMimQwCx	TRUE
+C15973	NO_BiGG	Enzyme N6-(dihydrolipoyl)lysine; Dihydrolipoamide-E	PQSprhyc	TRUE
+C00241	NO_BiGG	Amide	yXqW26xt	TRUE
+C11455	NO_BiGG	4,4-Dimethyl-5alpha-cholesta-8,14,24-trien-3beta-ol	uV8qqXXg	TRUE
+C00060	NO_BiGG	Carboxylate; R-COOH; Monocarboxylate; Carboxylic acid	LF1ZXC3e	TRUE
+C04230	NO_BiGG	2-Lysolecithin	JHpJyAWc	TRUE
+C15854	NO_BiGG	N-(4-Aminobutylidene)-[eIF5A-precursor]-lysine	J3L4UzGT	TRUE
+C05434	NO_BiGG	beta-Zeacarotene	wKzxEcKy	TRUE
+C05379	NO_BiGG	Oxalosuccinate	oxlsucc	FALSE
+C14787	NO_BiGG	(1S,2R)-Naphthalene 1,2-oxide	y2YLtNZm	TRUE
+C05108	NO_BiGG	14-Demethyllanosterol	IAFGWRsZ	TRUE
+C02339	NO_BiGG	m7G(5')pppR-mRNA	m7G5pppR__mRNA	FALSE
+C02872	NO_BiGG	Peptide diphthamide	dtbddVNl	TRUE
+C16739	NO_BiGG	L-Arginyl-protein	protarg	FALSE
+C02686	NO_BiGG	Galactosylceramide	galside_cho	FALSE
+C01290	NO_BiGG	Lactosylceramide	lside_cho	FALSE
+C19859	NO_BiGG	6-Methoxy-3-methyl-2-all-trans-polyprenyl-1,4-benzoquinol	AKfKLEbK	TRUE
+C00071	NO_BiGG	Aldehyde	cDI88QmN	TRUE
+C04395	NO_BiGG	Phospho-[DNA-directed RNA polymerase]	JhF5TBSo	TRUE
+C01525	NO_BiGG	R'C(R)SH	XmHPtpUT	TRUE
+C02189	NO_BiGG	Protein L-serine	protser__L	FALSE
+C01293	NO_BiGG	[Pyruvate dehydrogenase (acetyl-transferring)] phosphate	NPLiU6iE	TRUE
+C16255	NO_BiGG	S-Acetyldihydrolipoamide-E	dCRfr4he	TRUE
+C14806	NO_BiGG	1-Nitro-5-glutathionyl-6-hydroxy-5,6-dihydronaphthalene	Mo3ePW8R	TRUE
+C05535	NO_BiGG	alpha-Aminoadipoyl-S-acyl enzyme	niarWoBt	TRUE
+C17023	NO_BiGG	Sulfur donor	2riYEDag	TRUE
+C16240	NO_BiGG	[Lipoyl-carrier protein]-L-lysine	k7xiG5OD	TRUE
+C05983	NO_BiGG	Propionyladenylate	2X9YEeKl	TRUE
+C03170	NO_BiGG	Trypanothione disulfide	3JsKeALv	TRUE
+C16664	NO_BiGG	Tryparedoxin disulfide	RCt8Zqjl	TRUE
+C02737	ps_cho	Phosphatidylserine	ps_cho	FALSE
+C01867	NO_BiGG	tau-Protein	FcflDsR6	TRUE
+C16236	NO_BiGG	Protein N6-(octanoyl)lysine	766iJKh2	TRUE
+C17562	NO_BiGG	2-Polyprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone	AHh1HFfO	TRUE
+C03633	NO_BiGG	Peptidylproline (omega=0)	ptdpro	FALSE
+C03541	NO_BiGG	THF-polyglutamate	THFpglu	FALSE
+C00028	NO_BiGG	Hydrogen-acceptor	JQYonyTU	TRUE
+C03021	NO_BiGG	Protein L-asparagine	8E3mhPuM	TRUE
+C04233	NO_BiGG	3-Lysolecithin	3llcth	FALSE
+C05847	NO_BiGG	Polyisopentenylpyrophosphate	piptpp	FALSE
+C05560	NO_BiGG	L-2-Aminoadipate adenylate	mXoATOLh	TRUE
+C04039	NO_BiGG	2,3-Dihydroxy-3-methylbutanoate	nfATgSxw	TRUE
+C20796	NO_BiGG	N6-Dimethyladenine in rRNA	8FyR8ieX	TRUE
+C00157	NO_BiGG	Phosphatidylcholine	pchol_cho	FALSE
+C00399	NO_BiGG	Ubiquinone	q	FALSE
+C15602	NO_BiGG	Quinone	qnn	FALSE
+C16239	NO_BiGG	Lipoyl-ACP	lipoacp	FALSE
+C01086	NO_BiGG	(3R)-3-Hydroxyacyl-CoA	eceCvJlb	TRUE
+C04679	NO_BiGG	[eIF5A-precursor]-hypusine	dUuFHEpl	TRUE
+C00066	NO_BiGG	tRNA	trna	FALSE
+C14803	NO_BiGG	1-Nitro-7-hydroxy-8-glutathionyl-7,8-dihydronaphthalene	YSuRq62N	TRUE
+C01972	NO_BiGG	m7G(5')pppAm-mRNA	kWPaF5aS	TRUE
+C20451	NO_BiGG	tRNA hypoxanthine	kVMydVsx	TRUE
+C05923	NO_BiGG	2,5-Diaminopyrimidine nucleoside triphosphate	ScYx9yYk	TRUE
+C17510	NO_BiGG	Two thymine residues (in DNA)	JiK4HyaS	TRUE
+C15853	NO_BiGG	Dehydrospermidine	dhpmd	FALSE
+C05729	NO_BiGG	R-S-Cysteinylglycine	hl3zhmZU	TRUE
+C02411	NO_BiGG	Glutaconyl-CoA	gcoa	FALSE
+C05804	NO_BiGG	2-Hexaprenyl-3-methyl-6-methoxy-1,4-benzoquinone	rO4y4wMB	TRUE
+C20483	NO_BiGG	(R)-NADPH-hydrate	s7Rmn62h	TRUE
+C05359	NO_BiGG	Electron	e	FALSE
+C00370	NO_BiGG	Sterol	8CJZpKaB	TRUE
+C03862	NO_BiGG	Dolichyl phosphate D-mannose	upXs1XRu	TRUE
+C06136	NO_BiGG	GA1	GA1	FALSE
+C00470	NO_BiGG	Pectate	pectt	FALSE
+C01885	NO_BiGG	Monoacylglycerol	mag_cho	FALSE
+C14802	NO_BiGG	1-Nitronaphthalene-7,8-oxide	c1JEGsWv	TRUE
+C20641	NO_BiGG	L-Threonylcarbamoyladenylate; L-Threonylcarbamoyl-AMP; TC-AMP	ZrJRcKSu	TRUE
+C03959	NO_BiGG	[DNA-directed RNA polymerase]; [RNA polymerase]	QaOMwWaX	TRUE
+C16738	NO_BiGG	Sulfuric monoester; Ester sulfate	1fAZo4qC	TRUE
+C02100	NO_BiGG	(5')ppPur-mRNA; 5'-Diphospho-[mRNA]	2bLhvDIM	TRUE
+C05167	NO_BiGG	alpha-Amino acid	UoRSA7Fb	TRUE
+C00685	NO_BiGG	3-Oxoacyl-[acyl-carrier protein]	e3MWwGWl	TRUE
+C15498	NO_BiGG	Hydroperoxide	6KLgXocR	TRUE
+C01241	NO_BiGG	Phosphatidyl-N-methylethanolamine	Oj4teM8s	TRUE
+C03635	NO_BiGG	Protein N-ubiquityllysine	cnmTkaoM	TRUE
+C00201	NO_BiGG	NTP	NTP	FALSE
+C04884	NO_BiGG	GM2	GM2	FALSE
+C05381	NO_BiGG	Succinate semialdehyde-thiamin diphosphate	ssaltpp	FALSE
+C02764	NO_BiGG	tRNA pseudouridine	FU9bbIcz	TRUE
+C02128	NO_BiGG	DNA 5'-phosphate	dna5p	FALSE
+C05421	NO_BiGG	Phytoene	phytoe	FALSE
+C13378	NO_BiGG	alpha,beta-Dihydroxyethyl-TPP	7ruzGSgk	TRUE
+C04737	NO_BiGG	Globotriosylceramide	mFRvdJHC	TRUE
+C16636	NO_BiGG	tRNA(Sec)	gc6F8jMS	TRUE
+C03641	NO_BiGG	Sterol 3-beta-D-glucoside	68R5sjeT	TRUE
+C02318	NO_BiGG	R'C(R)S-S(R)CR'	ajne8pAs	TRUE
+C15527	NO_BiGG	Precorrin 1	HSpPq7mS	TRUE
+C00162	NO_BiGG	Fatty acid	fa	FALSE
+C00718	NO_BiGG	Amylose	amylose	FALSE
+C00605	NO_BiGG	Dehydroacyl-CoA	dhacoa	FALSE
+C00965	13BDglcn	1,3-beta-D-Glucan	13BDglcn	FALSE
+C20969	NO_BiGG	Carboxyphosphate	cp	FALSE
+C07299	NO_BiGG	Cutin	cutin	FALSE
+C14800	NO_BiGG	1-Nitronaphthalene-5,6-oxide	ZmdeAKo1	TRUE
+C18237	NO_BiGG	Molybdoenzyme molybdenum cofactor	LlJuy3EC	TRUE
+C01256	NO_BiGG	[Pyruvate dehydrogenase (acetyl-transferring)]	AqNzkw4o	TRUE
+C12126	NO_BiGG	Dihydroceramide	iglplVkl	TRUE
+C03103	NO_BiGG	Cyclobutadipyrimidine	RFuGkxt4	TRUE
+C14804	NO_BiGG	1-Nitro-7-glutathionyl-8-hydroxy-7,8-dihydronaphthalene	XJgrNKax	TRUE
+C04500	NO_BiGG	N-Acetyl-D-glucosaminyldiphosphodolichol	DFD3JF3a	TRUE
+C04506	NO_BiGG	Protein C-terminal S-farnesyl-L-cysteine	EzWrG5Gp	TRUE
+C16291	NO_BiGG	7,8-Dihydro-beta-carotene	jsypfrIK	TRUE
+C00760	NO_BiGG	Cellulose	cell	FALSE
+C17202	NO_BiGG	S-Palmitoylprotein; Protein S-palmitoyl-L-cysteine	G7umKWR7	TRUE
+C01190	NO_BiGG	beta-D-Glucosyl-(1<->1)-ceramide; Glucosylceramide; Glucocerebroside; D-Glucosyl-N-acylsphingosine	XRXGf2r2	TRUE
+C00416	NO_BiGG	Phosphatidate; Phosphatidic acid; 1,2-Diacyl-sn-glycerol 3-phosphate; 3-sn-Phosphatidate	D5N1PXbo	TRUE
+C00900	NO_BiGG	2-Acetolactate	u2pWbqu2	TRUE
+C04840	NO_BiGG	3beta-Hydroxy-4beta-methyl-5alpha-cholest-7-ene-4alpha-carboxylate	9WxnOs7P	TRUE
+C16720	NO_BiGG	Peptide 2-[3-carboxy-3-(dimethylammonio)propyl]-L-histidine	1M5686ur	TRUE
+C00350	pe_cho	Phosphatidylethanolamine	pe_cho	FALSE
+C00161	NO_BiGG	2-Oxocarboxylate	GfWBDWDU	TRUE
+C04432	NO_BiGG	tRNA containing 6-isopentenyladenosine	pkCuAwNL	TRUE
+C04145	NO_BiGG	Solanesyl pyrophosphate	CAxUHBti	TRUE
+C02352	NO_BiGG	1,4-beta-D-Xylan	14bxyl	FALSE
+C11823	NO_BiGG	2,3-Ene acid	FvjpATIa	TRUE
+C03895	NO_BiGG	Peptide-L-methionine (S)-S-oxide	OrYgLPqX	TRUE
+C05320	NO_BiGG	Histone-N(omega)-methylarginine	94cm6GKu	TRUE
+C16669	NO_BiGG	Oligonucleotide 5'-diphosphate	cUBlmMkw	TRUE
+C04899	NO_BiGG	(S)-NADPH-hydrate	ICNHtYBk	TRUE
+C04311	NO_BiGG	Protein L-isoaspartate methyl ester	D1rCosZC	TRUE
+C04570	NO_BiGG	Reduced electron-transferring flavoprotein	DxqnVYIy	TRUE
+C04530	NO_BiGG	4,4-Dimethylcholest-7-ene-3-ol	wBNy5x1W	TRUE
+C01277	NO_BiGG	Phosphatidylinositol 4-phosphate	QIdcVAW7	TRUE
+C02474	NO_BiGG	Arabinan	arabinan	FALSE
+C00665	NO_BiGG	beta-D-Fructose 2,6-bisphosphate	UdRzYKnr	TRUE
+C00017	NO_BiGG	Protein	yUUk9uEc	TRUE
+C05922	NO_BiGG	Formamidopyrimidine nucleoside triphosphate	hZmZ2oeO	TRUE
+C04814	NO_BiGG	4beta-Hydroxymethyl-4alpha-methyl-5alpha-cholest-7-en-3beta-ol	pmtBE3E1	TRUE
+C00658	NO_BiGG	trans-2-Enoyl-CoA	ZjYI7xHK	TRUE
+C15653	NO_BiGG	Peptide-L-methionine (R)-S-oxide	VS2orAUZ	TRUE
+C01977	NO_BiGG	tRNA guanine	D99xwcSP	TRUE
+C08249	NO_BiGG	Pyrimidine 5'-deoxynucleotide	Oq9MaNYn	TRUE
+C00369	NO_BiGG	Glycogen	glycogen	FALSE
+C05993	HC01672	Acetyl adenylate	HC01672	FALSE
+C05803	NO_BiGG	2-Hexaprenyl-6-methoxy-1,4-benzoquinone	IGzkzwEk	TRUE
+C05403	HC01446	3-Ketolactose	HC01446	FALSE
+C04911	NO_BiGG	GM1	GM1	FALSE
+C04537	NO_BiGG	Chitobiosyldiphosphodolichol	chito	FALSE
+C00221	glc__bD	beta-D-Glucose	glc__bD	FALSE
+C01167	NO_BiGG	Protein tyrosine phosphate	ptp	FALSE
+C04549	NO_BiGG	1-Phosphatidyl-1D-myo-inositol 3-phosphate	JD2Q4Xi8	TRUE
+C00390	qh2	Ubiquinol	qh2	FALSE
+C03157	NO_BiGG	O-Phospho-tau-protein	7xd6HkjC	TRUE
+C02863	NO_BiGG	O-D-Mannosylprotein	Rr2Q5axL	TRUE
+C14792	NO_BiGG	(1S)-Hydroxy-(2S)-glutathionyl-1,2-dihydronaphthalene	fu76O8AL	TRUE
+C05848	NO_BiGG	4-Hydroxy-3-polyprenylbenzoate	QFo5Dyxg	TRUE
+C03620	NO_BiGG	Monocarboxylic acid amide	w4j8n1xf	TRUE
+C03880	NO_BiGG	N-Substituted aminoacyl-tRNA	awobsEOh	TRUE
+C15812	NO_BiGG	[Enzyme]-S-sulfanylcysteine	1AK8Ro4p	TRUE
+C00165	NO_BiGG	Diglyceride	dag_cho	FALSE
+C02743	NO_BiGG	Protein L-cysteine	pcys	FALSE
+C15496	NO_BiGG	Oxidized thiol-containing reductant	OfEmeXnM	TRUE
+C00677	NO_BiGG	Deoxynucleoside triphosphate	W2xmfZ1f	TRUE
+C06148	NO_BiGG	2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)-amino-4-oxopyrimidine	ajdrLGcp	TRUE
+C05309	NO_BiGG	Semiquinone	sqn	FALSE
+C03306	NO_BiGG	Protein L-isoaspartate	3VXUo49Y	TRUE
+C00269	NO_BiGG	CDP-diacylglycerol	lVzR6flA	TRUE
+C17551	NO_BiGG	3-Polyprenylcatechol	BNgo8oFR	TRUE
+C01194	NO_BiGG	1-Phosphatidyl-D-myo-inositol	68R7NHQQ	TRUE
+C20482	NO_BiGG	(R)-NADH-hydrate	Ex3yt95N	TRUE
+C01573	NO_BiGG	Peptide diphthine	e2ykfabN	TRUE
+C01168	psd5p	Pseudouridine 5'-phosphate	psd5p	FALSE
+C00984	NO_BiGG	alpha-D-Galactose	aDgal	FALSE
+C03998	NO_BiGG	N7-Methyl-GMP	N7metGMP	FALSE
+C03885	NO_BiGG	3-Nonaprenyl-4-hydroxybenzoate	y2fIrSCM	TRUE
+C03523	NO_BiGG	N-Substituted amino acid	ZRK4U9fm	TRUE
+C06254	NO_BiGG	Lysophospholipid	8yInHVeB	TRUE
+C00562	NO_BiGG	Phosphoprotein	lkAMbGxP	TRUE
+C04090	NO_BiGG	Ubiquitin C-terminal thiolester	soflBSFC	TRUE
+C05544	NO_BiGG	Protein N6-methyl-L-lysine	N6metLlys	FALSE
+C06135	NO_BiGG	GA2	ga2_cho	FALSE
+C15522	NO_BiGG	4a-Hydroxytetrahydrobiopterin	9MjTwb6t	TRUE
+C00714	NO_BiGG	Pectin	pect	FALSE
+C05206	NO_BiGG	Histone-arginine	histarg	FALSE
+C00868	NO_BiGG	Uracil in tRNA	BI65umzK	TRUE
+C00117	NO_BiGG	Ribose 5-phosphate	r5p	FALSE
+C04637	NO_BiGG	Phosphatidylinositol-4,5-bisphosphate	XWaFPlpp	TRUE
+C17560	NO_BiGG	2-Polyprenyl-6-methoxy-1,4-benzoquinone	WxtQnMdp	TRUE
+C04157	NO_BiGG	N1-Methylguanine in tRNA	aHm5TLDa	TRUE
+C00051	NO_BiGG	Glutathione	gth	FALSE
+C00865	NO_BiGG	Phospholipid	pplp	FALSE
+C01929	NO_BiGG	L-Histidinal	histdal	FALSE
+C14805	NO_BiGG	1-Nitro-5-hydroxy-6-glutathionyl-5,6-dihydronaphthalene	ANjRTRHY	TRUE
+C15778	NO_BiGG	5,7,24(28)-Ergostatrienol	eKsMhCZx	TRUE
+CPD-15656	NO_BiGG_CHECK_METACYCID	2-trans-undecenoyl-CoA	HSVAOGgZ	TRUE
+CPD-15657	NO_BiGG_CHECK_METACYCID	(3R)-hydroxy-undecanoyl-CoA	6cZtzvlb	TRUE
+CPD-15661	NO_BiGG_CHECK_METACYCID	2-trans, 4-trans-undecadienoyl-CoA	LqbpRPmo	TRUE
+CPD-15655	NO_BiGG_CHECK_METACYCID	3-trans-undecenoyl-CoA	k4mfZlUb	TRUE
+CPD-15652	NO_BiGG_CHECK_METACYCID	(3R)-hydroxy, 6-trans-tridecenoyl-CoA	timOoJKd	TRUE
+CPD-15676	NO_BiGG_CHECK_METACYCID	6-trans-3-oxo-tridecenoyl-CoA	NOaJ2IQ4	TRUE
+CPD-15675	NO_BiGG_CHECK_METACYCID	2-trans-6-trans-tridecadienoyl-CoA	IQdUKNjg	TRUE
+CPD-15654	NO_BiGG_CHECK_METACYCID	2-trans, 4-cis-undecadienoyl-CoA	SAGNek3H	TRUE
+CPD-15653	NO_BiGG_CHECK_METACYCID	(3R)-hydroxy, 6-cis-tridecenoyl-CoA	Ftc22pjW	TRUE
+CPD-15667	NO_BiGG_CHECK_METACYCID	6-cis, 3-oxo-tridecenoyl-CoA	ThAKB3um	TRUE
+CPD-15666	NO_BiGG_CHECK_METACYCID	6-cis, 2-trans-tridecadienoyl-CoA	CmE5k3Eg	TRUE
+CPD-11525	NO_BiGG_CHECK_METACYCID	OPC4-CoA	d8hWVOoh	TRUE
+CPD-11526	NO_BiGG_CHECK_METACYCID	OPC4-trans-2-enoyl-CoA	lXV8qwMQ	TRUE
+CPD-15690	NO_BiGG_CHECK_METACYCID	(3R)-hydroxy-5-trans-dodecenoyl-CoA	ri2o5KNr	TRUE
+CPD-15691	NO_BiGG_CHECK_METACYCID	5-trans-3-oxo-dodecenoyl-CoA	247rW232	TRUE
+CPD-15689	NO_BiGG_CHECK_METACYCID	2-trans, 5-trans-dodecadienoyl-CoA	3ochthkk	TRUE
+CPD-15677	NO_BiGG_CHECK_METACYCID	4-trans-undecenoyl-CoA	3rlh9n3X	TRUE
+CPD-15686	NO_BiGG_CHECK_METACYCID	(3R)-hydroxy- 5-cis, 7-trans-tetradecadienoyl-CoA	MJkoYYPC	TRUE
+CPD-15687	NO_BiGG_CHECK_METACYCID	5-cis, 7-trans-3-oxo-tetradecadienoyl-CoA	BGZHfkeS	TRUE
+CPD-15685	NO_BiGG_CHECK_METACYCID	2-trans, 5-cis, 7-trans-tetradecatrienoyl-CoA	wpOLRKUW	TRUE
+CPD-15684	NO_BiGG_CHECK_METACYCID	5-cis, 7-trans-tetradecadienoyl-CoA	1YY75JVS	TRUE
+CPD-15637	NO_BiGG_CHECK_METACYCID	6-cis-tridecenoyl-CoA	CFQmMY1H	TRUE
+CPD-11517	NO_BiGG_CHECK_METACYCID	3-oxo-2-(cis-2'-pentenyl)-cyclopentane-1-octanoyl-CoA	rAfPP4uR	TRUE
+CPD-11518	NO_BiGG_CHECK_METACYCID	3-oxo-2-(cis-2'-pentenyl)-cyclopentane-1-octa-2-enoyl-CoA	SbbuxAp3	TRUE
+C16331	NO_BiGG_CHECK_METACYCID	OPC6-CoA	KwrjicxM	TRUE
+CPD-11522	NO_BiGG_CHECK_METACYCID	OPC6-trans-2-enoyl-CoA	2FH4rnKt	TRUE
+CPD-15668	NO_BiGG_CHECK_METACYCID	4-cis-undecenoyl-CoA	4Jsq5e6S	TRUE
+CPD-15436	NO_BiGG_CHECK_METACYCID	(5Z)-tetradecenoyl-CoA	gOOpH9A9	TRUE
+CPD0-1162	NO_BiGG_CHECK_METACYCID	(2E,5Z)-tetradecenoyl-CoA	KnJCer5L	TRUE
+PROPIONAMIDE	NO_BiGG_CHECK_METACYCID	Propionamide	1KRAUsQ9	TRUE
+CPD-15651	NO_BiGG_CHECK_METACYCID	6-trans-tridecenoyl-CoA	EQaW5JUY	TRUE
+cis-5-enoyl-CoA	NO_BiGG_CHECK_METACYCID	a cis-5-enoyl-CoA	UDNCljHf	TRUE
+trans-2-cis-5-dienoyl-CoA	NO_BiGG_CHECK_METACYCID	a trans2,cis-5-dienoyl-CoA	Fd9q4q2e	TRUE
+_3-hydroxy-cis-D7-tetraecenoyl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxy cis Δ7-tetradecenoyl-[acp]	p6aI85hK	TRUE
+_3-oxo-cis-D7-tetradecenoyl-ACPs	NO_BiGG_CHECK_METACYCID	a 3-oxo-cis-Δ7-tetradecenoyl-[acp]	Ss5pe6UB	TRUE
+POLYMER-INST-TRANS-D2-ENOYL-COA-C16-H32	NO_BiGG_CHECK_METACYCID	blank_description	KcbHLa29	TRUE
+POLYMER-INST-TRANS-D2-ENOYL-COA-C12-H24	NO_BiGG_CHECK_METACYCID	blank_description	1Jmqjr2u	TRUE
+POLYMER-INST-TRANS-D2-ENOYL-COA-C10-WATER	NO_BiGG_CHECK_METACYCID	blank_description	tQsj8JQ9	TRUE
+cis-cis-D9-27-3-hydroxyC46-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta9,27-3-hydroxyC46:2-[acp]	YdTpl4BB	TRUE
+cis-cis-D9-27-3-oxo-C46-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta9,27-3-oxo-C46:2-[acp]	RM7r9uJh	TRUE
+cis-cis-D15-27-3-hydroxyC46-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta15,27-3-hydroxyC46:2-[acp]	5ZfOXWjE	TRUE
+cis-cis-D15-27-3-oxo-C46-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta15,27-3-oxo-C46:2-[acp]	JygOS3ll	TRUE
+cis-cis-D19-37-3-hydroxyC56-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta19,37-3-hydroxy-C56:2-[acp]	VExinBIx	TRUE
+cis-cis-D19-37-3-oxo-C56-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta19,37-3-oxo-C56:2-[acp]	GuQFd4vP	TRUE
+OH-ACYL-ACP	NO_BiGG_CHECK_METACYCID	blank_description	9VfbplKT	TRUE
+B-KETOACYL-ACP	NO_BiGG_CHECK_METACYCID	blank_description	A5aGNbEH	TRUE
+CPD-5168	NO_BiGG_CHECK_METACYCID	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→6)]-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol	lA9FNft8	TRUE
+CPD-5169	NO_BiGG_CHECK_METACYCID	α-D-Glc-(1→3)-α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→6)]-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol	CqlAZhtt	TRUE
+CPD-5167	NO_BiGG_CHECK_METACYCID	α-D-Man-a-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→6)]-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol	n7qjQlSI	TRUE
+cis-cis-D17-29-3-hydroxyC48-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta17,29-3-hydroxyC48:2-[acp]	XaI8BSIr	TRUE
+cis-cis-D17-29-3-oxo-C48-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta17,29-3-oxo-C48:2-[acp]	2SdbvUHs	TRUE
+CPD-5166	NO_BiGG_CHECK_METACYCID	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→2)-α-D-Man-(1→3)-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol	VF9OAMTM	TRUE
+CPD-5165	NO_BiGG_CHECK_METACYCID	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→3)-α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol	treiL8dH	TRUE
+CPD-5164	NO_BiGG_CHECK_METACYCID	α-D-Man-(1→2)-α-D-Man-(1→2)-α-D-Man-(1→3)-[α-D-Man-(1→6)]-β-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol	pye1YyYY	TRUE
+CPD-5162	NO_BiGG_CHECK_METACYCID	α-D-Man-(1→3)-[α-D-Man-(1→6)]-α-D-Man-(1→4)-β-D-GlcNAc-(1→4)-α-D-GlcNAc-diphosphodolichol	sZi9RPXF	TRUE
+b-Hydroxy-cis-D5-dodecenoyl-ACPs	NO_BiGG_CHECK_METACYCID	blank_description	bk8FETew	TRUE
+b-Keto-cis-D5-dodecenoyl-ACPs	NO_BiGG_CHECK_METACYCID	blank_description	77UD9ok2	TRUE
+cis-cis-D13-25-3-hydroxyC44-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta13,25-3-hydroxyC44:2-[acp]	mVgv35EX	TRUE
+cis-cis-D13-25-3-oxo-C44-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta13,25-3-oxo-C44:2-[acp]	lOKZv2Xr	TRUE
+cis-cis-D7-19-3-hydroxyC38-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta7,19-3-hydroxyC38:2-[acp]	YgZiYjUM	TRUE
+cis-cis-D7-19-3-oxo-C38-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta7,19-3-oxo-C38:2-[acp]	4ot6Ga2C	TRUE
+cis-cis-D19-31-3-hydroxyC50-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta19,31-3-hydroxyC50:2-[acp]	rWmR5Jr3	TRUE
+cis-cis-D19-31-3-oxo-C50-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta19,31-3-oxo-C50:2-[acp]	xgyx9ZWd	TRUE
+cis-cis-D11-29-3-hydroxyC48-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta11,29-3-hydroxy C48:2-[acp]	tvzXD8p3	TRUE
+cis-cis-D11-29-3-oxo-C48-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta11,29-3-oxo-C48:2-[acp]	esqAc5rT	TRUE
+CPD-13694	NO_BiGG_CHECK_METACYCID	24-hydroxy-3-oxocholest-4-en-26-oyl-CoA	MolWxue1	TRUE
+CPD-13695	NO_BiGG_CHECK_METACYCID	3,24-dioxocholest-4-en-26-oyl-CoA	qcFJtVr4	TRUE
+cis-cis-D21-39-3-hydroxyC58-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta21,39-3-hydroxyC58:2-[acp]	dqtv17nP	TRUE
+cis-cis-D21-39-3-oxo-C58-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta21,39-3-oxo-C58:2-[acp]	zsrXMEIe	TRUE
+cis-cis-D5-23-3-hydroxyC42-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta5,23-3-hydroxyC42:2-[acp]	hN9AiKs4	TRUE
+cis-cis-D5-23-3-oxo-C42-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta5,23-3-oxo-C42:2-[acp]	CiwrhsoD	TRUE
+cis-cis-D15-33-3-hydroxyC52-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta15,33-3-hydroxy C52:2-[acp]	eoiD5Uki	TRUE
+cis-cis-D15-33-3-oxo-C52-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta15,33-3-oxo-C52:2-[acp]	UV8CxbNW	TRUE
+CPD-11519	NO_BiGG_CHECK_METACYCID	OPC8-3-hydroxyacyl-CoA	ipMDhctL	TRUE
+CPD-11520	NO_BiGG_CHECK_METACYCID	OPC8-3-ketoacyl-CoA	dsux5jEZ	TRUE
+CPD-15056	NO_BiGG_CHECK_METACYCID	(2Z)-2-aminobut-2-enoate	Avo7Pa62	TRUE
+cis-cis-D7-25-3-hydroxyC44-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta7,25-3-hydroxyC44:2-[acp]	b8N8Ny6s	TRUE
+cis-cis-D7-25-3-oxo-C44-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta7,25-3-oxo-C44:2-[acp]	xU9B2JLh	TRUE
+CPD-11523	NO_BiGG_CHECK_METACYCID	OPC6-3-hydroxyacyl-CoA	Lohl1y8R	TRUE
+CPD-11524	NO_BiGG_CHECK_METACYCID	OPC6-3-ketoacyl-CoA	jKyybvLm	TRUE
+_3-Hydroxyglutaryl-ACP-methyl-ester	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxyglutaryl-[acp] methyl ester	kM2lSjGL	TRUE
+_3-Ketoglutaryl-ACP-methyl-ester	NO_BiGG_CHECK_METACYCID	a 3-oxo-glutaryl-[acp] methyl ester	v9n6zFso	TRUE
+L-methionyl-tRNAfmet	NO_BiGG_CHECK_METACYCID	an L-methionyl-[initiator tRNAmet]	kcaKCRbG	TRUE
+N-formyl-L-methionyl-tRNAfmet	NO_BiGG_CHECK_METACYCID	an N-formyl-L-methionyl-[initiator tRNAmet]	JfyceHER	TRUE
+CPD-12199	NO_BiGG_CHECK_METACYCID	3S-(4-hydroxyphenyl)-3-hydroxy-propanoyl-CoA	mhqwaYlM	TRUE
+CPD-10600	NO_BiGG_CHECK_METACYCID	4-hydroxybenzoyl-acetyl-CoA	UGjL3n5U	TRUE
+R-3-hydroxypetroselinoyl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxypetroselinoyl-[acp]	RhadRNFO	TRUE
+_3-oxo-eetroselinoyl-ACPs	NO_BiGG_CHECK_METACYCID	blank_description	gBj8mFxk	TRUE
+CPD-13757	NO_BiGG_CHECK_METACYCID	3-[(3aS,4S,5R,7aS)-5-hydroxy-7a-methyl-1-oxo-octahydro-1H-inden-4-yl]-3-hydroxypropanoyl-CoA	hvo4a27t	TRUE
+CPD-13758	NO_BiGG_CHECK_METACYCID	3-[(3aS,4S,5R,7aS)-5-hydroxy-7a-methyl-1-oxo-octahydro-1H-inden-4-yl]-3-oxopropanoyl-CoA	A2lht7rx	TRUE
+cis-cis-D11-23-3-hydroxyC42-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta11,23-3-hydroxyC42:2-[acp]	Iqw6oB2u	TRUE
+cis-cis-D11-23-3-oxo-C42-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta11,23-3-oxo-C42:2-[acp]	5qVFPBa4	TRUE
+_3-hydroxypimeloyl-ACP-methyl-esters	NO_BiGG_CHECK_METACYCID	blank_description	wqpydR5T	TRUE
+_3-Ketopimeloyl-ACP-methyl-esters	NO_BiGG_CHECK_METACYCID	blank_description	Yun8DiCT	TRUE
+cis-cis-D17-35-3-hydroxyC54-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta17,35-3-hydroxyC54:2-[acp]	afRtxVmu	TRUE
+cis-cis-D17-35-3-oxo-C54-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta17,35-3-oxo-C54:2-[acp]	DLYn7kUJ	TRUE
+POLYMER-INST-L-3-HYDROXYACYL-COA-C8-H16	NO_BiGG_CHECK_METACYCID	blank_description	sjLxcRfm	TRUE
+POLYMER-INST-L-3-HYDROXYACYL-COA-C10-WATER	NO_BiGG_CHECK_METACYCID	blank_description	euGsL6Fe	TRUE
+POLYMER-INST-L-3-HYDROXYACYL-COA-C14-H28	NO_BiGG_CHECK_METACYCID	blank_description	RBAfAaxf	TRUE
+POLYMER-INST-3-KETOACYL-COA-C14-H28	NO_BiGG_CHECK_METACYCID	blank_description	Opxdsas4	TRUE
+POLYMER-INST-L-3-HYDROXYACYL-COA-C16-H32	NO_BiGG_CHECK_METACYCID	blank_description	r1pMW7NY	TRUE
+CPD-14271	NO_BiGG_CHECK_METACYCID	3-oxoicosanoyl-CoA	MHqUdihN	TRUE
+cis-cis-D5-17-3-hydroxyC36-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta5,17-3-hydroxyC36:2[acp]	ClFIX57J	TRUE
+cis-cis-D5-17-3-oxo-C36-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta5,17-3-oxo-C36:2-[acp]	5m1Y6lf9	TRUE
+CPD-11527	NO_BiGG_CHECK_METACYCID	OPC4-3-hydroxyacyl-CoA	ZhUPAgTI	TRUE
+CPD-11528	NO_BiGG_CHECK_METACYCID	OPC4-3-ketoacyl-CoA	mB4qvzlL	TRUE
+cis-cis-D9-21-3-hydroxyC40-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta9,21-3-hydroxyC40:2-[acp]	CE1r4tga	TRUE
+cis-cis-D9-21-3-oxo-C40-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta9,21-3-oxo-C40:2-[acp]	YSTu1S4N	TRUE
+cis-cis-D13-31-3-hydroxyC50-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta13,31-3-hydroxy C50:2-[acp]	nCMkwhsz	TRUE
+cis-cis-D13-31-3-oxo-C50-2-ACPs	NO_BiGG_CHECK_METACYCID	a cis,cis-delta13,31-3-oxo-C50:2-[acp]	pb1DUgA7	TRUE
+Sulfurated-Sulfur-Acceptors	NO_BiGG_CHECK_METACYCID	blank_description	NJ1ngjSv	TRUE
+Unsulfurated-Sulfur-Acceptors	NO_BiGG_CHECK_METACYCID	blank_description	4TZ5yAhw	TRUE
+CPD-14422	NO_BiGG_CHECK_METACYCID	3-oxo-icosatrienoyl-CoA	aety6wuo	TRUE
+CPD-14419	NO_BiGG_CHECK_METACYCID	3R-hydroxy-icosatrienoyl-CoA	VHAU6Gsq	TRUE
+CPD-14423	NO_BiGG_CHECK_METACYCID	3-oxo-docosapentaenoyl-CoA	OBT8CaGc	TRUE
+CPD-14424	NO_BiGG_CHECK_METACYCID	(5Z,8Z,11Z,14Z,17Z)-3R-hydroxy-docosapentaenoyl-CoA	x92ctHVp	TRUE
+CPD-15663	NO_BiGG_CHECK_METACYCID	2-trans-nonenoyl-CoA	oi73nhTl	TRUE
+CPD-15658	NO_BiGG_CHECK_METACYCID	(3R)-hydroxy-nonanoyl-CoA	YqAGkdpY	TRUE
+CPD-15662	NO_BiGG_CHECK_METACYCID	(3R)-hydroxy, 4-trans-undecenoyl-CoA	WXntKpQK	TRUE
+CPD-15678	NO_BiGG_CHECK_METACYCID	4-trans-3-oxo-undecenoyl-CoA	OeVKnG2n	TRUE
+BCAA-dehydrogenase-lipoyl	NO_BiGG_CHECK_METACYCID	an [apo BCAA dehydrogenase E2 protein] N6-lipoyl-L-lysine	82oeomSK	TRUE
+BCAA-dehydrogenase-2MP-DH-lipoyl	NO_BiGG_CHECK_METACYCID	an [apo BCAA dehydrogenase E2 protein] N6-S-[2-methylpropanoyl]dihydrolipoyl-L-lysine	rzg4LwP4	TRUE
+BCAA-dehydrogenase-DH-lipoyl	NO_BiGG_CHECK_METACYCID	an [apo BCAA dehydrogenase E2 protein] N6-dihydrolipoyl-L-lysine	2bJsXQUh	TRUE
+CPD-8355	NO_BiGG_CHECK_METACYCID	1-18:1-2-lysophosphatidylethanolamine	1IEsM2Wa	TRUE
+CPD-8291	NO_BiGG_CHECK_METACYCID	1-18:1-2-18:1-phosphatidylethanolamine	MxfN2zM5	TRUE
+CPD-10806	NO_BiGG_CHECK_METACYCID	4-hydroxy-2-nonenal	41Pa5ipR	TRUE
+CPD-14704	NO_BiGG_CHECK_METACYCID	4-hydroxy-2-nonenal-glutathione conjugate	3h2nalgthcj	FALSE
+_3-HYDROXY-ISOVALERYL-COA	NO_BiGG_CHECK_METACYCID	3-hydroxyisovaleryl-CoA	Ld79xZcP	TRUE
+CPD0-2365	NO_BiGG_CHECK_METACYCID	blank_description	CH9ed1Ub	TRUE
+Glycoprotein-Asn-oligosaccharides	NO_BiGG_CHECK_METACYCID	blank_description	72HuYH8G	TRUE
+CPD-15694	NO_BiGG_CHECK_METACYCID	3-hydroxy-decanoyl-CoA	y2sxpuQ9	TRUE
+POLYMER-INST-D-3-HYDROXYACYL-COA-C2-H4	NO_BiGG_CHECK_METACYCID	blank_description	jXAAAdG9	TRUE
+POLYMER-INST-D-3-HYDROXYACYL-COA-C4-H8	NO_BiGG_CHECK_METACYCID	blank_description	Hp5mpR2n	TRUE
+CPD-12777	NO_BiGG_CHECK_METACYCID	(3R)-hydroxydecanoyl-CoA	7f79bEJN	TRUE
+POLYMER-INST-D-3-HYDROXYACYL-COA-C8-H16	NO_BiGG_CHECK_METACYCID	blank_description	Jtj49ajf	TRUE
+POLYMER-INST-D-3-HYDROXYACYL-COA-C10-WATER	NO_BiGG_CHECK_METACYCID	blank_description	rrVmyNa5	TRUE
+POLYMER-INST-D-3-HYDROXYACYL-COA-C12-H24	NO_BiGG_CHECK_METACYCID	blank_description	LlSW7Ja1	TRUE
+CPD-14275	NO_BiGG_CHECK_METACYCID	(3R)-3-hydroxy-arachidoyl-CoA	XkT55TIb	TRUE
+C05447	NO_BiGG_CHECK_METACYCID	3alpha,7alpha-Dihydroxy-5beta-cholest-24-enoyl-CoA	7kVqHFSs	TRUE
+C05448	NO_BiGG_CHECK_METACYCID	3alpha,7alpha,24-Trihydroxy-5beta-cholestanoyl-CoA	csiWAS5K	TRUE
+L-1-LYSOPHOSPHATIDATE	NO_BiGG_CHECK_METACYCID	1-oleyl-2-lyso-phosphatidate	xD82aVWY	TRUE
+Aliphatic-Amines	NO_BiGG_CHECK_METACYCID	an aliphatic amine	7GCfrHyU	TRUE
+R-3-hydroxy-cis-vaccenoyl-ACPs	NO_BiGG_CHECK_METACYCID	(R)-3-hydroxy-cis-vacc-11-enoyl-[acp]	R21huvJo	TRUE
+_3-oxo-cis-vaccenoyl-ACPs	NO_BiGG_CHECK_METACYCID	a 3-oxo-cis-vacc-11-enoyl-[acp]	x7QsCRys	TRUE
+D-Xylopyranose	NO_BiGG_CHECK_METACYCID	D-xylopyranose	X2h9Df6L	TRUE
+_3-hydroxy-cis-D9-hexaecenoyl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxy cis Δ9-hexadecenoyl-[acp]	HpVmh3YC	TRUE
+_3-oxo-cis-D9-hexadecenoyl-ACPs	NO_BiGG_CHECK_METACYCID	a 3-oxo-cis-Δ9-hexadecenoyl-[acp]	1KKwtxkG	TRUE
+cis-delta21-3-hydroxyC40-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta21-3-hydroxyC40:1-[acp]	CvB4rnrV	TRUE
+cis-delta21-3-oxo-C40-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta21-3-oxo-C40:1-[acp]	aNtq1FH4	TRUE
+cis-delta19-3-hydroxyC38-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta19-3-hydroxyC38:1-[acp]	3UZh24Y9	TRUE
+cis-delta19-3-oxo-C38-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta19-3-oxo-C38:1-[acp]	ljAAWLWk	TRUE
+cis-delta17-3-hydroxyC36-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta17-3-hydroxyC36:1-[acp]	wYHVrc25	TRUE
+cis-delta17-3-oxo-C36-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta17-3-oxo-C36:1-[acp]	ahXaA9uz	TRUE
+cis-delta15-3-hydroxygheddoyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta15-3-hydroxyC34:1-[acp]	z9CsHA6J	TRUE
+cis-delta15-3-oxo-gheddoyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta15-3-oxo-C34:1-[acp]	bwzjtx4L	TRUE
+cis-delta13-3-hydroxylacceroyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta13-3-hydroxyC32:1-[acp]	mC1vOG31	TRUE
+cis-delta13-3-oxo-lacceroyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta13-3-oxo-C32:1-[acp]	tEUDKioz	TRUE
+D-mannopyranose	NO_BiGG_CHECK_METACYCID	D-mannopyranose	rMIP2ZXf	TRUE
+cis-delta11-3-hydroxymelissoyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta11-3-hydroxyC30:1-[acp]	2kYM4Lrk	TRUE
+cis-delta11-3-oxo-melissoyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta11-3-oxo-C30:1-[acp]	UaoFfZ9w	TRUE
+cis-delta9-3-hydroxymontanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta9-3-hydroxyC28:1-[acp]	1cD1sM7u	TRUE
+cis-delta9-3-oxo-montanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta9-3-oxo-C28:1-[acp]	OrKTmi5V	TRUE
+cis-delta7-3-hydroxycerotoyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta7-3-hydroxyC26:1-[acp]	oT3euFUO	TRUE
+cis-delta7-3-oxo-cerotoyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta7-3-oxo-C26:1-[acp]	vYtrLJle	TRUE
+cis-delta5-3-hydroxylignoceroyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta5-3-hydroxyC24:1-[acp]	5EOARGbH	TRUE
+cis-delta5-3-oxo-lignoceroyl-ACPs	NO_BiGG_CHECK_METACYCID	a cis-delta5-3-oxo-C24:1-[acp]	dIgeWCxq	TRUE
+R-3-hydroxybehenoyl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxybehenoyl-[acp]	rjkcvknf	TRUE
+_3-oxo-behenoyl-ACPs	NO_BiGG_CHECK_METACYCID	a 3-oxo-behenoyl-[acp]	j8jx5ysE	TRUE
+N-acyl-sphingosylphosphorylcholine	NO_BiGG_CHECK_METACYCID	an N-acyl-sphingosylphosphorylcholine	lY4GJxJQ	TRUE
+N-Acylsphingosine	NO_BiGG_CHECK_METACYCID	a sphingosine ceramide	di1DthUf	TRUE
+CPD-13534	NO_BiGG_CHECK_METACYCID	β-ketovaleryl-CoA	j9KMsJaD	TRUE
+O-UREIDOHOMOSERINE	NO_BiGG_CHECK_METACYCID	O-ureidohomoserine	IZz7lpYL	TRUE
+Non-Glycosylated-sugar-Acceptors	NO_BiGG_CHECK_METACYCID	a non glycosylated sugar acceptor	CEkT622u	TRUE
+Citrate-Lyase-Citryl-Form	NO_BiGG_CHECK_METACYCID	a citryl-[holo citrate lyase acyl-carrier protein]	aSKHDDhH	TRUE
+CPD-15860	NO_BiGG_CHECK_METACYCID	a holo citrate-lyase	bITg9BaP	TRUE
+CPD-14927	NO_BiGG_CHECK_METACYCID	phytenate	mzTn1KBu	TRUE
+CPD-14928	NO_BiGG_CHECK_METACYCID	phytenoyl-CoA	PGJZIKCH	TRUE
+POLYMER-INST-CPD66-39-C2-H4	NO_BiGG_CHECK_METACYCID	blank_description	AXLswuyP	TRUE
+POLYMER-INST-CPD66-39-C10-WATER	NO_BiGG_CHECK_METACYCID	blank_description	uiQu7sol	TRUE
+POLYMER-INST-CPD66-39-C16-H32	NO_BiGG_CHECK_METACYCID	blank_description	X1LVOo3u	TRUE
+Odd-Straight-Chain-234-Sat-FA	NO_BiGG_CHECK_METACYCID	an odd numbered straight chain 2,3,4-saturated fatty acid	peddDhaC	TRUE
+Odd-Saturated-Fatty-Acyl-CoA	NO_BiGG_CHECK_METACYCID	an odd numbered straight chain 2,3,4-saturated fatty acyl CoA	VWLvJc6f	TRUE
+_3-Methyl-Saturated-Fatty-Acids	NO_BiGG_CHECK_METACYCID	a 3-methyl-branched 2,3,4-saturated fatty acid	FAhOAxIh	TRUE
+_3-Methyl-Saturated-Fatty-Acyl-CoA	NO_BiGG_CHECK_METACYCID	a 3-methyl-branched 2,3,4-saturated fatty acyl-CoA	GgOPgbeJ	TRUE
+CPD-14268	NO_BiGG_CHECK_METACYCID	(15Z)-tetracosenoate	Jc3gZFQw	TRUE
+PRISTANATE	NO_BiGG_CHECK_METACYCID	PRISTANATE	UzMB4nIX	TRUE
+CPD-14675	NO_BiGG_CHECK_METACYCID	pristanoyl-CoA	4jbUfrA4	TRUE
+ETF-Reduced	NO_BiGG_CHECK_METACYCID	blank_description	jlfs9I5O	TRUE
+CPD-14772	NO_BiGG_CHECK_METACYCID	Hexadecanedioyl-CoA	4ogvcaKA	TRUE
+CPD-14828	NO_BiGG_CHECK_METACYCID	1-C16:0-α,ω-dicarboxyl-2-lysophosphatidate	JRvvT9og	TRUE
+_2-3-4-Saturated-L-Phosphatidates	NO_BiGG_CHECK_METACYCID	a 1,2-diacyl-sn-glycerol 3-phosphate	fYBDi845	TRUE
+CDP-2-3-4-Saturated-Diacylglycerols	NO_BiGG_CHECK_METACYCID	a CDP-2,3,4-saturated-diacylglycerol	IF3TfUNF	TRUE
+CPD-13936	NO_BiGG_CHECK_METACYCID	Glc3Man9GlcNAc2	HHT2zFe9	TRUE
+CPD-13937	NO_BiGG_CHECK_METACYCID	Glc2Man9GlcNAc2	af8pdhXz	TRUE
+CPD-15616	NO_BiGG_CHECK_METACYCID	keto-L-sorbose	t4nBoW2C	TRUE
+CPD-15382	NO_BiGG_CHECK_METACYCID	keto-D-fructose	pvHhrfvK	TRUE
+CPD-4702	NO_BiGG_CHECK_METACYCID	4α-carboxy-5α-cholesta-8,24-dien-3β-ol	dW4rslcD	TRUE
+CPD-8619	NO_BiGG_CHECK_METACYCID	4α-carboxy-5α-cholesta-8-en-3β-ol	phATjYwo	TRUE
+CPD-8613	NO_BiGG_CHECK_METACYCID	4α-carboxy-4β-methyl-5α-cholesta-8-en-3β-ol	Bw9L9kb6	TRUE
+L-Glutamyl-Peptides	NO_BiGG_CHECK_METACYCID	an N-terminal L-glutamyl-[protein]	cbpRGema	TRUE
+CPD-14437	NO_BiGG_CHECK_METACYCID	N-acetylglutaminylglutamine	MDRN5ttg	TRUE
+CPD-14436	NO_BiGG_CHECK_METACYCID	N-acetylglutaminylglutamine amide	GHEstB9s	TRUE
+CPD-4581	NO_BiGG_CHECK_METACYCID	5α-cholesta-8,24-dien-3-one	Fjy4zvPm	TRUE
+CPD-8620	NO_BiGG_CHECK_METACYCID	5α-cholesta-8-en-3-one	T6MvG5yO	TRUE
+C18910	NO_BiGG_CHECK_METACYCID	2,5-Diamino-6-(5-phospho-D-ribitylamino)pyrimidin-4(3H)-one;	NzUsOg22	TRUE
+BCCP-monomers	NO_BiGG_CHECK_METACYCID	blank_description	2f23pCPa	TRUE
+BCCP-biotin-monomers	NO_BiGG_CHECK_METACYCID	blank_description	EwCria1o	TRUE
+Glycerol-1-ehosphate	NO_BiGG_CHECK_METACYCID	blank_description	xupYARp4	TRUE
+C20062	NO_BiGG_CHECK_METACYCID	2-(1,2-Epoxy-1,2-dihydrophenyl)acetyl-CoA	suAWlS9T	TRUE
+C19975	NO_BiGG_CHECK_METACYCID	2-Oxepin-2(3H)-ylideneacetyl-CoA	sEPFyngm	TRUE
+CPD0-2364	NO_BiGG_CHECK_METACYCID	3-oxo-5,6-didehydrosuberyl-CoA	RyfbmeFX	TRUE
+Carboxybiotin-BCCP	NO_BiGG_CHECK_METACYCID	blank_description	uvO9AENL	TRUE
+BCCP-dimers	NO_BiGG_CHECK_METACYCID	blank_description	wzf9rqdo	TRUE
+Long-Chain-3S-Hydroxyacyl-CoAs	NO_BiGG_CHECK_METACYCID	a long-chain (3S)-3-hydroxyacyl-CoA	DEiDjkX2	TRUE
+Long-Chain-Trans-23-Dehydroacyl-CoA	NO_BiGG_CHECK_METACYCID	a long-chain trans-2,3-dehydroacyl-CoA	RUUFPmjZ	TRUE
+CPD-14018	NO_BiGG_CHECK_METACYCID	icosapentaenoyl-CoA	mNr5FcSG	TRUE
+GlcA-Gal-Gal-Xyl-Proteins	NO_BiGG_CHECK_METACYCID	a [protein]-3-O-(β-D-GlcA-(1→3)-β-D-Gal-(1→3)-β-D-Gal-(1→4)-β-D-Xyl)-L-serine	jSGLQh7p	TRUE
+CPD0-1163	NO_BiGG_CHECK_METACYCID	(S)-3-hydroxy-(5Z)-tetradecenoyl-CoA	NPPUwvDM	TRUE
+CPD-15244	NO_BiGG_CHECK_METACYCID	3-oxo-(5Z)-tetradecenoyl-CoA	vXoBHi59	TRUE
+CPD-13036	NO_BiGG_CHECK_METACYCID	L-xylo-3-hexulose	T6uu1HD7	TRUE
+Odd-Straight-Chain-234-Sat-FALD	NO_BiGG_CHECK_METACYCID	an odd numbered straight chain 2,3,4-saturated fatty aldehyde	f6wpuuLg	TRUE
+CPD-15190	NO_BiGG_CHECK_METACYCID	3-hexaprenyl-4-aminobenzoate	gk8NVMxP	TRUE
+CPD-15191	NO_BiGG_CHECK_METACYCID	3-hexaprenyl-4-amino-5-hydroxybenzoate	oGF3o2vs	TRUE
+C20635	NO_BiGG_CHECK_METACYCID	methyl (indol-3-yl)acetate	56unfZBo	TRUE
+CPD-13174	NO_BiGG_CHECK_METACYCID	salicyl-6-hydroxy-2-cyclohexene-on-oyl	28y78CN3	TRUE
+CPD-13172	NO_BiGG_CHECK_METACYCID	6-hydroxy-2-cyclohexen-one-carboxylate	PAEzIygB	TRUE
+CPD-12443	NO_BiGG_CHECK_METACYCID	perillate	AFn2doyK	TRUE
+C11512	NO_BiGG_CHECK_METACYCID	Methyl jasmonate	vFTQb7jF	TRUE
+C08491	NO_BiGG_CHECK_METACYCID	Jasmonic acid	nO8RvshH	TRUE
+B-Gal-14-NacGlc-R	NO_BiGG_CHECK_METACYCID	a type 2 histo-blood group antigen precursor disaccharide	ZAh9Dnh7	TRUE
+CPD-10472	NO_BiGG_CHECK_METACYCID	3-dimethylsulfoniopropionaldehyde	HPNrOrro	TRUE
+_2-Me-Branched-234-Sat-FALD	NO_BiGG_CHECK_METACYCID	a 2-methyl branched 2,3,4-saturated fatty aldehyde	bMelJb84	TRUE
+_2-Me-Branched-234-Sat-FA	NO_BiGG_CHECK_METACYCID	a 2-methyl branched 2,3,4-saturated fatty acid	m3iz7VhA	TRUE
+Saturated-Fatty-Acyl-CoA	NO_BiGG_CHECK_METACYCID	a 2,3,4-saturated fatty acyl CoA	pbUBZmln	TRUE
+CPD-13040	NO_BiGG_CHECK_METACYCID	1,2-dibutyrin	gkpCwjhH	TRUE
+Dietary-retinyl-esters	NO_BiGG_CHECK_METACYCID	a dietary all-trans-retinyl ester	KPpMyrwV	TRUE
+CPD-702	NO_BiGG_CHECK_METACYCID	4-nitrobenzyl alcohol	vNdVFasm	TRUE
+CPD-703	NO_BiGG_CHECK_METACYCID	4-nitrobenzaldehyde	vOOfO7Vw	TRUE
+D-RIBULOSE-1-P	NO_BiGG_CHECK_METACYCID	D-ribulose 1-phosphate	LPUcrFmK	TRUE
+_1-2-DIPALMITOYLPHOSPHATIDYLCHOLINE	NO_BiGG_CHECK_METACYCID	1,2-dipalmitoyl-phosphatidylcholine	E6KLHV9f	TRUE
+C17345	NO_BiGG_CHECK_METACYCID	(25R)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA	4Iordxdz	TRUE
+N-Acetyl-beta-D-Hexosaminides	NO_BiGG_CHECK_METACYCID	an N-acetyl-β-D-hexosaminide	T977LFm5	TRUE
+N-acetyl-beta-D-hexosamines	NO_BiGG_CHECK_METACYCID	an N-acetyl-β-D-hexosamine	XgQ3GzxC	TRUE
+_3-oxo-hexanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a 3-oxo-hexanoyl-[acyl-carrier protein]	2ZW4oWQk	TRUE
+R-3-hydroxyhexanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxyhexanoyl-[acp]	gyvSUXl1	TRUE
+Fe2-siderophores	NO_BiGG_CHECK_METACYCID	an Fe(II)-siderophore	6y3NSKZT	TRUE
+Beta-3-hydroxybutyryl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxybutanoyl-[acp]	DLzvwJu5	TRUE
+Alpha-D-Galactosides	NO_BiGG_CHECK_METACYCID	an α-D-galactoside	cYrQqXGk	TRUE
+Non-Galactosylated-Galactose-Acceptors	NO_BiGG_CHECK_METACYCID	Non-Galactosylated-Galactose-Acceptors	H3TJuUKW	TRUE
+_3-oxo-dodecanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a 3-oxo-dodecanoyl-[acp]	3DCHMLvm	TRUE
+R-3-hydroxydodecanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxydodecanoyl-[acp]	ssHhwwFE	TRUE
+_3-oxo-decanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a 3-oxo-decanoyl-[acp]	zWRoj3HA	TRUE
+Beta-hydroxydecanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxydecanoyl-[acp]	dy3rHrVv	TRUE
+_3-Oxo-octanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a 3-oxo-octanoyl-[acp]	D3oqWbIq	TRUE
+_3-Hydroxy-octanoyl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxyoctanoyl-[acp]	xCewJYeS	TRUE
+_3-oxo-myristoyl-ACPs	NO_BiGG_CHECK_METACYCID	a 3-oxo-myristoyl-[acp]	AJDsUMI6	TRUE
+R-3-hydroxymyristoyl-ACPs	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxymyristoyl-[acp]	i64sPkbJ	TRUE
+CPD-2743	NO_BiGG_CHECK_METACYCID	nicotine-1'-N-oxide	NMChsAqN	TRUE
+_3-oxo-ealmitoyl-ACPs	NO_BiGG_CHECK_METACYCID	blank_description	pzL1FnbV	TRUE
+_3-HYDROXY-DOCOSAPENTAENOYL-ACP	NO_BiGG_CHECK_METACYCID	a (3R)-3-hydroxy-docosapentaenoyl-[acp]	JswbATZV	TRUE
+_3-OXO-EICOSAPENTAENOYL-ACP	NO_BiGG_CHECK_METACYCID	blank_description	VfZi4cBE	TRUE
+R2OH-Straight-Chain-234-Sat-FA	NO_BiGG_CHECK_METACYCID	a (2R)-2-hydroxy even numbered straight chain 2,3,4-saturated fatty acid	8N66UNQe	TRUE
+R2-2OH-Straight-Chain-234-Sat-FA-CoA	NO_BiGG_CHECK_METACYCID	a (R)-2-hydroxy even numbered straight chain 2,3,4-saturated fatty acyl CoA	4hAEh5Eh	TRUE
+Ubiquitin-C-Terminal-Glycine	NO_BiGG_CHECK_METACYCID	a [ubiquitin] C-terminal glycine	3QtRJYtf	TRUE
+CPD-14387	NO_BiGG_CHECK_METACYCID	15,15'-dihydroxy-β-carotene	OediKVIP	TRUE
+CPD-14386	NO_BiGG_CHECK_METACYCID	β-carotene 15,15' epoxide	rSNDWQH8	TRUE
+CPD-6741	NO_BiGG_CHECK_METACYCID	D-myo-inositol (1,2,3,5,6) pentakisphosphate	bF5Z5AoW	TRUE
+CPD-11641	NO_BiGG_CHECK_METACYCID	4-methylumbelliferyl glucoside	tXzpHUns	TRUE
+CPD-14280	NO_BiGG_CHECK_METACYCID	trans-arachido-2-enoyl-CoA	ZbiCGDnI	TRUE
+CPD-15370	NO_BiGG_CHECK_METACYCID	trans-lesqueroloyl-CoA	UpOvL2SA	TRUE
+CPD-15366	NO_BiGG_CHECK_METACYCID	lesqueroloyl-CoA	58AzWDMT	TRUE
+CPD-15362	NO_BiGG_CHECK_METACYCID	(2E,11Z)-icosa-2,11-dienoyl-CoA	kwwZa4dQ	TRUE
+CPD-12699	NO_BiGG_CHECK_METACYCID	(2R)-2-hydroxy-2-methylbutanenitrile	2EfHPIrL	TRUE
+CPD-14281	NO_BiGG_CHECK_METACYCID	trans-docos-2-enoyl-CoA	EJO1y75S	TRUE
+C16528	NO_BiGG_CHECK_METACYCID	Docosanoyl-CoA	uV86Dkmn	TRUE
+CPD-14282	NO_BiGG_CHECK_METACYCID	trans-lignocer-2-enoyl-CoA	fAhbB6ib	TRUE
+C16529	NO_BiGG_CHECK_METACYCID	Tetracosanoyl-CoA	PriVfFSN	TRUE
+CPD-14283	NO_BiGG_CHECK_METACYCID	trans-cerot-2-enoyl-CoA	43kgbcCn	TRUE
+CPD1G-277	NO_BiGG_CHECK_METACYCID	Cerotoyl-CoA	kWRaQFIZ	TRUE
+C00963	NO_BiGG_CHECK_METACYCID	Beta-D-Glucoside	ddvnfCQG	TRUE
+Non-Glucosylated-Glucose-Acceptors	NO_BiGG_CHECK_METACYCID	a non glucosylated D-glucose acceptor	Uy4JwJBS	TRUE
+Actinorhodin-Intermediate-1	NO_BiGG_CHECK_METACYCID	a (1'-hydroxy-3',5'-dioxo-2'-(3''-oxobutanoyl)cyclohexyl)-3,5-dioxohexanethioate-[PKS-acp]	PIHYMLUT	TRUE
+Actinorhodin-Intermediate-2	NO_BiGG_CHECK_METACYCID	9-hydroxy-3,5,7,11,13,15-hexaoxohexadecanoyl-[PKS-acp]	Zc2zSHDe	TRUE
+CPD-14278	NO_BiGG_CHECK_METACYCID	(3R)-3-hydroxy-cerotoyl-CoA	f1vzSbMF	TRUE
+CPD-14277	NO_BiGG_CHECK_METACYCID	(3R)-3-hydroxy-lignoceroyl-CoA	kKS58Vr2	TRUE
+CPD-14276	NO_BiGG_CHECK_METACYCID	(3R)-3-hydroxy-behenoyl-CoA	JEF7Fteq	TRUE
+Protein-L-serine-or-L-threonine	NO_BiGG_CHECK_METACYCID	a [protein]-(L-serine/L-threonine)	A9LEJa8u	TRUE
+Protein-Ser-or-Thr-ehosphate	NO_BiGG_CHECK_METACYCID	Unavaiable	rpM93bIK	TRUE
+tRNA-uridine-38-40	NO_BiGG_CHECK_METACYCID	a uridine38-40 in tRNA	FAOFySeR	TRUE
+N-4-aminobutylidene-eIF5A-lysine	NO_BiGG_CHECK_METACYCID	an [eIF5A-precursor]-N-(4-aminobutylidene)-lysine	rYYUSbZo	TRUE
+N-4-aminobutylidene-enzyme-lysine	NO_BiGG_CHECK_METACYCID	a [deoxyhypusine synthase]-N-(4-aminobutylidene)-lysine	KvJHLfTO	TRUE
+Deoxyhypusine-Synthase-Lysine	NO_BiGG_CHECK_METACYCID	a [deoxyhypusine synthase]-L-lysine	jARgtuO9	TRUE
+Protein-Phosphoserines	NO_BiGG_CHECK_METACYCID	a protein L-serine phosphate	jHLwJCvk	TRUE
+Proteins-L-Threonines	NO_BiGG_CHECK_METACYCID	a [protein]-L-threonine	HRgfdeAL	TRUE
+Protein-Phosphothreonines	NO_BiGG_CHECK_METACYCID	a [protein] L-threonine phosphate	I9RuW5Ik	TRUE
+CPD-13227	NO_BiGG_CHECK_METACYCID	N,N',N''-triacetylchitotriose	ZpCxjjAY	TRUE
+CPD-8978	NO_BiGG_CHECK_METACYCID	ethylphosphate	CqRftrX4	TRUE
+CPD-14298	NO_BiGG_CHECK_METACYCID	2,6-dioxo-6-phenylhexa-3-enoate	y8e6Y82k	TRUE
+_1-2-Diglycerides	NO_BiGG_CHECK_METACYCID	a 1,2-diglyceride	12dag_cho	FALSE
+CPD-7000	NO_BiGG_CHECK_METACYCID	isobutanal	AfwuPsb1	TRUE
+CPD-7033	NO_BiGG_CHECK_METACYCID	2-methylbutanol	KLQRwTsv	TRUE
+INDOLE-3-GLYCOL	NO_BiGG_CHECK_METACYCID	indole-3-glycol	bsnnsFjK	TRUE
+CPD-7036	NO_BiGG_CHECK_METACYCID	3-methylthiopropanal	iSWkHWJC	TRUE
+CPD-7037	NO_BiGG_CHECK_METACYCID	methionol	HBoruMAO	TRUE
+CPD-11671	NO_BiGG_CHECK_METACYCID	5-hydroxytryptophol	kzt78PVM	TRUE
+CPD-8618	NO_BiGG_CHECK_METACYCID	4α-formyl-5α-cholesta-8-en-3β-ol	oYckGX4U	TRUE
+CPD-8617	NO_BiGG_CHECK_METACYCID	4α-hydroxymethyl-5α-cholesta-8-en-3β-ol	1CQPdpKq	TRUE
+CPD-14926	NO_BiGG_CHECK_METACYCID	phytenal	mHgXK9nm	TRUE
+CPD-8614	NO_BiGG_CHECK_METACYCID	4α-methyl-5α-cholesta-8-en-3-one	xZp4CALy	TRUE
+CPD-8612	NO_BiGG_CHECK_METACYCID	4α-formyl-4β-methyl-5α-cholesta-8-en-3β-ol	ybOmPKfL	TRUE
+CPD-8611	NO_BiGG_CHECK_METACYCID	4α-hydroxymethyl-4β-methyl-5α-cholesta-8-en-3β-ol	d4nHNWqu	TRUE
+CPD-11529	NO_BiGG_CHECK_METACYCID	Jasmonoyl-CoA	SU23hSzo	TRUE
+CPD-15688	NO_BiGG_CHECK_METACYCID	3-cis, 5-trans-dodecadienoyl-CoA	8bS4DdVm	TRUE
+CPD-4580	NO_BiGG_CHECK_METACYCID	4α-formyl-5α-cholesta-8,24-dien-3β-ol	1cvohqml	TRUE
+CPD-4579	NO_BiGG_CHECK_METACYCID	4α-hydroxymethyl-5α-cholesta-8,24-dien-3β-ol	etT6BpaQ	TRUE
+CPD-4576	NO_BiGG_CHECK_METACYCID	4α-formyl-4β-methyl-5α-cholesta-8,24-dien-3β-ol	4Af4Bm5Ac824d3Bol	FALSE
+CPD-4575	NO_BiGG_CHECK_METACYCID	4α-hydroxymethyl-4β-methyl-5α-cholesta-8,24-dien-3β-ol	4Ahm4Bm5Ac824d3Bol	FALSE
+CPD-15692	NO_BiGG_CHECK_METACYCID	3-trans-decenoyl-CoA	3trdececoa	FALSE
+CPD-13700	NO_BiGG_CHECK_METACYCID	3-oxo-4-pregnene-20-carboxyl-CoA	3oxo4preg20ccoa	FALSE
+CPD-13699	NO_BiGG_CHECK_METACYCID	3,22-dioxochol-4-en-24-oyl-CoA	322dioxochol4en24coa	FALSE
+C20951	NO_BiGG_CHECK_METACYCID	LysW-L-ornithine	lysWLorn	FALSE
+C20950	NO_BiGG_CHECK_METACYCID	LysW-L-glutamate 5-semialdehyde	lysWLglu5smald	FALSE
+CPD-10283	NO_BiGG_CHECK_METACYCID	3-oxo-behenoyl-CoA	3oxobhcoa	FALSE
+C06108	NO_BiGG_CHECK_METACYCID	Fluoroacetate	flac	FALSE
+CPD-5682	NO_BiGG_CHECK_METACYCID	D,L-malic semialdehyde	Dlmlcsmald	FALSE
+CPD1G-332	NO_BiGG_CHECK_METACYCID	2-carboxy-cerotoyl-CoA	2carbcercoa	FALSE
+CPD-15373	NO_BiGG_CHECK_METACYCID	aldehydo-D-mannose	aldDman	FALSE
+CPD-10576	NO_BiGG_CHECK_METACYCID	4-chlorosalicylate	4chlosalc	FALSE
+CPD-10664	NO_BiGG_CHECK_METACYCID	5-methylsalicylate	5metsalc	FALSE
+CPD-10663	NO_BiGG_CHECK_METACYCID	5-chlorosalicylate	5chlosalc	FALSE
+CPD-10330	NO_BiGG_CHECK_METACYCID	alpha-D-ribofuranose	aDrbfur	FALSE
+BIOMASS	NO_BiGG_CHECK_METACYCID	blank_description	HC9Nr5ko	TRUE
+C00088	no2	blank_description	no2	FALSE
+C00244	no3	blank_description	no3	FALSE
+C00007	o2	blank_description	o2	FALSE
+C00704	o2s	blank_description	o2s	FALSE
+C00036	oaa	blank_description	oaa	FALSE
+C05276	oc2coa	blank_description	oc2coa	FALSE
+C05752	ocACP	blank_description	ocACP	FALSE
+C01944	occoa	blank_description	occoa	FALSE
+C01530	ocdca	blank_description	ocdca	FALSE
+C00510	ocdce9coa	blank_description	ocdce9coa	FALSE
+C00712	ocdcea	blank_description	ocdcea	FALSE
+C06423	octa	blank_description	octa	FALSE
+C04146	octdp	blank_description	octdp	FALSE
+C16218	od2coa	blank_description	od2coa	FALSE
+C00596	op4en	blank_description	op4en	FALSE
+C00077	orn	blank_description	orn	FALSE
+C00295	orot	blank_description	orot	FALSE
+C01103	orot5p	blank_description	orot5p	FALSE
+C02232	oxadpcoa	blank_description	oxadpcoa	FALSE
+C05533	oxag	blank_description	oxag	FALSE
+C07086	pac	blank_description	pac	FALSE
+C00601	pacald	blank_description	pacald	FALSE
+C02505	pad	blank_description	pad	FALSE
+C01134	pan4p	blank_description	pan4p	FALSE
+C00522	pant__R	blank_description	pant__R	FALSE
+C00054	pap	blank_description	pap	FALSE
+C00053	paps	blank_description	paps	FALSE
+C00627	pdx5p	blank_description	pdx5p	FALSE
+C05332	peamn	blank_description	peamn	FALSE
+C00074	pep	blank_description	pep	FALSE
+C00012	pepd	blank_description	pepd	FALSE
+C02188	peplys	blank_description	peplys	FALSE
+C03892	pgp_EC	blank_description	pgp_EC	FALSE
+C00079	phe__L	blank_description	phe__L	FALSE
+C00032	pheme	blank_description	pheme	FALSE
+C00146	phenol	blank_description	bznol	FALSE
+C15584	phenol	blank_description	phenol	FALSE
+C03511	phetrna	blank_description	phetrna	FALSE
+C01102	phom	blank_description	phom	FALSE
+C00166	phpyr	blank_description	phpyr	FALSE
+C01389	phytol	blank_description	phytol	FALSE
+C00009	pi	blank_description	pi	FALSE
+C19845	pimACP	blank_description	pimACP	FALSE
+C01063	pmcoa	blank_description	pmcoa	FALSE
+C00154	pmtcoa	blank_description	pmtcoa	FALSE
+C00864	pnto__R	blank_description	pnto__R	FALSE
+C00894	pp2coa	blank_description	pp2coa	FALSE
+C00163	ppa	blank_description	ppa	FALSE
+C00479	ppal	blank_description	ppal	FALSE
+C00931	ppbng	blank_description	ppbng	FALSE
+C00100	ppcoa	blank_description	ppcoa	FALSE
+C00254	pphn	blank_description	pphn	FALSE
+C00013	ppi	blank_description	ppi	FALSE
+C05979	ppoh	blank_description	ppoh	FALSE
+C02191	ppp9	blank_description	ppp9	FALSE
+C01079	pppg9	blank_description	pppg9	FALSE
+C00536	pppi	blank_description	pppi	FALSE
+C03090	pram	blank_description	pram	FALSE
+C04302	pran	blank_description	pran	FALSE
+C02741	prbamp	blank_description	prbamp	FALSE
+C02739	prbatp	blank_description	prbatp	FALSE
+C03427	prephytedp	blank_description	prephytedp	FALSE
+C04896	prfp	blank_description	prfp	FALSE
+C00410	prgstrn	blank_description	prgstrn	FALSE
+C04916	prlp	blank_description	prlp	FALSE
+C00148	pro__L	blank_description	pro__L	FALSE
+C02702	protrna	blank_description	protrna	FALSE
+C00119	prpp	blank_description	prpp	FALSE
+C01005	pser__L	blank_description	pser__L	FALSE
+C03428	psqldp	blank_description	psqldp	FALSE
+C04308	ptd2meeta_SC	blank_description	ptd2meeta_SC	FALSE
+C00134	ptrc	blank_description	ptrc	FALSE
+C00647	pyam5p	blank_description	pyam5p	FALSE
+C00534	pydam	blank_description	pydam	FALSE
+C00250	pydx	blank_description	pydx	FALSE
+C00018	pydx5p	blank_description	pydx5p	FALSE
+C00314	pydxn	blank_description	pydxn	FALSE
+C02576	pylald	blank_description	pylald	FALSE
+C00022	pyr	blank_description	pyr	FALSE
+C17568	q6	blank_description	q6	FALSE
+C03722	quln	blank_description	quln	FALSE
+C00620	r1p	blank_description	r1p	FALSE
+C00492	raffin	blank_description	raffin	FALSE
+C01007	rbflvrd	blank_description	rbflvrd	FALSE
+C00309	rbl__D	blank_description	rbl__D	FALSE
+C00310	rbl__L,xylu__D	blank_description	rbl__L,xylu__D	FALSE
+C00474	rbt	blank_description	rbt	FALSE
+C00376	retinal	blank_description	retinal	FALSE
+C00473	retinol	blank_description	retinol	FALSE
+C00777	retn	blank_description	retn	FALSE
+C00255	ribflv	blank_description	ribflv	FALSE
+C03150	rnam	blank_description	rnam	FALSE
+C00199	ru5p__D	blank_description	ru5p__D	FALSE
+C06157	S_gtrdhdlp	blank_description	S_gtrdhdlp	FALSE
+C00447	s17bp	blank_description	s17bp	FALSE
+C05382	s7p	blank_description	s7p	FALSE
+C00449	saccrp__L	blank_description	saccrp__L	FALSE
+C00805	salc	blank_description	salc	FALSE
+C00794	sbt__D	blank_description	sbt__D	FALSE
+C05778	scl	blank_description	scl	FALSE
+C05824	scys__L	blank_description	scys__L	FALSE
+C00065	ser__L	blank_description	ser__L	FALSE
+C02553	sertrna	blank_description	sertrna	FALSE
+C06481	sertrna_sec	blank_description	sertrna_sec	FALSE
+C01031	Sfglutth	blank_description	Sfglutth	FALSE
+C00493	skm	blank_description	skm	FALSE
+C03175	skm5p	blank_description	skm5p	FALSE
+C00094	so3	blank_description	so3	FALSE
+C00059	so4	blank_description	so4	FALSE
+C00836	sphgn	blank_description	sphgn	FALSE
+C00319	sphings	blank_description	sphings	FALSE
+C06124	sphs1p	blank_description	sphs1p	FALSE
+C00315	spmd	blank_description	spmd	FALSE
+C00750	sprm	blank_description	sprm	FALSE
+C00751	sql	blank_description	sql	FALSE
+C00780	srtn	blank_description	srtn	FALSE
+C00412	stcoa	blank_description	stcoa	FALSE
+C01613	stys	blank_description	stys	FALSE
+C00042	succ	blank_description	succ	FALSE
+C00091	succoa	blank_description	succoa	FALSE
+C00089	sucr	blank_description	sucr	FALSE
+C00232	sucsal	blank_description	sucsal	FALSE
+C00811	T4hcinnm	blank_description	T4hcinnm	FALSE
+C01097	tag6p__D	blank_description	tag6p__D	FALSE
+C03785	tagdp__D	blank_description	tagdp__D	FALSE
+C00245	taur	blank_description	taur	FALSE
+C01755	tcynt	blank_description	tcynt	FALSE
+C05273	td2coa	blank_description	td2coa	FALSE
+C02593	tdcoa	blank_description	tdcoa	FALSE
+C05758	tddec2eACP	blank_description	tddec2eACP	FALSE
+C05754	tdec2eACP	blank_description	tdec2eACP	FALSE
+C03881	tglp	blank_description	tglp	FALSE
+C05748	thex2eACP	blank_description	thex2eACP	FALSE
+C00101	thf	blank_description	thf	FALSE
+C00378	thm	blank_description	thm	FALSE
+C01081	thmmp	blank_description	thmmp	FALSE
+C00068	thmpp	blank_description	thmpp	FALSE
+C03028	thmtp	blank_description	thmtp	FALSE
+C00450	thp2c	blank_description	thp2c	FALSE
+C00188	thr__L	blank_description	thr__L	FALSE
+C02992	thrtrna	blank_description	thrtrna	FALSE
+C03793	tmlys	blank_description	tmlys	FALSE
+C05760	tmrs2eACP	blank_description	tmrs2eACP	FALSE
+C05751	toct2eACP	blank_description	toct2eACP	FALSE
+C05763	tpalm2eACP	blank_description	tpalm2eACP	FALSE
+C00343	trdox	blank_description	trdox	FALSE
+C00342	trdrd	blank_description	trdrd	FALSE
+C01083	tre	blank_description	tre	FALSE
+C00689	tre6p	blank_description	tre6p	FALSE
+C01635	trnaala	blank_description	trnaala	FALSE
+C01636	trnaarg	blank_description	trnaarg	FALSE
+C01637	trnaasn	blank_description	trnaasn	FALSE
+C01638	trnaasp	blank_description	trnaasp	FALSE
+C01639	trnacys	blank_description	trnacys	FALSE
+C01335	trnagln	blank_description	alcohol	FALSE
+C01640	trnagln	blank_description	trnagln	FALSE
+C00069	trnagln	blank_description	roh	FALSE
+C01641	trnaglu	blank_description	trnaglu	FALSE
+C01642	trnagly	blank_description	trnagly	FALSE
+C01643	trnahis	blank_description	trnahis	FALSE
+C01644	trnaile	blank_description	trnaile	FALSE
+C01645	trnaleu	blank_description	trnaleu	FALSE
+C01646	trnalys	blank_description	trnalys	FALSE
+C01647	trnamet	blank_description	trnamet	FALSE
+C01648	trnaphe	blank_description	trnaphe	FALSE
+C01649	trnapro	blank_description	trnapro	FALSE
+C01650	trnaser	blank_description	trnaser	FALSE
+C01651	trnathr	blank_description	trnathr	FALSE
+C01652	trnatrp	blank_description	trnatrp	FALSE
+C00787	trnatyr	blank_description	trnatyr	FALSE
+C01653	trnaval	blank_description	trnaval	FALSE
+C00078	trp__L	blank_description	trp__L	FALSE
+C03512	trptrna	blank_description	trptrna	FALSE
+C00398	trypta	blank_description	trypta	FALSE
+C00535	tststerone	blank_description	tststerone	FALSE
+C00320	tsul	blank_description	tsul	FALSE
+C00483	tym	blank_description	tym	FALSE
+C00082	tyr__L	blank_description	tyr__L	FALSE
+C02839	tyrtrna	blank_description	tyrtrna	FALSE
+C04631	uaccg	blank_description	uaccg	FALSE
+C00043	uacgam	blank_description	uacgam	FALSE
+C01050	uamr	blank_description	uamr	FALSE
+C00015	udp	blank_description	udp	FALSE
+C00029	udpg	blank_description	udpg	FALSE
+C00052	udpgal	blank_description	udpgal	FALSE
+C03733	udpgalfur	blank_description	udpgalfur	FALSE
+C00167	udpglcur	blank_description	udpglcur	FALSE
+C00190	udpxyl	blank_description	udpxyl	FALSE
+C00105	ump	blank_description	ump	FALSE
+C05766	uppg1	blank_description	uppg1	FALSE
+C01051	uppg3	blank_description	uppg3	FALSE
+C00106	ura	blank_description	ura	FALSE
+C00366	urate	blank_description	urate	FALSE
+C00603	urdglyc	blank_description	urdglyc	FALSE
+C00086	urea	blank_description	urea	FALSE
+C00299	uri	blank_description	uri	FALSE
+C00075	utp	blank_description	utp	FALSE
+C00183	val__L	blank_description	val__L	FALSE
+C02554	valtrna	blank_description	valtrna	FALSE
+C00755	vanln	blank_description	vanln	FALSE
+C00385	xan	blank_description	xan	FALSE
+C00655	xmp	blank_description	xmp	FALSE
+C00231	xu5p__D	blank_description	xu5p__D	FALSE
+C00181	xyl__D	blank_description	xyl__D	FALSE
+C00379	xylt	blank_description	xylt	FALSE
+C00312	xylu__L	blank_description	xylu__L	FALSE
+C05437	zymst	blank_description	zymst	FALSE
