@@ -44,6 +44,7 @@ while(<SBTABCT>){
    print "$ID\t$Name\t$IdentifiersKeggCompound\t$IdentifiersBiggMetabolite\t\tNO_FORMULA_AVAILABLE\n";
   }
  } elsif ($IdentifiersBiocyc) {
+  $IdentifiersBiocyc =~ s/-/__45__/g;
   if ($metabolite2formula{$IdentifiersBiocyc}) {
    print "$ID\t$Name\t\t$IdentifiersBiggMetabolite\t$IdentifiersBiocyc\t$metabolite2formula{$IdentifiersBiocyc}\n";
   } else {
