@@ -28,7 +28,7 @@ open(SBTABCT,$sbtabCompoundTable);
 ##!!SBtab SBtabVersion=’1.0’      TableName=’K. brasiliensis SBTab Compound Table’        TableType=’Compound’
 ##!ID     !Name   !Identifiers:kegg.compound      !Identifiers:bigg.metabolite    !Identifiers:biocyc
 
-print "!!SBtab SBtabVersion=’1.0’\tTableName=’K. brasiliensis SBTab Compound Table’\tTableType=’Compound’\n!ID\t!Name\t!Identifiers:kegg.compound\t!Identifiers:bigg.metabolite\t!Identifiers:biocyc\t!StructureFormula\n";
+print "!!SBtab SBtabVersion=’1.0’\tTableName=’K. brasiliensis SBTab Compound Table’\tTableType=’Compound’\n!ID\t!Name\t!Identifiers:kegg.compound\t!Identifiers:bigg.metabolite\t!Identifiers:biocyc\t!CompoundSumFormula\n";
 
 while(<SBTABCT>){
  chomp;
