@@ -1,5 +1,5 @@
 !!SBtab SBtabVersion=’1.0’	TableName=’K. brasiliensis SBTab Compound Table’	TableType=’Compound’
-!ID	!Name	!Identifiers:kegg.compound	!Identifiers:bigg.metabolite	!Identifiers:biocyc	!StructureFormula
+!ID	!Name	!Identifiers:kegg.compound	!Identifiers:bigg.metabolite	!Identifiers:biocyc	!CompoundSumFormula
 sbtabcomp1	10-Formyltetrahydrofolate	C00234	10fthf		C20H23N7O7
 sbtabcomp2	1,2-Diacyl-sn-glycerol	C00641	12dgr_EC		C5H6O5R2
 sbtabcomp3	(R)-Propane-1,2-diol	C02912	12ppd__R		C3H8O2
