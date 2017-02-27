@@ -22,21 +22,18 @@ model_DM_closed = closeRxn(model_DM,model_DM.rxns(initVectorDM:end));
 fvector = zeros(endVectorDM,1);
 num_rxns_vector = zeros(endVectorDM,1);
 
-%display(initVectorDM);
-%display(endVectorDM);
-
 % Create file to output results of optimizations (demand reaction and other
 % reactions with flux (that should not, given that the system has not
 % exchange reactions)
-fid=fopen('OutFileNonZeroFluxReactions.txt','w');
+fid=fopen('OutFileNonZeroFluxReactions_fixedAbsValue02262017.txt','w');
 
 for i = initVectorDM:endVectorDM
     model_DM_test = model_DM_closed;
     model_DM_test.ub(i) = 1000;
     model_DM_test = changeObjective(model_DM_test,model_DM_test.rxns(i));
     soln = optimizeCbModel(model_DM_test,'max','one');
-    num_rxns_vector(i) = length(find(soln.x > 0.001));
-    vectorSolutionWithFluxes = find(soln.x > 0.001);
+    num_rxns_vector(i) = length(find(abs(soln.x) > 0.001));
+    vectorSolutionWithFluxes = find(abs(soln.x) > 0.001);
     if isempty(vectorSolutionWithFluxes)
        %sprintf('%s DMreactionWithoutReactionsWithFluxInOptm', char(model_DM_test.rxns(i)))
        fprintf(fid, '%s DMreactionWithoutReactionsWithFluxInOptm\n', char(model_DM_test.rxns(i)));
