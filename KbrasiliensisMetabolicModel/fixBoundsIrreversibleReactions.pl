@@ -15,7 +15,7 @@ while(<SBMLM>){
   #print "$1\n";
   if($revers eq 'false'){
    $newLine = $_;
-   $newLine =~ s/fbc:lowerFluxBound=\"cobra_default_lb\"/fbc:lowerFluxBound=\"0\"/g;
+   $newLine =~ s/fbc:lowerFluxBound=\"cobra_default_lb\"/fbc:lowerFluxBound=\"cobra_0_bound\"/g;
    print "$newLine\n";
   } else {
    print "$_\n";
