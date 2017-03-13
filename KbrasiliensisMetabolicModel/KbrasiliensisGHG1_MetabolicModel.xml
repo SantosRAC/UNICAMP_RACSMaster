@@ -9022,34 +9022,6 @@
         </rdf:RDF>
        </annotation>
       </species>
-      <species metaid="racs_addedSpecies_0669" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Protein__45__L__45__serine__45__or__45__L__45__threonine" id="Protein__45__L__45__serine__45__or__45__L__45__threonine">
-       <notes><html:p>COMPOUND_ID: Protein-L-serine-or-L-threonine</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0669">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein-L-serine-or-L-threonine"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
-      <species metaid="racs_addedSpecies_0670" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Protein__45__Ser__45__or__45__Thr__45__ehosphate" id="Protein__45__Ser__45__or__45__Thr__45__ehosphate">
-       <notes><html:p>COMPOUND_ID: Protein-Ser-or-Thr-ehosphate</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0670">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/Protein-Ser-or-Thr-ehosphate"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
       <species metaid="racs_addedSpecies_0671" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="tRNA__45__uridine__45__38__45__40" id="tRNA__45__uridine__45__38__45__40">
        <notes><html:p>COMPOUND_ID: tRNA-uridine-38-40</html:p></notes>
        <annotation>
@@ -12899,20 +12871,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_f8171869_b184_43d8_bc24_caff6faf28a2" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Adenine in rRNA" id="C20648">
-<notes><html:p>COMPOUND_ID: C20648</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_f8171869_b184_43d8_bc24_caff6faf28a2">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C20648"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_7b9d7d9b_4564_46f3_8283_df8602341dc4" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="(3R)-3-Hydroxydecanoyl-[acyl-carrier protein]" id="C04619">
 <notes><html:p>COMPOUND_ID: C04619</html:p></notes>
         <annotation>
@@ -14685,20 +14643,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03428"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="_67472924_4ab8_4695_a6bc_0aaca8f318f9" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="N6-Dimethyladenine in rRNA" id="C20796">
-<notes><html:p>COMPOUND_ID: C20796</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_67472924_4ab8_4695_a6bc_0aaca8f318f9">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C20796"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -38205,50 +38149,6 @@
   <speciesReference constant="true" species="C00008" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0632" reversible="false" id="PROTEIN__45__KINASE__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 2.7.11.1</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:or>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_793"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_743"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_722"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_700"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_685"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_651"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_646"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_620"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_618"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_575"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_525"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_457"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_501"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_489"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_404"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_352"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_254"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_136"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545860_1_67"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_538"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_502"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545866_1_11"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_38"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_127"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_34"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_295"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_236"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_290"/>
-  </fbc:or>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="Protein__45__L__45__serine__45__or__45__L__45__threonine" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00002" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="Protein__45__Ser__45__or__45__Thr__45__ehosphate" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00008" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00080" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
 <reaction metaid="racs_addedReaction_0634" reversible="true" id="TRNA__45__PSEUDOURIDINE__45__SYNTHASE__45__I__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 5.4.99.12</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
@@ -38646,26 +38546,6 @@
  <listOfProducts>
   <speciesReference constant="true" species="C01179" stoichiometry="1"/>
   <speciesReference constant="true" species="C00025" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
-<reaction metaid="racs_addedReaction_0664" reversible="false" id="_3__46__1__46__3__46__16__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 3.1.3.16</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:or>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_338"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_764"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_555"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_132"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545895_1_93"/>
-  </fbc:or>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="Protein__45__Ser__45__or__45__Thr__45__ehosphate" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00001" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="Protein__45__L__45__serine__45__or__45__L__45__threonine" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00009" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
 <reaction metaid="racs_addedReaction_0665" reversible="true" id="NICOTINAMIDE__45__N__45__METHYLTRANSFERASE__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -59916,35 +59796,6 @@
           <speciesReference constant="true" species="C00009" stoichiometry="1"/>
           <speciesReference constant="true" species="C04332" stoichiometry="1"/>
           <speciesReference constant="true" species="C00001" stoichiometry="2"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="_67daddda_2167_436e_a793_76281e8358b1" reversible="true" id="R10716" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 2.1.1.182;2.1.1.183;2.1.1.184</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545864_1_82) or (evm_model_KI545884_1_341) or (evm_model_KI545854_1_65)</html:p><html:p>PROP PRIAM_probability=0.8700000047683716</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:or>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545864_1_82"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_341"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_65"/>
- </fbc:or>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_67daddda_2167_436e_a793_76281e8358b1">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R10716"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C00019" stoichiometry="2"/>
-          <speciesReference constant="true" species="C20648" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C00021" stoichiometry="2"/>
-          <speciesReference constant="true" species="C20796" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="_e66723b0_8446_4029_b37c_fb07b8d49db8" reversible="true" id="R04430" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
