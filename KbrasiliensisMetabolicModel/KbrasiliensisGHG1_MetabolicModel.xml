@@ -14439,20 +14439,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_d036811d_d632_4797_aa1f_4db32fd05dd0" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="DNA 5-methylcytosine" id="C02967">
-<notes><html:p>COMPOUND_ID: C02967</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_d036811d_d632_4797_aa1f_4db32fd05dd0">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02967"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_18861024_4008_49d8_a1bc_b85603b7f6eb" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="N-Acetyl-L-glutamate 5-phosphate" id="C04133">
 <notes><html:p>COMPOUND_ID: C04133</html:p></notes>
         <annotation>
@@ -16113,20 +16099,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C01352"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="_c9967c34_c915_4919_9bf9_8c362977b6ed" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="DNA" id="C00039">
-<notes><html:p>COMPOUND_ID: C00039</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_c9967c34_c915_4919_9bf9_8c362977b6ed">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00039"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -50213,31 +50185,6 @@
         <listOfProducts>
           <speciesReference constant="true" species="C00008" stoichiometry="1"/>
           <speciesReference constant="true" species="C04549" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="_37418c92_d03e_4bfd_85fc_b5346930217f" reversible="true" id="R00380" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 2.1.1.37</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545863_1_11)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545863_1_11"/>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_37418c92_d03e_4bfd_85fc_b5346930217f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00380"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C00019" stoichiometry="1"/>
-          <speciesReference constant="true" species="C00039" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C00021" stoichiometry="1"/>
-          <speciesReference constant="true" species="C02967" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="_f91fc548_63b3_4e67_8d79_3d0fb4c4a1ea" reversible="false" id="R01158" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
