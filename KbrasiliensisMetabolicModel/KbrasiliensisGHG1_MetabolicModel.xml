@@ -39710,21 +39710,6 @@
   <speciesReference constant="true" species="C00001" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0739" reversible="false" id="TRANS__45__RXNTFS__45__13" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 3.6.3.8</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_300"/>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C00002" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00001" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C00008" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00009" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00080" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
 <reaction metaid="racs_addedReaction_0741" reversible="false" id="RXN__45__14803" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 2.3.1.16</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
