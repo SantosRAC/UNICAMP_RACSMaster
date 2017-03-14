@@ -5522,7 +5522,7 @@
         </rdf:RDF>
        </annotation>
       </species>
-      <species metaid="racs_addedSpecies_0416" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="" id="C01612">
+      <species metaid="racs_addedSpecies_0416" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Secondary alcohol" id="C01612">
        <notes><html:p>COMPOUND_ID: C01612</html:p></notes>
        <annotation>
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
@@ -7132,7 +7132,7 @@
         </rdf:RDF>
        </annotation>
       </species>
-      <species metaid="racs_addedSpecies_0533" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="" id="C17345">
+      <species metaid="racs_addedSpecies_0533" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="(25R)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA" id="C17345">
        <notes><html:p>COMPOUND_ID: C17345</html:p></notes>
        <annotation>
         <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
@@ -10647,17 +10647,6 @@
         </annotation>
       </species>
       <species metaid="racs_addedSpecies_0007" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Biomass" id="BIOMASS">
-       <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="racs_addedSpecies_0007">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource=""/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
       </species>
       <species metaid="_33526d90_a8de_40df_b834_42e832c63556" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="dTMP" id="C00364">
 <notes><html:p>COMPOUND_ID: C00364</html:p></notes>
@@ -32373,25 +32362,6 @@
   <speciesReference constant="true" species="C00013" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0262" reversible="false" id="RXN__45__7904__45__STEARIC_ACID__47__ATP__47__CO__45__A__47____47__STEAROYL__45__COA__47__AMP__47__PPI__46__44__46__" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 6.2.1.3</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:or>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_18"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_301"/>
-  </fbc:or>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C01530" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00002" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00010" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C00412" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00020" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00013" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
 <reaction metaid="racs_addedReaction_0263" reversible="false" id="GLUCONOKIN__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 2.7.1.12</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
@@ -32507,22 +32477,6 @@
   <speciesReference constant="true" species="CPD__45__14675" stoichiometry="1"/>
   <speciesReference constant="true" species="C00013" stoichiometry="1"/>
   <speciesReference constant="true" species="C00020" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
-<reaction metaid="racs_addedReaction_0274" reversible="false" id="BUTYRATE__45____45__COA__45__LIGASE__45__RXN__45__DODECANOATE__47__ATP__47__CO__45__A__47____47__LAUROYLCOA__45__CPD__47__AMP__47__PPI__46__45__46__" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 6.2.1.2</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_301"/>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C02679" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00002" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00010" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C01832" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00020" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00013" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
 <reaction metaid="racs_addedReaction_0275" reversible="false" id="R223__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -43254,31 +43208,6 @@
           <speciesReference constant="true" species="C00188" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_6138c2e3_d592_459a_886f_9090eb52f0c7" reversible="true" id="R02412" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 2.7.1.71</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_169)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_169"/>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_6138c2e3_d592_459a_886f_9090eb52f0c7">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R02412"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C00002" stoichiometry="1"/>
-          <speciesReference constant="true" species="C00493" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C00008" stoichiometry="1"/>
-          <speciesReference constant="true" species="C03175" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
       <reaction metaid="_631264bf_e5b9_437a_9473_cf25881e8db4" reversible="false" id="R02251" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.3.1.20</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545895_1_72)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
 <fbc:geneProductAssociation>
@@ -44770,7 +44699,7 @@
           <speciesReference constant="true" species="C00124" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_55cccc78_b469_4eaf_987d_196e7100abf9" reversible="true" id="R03905" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_55cccc78_b469_4eaf_987d_196e7100abf9" reversible="false" id="R03905" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.5.7</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545856_1_10) or (evm_model_KI545891_1_296)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -56740,35 +56669,6 @@
           <speciesReference constant="true" species="C00003" stoichiometry="1"/>
           <speciesReference constant="true" species="C04840" stoichiometry="1"/>
           <speciesReference constant="true" species="C00001" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="_871239bb_2cad_41f2_80e8_8c2a7649ac5e" reversible="true" id="R03361" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 2.7.1.67</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545863_1_123) or (evm_model_KI545854_1_153) or (evm_model_KI545863_1_123)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:or>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545863_1_123"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_153"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545863_1_123"/>
- </fbc:or>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_871239bb_2cad_41f2_80e8_8c2a7649ac5e">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R03361"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C01194" stoichiometry="1"/>
-          <speciesReference constant="true" species="C00002" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C00008" stoichiometry="1"/>
-          <speciesReference constant="true" species="C01277" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="_12f449e8_ebea_45bf_8f6a_ad1383e95d54" reversible="true" id="R00943" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
