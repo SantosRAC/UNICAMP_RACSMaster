@@ -7104,90 +7104,6 @@
         </rdf:RDF>
        </annotation>
       </species>
-      <species metaid="racs_addedSpecies_0531" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="(25R)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA" id="C15613">
-       <notes><html:p>COMPOUND_ID: C15613</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0531">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C15613"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
-      <species metaid="racs_addedSpecies_0532" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="(25S)-3alpha,7alpha,12alpha-Trihydroxy-5beta-cholestan-26-oyl-CoA" id="C17343">
-       <notes><html:p>COMPOUND_ID: C17343</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0532">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17343"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
-      <species metaid="racs_addedSpecies_0533" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="(25R)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA" id="C17345">
-       <notes><html:p>COMPOUND_ID: C17345</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0533">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17345"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
-      <species metaid="racs_addedSpecies_0534" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="(25S)-3alpha,7alpha-Dihydroxy-5beta-cholestanoyl-CoA" id="C17346">
-       <notes><html:p>COMPOUND_ID: C17346</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0534">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17346"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
-      <species metaid="racs_addedSpecies_0535" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="(2S)-2-Methylacyl-CoA" id="C05232">
-       <notes><html:p>COMPOUND_ID: C05232</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0535">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05232"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
-      <species metaid="racs_addedSpecies_0536" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="(2R)-2-Methylacyl-CoA" id="C05329">
-       <notes><html:p>COMPOUND_ID: C05329</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0536">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05329"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
       <species metaid="racs_addedSpecies_0537" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="1-Phosphatidyl-1D-myo-inositol 5-phosphate" id="C11557">
        <notes><html:p>COMPOUND_ID: C11557</html:p></notes>
        <annotation>
@@ -9022,20 +8938,6 @@
         </rdf:RDF>
        </annotation>
       </species>
-      <species metaid="racs_addedSpecies_0671" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="tRNA__45__uridine__45__38__45__40" id="tRNA__45__uridine__45__38__45__40">
-       <notes><html:p>COMPOUND_ID: tRNA-uridine-38-40</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0671">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/tRNA-uridine-38-40"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
       <species metaid="racs_addedSpecies_0672" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="4-Trimethylammoniobutanoate" id="C01181">
        <notes><html:p>COMPOUND_ID: C01181</html:p></notes>
        <annotation>
@@ -10802,20 +10704,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_ce8ae558_7c2d_494d_b2f6_2a49da4bf5cb" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Peptidylproline (omega=180)" id="C03798">
-<notes><html:p>COMPOUND_ID: C03798</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_ce8ae558_7c2d_494d_b2f6_2a49da4bf5cb">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03798"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_6e2a7595_7030_4e23_a324_c501283267c7" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Methanol" id="C00132">
 <notes><html:p>COMPOUND_ID: C00132</html:p></notes>
         <annotation>
@@ -11958,20 +11846,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00454"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="_2096b73e_6644_40a6_a010_ab7db344d8d5" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Thymine dimer" id="C17509">
-<notes><html:p>COMPOUND_ID: C17509</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_2096b73e_6644_40a6_a010_ab7db344d8d5">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17509"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -14260,20 +14134,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_dfcbca1f_c4ec_4712_9eb2_348efef9c651" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Peptidylproline (omega=0)" id="C03633">
-<notes><html:p>COMPOUND_ID: C03633</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_dfcbca1f_c4ec_4712_9eb2_348efef9c651">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03633"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_3ebf9b8e_af16_4c54_85df_841e90f5b2c9" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="10-Formyltetrahydrofolate" id="C00234">
 <notes><html:p>COMPOUND_ID: C00234</html:p></notes>
         <annotation>
@@ -15346,20 +15206,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05923"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="_f11e20c5_177e_4068_aa34_aea03b4183b2" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Two thymine residues (in DNA)" id="C17510">
-<notes><html:p>COMPOUND_ID: C17510</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_f11e20c5_177e_4068_aa34_aea03b4183b2">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C17510"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -16822,20 +16668,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_01393528_defc_49a9_b0fd_0f61660a3fe5" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="tRNA pseudouridine" id="C02764">
-<notes><html:p>COMPOUND_ID: C02764</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_01393528_defc_49a9_b0fd_0f61660a3fe5">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C02764"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_3847ca22_c40f_4fc9_8ce4_b8009aabc23b" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="S-Aminomethyldihydrolipoylprotein" id="C01242">
 <notes><html:p>COMPOUND_ID: C01242</html:p></notes>
         <annotation>
@@ -17382,20 +17214,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_ba6cc4f2_b32b_4188_ad72_193d6801a08b" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Amylose" id="C00718">
-<notes><html:p>COMPOUND_ID: C00718</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_ba6cc4f2_b32b_4188_ad72_193d6801a08b">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00718"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_29d8a449_f129_42d6_ad2c_e8ac4bb0086a" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="tRNA(Arg)" id="C01636">
 <notes><html:p>COMPOUND_ID: C01636</html:p></notes>
         <annotation>
@@ -17838,20 +17656,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C12126"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="_ada8cd32_0fff_471e_aa76_a1232236c332" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Cyclobutadipyrimidine" id="C03103">
-<notes><html:p>COMPOUND_ID: C03103</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_ada8cd32_0fff_471e_aa76_a1232236c332">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C03103"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -19104,20 +18908,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_d97dc00c_9147_4bf2_a61e_0022d1ecb04b" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Pyrimidine 5&amp;apos;-deoxynucleotide" id="C08249">
-<notes><html:p>COMPOUND_ID: C08249</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_d97dc00c_9147_4bf2_a61e_0022d1ecb04b">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C08249"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_96be6b60_2452_4f00_9f4e_9dcfe4df11fa" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="HCO3-" id="C00288">
 <notes><html:p>COMPOUND_ID: C00288</html:p></notes>
         <annotation>
@@ -19126,20 +18916,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00288"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="_35cdcba4_d8cd_4d65_ad50_4e40ed3b44aa" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Starch" id="C00369">
-<notes><html:p>COMPOUND_ID: C00369</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_35cdcba4_d8cd_4d65_ad50_4e40ed3b44aa">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00369"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -20890,20 +20666,6 @@
               <bqbiol:is>
                 <rdf:Bag>
                   <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C05744"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
-      <species metaid="_201274b4_a125_4da2_83c0_dcf32fb54062" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="tRNA uridine" id="C00868">
-<notes><html:p>COMPOUND_ID: C00868</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_201274b4_a125_4da2_83c0_dcf32fb54062">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00868"/>
                 </rdf:Bag>
               </bqbiol:is>
             </rdf:Description>
@@ -35882,42 +35644,6 @@
   <speciesReference constant="true" species="C00009" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0498" reversible="true" id="RXN__45__9797" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 5.1.99.4</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_256"/>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C15613" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C17343" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
-<reaction metaid="racs_addedReaction_0499" reversible="true" id="RXN__45__9845" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 5.1.99.4</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_256"/>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C17345" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C17346" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
-<reaction metaid="racs_addedReaction_0500" reversible="true" id="_5__46__1__46__99__46__4__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 5.1.99.4</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_256"/>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C05232" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C05329" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
 <reaction metaid="racs_addedReaction_0501" reversible="false" id="_2__46__7__46__1__46__149__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 2.7.1.149</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
@@ -38069,18 +37795,6 @@
   <speciesReference constant="true" species="C00080" stoichiometry="1"/>
   <speciesReference constant="true" species="C00231" stoichiometry="1"/>
   <speciesReference constant="true" species="C00008" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
-<reaction metaid="racs_addedReaction_0634" reversible="true" id="TRNA__45__PSEUDOURIDINE__45__SYNTHASE__45__I__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 5.4.99.12</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545864_1_145"/>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="tRNA__45__uridine__45__38__45__40" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C02764" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
 <reaction metaid="racs_addedReaction_0635" reversible="false" id="RXN__45__14187" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
@@ -40630,23 +40344,6 @@
  <listOfProducts>
   <speciesReference constant="true" species="C02209" stoichiometry="1"/>
   <speciesReference constant="true" species="Non__45__Glycosylated__45__sugar__45__Acceptors" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
-<reaction metaid="racs_addedReaction_0802" reversible="true" id="PEPTIDYLPROLYL__45__ISOMERASE__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 5.2.1.8</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:or>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_650"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_75"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_158"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_66"/>
-  </fbc:or>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C03798" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C03633" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
 <reaction metaid="racs_addedReaction_0805" reversible="true" id="URACIL__45__5__45__CARBOXYLATE__45__DECARBOXYLASE__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -46661,29 +46358,6 @@
           <speciesReference constant="true" species="C00399" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_88d74fdd_5de3_4f18_b34d_3a18a75467de" reversible="true" id="R02110" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 2.4.1.18</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545853_1_170)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545853_1_170"/>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_88d74fdd_5de3_4f18_b34d_3a18a75467de">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R02110"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C00718" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C00369" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
       <reaction metaid="_5f41987b_6a21_44e4_9e55_8f8158922529" reversible="true" id="R00763" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.3.46</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_191)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
@@ -51630,29 +51304,6 @@
           <speciesReference constant="true" species="C14792" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_5f05fc39_d7c3_46d2_83fc_0051f5eb3cab" reversible="true" id="R03020" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 5.4.99.12</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545856_1_117)</html:p><html:p>PROP PRIAM_probability=0.6499999761581421</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545856_1_117"/>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_5f05fc39_d7c3_46d2_83fc_0051f5eb3cab">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R03020"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C00868" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C02764" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
       <reaction metaid="_0f648ef1_b16a_4a55_bf7c_2fd885002db6" reversible="true" id="R00572" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.40</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_170)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
@@ -54838,29 +54489,6 @@
           <speciesReference constant="true" species="C00080" stoichiometry="1"/>
           <speciesReference constant="true" species="C00005" stoichiometry="1"/>
           <speciesReference constant="true" species="C05379" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="_d5655f6e_c313_4c04_97da_ae3f48871d38" reversible="true" id="R00034" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 4.1.99.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545863_1_96)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545863_1_96"/>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_d5655f6e_c313_4c04_97da_ae3f48871d38">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00034"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C03103" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C08249" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="_b6188f84_67bd_4587_ab52_220c68dc5679" reversible="true" id="R02235" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -58990,29 +58618,6 @@
         <listOfProducts>
           <speciesReference constant="true" species="C00055" stoichiometry="1"/>
           <speciesReference constant="true" species="C00035" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="_fde2f25a_561b_475d_ada9_2ce504b17a25" reversible="true" id="R08765" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 4.1.99.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545863_1_96)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545863_1_96"/>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_fde2f25a_561b_475d_ada9_2ce504b17a25">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R08765"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C17509" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C17510" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="_7f8d480c_c195_47ed_9ee4_87d183145959" reversible="true" id="R03788" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
