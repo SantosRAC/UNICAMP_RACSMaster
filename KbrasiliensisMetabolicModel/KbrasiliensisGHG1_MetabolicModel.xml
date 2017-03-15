@@ -22200,22 +22200,6 @@
         <speciesReference constant="true" species="C00001" stoichiometry="2"/>
        </listOfProducts>
       </reaction>
-<reaction metaid="racs_addedReaction_0002" reversible="false" id="ANTHRANSYN__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 4.1.3.27</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545861_1_12"/>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C00251" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00064" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C00080" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00108" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00025" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00022" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
 <reaction metaid="racs_addedReaction_0003" reversible="true" id="SULFINOALANINE__45__DECARBOXYLASE__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 4.1.1.29</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
@@ -35263,7 +35247,7 @@
   <speciesReference constant="true" species="C00011" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0829" reversible="false" id="RXN__45__11998" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0829" reversible="false" id="R09783" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 1.2.1.82</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545866_1_31"/>
@@ -35341,7 +35325,7 @@
   <speciesReference constant="true" species="C00010" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0834" reversible="false" id="METHYLACYLYLCOA__45__HYDROXY__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0834" reversible="false" id="R04224" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 4.2.1.17</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:or>
@@ -35386,7 +35370,7 @@
   <speciesReference constant="true" species="C00011" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0837" reversible="false" id="RXN__45__13616" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0837" reversible="false" id="R04744" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 4.2.1.17</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:or>
@@ -35402,7 +35386,7 @@
   <speciesReference constant="true" species="C05264" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0838" reversible="false" id="_1__46__2__46__1__46__9__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0838" reversible="false" id="R01058" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 1.2.1.9</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:or>
@@ -35452,14 +35436,14 @@
   <speciesReference constant="true" species="C00010" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0841" reversible="false" id="Hexaprenyl__45__Diphosphate__45__Biosynthesis__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0841" reversible="false" id="R09245" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 2.5.1.83</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_53"/>
  </fbc:geneProductAssociation>
  <listOfReactants>
   <speciesReference constant="true" species="C00448" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00129" stoichiometry="1"/>
+  <speciesReference constant="true" species="C00129" stoichiometry="3"/>
  </listOfReactants>
  <listOfProducts>
   <speciesReference constant="true" species="C00013" stoichiometry="3"/>
@@ -35481,7 +35465,7 @@
   <speciesReference constant="true" species="C00010" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0843" reversible="false" id="GLYCOLALDEHYDE_DEHYDROGENASE_RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0843" reversible="false" id="R01333" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 1.2.1.3</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:or>
@@ -35520,36 +35504,6 @@
  <listOfProducts>
   <speciesReference constant="true" species="C17568" stoichiometry="1"/>
   <speciesReference constant="true" species="C00126" stoichiometry="2"/>
- </listOfProducts>
-</reaction>
-<reaction metaid="racs_addedReaction_0845" reversible="false" id="Cytochrome_C_Oxidase_RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 1.9.3.1</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:or>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_183"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_706"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_552"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_275"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_271"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_57"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_166"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545868_1_124"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545861_1_28"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545895_1_136"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545853_1_80"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545860_1_112"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_104"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545864_1_65"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545866_1_62"/>
-  </fbc:or>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C00007" stoichiometry="0.5"/>
-  <speciesReference constant="true" species="C00126" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C00001" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00125" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
       <reaction metaid="_4a561936_65a7_4a33_99dc_1196d787b888" reversible="true" id="R02571" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
