@@ -35023,25 +35023,6 @@
   <speciesReference constant="true" species="C00033" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0814" reversible="true" id="ACSERLY__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 2.5.1.47</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:or>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_10"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_58"/>
-   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_191"/>
-  </fbc:or>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="C00979" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00283" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C00080" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00097" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00033" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
 <reaction metaid="racs_addedReaction_0817" reversible="true" id="_1__46__1__46__1__46__255__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 1.1.1.255</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
@@ -35099,7 +35080,7 @@
   <speciesReference constant="true" species="C00080" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0820" reversible="false" id="RXN__45__10078" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0820" reversible="false" id="R06939" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 1.14.13.1</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:or>
@@ -35162,7 +35143,7 @@
   <speciesReference constant="true" species="C00003" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0823" reversible="false" id="SALICYLATE__45__1__45__MONOOXYGENASE__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0823" reversible="false" id="R00818" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 1.14.13.1</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:or>
@@ -35183,7 +35164,7 @@
   <speciesReference constant="true" species="C00003" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0824" reversible="false" id="RXN0__45__3962" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0824" reversible="false" id="R00711" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 1.2.1.4</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_251"/>
@@ -35213,7 +35194,7 @@
   <speciesReference constant="true" species="C00483" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0826" reversible="true" id="HISTONE__45__ACETYLTRANSFERASE__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0826" reversible="true" id="R03552" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 2.3.1.48</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:or>
