@@ -8980,20 +8980,6 @@
         </rdf:RDF>
        </annotation>
       </species>
-      <species metaid="racs_addedSpecies_0675" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="N__45__4__45__aminobutylidene__45__eIF5A__45__lysine" id="N__45__4__45__aminobutylidene__45__eIF5A__45__lysine">
-       <notes><html:p>COMPOUND_ID: N-4-aminobutylidene-eIF5A-lysine</html:p></notes>
-       <annotation>
-        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">        
-         <rdf:Description rdf:about="racs_addedSpecies_0675">
-          <bqbiol:is>
-           <rdf:Bag>
-            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/N-4-aminobutylidene-eIF5A-lysine"/>
-           </rdf:Bag>
-          </bqbiol:is>
-         </rdf:Description>
-        </rdf:RDF>
-       </annotation>
-      </species>
       <species metaid="racs_addedSpecies_0676" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="N__45__4__45__aminobutylidene__45__enzyme__45__lysine" id="N__45__4__45__aminobutylidene__45__enzyme__45__lysine">
        <notes><html:p>COMPOUND_ID: N-4-aminobutylidene-enzyme-lysine</html:p></notes>
        <annotation>
@@ -27660,7 +27646,7 @@
   <speciesReference constant="true" species="C01234" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0349" reversible="false" id="DHSHIKIMATE__45__DEHYDRO__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0349" reversible="false" id="R01627" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 4.2.1.118</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_1"/>
@@ -30906,7 +30892,7 @@
   <speciesReference constant="true" species="C00080" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0557" reversible="true" id="N6__45__HYDROXYLYSINE__45__O__45__ACETYLTRANSFERASE__45__RXN" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0557" reversible="true" id="R03168" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 2.3.1.102</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_55"/>
@@ -32226,13 +32212,13 @@
   <speciesReference constant="true" species="C00221" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0641" reversible="false" id="RXN__45__13417" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0641" reversible="false" id="R07478" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: </html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_80"/>
  </fbc:geneProductAssociation>
  <listOfReactants>
-  <speciesReference constant="true" species="N__45__4__45__aminobutylidene__45__eIF5A__45__lysine" stoichiometry="1"/>
+  <speciesReference constant="true" species="C15854" stoichiometry="1"/>
   <speciesReference constant="true" species="C00004" stoichiometry="1"/>
   <speciesReference constant="true" species="C00080" stoichiometry="1"/>
  </listOfReactants>
@@ -32251,7 +32237,7 @@
   <speciesReference constant="true" species="C07281" stoichiometry="1"/>
  </listOfReactants>
  <listOfProducts>
-  <speciesReference constant="true" species="N__45__4__45__aminobutylidene__45__eIF5A__45__lysine" stoichiometry="1"/>
+  <speciesReference constant="true" species="C15854" stoichiometry="1"/>
   <speciesReference constant="true" species="Deoxyhypusine__45__Synthase__45__Lysine" stoichiometry="1"/>
   <speciesReference constant="true" species="C00080" stoichiometry="1"/>
  </listOfProducts>
@@ -32511,7 +32497,7 @@
   <speciesReference constant="true" species="C01144" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
-<reaction metaid="racs_addedReaction_0662" reversible="false" id="_2__46__5__46__1__46__45__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+<reaction metaid="racs_addedReaction_0662" reversible="false" id="R01919" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
  <notes><html:p>CLASSIFICATION: 2.5.1.45</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
  <fbc:geneProductAssociation>
   <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_80"/>
@@ -53321,32 +53307,6 @@
         <listOfProducts>
           <speciesReference constant="true" species="C03428" stoichiometry="1"/>
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="_9b822c99_7bfb_4f21_9ef4_d2afdadf2975" reversible="true" id="R07478" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 2.5.1.46</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_79)</html:p><html:p>PROP PRIAM_probability=0.9599999785423279</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_79"/>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_9b822c99_7bfb_4f21_9ef4_d2afdadf2975">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R07478"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C00080" stoichiometry="1"/>
-          <speciesReference constant="true" species="C00004" stoichiometry="1"/>
-          <speciesReference constant="true" species="C15854" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C07282" stoichiometry="1"/>
-          <speciesReference constant="true" species="C00003" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="_8f4455c1_dbff_487b_b9e0_fe4c810c2977" reversible="true" id="R04509" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
