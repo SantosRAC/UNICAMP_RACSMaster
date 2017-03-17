@@ -13126,20 +13126,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_61c4c09e_3bdb_4cf8_909a_1fcf09b42767" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="L-Arginyl-protein" id="C16739">
-<notes><html:p>COMPOUND_ID: C16739</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_61c4c09e_3bdb_4cf8_909a_1fcf09b42767">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C16739"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_069e92b5_e05f_414d_ac0c_4c5c675ea0a5" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Galactosylceramide" id="C02686">
 <notes><html:p>COMPOUND_ID: C02686</html:p></notes>
         <annotation>
@@ -18614,20 +18600,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_5e28a64c_7445_44f0_b528_39d835b769bc" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Protein" id="C00017">
-<notes><html:p>COMPOUND_ID: C00017</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_5e28a64c_7445_44f0_b528_39d835b769bc">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00017"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_e1e5bbeb_59e7_4211_b4b4_5dc41b8c7a5f" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Formamidopyrimidine nucleoside triphosphate" id="C05922">
 <notes><html:p>COMPOUND_ID: C05922</html:p></notes>
         <annotation>
@@ -20126,20 +20098,6 @@
           </rdf:RDF>
         </annotation>
       </species>
-      <species metaid="_d076e5c8_6942_47c7_93b9_45bccb8d8300" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Phosphoprotein" id="C00562">
-<notes><html:p>COMPOUND_ID: C00562</html:p></notes>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_d076e5c8_6942_47c7_93b9_45bccb8d8300">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00562"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-      </species>
       <species metaid="_d8e173a0_0fbd_4cd0_91b7_0ec7144b7028" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Ubiquitin C-terminal thiolester" id="C04090">
 <notes><html:p>COMPOUND_ID: C04090</html:p></notes>
         <annotation>
@@ -20952,7 +20910,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_436" fbc:label="evm_model_KI545851_1_436" fbc:name="evm_model_KI545851_1_436" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_438" fbc:label="evm_model_KI545851_1_438" fbc:name="evm_model_KI545851_1_438" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_439" fbc:label="evm_model_KI545851_1_439" fbc:name="evm_model_KI545851_1_439" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_440" fbc:label="evm_model_KI545851_1_440" fbc:name="evm_model_KI545851_1_440" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_443" fbc:label="evm_model_KI545851_1_443" fbc:name="evm_model_KI545851_1_443" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_448" fbc:label="evm_model_KI545851_1_448" fbc:name="evm_model_KI545851_1_448" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_449" fbc:label="evm_model_KI545851_1_449" fbc:name="evm_model_KI545851_1_449" />
@@ -20973,7 +20930,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_528" fbc:label="evm_model_KI545851_1_528" fbc:name="evm_model_KI545851_1_528" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_543" fbc:label="evm_model_KI545851_1_543" fbc:name="evm_model_KI545851_1_543" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_575" fbc:label="evm_model_KI545851_1_575" fbc:name="evm_model_KI545851_1_575" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_577" fbc:label="evm_model_KI545851_1_577" fbc:name="evm_model_KI545851_1_577" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_593" fbc:label="evm_model_KI545851_1_593" fbc:name="evm_model_KI545851_1_593" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_600" fbc:label="evm_model_KI545851_1_600" fbc:name="evm_model_KI545851_1_600" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545851_1_604" fbc:label="evm_model_KI545851_1_604" fbc:name="evm_model_KI545851_1_604" />
@@ -21021,7 +20977,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545852_1_194" fbc:label="evm_model_KI545852_1_194" fbc:name="evm_model_KI545852_1_194" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545852_1_197" fbc:label="evm_model_KI545852_1_197" fbc:name="evm_model_KI545852_1_197" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545852_1_205" fbc:label="evm_model_KI545852_1_205" fbc:name="evm_model_KI545852_1_205" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_11" fbc:label="evm_model_KI545853_1_11" fbc:name="evm_model_KI545853_1_11" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_15" fbc:label="evm_model_KI545853_1_15" fbc:name="evm_model_KI545853_1_15" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_28" fbc:label="evm_model_KI545853_1_28" fbc:name="evm_model_KI545853_1_28" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_29" fbc:label="evm_model_KI545853_1_29" fbc:name="evm_model_KI545853_1_29" />
@@ -21044,7 +20999,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_149" fbc:label="evm_model_KI545853_1_149" fbc:name="evm_model_KI545853_1_149" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_151" fbc:label="evm_model_KI545853_1_151" fbc:name="evm_model_KI545853_1_151" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_153" fbc:label="evm_model_KI545853_1_153" fbc:name="evm_model_KI545853_1_153" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_156" fbc:label="evm_model_KI545853_1_156" fbc:name="evm_model_KI545853_1_156" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_159" fbc:label="evm_model_KI545853_1_159" fbc:name="evm_model_KI545853_1_159" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_179" fbc:label="evm_model_KI545853_1_179" fbc:name="evm_model_KI545853_1_179" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545853_1_183" fbc:label="evm_model_KI545853_1_183" fbc:name="evm_model_KI545853_1_183" />
@@ -21062,17 +21016,14 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_112" fbc:label="evm_model_KI545854_1_112" fbc:name="evm_model_KI545854_1_112" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_117" fbc:label="evm_model_KI545854_1_117" fbc:name="evm_model_KI545854_1_117" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_126" fbc:label="evm_model_KI545854_1_126" fbc:name="evm_model_KI545854_1_126" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_132" fbc:label="evm_model_KI545854_1_132" fbc:name="evm_model_KI545854_1_132" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_136" fbc:label="evm_model_KI545854_1_136" fbc:name="evm_model_KI545854_1_136" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_141" fbc:label="evm_model_KI545854_1_141" fbc:name="evm_model_KI545854_1_141" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_143" fbc:label="evm_model_KI545854_1_143" fbc:name="evm_model_KI545854_1_143" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_156" fbc:label="evm_model_KI545854_1_156" fbc:name="evm_model_KI545854_1_156" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_160" fbc:label="evm_model_KI545854_1_160" fbc:name="evm_model_KI545854_1_160" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_161" fbc:label="evm_model_KI545854_1_161" fbc:name="evm_model_KI545854_1_161" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_164" fbc:label="evm_model_KI545854_1_164" fbc:name="evm_model_KI545854_1_164" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_166" fbc:label="evm_model_KI545854_1_166" fbc:name="evm_model_KI545854_1_166" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_182" fbc:label="evm_model_KI545854_1_182" fbc:name="evm_model_KI545854_1_182" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_186" fbc:label="evm_model_KI545854_1_186" fbc:name="evm_model_KI545854_1_186" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_187" fbc:label="evm_model_KI545854_1_187" fbc:name="evm_model_KI545854_1_187" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_190" fbc:label="evm_model_KI545854_1_190" fbc:name="evm_model_KI545854_1_190" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545854_1_191" fbc:label="evm_model_KI545854_1_191" fbc:name="evm_model_KI545854_1_191" />
@@ -21081,7 +21032,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_21" fbc:label="evm_model_KI545855_1_21" fbc:name="evm_model_KI545855_1_21" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_27" fbc:label="evm_model_KI545855_1_27" fbc:name="evm_model_KI545855_1_27" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_28" fbc:label="evm_model_KI545855_1_28" fbc:name="evm_model_KI545855_1_28" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_35" fbc:label="evm_model_KI545855_1_35" fbc:name="evm_model_KI545855_1_35" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_39" fbc:label="evm_model_KI545855_1_39" fbc:name="evm_model_KI545855_1_39" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_41" fbc:label="evm_model_KI545855_1_41" fbc:name="evm_model_KI545855_1_41" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_50" fbc:label="evm_model_KI545855_1_50" fbc:name="evm_model_KI545855_1_50" />
@@ -21101,7 +21051,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_166" fbc:label="evm_model_KI545855_1_166" fbc:name="evm_model_KI545855_1_166" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_168" fbc:label="evm_model_KI545855_1_168" fbc:name="evm_model_KI545855_1_168" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_178" fbc:label="evm_model_KI545855_1_178" fbc:name="evm_model_KI545855_1_178" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_180" fbc:label="evm_model_KI545855_1_180" fbc:name="evm_model_KI545855_1_180" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_182" fbc:label="evm_model_KI545855_1_182" fbc:name="evm_model_KI545855_1_182" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_191" fbc:label="evm_model_KI545855_1_191" fbc:name="evm_model_KI545855_1_191" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545855_1_199" fbc:label="evm_model_KI545855_1_199" fbc:name="evm_model_KI545855_1_199" />
@@ -21115,7 +21064,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545856_1_45" fbc:label="evm_model_KI545856_1_45" fbc:name="evm_model_KI545856_1_45" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545856_1_48" fbc:label="evm_model_KI545856_1_48" fbc:name="evm_model_KI545856_1_48" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545856_1_49" fbc:label="evm_model_KI545856_1_49" fbc:name="evm_model_KI545856_1_49" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545856_1_54" fbc:label="evm_model_KI545856_1_54" fbc:name="evm_model_KI545856_1_54" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545856_1_66" fbc:label="evm_model_KI545856_1_66" fbc:name="evm_model_KI545856_1_66" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545856_1_67" fbc:label="evm_model_KI545856_1_67" fbc:name="evm_model_KI545856_1_67" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545856_1_68" fbc:label="evm_model_KI545856_1_68" fbc:name="evm_model_KI545856_1_68" />
@@ -21143,7 +21091,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_33" fbc:label="evm_model_KI545857_1_33" fbc:name="evm_model_KI545857_1_33" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_44" fbc:label="evm_model_KI545857_1_44" fbc:name="evm_model_KI545857_1_44" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_49" fbc:label="evm_model_KI545857_1_49" fbc:name="evm_model_KI545857_1_49" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_58" fbc:label="evm_model_KI545857_1_58" fbc:name="evm_model_KI545857_1_58" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_69" fbc:label="evm_model_KI545857_1_69" fbc:name="evm_model_KI545857_1_69" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_70" fbc:label="evm_model_KI545857_1_70" fbc:name="evm_model_KI545857_1_70" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_80" fbc:label="evm_model_KI545857_1_80" fbc:name="evm_model_KI545857_1_80" />
@@ -21152,10 +21099,8 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_93" fbc:label="evm_model_KI545857_1_93" fbc:name="evm_model_KI545857_1_93" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_98" fbc:label="evm_model_KI545857_1_98" fbc:name="evm_model_KI545857_1_98" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_105" fbc:label="evm_model_KI545857_1_105" fbc:name="evm_model_KI545857_1_105" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_120" fbc:label="evm_model_KI545857_1_120" fbc:name="evm_model_KI545857_1_120" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_123" fbc:label="evm_model_KI545857_1_123" fbc:name="evm_model_KI545857_1_123" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_127" fbc:label="evm_model_KI545857_1_127" fbc:name="evm_model_KI545857_1_127" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_128" fbc:label="evm_model_KI545857_1_128" fbc:name="evm_model_KI545857_1_128" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_134" fbc:label="evm_model_KI545857_1_134" fbc:name="evm_model_KI545857_1_134" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_138" fbc:label="evm_model_KI545857_1_138" fbc:name="evm_model_KI545857_1_138" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_142" fbc:label="evm_model_KI545857_1_142" fbc:name="evm_model_KI545857_1_142" />
@@ -21164,7 +21109,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_146" fbc:label="evm_model_KI545857_1_146" fbc:name="evm_model_KI545857_1_146" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_148" fbc:label="evm_model_KI545857_1_148" fbc:name="evm_model_KI545857_1_148" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_152" fbc:label="evm_model_KI545857_1_152" fbc:name="evm_model_KI545857_1_152" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_154" fbc:label="evm_model_KI545857_1_154" fbc:name="evm_model_KI545857_1_154" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_167" fbc:label="evm_model_KI545857_1_167" fbc:name="evm_model_KI545857_1_167" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_173" fbc:label="evm_model_KI545857_1_173" fbc:name="evm_model_KI545857_1_173" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545857_1_174" fbc:label="evm_model_KI545857_1_174" fbc:name="evm_model_KI545857_1_174" />
@@ -21176,9 +21120,7 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545858_1_17" fbc:label="evm_model_KI545858_1_17" fbc:name="evm_model_KI545858_1_17" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545858_1_18" fbc:label="evm_model_KI545858_1_18" fbc:name="evm_model_KI545858_1_18" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545858_1_27" fbc:label="evm_model_KI545858_1_27" fbc:name="evm_model_KI545858_1_27" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545858_1_31" fbc:label="evm_model_KI545858_1_31" fbc:name="evm_model_KI545858_1_31" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545858_1_38" fbc:label="evm_model_KI545858_1_38" fbc:name="evm_model_KI545858_1_38" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545858_1_61" fbc:label="evm_model_KI545858_1_61" fbc:name="evm_model_KI545858_1_61" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545858_1_77" fbc:label="evm_model_KI545858_1_77" fbc:name="evm_model_KI545858_1_77" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545858_1_86" fbc:label="evm_model_KI545858_1_86" fbc:name="evm_model_KI545858_1_86" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545858_1_89" fbc:label="evm_model_KI545858_1_89" fbc:name="evm_model_KI545858_1_89" />
@@ -21209,7 +21151,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545859_1_88" fbc:label="evm_model_KI545859_1_88" fbc:name="evm_model_KI545859_1_88" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545859_1_90" fbc:label="evm_model_KI545859_1_90" fbc:name="evm_model_KI545859_1_90" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545859_1_93" fbc:label="evm_model_KI545859_1_93" fbc:name="evm_model_KI545859_1_93" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545859_1_102" fbc:label="evm_model_KI545859_1_102" fbc:name="evm_model_KI545859_1_102" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545859_1_107" fbc:label="evm_model_KI545859_1_107" fbc:name="evm_model_KI545859_1_107" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545859_1_140" fbc:label="evm_model_KI545859_1_140" fbc:name="evm_model_KI545859_1_140" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545859_1_143" fbc:label="evm_model_KI545859_1_143" fbc:name="evm_model_KI545859_1_143" />
@@ -21222,7 +21163,6 @@
      <fbc:geneProduct fbc:id="G_evm_model_KI545859_1_170" fbc:label="evm_model_KI545859_1_170" fbc:name="evm_model_KI545859_1_170" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545860_1_19" fbc:label="evm_model_KI545860_1_19" fbc:name="evm_model_KI545860_1_19" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545860_1_23" fbc:label="evm_model_KI545860_1_23" fbc:name="evm_model_KI545860_1_23" />
-     <fbc:geneProduct fbc:id="G_evm_model_KI545860_1_47" fbc:label="evm_model_KI545860_1_47" fbc:name="evm_model_KI545860_1_47" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545860_1_51" fbc:label="evm_model_KI545860_1_51" fbc:name="evm_model_KI545860_1_51" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545860_1_54" fbc:label="evm_model_KI545860_1_54" fbc:name="evm_model_KI545860_1_54" />
      <fbc:geneProduct fbc:id="G_evm_model_KI545860_1_64" fbc:label="evm_model_KI545860_1_64" fbc:name="evm_model_KI545860_1_64" />
@@ -27674,21 +27614,6 @@
  <listOfProducts>
   <speciesReference constant="true" species="C11355" stoichiometry="1"/>
   <speciesReference constant="true" species="C00025" stoichiometry="1"/>
- </listOfProducts>
-</reaction>
-<reaction metaid="racs_addedReaction_0351" reversible="false" id="_3__46__4__46__11__46__7__45__RXN" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
- <notes><html:p>CLASSIFICATION: 3.4.11.7</html:p><html:p>PREDICTION_TYPE: FROM_UMAYDIS521_MODEL</html:p></notes>
- <fbc:geneProductAssociation>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_774"/>
- </fbc:geneProductAssociation>
- <listOfReactants>
-  <speciesReference constant="true" species="L__45__Glutamyl__45__Peptides" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00001" stoichiometry="1"/>
- </listOfReactants>
- <listOfProducts>
-  <speciesReference constant="true" species="C00025" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00017" stoichiometry="1"/>
-  <speciesReference constant="true" species="C00080" stoichiometry="1"/>
  </listOfProducts>
 </reaction>
 <reaction metaid="racs_addedReaction_0352" reversible="true" id="RXN__45__14260" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
@@ -42308,69 +42233,6 @@
           <speciesReference constant="true" species="C00025" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_0ce0af19_2121_465f_b424_696c94dbc355" reversible="true" id="R00162" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 2.7.11.1;2.7.11.10;2.7.11.11;2.7.11.12;2.7.11.13;2.7.11.17;2.7.11.21;2.7.11.22;2.7.11.24;2.7.11.25;2.7.11.30;2.7.11.8;2.7.11.9;2.7.12.1;2.7.12.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545859_1_102) or (evm_model_KI545894_1_94) or (evm_model_KI545858_1_31) or (evm_model_KI545851_1_156) or (evm_model_KI545857_1_58) or (evm_model_KI545893_1_31) or (evm_model_KI545884_1_220) or (evm_model_KI545863_1_42) or (evm_model_KI545855_1_180) or (evm_model_KI545851_1_440) or (evm_model_KI545893_1_82) or (evm_model_KI545857_1_154) or (evm_model_KI545868_1_4) or (evm_model_KI545873_1_671) or (evm_model_KI545856_1_103) or (evm_model_KI545865_1_46) or (evm_model_KI545856_1_103) or (evm_model_KI545894_1_45) or (evm_model_KI545856_1_49) or (evm_model_KI545865_1_83) or (evm_model_KI545862_1_79) or (evm_model_KI545857_1_167) or (evm_model_KI545853_1_156) or (evm_model_KI545854_1_132) or (evm_model_KI545854_1_160) or (evm_model_KI545854_1_186) or (evm_model_KI545862_1_234) or (evm_model_KI545866_1_11) or (evm_model_KI545856_1_54) or (evm_model_KI545860_1_65) or (evm_model_KI545866_1_69) or (evm_model_KI545884_1_220) or (evm_model_KI545862_1_234) or (evm_model_KI545851_1_440) or (evm_model_KI545862_1_109) or (evm_model_KI545855_1_35) or (evm_model_KI545862_1_221)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:or>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545859_1_102"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_94"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_31"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_156"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_58"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545893_1_31"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_220"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545863_1_42"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545855_1_180"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_440"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545893_1_82"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_154"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545868_1_4"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_671"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545856_1_103"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545865_1_46"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545856_1_103"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_45"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545856_1_49"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545865_1_83"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_79"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_167"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545853_1_156"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_132"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_160"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_186"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_234"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545866_1_11"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545856_1_54"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545860_1_65"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545866_1_69"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_220"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_234"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_440"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_109"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545855_1_35"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_221"/>
- </fbc:or>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_0ce0af19_2121_465f_b424_696c94dbc355">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00162"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C00017" stoichiometry="1"/>
-          <speciesReference constant="true" species="C00002" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C00008" stoichiometry="1"/>
-          <speciesReference constant="true" species="C00562" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
       <reaction metaid="_69c92c29_802c_48a0_aabb_5809b893dc39" reversible="true" id="R00332" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.8</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_31)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
@@ -48709,45 +48571,6 @@
           <speciesReference constant="true" species="C01081" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_f78f5ef1_79fc_4ad7_958a_8420a0ac966f" reversible="true" id="R00164" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 3.1.3.16</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545857_1_128) or (evm_model_KI545864_1_34) or (evm_model_KI545873_1_30) or (evm_model_KI545859_1_14) or (evm_model_KI545873_1_103) or (evm_model_KI545851_1_577) or (evm_model_KI545853_1_11) or (evm_model_KI545884_1_183) or (evm_model_KI545858_1_61) or (evm_model_KI545861_1_52) or (evm_model_KI545858_1_15) or (evm_model_KI545857_1_120) or (evm_model_KI545873_1_425)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:or>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_128"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545864_1_34"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_30"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545859_1_14"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_103"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_577"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545853_1_11"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_183"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_61"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545861_1_52"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_15"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_120"/>
-  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_425"/>
- </fbc:or>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_f78f5ef1_79fc_4ad7_958a_8420a0ac966f">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R00164"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C00001" stoichiometry="1"/>
-          <speciesReference constant="true" species="C00562" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C00009" stoichiometry="1"/>
-          <speciesReference constant="true" species="C00017" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
       <reaction metaid="_6a26fd44_70d8_4771_bb5a_7726bc25268c" reversible="true" id="R04120" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.8.4.11</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_399)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
@@ -51507,31 +51330,6 @@
           <speciesReference constant="true" species="C00080" stoichiometry="1"/>
           <speciesReference constant="true" species="C00004" stoichiometry="1"/>
           <speciesReference constant="true" species="C05754" stoichiometry="1"/>
-        </listOfProducts>
-      </reaction>
-      <reaction metaid="_c71ab139_9005_476c_aa9d_6af2bad6cca4" reversible="true" id="R03862" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
-<notes><html:p>CLASSIFICATION: 2.3.2.8</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545860_1_47)</html:p><html:p>PROP PRIAM_probability=0.8100000023841858</html:p></notes>
-<fbc:geneProductAssociation>
- <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545860_1_47"/>
-</fbc:geneProductAssociation>
-        <annotation>
-          <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
-            <rdf:Description rdf:about="#_c71ab139_9005_476c_aa9d_6af2bad6cca4">
-              <bqbiol:is>
-                <rdf:Bag>
-                  <rdf:li rdf:resource="http://identifiers.org/kegg.reaction/R03862"/>
-                </rdf:Bag>
-              </bqbiol:is>
-            </rdf:Description>
-          </rdf:RDF>
-        </annotation>
-              <listOfReactants>
-          <speciesReference constant="true" species="C00017" stoichiometry="1"/>
-          <speciesReference constant="true" species="C02163" stoichiometry="1"/>
-        </listOfReactants>
-        <listOfProducts>
-          <speciesReference constant="true" species="C01636" stoichiometry="1"/>
-          <speciesReference constant="true" species="C16739" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
       <reaction metaid="_f195264a_b1b9_4e6f_ac2f_302d384e4f3e" reversible="false" id="R00209" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
