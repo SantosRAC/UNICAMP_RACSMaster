@@ -21760,7 +21760,7 @@
           <speciesReference constant="true" species="C00956" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="racs_addedReaction_0001" reversible="false" id="BIOMASS_formation" fast="false" name="Biomass formation" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="racs_addedReaction_0001" reversible="false" id="BIOMASS_formation" fast="false" name="Biomass formation" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
        <listOfReactants>
         <speciesReference constant="true" species="C00041" stoichiometry="0.292"/>
         <speciesReference constant="true" species="C00062" stoichiometry="0.176"/>
@@ -21826,7 +21826,7 @@
         <speciesReference constant="true" species="C00080" stoichiometry="1"/>
        </listOfProducts>
       </reaction>
-      <reaction metaid="racs_addedReaction_0846" reversible="false" id="R07495" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="racs_addedReaction_0846" reversible="false" id="R07495" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
        <notes><html:p>CLASSIFICATION: 1.1.1.270</html:p><html:p>PREDICTION_TYPE: MANUAL_GAP_FILLING_BIOMASS_PRECURSOR</html:p></notes>
        <listOfReactants>
         <speciesReference constant="true" species="C15816" stoichiometry="1"/>
@@ -21838,7 +21838,7 @@
         <speciesReference constant="true" species="C00006" stoichiometry="1"/>
        </listOfProducts>
       </reaction>
-      <reaction metaid="racs_addedReaction_0847" reversible="false" id="R07496" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="racs_addedReaction_0847" reversible="false" id="R07496" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
        <notes><html:p>CLASSIFICATION: </html:p><html:p>PREDICTION_TYPE: MANUAL_GAP_FILLING_BIOMASS_PRECURSOR</html:p></notes>
        <listOfReactants>
         <speciesReference constant="true" species="C05103" stoichiometry="1"/>
@@ -21847,7 +21847,7 @@
         <speciesReference constant="true" species="C05437" stoichiometry="1"/>
        </listOfProducts>
       </reaction>
-      <reaction metaid="racs_addedReaction_0848" reversible="false" id="R04427" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="racs_addedReaction_0848" reversible="false" id="R04427" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
        <notes><html:p>CLASSIFICATION: 2.1.1.41</html:p><html:p>PREDICTION_TYPE: MANUAL_GAP_FILLING_BIOMASS_PRECURSOR</html:p></notes>
        <listOfReactants>
         <speciesReference constant="true" species="C00019" stoichiometry="1"/>
@@ -21858,7 +21858,7 @@
         <speciesReference constant="true" species="C04525" stoichiometry="1"/>
        </listOfProducts>
       </reaction>
-      <reaction metaid="racs_addedReaction_0849" reversible="false" id="R07497" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="racs_addedReaction_0849" reversible="false" id="R07497" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
        <notes><html:p>CLASSIFICATION: </html:p><html:p>PREDICTION_TYPE: MANUAL_GAP_FILLING_BIOMASS_PRECURSOR</html:p></notes>
        <listOfReactants>
         <speciesReference constant="true" species="C04525" stoichiometry="1"/>
@@ -21867,7 +21867,7 @@
         <speciesReference constant="true" species="C15777" stoichiometry="1"/>
        </listOfProducts>
       </reaction>
-      <reaction metaid="racs_addedReaction_0850" reversible="false" id="R07505" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="racs_addedReaction_0850" reversible="false" id="R07505" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
        <notes><html:p>CLASSIFICATION: 1.14.19.20</html:p><html:p>PREDICTION_TYPE: MANUAL_GAP_FILLING_BIOMASS_PRECURSOR</html:p></notes>
        <listOfReactants>
         <speciesReference constant="true" species="C15777" stoichiometry="1"/>
@@ -21881,7 +21881,7 @@
         <speciesReference constant="true" species="C00001" stoichiometry="2"/>
        </listOfProducts>
       </reaction>
-      <reaction metaid="racs_addedReaction_0851" reversible="false" id="R07506" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="racs_addedReaction_0851" reversible="false" id="R07506" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
        <notes><html:p>CLASSIFICATION: 1.14.19.41</html:p><html:p>PREDICTION_TYPE: MANUAL_GAP_FILLING_BIOMASS_PRECURSOR</html:p></notes>
        <listOfReactants>
         <speciesReference constant="true" species="C15778" stoichiometry="1"/>
@@ -35156,7 +35156,7 @@
           <speciesReference constant="true" species="C06157" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_12b4d89d_cea6_4547_90a5_3df1aa2e3da8" reversible="false" id="R00103" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_12b4d89d_cea6_4547_90a5_3df1aa2e3da8" reversible="false" id="R00103" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.6.1.22;3.6.1.9</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545868_1_48) or (evm_model_KI545868_1_48) or (evm_model_KI545891_1_283)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -35184,7 +35184,7 @@
           <speciesReference constant="true" species="C00455" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_ab55f600_d334_44b7_981c_1aec649aaef7" reversible="true" id="R00894" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_ab55f600_d334_44b7_981c_1aec649aaef7" reversible="false" id="R00894" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.2.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545895_1_143)</html:p><html:p>PROP PRIAM_probability=0.9800000190734863</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545895_1_143"/>
@@ -35211,7 +35211,7 @@
           <speciesReference constant="true" species="C00669" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_afc3bca6_042b_49a5_b682_b45216b0a475" reversible="true" id="R03613" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_afc3bca6_042b_49a5_b682_b45216b0a475" reversible="false" id="R03613" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.1.14</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545854_1_12)</html:p><html:p>PROP PRIAM_probability=0.9100000262260437</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_12"/>
@@ -35311,7 +35311,7 @@
           <speciesReference constant="true" species="C14463" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9d002e93_c89d_4535_bff1_1deb5fc0af44" reversible="false" id="R04496" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9d002e93_c89d_4535_bff1_1deb5fc0af44" reversible="false" id="R04496" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.1.1.100</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_137)</html:p><html:p>PROP PRIAM_probability=0.9700000286102295</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_137"/>
@@ -35524,7 +35524,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_58d585e0_6e80_47fb_8032_b6b67e91e716" reversible="false" id="R02731" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_58d585e0_6e80_47fb_8032_b6b67e91e716" reversible="false" id="R02731" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.3.46</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_191)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_191"/>
@@ -35549,7 +35549,7 @@
           <speciesReference constant="true" species="C05345" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_7cc9fed4_7b30_490e_aad5_25d54875225c" reversible="true" id="R10463" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_7cc9fed4_7b30_490e_aad5_25d54875225c" reversible="false" id="R10463" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.7.87</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_124)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_124"/>
@@ -35648,7 +35648,7 @@
           <speciesReference constant="true" species="C05125" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_d98ca85b_746d_4563_b0ba_d82e4e22ee5d" reversible="false" id="R08218" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_d98ca85b_746d_4563_b0ba_d82e4e22ee5d" reversible="false" id="R08218" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.11</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_88) or (evm_model_KI545851_1_612)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -35818,7 +35818,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_5417750b_0b97_4235_badd_83b3dd2611bc" reversible="false" id="R01625" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_5417750b_0b97_4235_badd_83b3dd2611bc" reversible="false" id="R01625" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.8.-;2.7.8.7</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_69)</html:p><html:p>PROP PRIAM_probability=0.8700000047683716</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_69"/>
@@ -35919,7 +35919,7 @@
           <speciesReference constant="true" species="C00042" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_729c249d_3628_487f_9ea6_0a81836d065a" reversible="false" id="R00508" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_729c249d_3628_487f_9ea6_0a81836d065a" reversible="false" id="R00508" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.3.7</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_223)</html:p><html:p>PROP PRIAM_probability=0.9599999785423279</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_223"/>
@@ -35944,7 +35944,7 @@
           <speciesReference constant="true" species="C00224" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_b93658b1_ca09_4853_a45a_857a9bc91fdd" reversible="false" id="R02736" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_b93658b1_ca09_4853_a45a_857a9bc91fdd" reversible="false" id="R02736" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.1.1.363;1.1.1.49</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545854_1_156)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_156"/>
@@ -35970,7 +35970,7 @@
           <speciesReference constant="true" species="C01236" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_6059065c_5da3_4329_b7e0_3e169080ccc0" reversible="true" id="R00156" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_6059065c_5da3_4329_b7e0_3e169080ccc0" reversible="false" id="R00156" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -36073,7 +36073,7 @@
           <speciesReference constant="true" species="C00025" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_b9ae6305_e08d_493b_b0de_93198302c8e1" reversible="false" id="R08362" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_b9ae6305_e08d_493b_b0de_93198302c8e1" reversible="false" id="R08362" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.11.1.15</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_126) or (evm_model_KI545857_1_152) or (evm_model_KI545893_1_246) or (evm_model_KI545866_1_50)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -36127,7 +36127,7 @@
           <speciesReference constant="true" species="C00092" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1f482b6f_9a25_41e7_b291_93b37fe7e04d" reversible="false" id="R02493" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1f482b6f_9a25_41e7_b291_93b37fe7e04d" reversible="false" id="R02493" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.35</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_133)</html:p><html:p>PROP PRIAM_probability=0.9300000071525574</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_133"/>
@@ -36209,7 +36209,7 @@
           <speciesReference constant="true" species="C00206" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9bb6fd8d_c0b4_43bd_ac11_c3f86ecaf82f" reversible="false" id="R00100" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9bb6fd8d_c0b4_43bd_ac11_c3f86ecaf82f" reversible="false" id="R00100" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.6.2.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545861_1_57) or (evm_model_KI545873_1_622)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -36320,7 +36320,7 @@
           <speciesReference constant="true" species="C16237" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_e53efcca_57dc_4864_869f_2d88f4c973fd" reversible="true" id="R02649" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_e53efcca_57dc_4864_869f_2d88f4c973fd" reversible="false" id="R02649" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.2.8</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_524)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_524"/>
@@ -36393,7 +36393,7 @@
           <speciesReference constant="true" species="C00122" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a196eec6_2f42_40a8_ac4d_d7f614433fc2" reversible="true" id="R01074" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a196eec6_2f42_40a8_ac4d_d7f614433fc2" reversible="false" id="R01074" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.2.1.11;6.3.4.10;6.3.4.11;6.3.4.15;6.3.4.9</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545861_1_119)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545861_1_119"/>
@@ -36699,7 +36699,7 @@
           <speciesReference constant="true" species="C04294" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a5b6191d_2e08_42e5_b8bf_4b76c05acb84" reversible="true" id="R02301" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a5b6191d_2e08_42e5_b8bf_4b76c05acb84" reversible="false" id="R02301" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.3.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545893_1_80)</html:p><html:p>PROP PRIAM_probability=0.6299999952316284</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545893_1_80"/>
@@ -36750,7 +36750,7 @@
           <speciesReference constant="true" species="C02165" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_80c8e283_91e8_4a68_9bc2_6296cafdb803" reversible="true" id="R00330" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_80c8e283_91e8_4a68_9bc2_6296cafdb803" reversible="false" id="R00330" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -36800,7 +36800,7 @@
           <speciesReference constant="true" species="C04409" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_35425a14_5def_4a6b_8d45_d3f53ef778ef" reversible="false" id="R00616" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_35425a14_5def_4a6b_8d45_d3f53ef778ef" reversible="false" id="R00616" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.15;2.7.6.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_36)</html:p><html:p>PROP PRIAM_probability=0.9700000286102295</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_36"/>
@@ -36848,7 +36848,7 @@
           <speciesReference constant="true" species="C04856" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_ae6bc562_b7ed_40ae_adab_0d18e8356ea6" reversible="false" id="R03038" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_ae6bc562_b7ed_40ae_adab_0d18e8356ea6" reversible="false" id="R03038" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.7</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_13) or (evm_model_KI545858_1_13)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -36904,7 +36904,7 @@
           <speciesReference constant="true" species="C00119" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_b3219920_9979_4357_a752_7ba1498760ec" reversible="false" id="R01933" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_b3219920_9979_4357_a752_7ba1498760ec" reversible="false" id="R01933" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.4.2;1.8.1.4;2.3.1.61</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_352) or (evm_model_KI545862_1_82) or (evm_model_KI545853_1_151)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -36987,7 +36987,7 @@
           <speciesReference constant="true" species="C00188" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_631264bf_e5b9_437a_9473_cf25881e8db4" reversible="false" id="R02251" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_631264bf_e5b9_437a_9473_cf25881e8db4" reversible="false" id="R02251" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.3.1.20</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545895_1_72)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545895_1_72"/>
@@ -37012,7 +37012,7 @@
           <speciesReference constant="true" species="C00422" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1e1ad878_c55f_4b2e_a29f_af9a9020f24d" reversible="true" id="R00964" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1e1ad878_c55f_4b2e_a29f_af9a9020f24d" reversible="false" id="R00964" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.48</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_597)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_597"/>
@@ -37200,7 +37200,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_228b532f_4dbf_415c_b7fd_2f39e456f835" reversible="false" id="R03665" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_228b532f_4dbf_415c_b7fd_2f39e456f835" reversible="false" id="R03665" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.9</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_98)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_98"/>
@@ -37280,7 +37280,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_61c62e9e_d1d2_41f0_98a9_b0db79ab95bf" reversible="true" id="R00573" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_61c62e9e_d1d2_41f0_98a9_b0db79ab95bf" reversible="false" id="R00573" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.4.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_752)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_752"/>
@@ -37387,7 +37387,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_0c72ce15_9487_423f_ae32_f54bd363c4b4" reversible="true" id="R00619" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_0c72ce15_9487_423f_ae32_f54bd363c4b4" reversible="false" id="R00619" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.6.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_36)</html:p><html:p>PROP PRIAM_probability=0.9700000286102295</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_36"/>
@@ -37464,7 +37464,7 @@
           <speciesReference constant="true" species="C00004" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_bf3abfb1_f61f_40e6_ad40_9419cce6c9f8" reversible="false" id="R03916" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_bf3abfb1_f61f_40e6_ad40_9419cce6c9f8" reversible="false" id="R03916" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.3.2.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_173) or (evm_model_KI545894_1_92)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -37737,7 +37737,7 @@
           <speciesReference constant="true" species="C05359" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_606fa535_fd51_4036_bd43_74b363330bf5" reversible="false" id="R01528" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_606fa535_fd51_4036_bd43_74b363330bf5" reversible="false" id="R01528" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.1.1.351;1.1.1.44</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_234)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_234"/>
@@ -37790,7 +37790,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_37b53416_a1fb_41ab_8d51_d36f22037cf1" reversible="false" id="R01004" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_37b53416_a1fb_41ab_8d51_d36f22037cf1" reversible="false" id="R01004" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.6.1.43</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545855_1_203)</html:p><html:p>PROP PRIAM_probability=0.6700000166893005</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545855_1_203"/>
@@ -37955,7 +37955,7 @@
           <speciesReference constant="true" species="C00005" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8a78bb3d_96fd_4166_a704_cedb0c07ded1" reversible="false" id="R01736" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8a78bb3d_96fd_4166_a704_cedb0c07ded1" reversible="false" id="R01736" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.2.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_562)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_562"/>
@@ -38062,7 +38062,7 @@
           <speciesReference constant="true" species="C00060" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_04bc51be_2122_4642_8bb0_b1d26ff78b3a" reversible="false" id="R03222" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_04bc51be_2122_4642_8bb0_b1d26ff78b3a" reversible="false" id="R03222" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.3.3.4</html:p><html:p>PREDICTION_TYPE: GF_FN1</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545855_1_71)</html:p><html:p>PROP PRIAM_probability=0.09000000357627869</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -38107,7 +38107,7 @@
           <speciesReference constant="true" species="C00025" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_5a58f01a_19d9_4efd_8c9a_4a37fd58939f" reversible="false" id="R01858" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_5a58f01a_19d9_4efd_8c9a_4a37fd58939f" reversible="false" id="R01858" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.40</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_170)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_170"/>
@@ -38156,7 +38156,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_fbc128f2_7c0e_44de_add2_6f8063244890" reversible="false" id="R01665" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_fbc128f2_7c0e_44de_add2_6f8063244890" reversible="false" id="R01665" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.14;2.7.4.25</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_180) or (evm_model_KI545855_1_118)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -38184,7 +38184,7 @@
           <speciesReference constant="true" species="C00705" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_f48bfed2_4889_49bf_8e10_91c5b6671c5c" reversible="false" id="R00528" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_f48bfed2_4889_49bf_8e10_91c5b6671c5c" reversible="false" id="R00528" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.8.2.1</html:p><html:p>PREDICTION_TYPE: GF_ORPHAN</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -38340,7 +38340,7 @@
           <speciesReference constant="true" species="C04281" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8258c851_5b54_4708_82a6_57b5022f6748" reversible="true" id="R00925" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8258c851_5b54_4708_82a6_57b5022f6748" reversible="false" id="R00925" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.2.1.1;6.2.1.17</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_251) or (evm_model_KI545851_1_379)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -38370,7 +38370,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a7f78841_beb1_40e7_98f3_e2d2d2ce1bff" reversible="true" id="R03245" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a7f78841_beb1_40e7_98f3_e2d2d2ce1bff" reversible="false" id="R03245" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_741)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_741"/>
@@ -38557,7 +38557,7 @@
           <speciesReference constant="true" species="C04500" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_82a668ef_75f0_4600_9140_39dd2b41f4a0" reversible="true" id="R01230" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_82a668ef_75f0_4600_9140_39dd2b41f4a0" reversible="false" id="R01230" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.5.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545895_1_190) or (evm_model_KI545895_1_190)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -38586,7 +38586,7 @@
           <speciesReference constant="true" species="C00144" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_f336114e_e387_439c_8c79_9901ba272d47" reversible="true" id="R04463" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_f336114e_e387_439c_8c79_9901ba272d47" reversible="false" id="R04463" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.5.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_97)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_97"/>
@@ -38727,7 +38727,7 @@
           <speciesReference constant="true" species="C00100" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9cc4ed4e_9d8f_4189_8f8d_3b2e5e2031f0" reversible="false" id="R10092" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9cc4ed4e_9d8f_4189_8f8d_3b2e5e2031f0" reversible="false" id="R10092" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.2.1.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_213)</html:p><html:p>PROP PRIAM_probability=0.6200000047683716</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_213"/>
@@ -38752,7 +38752,7 @@
           <speciesReference constant="true" species="C00288" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_5050ea7d_35a3_4b3e_a81a_b12145083535" reversible="false" id="R07168" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_5050ea7d_35a3_4b3e_a81a_b12145083535" reversible="false" id="R07168" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.5.1.20</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545856_1_122) or (evm_model_KI545863_1_84)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -38936,7 +38936,7 @@
           <speciesReference constant="true" species="C00015" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_b2d48c62_b670_4bcb_b933_b2a0938eaa2c" reversible="false" id="R02018" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_b2d48c62_b670_4bcb_b933_b2a0938eaa2c" reversible="false" id="R02018" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.17.4.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545853_1_15) or (evm_model_KI545866_1_75)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -38990,7 +38990,7 @@
           <speciesReference constant="true" species="C04157" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_b5e67db3_61f3_4bf7_9fcb_1e7e7bb643d2" reversible="true" id="R04591" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_b5e67db3_61f3_4bf7_9fcb_1e7e7bb643d2" reversible="false" id="R04591" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.2.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545857_1_33)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_33"/>
@@ -39121,7 +39121,7 @@
           <speciesReference constant="true" species="C00005" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_0f075e0d_32e0_4e85_8164_af56d95b42f3" reversible="true" id="R00578" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_0f075e0d_32e0_4e85_8164_af56d95b42f3" reversible="false" id="R00578" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.5.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_326)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_326"/>
@@ -39319,7 +39319,7 @@
           <speciesReference constant="true" species="C00504" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_83004ba5_3a1c_4f6a_8d07_93a5ce9a2a5c" reversible="false" id="R03664" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_83004ba5_3a1c_4f6a_8d07_93a5ce9a2a5c" reversible="false" id="R03664" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545893_1_134) or (evm_model_KI545861_1_79) or (evm_model_KI545861_1_79)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -39436,7 +39436,7 @@
           <speciesReference constant="true" species="C00585" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_072dd5c6_ba5d_4fec_8fc4_3f1bce84b461" reversible="true" id="R07641" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_072dd5c6_ba5d_4fec_8fc4_3f1bce84b461" reversible="false" id="R07641" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.5.5</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545868_1_94) or (evm_model_KI545865_1_9) or (evm_model_KI545852_1_131)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -39488,7 +39488,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a654d99f_6d28_4e4a_b4e2_761046b0d318" reversible="true" id="R00185" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a654d99f_6d28_4e4a_b4e2_761046b0d318" reversible="false" id="R00185" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.20;2.7.1.74</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_119) or (evm_model_KI545873_1_779)</html:p><html:p>PROP PRIAM_probability=0.6399999856948853</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -39541,7 +39541,7 @@
           <speciesReference constant="true" species="C00361" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_216bb10a_b86a_43ca_b827_20ec194d3338" reversible="false" id="R00114" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_216bb10a_b86a_43ca_b827_20ec194d3338" reversible="false" id="R00114" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.4.1.13</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545861_1_130)</html:p><html:p>PROP PRIAM_probability=0.75</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545861_1_130"/>
@@ -39645,7 +39645,7 @@
           <speciesReference constant="true" species="C00197" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8f7186d2_1de4_485f_be10_96cc0888d038" reversible="false" id="R04390" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8f7186d2_1de4_485f_be10_96cc0888d038" reversible="false" id="R04390" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.1.31</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_259)</html:p><html:p>PROP PRIAM_probability=0.5400000214576721</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_259"/>
@@ -39697,7 +39697,7 @@
           <speciesReference constant="true" species="C00015" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_e87c60eb_d84e_4f83_a7aa_a8d3e5686325" reversible="false" id="R03663" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_e87c60eb_d84e_4f83_a7aa_a8d3e5686325" reversible="false" id="R03663" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545861_1_94) or (evm_model_KI545857_1_148) or (evm_model_KI545857_1_148)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -39772,7 +39772,7 @@
           <speciesReference constant="true" species="C00066" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_30d78792_0696_40f8_a07d_4fc5774b5020" reversible="false" id="R03220" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_30d78792_0696_40f8_a07d_4fc5774b5020" reversible="false" id="R03220" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.3.3.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_195)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_195"/>
@@ -39825,7 +39825,7 @@
           <speciesReference constant="true" species="C00014" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_62e544f5_4146_4a37_8c0a_558236c45c45" reversible="false" id="R02250" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_62e544f5_4146_4a37_8c0a_558236c45c45" reversible="false" id="R02250" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.1.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_287) or (evm_model_KI545873_1_2)</html:p><html:p>PROP PRIAM_probability=0.9800000190734863</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -39927,7 +39927,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_188ef77d_2b7a_4ab3_acb6_069a4cff2f19" reversible="false" id="R01234" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_188ef77d_2b7a_4ab3_acb6_069a4cff2f19" reversible="false" id="R01234" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.4.17;3.1.4.35</html:p><html:p>PREDICTION_TYPE: GF_FN1</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545859_1_125)</html:p><html:p>PROP PRIAM_probability=0.0</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -39948,7 +39948,7 @@
           <speciesReference constant="true" species="C00144" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8a91d7ad_3674_4b72_ac1a_6a9ff847dd12" reversible="true" id="R04448" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8a91d7ad_3674_4b72_ac1a_6a9ff847dd12" reversible="false" id="R04448" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.50</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_201)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_201"/>
@@ -39973,7 +39973,7 @@
           <speciesReference constant="true" species="C04327" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8659e197_7c3c_4efa_af4a_aaea4ce2a00d" reversible="true" id="R04208" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8659e197_7c3c_4efa_af4a_aaea4ce2a00d" reversible="false" id="R04208" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.3.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_795)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_795"/>
@@ -39999,7 +39999,7 @@
           <speciesReference constant="true" species="C03373" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_77ad2965_5bd5_4ace_92c1_5eacb1f79711" reversible="false" id="R00174" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_77ad2965_5bd5_4ace_92c1_5eacb1f79711" reversible="false" id="R00174" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.35</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_133)</html:p><html:p>PROP PRIAM_probability=0.9300000071525574</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_133"/>
@@ -40024,7 +40024,7 @@
           <speciesReference constant="true" species="C00018" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_e836c9ab_64d3_4ad5_b03d_440173bc4385" reversible="false" id="R04780" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_e836c9ab_64d3_4ad5_b03d_440173bc4385" reversible="false" id="R04780" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.3.11</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_103)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_103"/>
@@ -40049,7 +40049,7 @@
           <speciesReference constant="true" species="C05345" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8ef20e4a_4474_48c1_9ebd_12fe3f83ede2" reversible="false" id="R03662" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8ef20e4a_4474_48c1_9ebd_12fe3f83ede2" reversible="false" id="R03662" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.11</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_88) or (evm_model_KI545851_1_612)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -40079,7 +40079,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_aab4b084_973b_4ae3_b64d_3a38643b4d05" reversible="false" id="R04424" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_aab4b084_973b_4ae3_b64d_3a38643b4d05" reversible="false" id="R04424" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.2.1.79</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545865_1_84)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545865_1_84"/>
@@ -40445,7 +40445,7 @@
           <speciesReference constant="true" species="C01251" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_49cea6e4_59a1_42e0_aaef_9bd521df8b08" reversible="false" id="R03546" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_49cea6e4_59a1_42e0_aaef_9bd521df8b08" reversible="false" id="R03546" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.2.1.104</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_551)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_551"/>
@@ -40597,7 +40597,7 @@
           <speciesReference constant="true" species="C00417" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_f7b4bfc6_4966_4ebb_9403_d9cd59de219c" reversible="false" id="R00189" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_f7b4bfc6_4966_4ebb_9403_d9cd59de219c" reversible="false" id="R00189" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.1.5;6.3.5.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_142) or (evm_model_KI545852_1_142)</html:p><html:p>PROP PRIAM_probability=0.9700000286102295</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -40626,7 +40626,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8bf1ca91_0c31_45b2_bdac_309a6bdfb1d4" reversible="false" id="R03051" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8bf1ca91_0c31_45b2_bdac_309a6bdfb1d4" reversible="false" id="R03051" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.1.1.86</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545857_1_44)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_44"/>
@@ -40652,7 +40652,7 @@
           <speciesReference constant="true" species="C04039" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_c5114e7b_378e_4071_9035_37ebb44d0590" reversible="false" id="R01936" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_c5114e7b_378e_4071_9035_37ebb44d0590" reversible="false" id="R01936" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.1.1.286;1.1.1.87</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545857_1_175) or (evm_model_KI545873_1_91)</html:p><html:p>PROP PRIAM_probability=0.7200000286102295</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -40679,7 +40679,7 @@
           <speciesReference constant="true" species="C00322" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_6b7660d9_8f3b_4324_96fa_d689502f4180" reversible="false" id="R00847" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_6b7660d9_8f3b_4324_96fa_d689502f4180" reversible="false" id="R00847" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.30</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545856_1_170)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545856_1_170"/>
@@ -40761,7 +40761,7 @@
           <speciesReference constant="true" species="C05320" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_64b2d622_305f_4733_97f7_a0be074b9e37" reversible="false" id="R03098" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_64b2d622_305f_4733_97f7_a0be074b9e37" reversible="false" id="R03098" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.1.31</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_259)</html:p><html:p>PROP PRIAM_probability=0.5400000214576721</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_259"/>
@@ -40811,7 +40811,7 @@
           <speciesReference constant="true" species="C00108" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_eb56cffb_5f68_4a38_ad2f_f57584a5cfe8" reversible="false" id="R04863" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_eb56cffb_5f68_4a38_ad2f_f57584a5cfe8" reversible="false" id="R04863" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.1.31</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_259)</html:p><html:p>PROP PRIAM_probability=0.5400000214576721</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_259"/>
@@ -41050,7 +41050,7 @@
           <speciesReference constant="true" species="C00005" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_71aabb2e_3532_4424_ba6a_8b97f479bcb9" reversible="false" id="R03316" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_71aabb2e_3532_4424_ba6a_8b97f479bcb9" reversible="false" id="R03316" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.4.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545853_1_151)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545853_1_151"/>
@@ -41098,7 +41098,7 @@
           <speciesReference constant="true" species="C02094" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_f1cc08fe_690c_40ae_bd4d_5d29817b9cd4" reversible="true" id="R04385" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_f1cc08fe_690c_40ae_bd4d_5d29817b9cd4" reversible="false" id="R04385" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.4.14</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545856_1_135)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545856_1_135"/>
@@ -41346,7 +41346,7 @@
           <speciesReference constant="true" species="C05763" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_5489a44d_cd5b_4843_a2f2_728551004983" reversible="false" id="R00205" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_5489a44d_cd5b_4843_a2f2_728551004983" reversible="false" id="R00205" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.1.49</html:p><html:p>PREDICTION_TYPE: GF_ORPHAN</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -41471,7 +41471,7 @@
           <speciesReference constant="true" species="C00658" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_c2fb1e0c_f113_4ebc_b409_5d419184cb06" reversible="false" id="R03661" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_c2fb1e0c_f113_4ebc_b409_5d419184cb06" reversible="false" id="R03661" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.15</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545868_1_38) or (evm_model_KI545851_1_622) or (evm_model_KI545868_1_38) or (evm_model_KI545851_1_622)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -41714,7 +41714,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1aa0396b_9b77_4594_b158_fd8d473cf17c" reversible="false" id="R02487" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1aa0396b_9b77_4594_b158_fd8d473cf17c" reversible="false" id="R02487" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.3.8.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_85)</html:p><html:p>PROP PRIAM_probability=0.5199999809265137</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_85"/>
@@ -41740,7 +41740,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_732d84c7_f913_459b_b748_6a704892f1a1" reversible="false" id="R02058" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_732d84c7_f913_459b_b748_6a704892f1a1" reversible="false" id="R02058" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.3.1.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_66) or (evm_model_KI545894_1_260)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -41821,7 +41821,7 @@
           <speciesReference constant="true" species="C00106" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_da118cf5_580c_4026_8147_aca3e824d688" reversible="false" id="R02239" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_da118cf5_580c_4026_8147_aca3e824d688" reversible="false" id="R02239" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.3.4;3.1.3.81</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545855_1_41) or (evm_model_KI545851_1_205)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -41849,7 +41849,7 @@
           <speciesReference constant="true" species="C00641" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_235fdb8c_b48e_4eee_85d7_82940f089521" reversible="false" id="R00335" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_235fdb8c_b48e_4eee_85d7_82940f089521" reversible="false" id="R00335" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.6.1.5;3.6.5.1;3.6.5.2;3.6.5.3;3.6.5.4;3.6.5.5;3.6.5.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_430) or (evm_model_KI545859_1_90) or (evm_model_KI545864_1_112)</html:p><html:p>PROP PRIAM_probability=0.9800000190734863</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -41978,7 +41978,7 @@
           <speciesReference constant="true" species="C00014" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_29e8e881_95bf_4b70_ae62_777086a2354b" reversible="false" id="R00006" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_29e8e881_95bf_4b70_ae62_777086a2354b" reversible="false" id="R00006" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.2.1.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545854_1_34) or (evm_model_KI545893_1_152)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -42173,7 +42173,7 @@
           <speciesReference constant="true" species="C00025" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_69c92c29_802c_48a0_aabb_5809b893dc39" reversible="true" id="R00332" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_69c92c29_802c_48a0_aabb_5809b893dc39" reversible="false" id="R00332" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.8</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_31)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545892_1_31"/>
@@ -42284,7 +42284,7 @@
           <speciesReference constant="true" species="C05814" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_0af1aa14_9151_48bb_a230_e13a2aa179ae" reversible="false" id="R07316" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_0af1aa14_9151_48bb_a230_e13a2aa179ae" reversible="false" id="R07316" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.5.1.110;4.2.1.104</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_551)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_551"/>
@@ -42336,7 +42336,7 @@
           <speciesReference constant="true" species="C16255" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_4a8ea938_c54b_4cf7_ac0b_06d80324657e" reversible="false" id="R03660" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_4a8ea938_c54b_4cf7_ac0b_06d80324657e" reversible="false" id="R03660" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.20</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545855_1_141) or (evm_model_KI545873_1_239) or (evm_model_KI545862_1_96)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -42582,7 +42582,7 @@
           <speciesReference constant="true" species="C00147" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1bbb7d21_42af_47dd_86b4_8476c2ca2305" reversible="true" id="R01071" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1bbb7d21_42af_47dd_86b4_8476c2ca2305" reversible="false" id="R01071" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.4.2.17</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545863_1_41)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545863_1_41"/>
@@ -42635,7 +42635,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9f9cb3db_904e_425d_b2df_e32e8a02cd5c" reversible="true" id="R00722" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9f9cb3db_904e_425d_b2df_e32e8a02cd5c" reversible="false" id="R00722" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -42976,7 +42976,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_47e028e7_eced_48db_b11e_c6f206761e83" reversible="false" id="R00426" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_47e028e7_eced_48db_b11e_c6f206761e83" reversible="false" id="R00426" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.6.1.19;3.6.1.8</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_588)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_588"/>
@@ -43083,7 +43083,7 @@
           <speciesReference constant="true" species="C00004" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_83417edb_44b4_4788_a78c_c3062be0f839" reversible="false" id="R01855" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_83417edb_44b4_4788_a78c_c3062be0f839" reversible="false" id="R01855" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.6.1.19</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_588)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_588"/>
@@ -43108,7 +43108,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_92cb5617_6c29_4967_8b50_1e923a5ce7a0" reversible="false" id="R00306" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_92cb5617_6c29_4967_8b50_1e923a5ce7a0" reversible="false" id="R00306" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.2.1.21;3.2.1.74</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545895_1_172) or (evm_model_KI545863_1_93) or (evm_model_KI545851_1_465)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -43258,7 +43258,7 @@
           <speciesReference constant="true" species="C16669" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_deef480a_ea13_4096_b1cc_a010ed719bcd" reversible="false" id="R01184" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_deef480a_ea13_4096_b1cc_a010ed719bcd" reversible="false" id="R01184" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.13.99.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_40)</html:p><html:p>PROP PRIAM_probability=0.8299999833106995</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_40"/>
@@ -43309,7 +43309,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_b010e41f_6e1c_4231_b11f_eab318d84128" reversible="false" id="R00014" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_b010e41f_6e1c_4231_b11f_eab318d84128" reversible="false" id="R00014" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.4.1;2.2.1.6;4.1.1.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545854_1_34) or (evm_model_KI545893_1_152) or (evm_model_KI545895_1_133) or (evm_model_KI545863_1_120) or (evm_model_KI545861_1_134)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -43340,7 +43340,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_f91fc548_63b3_4e67_8d79_3d0fb4c4a1ea" reversible="false" id="R01158" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_f91fc548_63b3_4e67_8d79_3d0fb4c4a1ea" reversible="false" id="R01158" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.1.1.23</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545895_1_110)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545895_1_110"/>
@@ -43440,7 +43440,7 @@
           <speciesReference constant="true" species="C00004" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_79ec3f46_d437_453c_b468_dfecbf7b57c8" reversible="false" id="R03654" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_79ec3f46_d437_453c_b468_dfecbf7b57c8" reversible="false" id="R03654" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.14</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545893_1_234)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545893_1_234"/>
@@ -43541,7 +43541,7 @@
           <speciesReference constant="true" species="C00035" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_469eff45_dabe_4f44_bde2_f35eb244e2f1" reversible="true" id="R00127" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_469eff45_dabe_4f44_bde2_f35eb244e2f1" reversible="false" id="R00127" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545894_1_59)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545894_1_59"/>
@@ -43565,7 +43565,7 @@
           <speciesReference constant="true" species="C00008" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_89a98b92_bccc_4414_9b70_fa6ee71c98e6" reversible="false" id="R04404" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_89a98b92_bccc_4414_9b70_fa6ee71c98e6" reversible="false" id="R04404" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.3.36</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_217)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_217"/>
@@ -43590,7 +43590,7 @@
           <speciesReference constant="true" species="C01277" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a5e08c53_44f3_4cd2_b1d2_a541376202f9" reversible="true" id="R01049" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a5e08c53_44f3_4cd2_b1d2_a541376202f9" reversible="false" id="R01049" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.6.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545893_1_81) or (evm_model_KI545863_1_97)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -43647,7 +43647,7 @@
           <speciesReference constant="true" species="C00420" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_06fb6e52_69e2_4742_a06e_1af54ae85510" reversible="true" id="R02245" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_06fb6e52_69e2_4742_a06e_1af54ae85510" reversible="false" id="R02245" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.36</html:p><html:p>PREDICTION_TYPE: GF_FN1</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545859_1_52)</html:p><html:p>PROP PRIAM_probability=0.14000000059604645</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -43796,7 +43796,7 @@
           <speciesReference constant="true" species="C00124" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_da58a0c3_52b1_4688_bd45_fb3a01a95f14" reversible="false" id="R00089" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_da58a0c3_52b1_4688_bd45_fb3a01a95f14" reversible="false" id="R00089" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.6.1.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_15)</html:p><html:p>PROP PRIAM_probability=0.9800000190734863</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_15"/>
@@ -43847,7 +43847,7 @@
           <speciesReference constant="true" species="C00025" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_58f0a38f_0189_4336_8039_2f661244d0f0" reversible="true" id="R04779" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_58f0a38f_0189_4336_8039_2f661244d0f0" reversible="false" id="R04779" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.11</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_302) or (evm_model_KI545891_1_302)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -43874,7 +43874,7 @@
           <speciesReference constant="true" species="C05378" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_7d0617bd_3147_4e8f_a9f8_2368cbe0d70c" reversible="true" id="R00158" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_7d0617bd_3147_4e8f_a9f8_2368cbe0d70c" reversible="false" id="R00158" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.14;2.7.4.22;2.7.4.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545855_1_118) or (evm_model_KI545861_1_59)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -43935,7 +43935,7 @@
           <speciesReference constant="true" species="C00005" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_25627529_974d_4df7_ad9f_346823af4d99" reversible="true" id="R03236" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_25627529_974d_4df7_ad9f_346823af4d99" reversible="false" id="R03236" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.11;2.7.1.144;2.7.1.56</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_302) or (evm_model_KI545891_1_302)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -43962,7 +43962,7 @@
           <speciesReference constant="true" species="C03785" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_eb938bf5_be78_45a6_956e_1161cb5dab1a" reversible="false" id="R00756" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_eb938bf5_be78_45a6_956e_1161cb5dab1a" reversible="false" id="R00756" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.11</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_302) or (evm_model_KI545891_1_302)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -43989,7 +43989,7 @@
           <speciesReference constant="true" species="C00354" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_e2631e47_074a_4e30_8e64_8021ca252485" reversible="false" id="R03655" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_e2631e47_074a_4e30_8e64_8021ca252485" reversible="false" id="R03655" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.21</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545863_1_46)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545863_1_46"/>
@@ -44171,7 +44171,7 @@
           <speciesReference constant="true" species="C05345" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_2708aecc_2d0e_40e2_92b5_d1d1575d305c" reversible="false" id="R07856" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_2708aecc_2d0e_40e2_92b5_d1d1575d305c" reversible="false" id="R07856" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 5.5.1.19</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545865_1_20)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545865_1_20"/>
@@ -44194,7 +44194,7 @@
           <speciesReference constant="true" species="C16291" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_4f43b231_071f_413c_8976_2d18f61ff833" reversible="false" id="R03658" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_4f43b231_071f_413c_8976_2d18f61ff833" reversible="false" id="R03658" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_141)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_141"/>
@@ -44269,7 +44269,7 @@
           <speciesReference constant="true" species="C06148" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_c99766d7_bcbe_4d8e_a26e_2ec9cc5bf3b0" reversible="false" id="R00787" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_c99766d7_bcbe_4d8e_a26e_2ec9cc5bf3b0" reversible="false" id="R00787" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.7.1.15;1.7.1.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545861_1_128) or (evm_model_KI545861_1_128)</html:p><html:p>PROP PRIAM_probability=0.8600000143051147</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -44298,7 +44298,7 @@
           <speciesReference constant="true" species="C00088" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_f0d1c30c_0478_4895_9ced_d5ca09abeabf" reversible="true" id="R02584" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_f0d1c30c_0478_4895_9ced_d5ca09abeabf" reversible="false" id="R02584" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.10.1;2.7.10.2;2.7.12.1;2.7.12.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_79) or (evm_model_KI545851_1_352) or (evm_model_KI545865_1_46) or (evm_model_KI545856_1_103) or (evm_model_KI545894_1_45) or (evm_model_KI545856_1_49) or (evm_model_KI545865_1_83) or (evm_model_KI545862_1_79) or (evm_model_KI545857_1_167)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -44409,7 +44409,7 @@
           <speciesReference constant="true" species="C04895" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_0faba1ef_20b3_4fd0_bc87_6acd94675def" reversible="true" id="R02237" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_0faba1ef_20b3_4fd0_bc87_6acd94675def" reversible="false" id="R02237" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.2.12;6.3.2.17</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545868_1_112) or (evm_model_KI545861_1_60) or (evm_model_KI545861_1_60) or (evm_model_KI545861_1_60)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -44492,7 +44492,7 @@
           <speciesReference constant="true" species="C00624" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1424a327_ff40_48b0_b100_3988c4d3d2da" reversible="false" id="R03659" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1424a327_ff40_48b0_b100_3988c4d3d2da" reversible="false" id="R03659" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.10</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545894_1_13) or (evm_model_KI545852_1_116)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -44573,7 +44573,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="4"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_ecbf1920_4e97_4462_af80_d241e4df774d" reversible="false" id="R03270" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_ecbf1920_4e97_4462_af80_d241e4df774d" reversible="false" id="R03270" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.4.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545863_1_120) or (evm_model_KI545861_1_134)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -44627,7 +44627,7 @@
           <speciesReference constant="true" species="C15853" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_982f2cf4_bf61_4b1c_aeb0_81df846cdb10" reversible="false" id="R03815" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_982f2cf4_bf61_4b1c_aeb0_81df846cdb10" reversible="false" id="R03815" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.8.1.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_352)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_352"/>
@@ -44767,7 +44767,7 @@
           <speciesReference constant="true" species="C00364" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8a0436a5_5c96_4ffc_b6cc_2fd695aef9cc" reversible="true" id="R05578" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8a0436a5_5c96_4ffc_b6cc_2fd695aef9cc" reversible="false" id="R05578" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.17;6.1.1.24</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_308) or (evm_model_KI545857_1_84)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -44797,7 +44797,7 @@
           <speciesReference constant="true" species="C02987" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_41af2c00_bc9b_4059_9936_0e7641b0198a" reversible="false" id="R06521" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_41af2c00_bc9b_4059_9936_0e7641b0198a" reversible="false" id="R06521" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.3.-;3.1.3.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545855_1_41)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545855_1_41"/>
@@ -44950,7 +44950,7 @@
           <speciesReference constant="true" species="C00055" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_66227775_8959_4d9d_82b1_3354da880b2c" reversible="false" id="R02135" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_66227775_8959_4d9d_82b1_3354da880b2c" reversible="false" id="R02135" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.3.-</html:p><html:p>PREDICTION_TYPE: GF_ORPHAN</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -45021,7 +45021,7 @@
           <speciesReference constant="true" species="C00860" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_e76b6d8f_f988_4b22_94e3_dcb7386e167a" reversible="false" id="R03657" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_e76b6d8f_f988_4b22_94e3_dcb7386e167a" reversible="false" id="R03657" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_153)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_153"/>
@@ -45073,7 +45073,7 @@
           <speciesReference constant="true" species="C00080" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_bf317d89_1efb_4bd2_8bc6_0ae10f42515c" reversible="false" id="R02055" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_bf317d89_1efb_4bd2_8bc6_0ae10f42515c" reversible="false" id="R02055" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.1.1.65</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_250) or (evm_model_KI545894_1_70) or (evm_model_KI545891_1_5)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -45150,7 +45150,7 @@
           <speciesReference constant="true" species="C00074" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_06b79554_fbfa_42e8_b068_36fea76022eb" reversible="true" id="R03005" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_06b79554_fbfa_42e8_b068_36fea76022eb" reversible="false" id="R03005" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.7.1;2.7.7.18</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545894_1_4) or (evm_model_KI545894_1_4)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -45305,7 +45305,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_7722d939_5aab_4aa0_a826_0f2589c209f3" reversible="true" id="R02098" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_7722d939_5aab_4aa0_a826_0f2589c209f3" reversible="false" id="R02098" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.4;2.7.4.9</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545893_1_182)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545893_1_182"/>
@@ -45433,7 +45433,7 @@
           <speciesReference constant="true" species="C00014" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_cda906f8_57ac_4a10_87c4_d32bef3eaf6b" reversible="false" id="R01496" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_cda906f8_57ac_4a10_87c4_d32bef3eaf6b" reversible="false" id="R01496" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.3.1.24</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_165)</html:p><html:p>PROP PRIAM_probability=0.9800000190734863</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_165"/>
@@ -45513,7 +45513,7 @@
           <speciesReference constant="true" species="C00065" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9b52e36e_262e_4f21_abf9_d6970f7a31cd" reversible="true" id="R03503" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9b52e36e_262e_4f21_abf9_d6970f7a31cd" reversible="false" id="R03503" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.6.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_86)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_86"/>
@@ -45538,7 +45538,7 @@
           <speciesReference constant="true" species="C00020" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_88cd2983_a225_402e_82dc_6472e7931476" reversible="true" id="R01121" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_88cd2983_a225_402e_82dc_6472e7931476" reversible="false" id="R01121" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.1.1.33</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_77)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_77"/>
@@ -45770,7 +45770,7 @@
           <speciesReference constant="true" species="C00267" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_7ff322ec_3341_4c15_970f_55d59fb21d8d" reversible="true" id="R03652" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_7ff322ec_3341_4c15_970f_55d59fb21d8d" reversible="false" id="R03652" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.18</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_133)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_133"/>
@@ -45797,7 +45797,7 @@
           <speciesReference constant="true" species="C02282" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_c3bb68b4_5025_41b4_a781_ffae87681c8e" reversible="true" id="R01354" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_c3bb68b4_5025_41b4_a781_ffae87681c8e" reversible="false" id="R01354" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.2.1.1;6.2.1.17</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_251) or (evm_model_KI545851_1_379)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -45825,7 +45825,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1974d3ca_5d69_492b_ba50_9a09e7a635f8" reversible="false" id="R03875" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1974d3ca_5d69_492b_ba50_9a09e7a635f8" reversible="false" id="R03875" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.1.1.43;2.1.1.59;2.1.1.60</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_74) or (evm_model_KI545873_1_515) or (evm_model_KI545851_1_419) or (evm_model_KI545884_1_388) or (evm_model_KI545864_1_56) or (evm_model_KI545891_1_129) or (evm_model_KI545894_1_141)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -45858,7 +45858,7 @@
           <speciesReference constant="true" species="C00021" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_d2ee3bee_a514_4f1b_b1e4_db38f7ab3ab5" reversible="false" id="R00765" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_d2ee3bee_a514_4f1b_b1e4_db38f7ab3ab5" reversible="false" id="R00765" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.5.99.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_281)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_281"/>
@@ -45911,7 +45911,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_56d18a50_23ff_4d0e_87cd_442173c677c7" reversible="true" id="R01857" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_56d18a50_23ff_4d0e_87cd_442173c677c7" reversible="false" id="R01857" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -46017,7 +46017,7 @@
           <speciesReference constant="true" species="C03881" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_6f215aec_8a3e_41eb_b0f6_21e3f24003d8" reversible="true" id="R00130" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_6f215aec_8a3e_41eb_b0f6_21e3f24003d8" reversible="false" id="R00130" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.24</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545854_1_182)</html:p><html:p>PROP PRIAM_probability=0.9700000286102295</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_182"/>
@@ -46141,7 +46141,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_eba3760e_7099_4707_a8b7_197050485c6d" reversible="true" id="R00253" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_eba3760e_7099_4707_a8b7_197050485c6d" reversible="cobra_0_bound" id="R00253" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.1.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_112)</html:p><html:p>PROP PRIAM_probability=0.9800000190734863</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_112"/>
@@ -46227,7 +46227,7 @@
           <speciesReference constant="true" species="C00005" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_08a9b4df_280f_4c70_838c_9d3de61f5fc5" reversible="true" id="R02094" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_08a9b4df_280f_4c70_838c_9d3de61f5fc5" reversible="false" id="R02094" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.12;2.7.4.9</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545893_1_182)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545893_1_182"/>
@@ -46448,7 +46448,7 @@
           <speciesReference constant="true" species="C00576" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_926e43a9_7180_4960_ad86_904a10dd9612" reversible="false" id="R03656" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_926e43a9_7180_4960_ad86_904a10dd9612" reversible="false" id="R03656" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.5</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545894_1_2) or (evm_model_KI545858_1_99)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -46635,7 +46635,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1f2e67f6_51a1_4ca0_a565_ca39fda6c91f" reversible="false" id="R07759" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1f2e67f6_51a1_4ca0_a565_ca39fda6c91f" reversible="false" id="R07759" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.1.1.330</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545853_1_138)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545853_1_138"/>
@@ -46661,7 +46661,7 @@
           <speciesReference constant="true" species="C16217" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_98fef138_a212_4cfa_8010_f4b5c67aff91" reversible="false" id="R03650" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_98fef138_a212_4cfa_8010_f4b5c67aff91" reversible="false" id="R03650" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.16</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_202)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_202"/>
@@ -46768,7 +46768,7 @@
           <speciesReference constant="true" species="C00022" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8148cac1_c480_4a97_9e1d_c572fd6dc3d8" reversible="true" id="R01092" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8148cac1_c480_4a97_9e1d_c572fd6dc3d8" reversible="false" id="R01092" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_541)</html:p><html:p>PROP PRIAM_probability=0.7099999785423279</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_541"/>
@@ -46793,7 +46793,7 @@
           <speciesReference constant="true" species="C00446" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_b0d24ee4_9c93_47f0_bbf8_e2915ffc051c" reversible="true" id="R03651" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_b0d24ee4_9c93_47f0_bbf8_e2915ffc051c" reversible="false" id="R03651" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.24</html:p><html:p>PREDICTION_TYPE: GF_ORPHAN</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -46873,7 +46873,7 @@
           <speciesReference constant="true" species="C00025" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_70d09011_6127_4596_9a3b_aba1de7df681" reversible="false" id="R02747" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_70d09011_6127_4596_9a3b_aba1de7df681" reversible="false" id="R02747" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.1.5</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_191) or (evm_model_KI545873_1_372)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -46980,7 +46980,7 @@
           <speciesReference constant="true" species="C00118" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_fa6e1208_91f6_4622_8e38_188a552974cf" reversible="false" id="R06518" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_fa6e1208_91f6_4622_8e38_188a552974cf" reversible="false" id="R06518" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.5.1.23</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_383)</html:p><html:p>PROP PRIAM_probability=0.5600000023841858</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_383"/>
@@ -47005,7 +47005,7 @@
           <speciesReference constant="true" species="C00836" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9b7d21ef_6a76_46fa_bea3_4f39d3bbf9d7" reversible="false" id="R05333" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9b7d21ef_6a76_46fa_bea3_4f39d3bbf9d7" reversible="false" id="R05333" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.3.1.158</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_336)</html:p><html:p>PROP PRIAM_probability=0.9900000095367432</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_336"/>
@@ -47279,7 +47279,7 @@
           <speciesReference constant="true" species="C00110" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_d4356a88_894d_4768_91c3_8c51e1154f3e" reversible="false" id="R04171" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_d4356a88_894d_4768_91c3_8c51e1154f3e" reversible="false" id="R04171" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.6.1.7</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545857_1_142)</html:p><html:p>PROP PRIAM_probability=0.6499999761581421</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_142"/>
@@ -47438,7 +47438,7 @@
           <speciesReference constant="true" species="C00251" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_5a7fe58c_5b45_49b2_9d6d_c88068bb684f" reversible="false" id="R00434" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_5a7fe58c_5b45_49b2_9d6d_c88068bb684f" reversible="false" id="R00434" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.6.1.1;4.6.1.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_15) or (evm_model_KI545884_1_388)</html:p><html:p>PROP PRIAM_probability=0.9800000190734863</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -47493,7 +47493,7 @@
           <speciesReference constant="true" species="C00124" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_58de53cb_785f_41fc_9717_3bfb14820982" reversible="false" id="R00115" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_58de53cb_785f_41fc_9717_3bfb14820982" reversible="false" id="R00115" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.8.1.7</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_282)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_282"/>
@@ -47519,7 +47519,7 @@
           <speciesReference constant="true" species="C00051" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9752970d_91a9_4d83_9f89_a5e1a24ba717" reversible="true" id="R00571" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9752970d_91a9_4d83_9f89_a5e1a24ba717" reversible="false" id="R00571" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.4.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_752)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_752"/>
@@ -47546,7 +47546,7 @@
           <speciesReference constant="true" species="C00063" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_c3cd9741_adcb_40c1_b5b8_11d75e070bc5" reversible="true" id="R01843" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_c3cd9741_adcb_40c1_b5b8_11d75e070bc5" reversible="false" id="R01843" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.11</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_302) or (evm_model_KI545891_1_302)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -47725,7 +47725,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_6771d5af_6052_4ad3_ba25_c779ba0c61e9" reversible="false" id="R00509" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_6771d5af_6052_4ad3_ba25_c779ba0c61e9" reversible="false" id="R00509" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.25</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_288)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_288"/>
@@ -47956,7 +47956,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_4e6e573b_dee8_4ce9_9ddc_716403a3a0fc" reversible="false" id="R02106" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_4e6e573b_dee8_4ce9_9ddc_716403a3a0fc" reversible="false" id="R02106" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.7.3.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_652)</html:p><html:p>PROP PRIAM_probability=0.9700000286102295</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_652"/>
@@ -48006,7 +48006,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_3e198321_9417_4c37_835f_a2abbade4971" reversible="false" id="R03646" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_3e198321_9417_4c37_835f_a2abbade4971" reversible="false" id="R03646" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.19</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_29)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_29"/>
@@ -48058,7 +48058,7 @@
           <speciesReference constant="true" species="C00025" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_5cc9a76e_db97_4ccd_9ea9_d9865ddb56de" reversible="true" id="R00512" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_5cc9a76e_db97_4ccd_9ea9_d9865ddb56de" reversible="false" id="R00512" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.14;2.7.4.25</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_180) or (evm_model_KI545855_1_118)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -48136,7 +48136,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_cd6c1e93_a1d9_45b1_864b_f53cb66137bf" reversible="false" id="R04801" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_cd6c1e93_a1d9_45b1_864b_f53cb66137bf" reversible="false" id="R04801" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 5.5.1.19</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545865_1_20)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545865_1_20"/>
@@ -48211,7 +48211,7 @@
           <speciesReference constant="true" species="C00504" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a5a44d66_dc96_42d8_9a6d_b7383ed86966" reversible="false" id="R09846" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a5a44d66_dc96_42d8_9a6d_b7383ed86966" reversible="false" id="R09846" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.1.-</html:p><html:p>PREDICTION_TYPE: GF_ORPHAN</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -48305,7 +48305,7 @@
           <speciesReference constant="true" species="C00004" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_ffbd6034_50d2_4aa4_aa35_ac28a1960175" reversible="true" id="R01512" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_ffbd6034_50d2_4aa4_aa35_ac28a1960175" reversible="false" id="R01512" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.2.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545857_1_173)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_173"/>
@@ -48457,7 +48457,7 @@
           <speciesReference constant="true" species="C02411" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_2bdeec45_a72a_43d1_9fa9_fb844e82d3fd" reversible="true" id="R01137" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_2bdeec45_a72a_43d1_9fa9_fb844e82d3fd" reversible="false" id="R01137" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -48537,7 +48537,7 @@
           <speciesReference constant="true" species="C03895" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_93706f16_3308_4638_b2cf_b092b1a1cce6" reversible="true" id="R00200" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_93706f16_3308_4638_b2cf_b092b1a1cce6" reversible="false" id="R00200" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.40</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_170)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_170"/>
@@ -48620,7 +48620,7 @@
           <speciesReference constant="true" species="C00036" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_6dcd4732_cf7e_4ade_be02_639b4091a7f7" reversible="true" id="R00480" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_6dcd4732_cf7e_4ade_be02_639b4091a7f7" reversible="false" id="R00480" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.2.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_604)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_604"/>
@@ -48670,7 +48670,7 @@
           <speciesReference constant="true" species="C00229" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a5d628fa_22ff_469f_90c0_29d651050c42" reversible="true" id="R00316" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a5d628fa_22ff_469f_90c0_29d651050c42" reversible="false" id="R00316" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.2.1.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_251)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545892_1_251"/>
@@ -48695,7 +48695,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_b34a02f6_7e99_4866_bad4_2c1220975641" reversible="false" id="R10170" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_b34a02f6_7e99_4866_bad4_2c1220975641" reversible="false" id="R10170" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.2.1.33</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545863_1_19)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545863_1_19"/>
@@ -48853,7 +48853,7 @@
           <speciesReference constant="true" species="C00004" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_ff69a39f_3d24_48d9_a19a_6f95be9086d2" reversible="false" id="R07758" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_ff69a39f_3d24_48d9_a19a_6f95be9086d2" reversible="false" id="R07758" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.3.1.199</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545895_1_95) or (evm_model_KI545895_1_95)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -48881,7 +48881,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_800836d5_7e45_4cc9_a18d_7cf5ec0f04fe" reversible="false" id="R03648" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_800836d5_7e45_4cc9_a18d_7cf5ec0f04fe" reversible="false" id="R03648" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.1.1.22</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545853_1_139) or (evm_model_KI545856_1_116)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -49102,7 +49102,7 @@
           <speciesReference constant="true" species="C01256" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a90baee5_2a7a_4efc_88a8_624342a9f158" reversible="true" id="R00137" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a90baee5_2a7a_4efc_88a8_624342a9f158" reversible="false" id="R00137" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.7.1;2.7.7.18</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545894_1_4) or (evm_model_KI545894_1_4)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -49129,7 +49129,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_41203005_b272_40c1_92ec_71a3cc01b219" reversible="true" id="R02326" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_41203005_b272_40c1_92ec_71a3cc01b219" reversible="false" id="R02326" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -49250,7 +49250,7 @@
           <speciesReference constant="true" species="C00052" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_d857daba_72a4_48f1_a9f0_a5e6451b2ec5" reversible="true" id="R03744" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_d857daba_72a4_48f1_a9f0_a5e6451b2ec5" reversible="false" id="R03744" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.11.26</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_531)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_531"/>
@@ -49330,7 +49330,7 @@
           <speciesReference constant="true" species="C00430" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_85fccbdb_06a8_4d07_ade6_270541559006" reversible="false" id="R01209" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_85fccbdb_06a8_4d07_ade6_270541559006" reversible="false" id="R01209" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.2.1.9</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545860_1_54) or (evm_model_KI545892_1_162)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -49357,7 +49357,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_d60c6d8e_5477_4362_8dff_c244955aef1a" reversible="false" id="R01395" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_d60c6d8e_5477_4362_8dff_c244955aef1a" reversible="false" id="R01395" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.2.2;6.3.5.5</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545859_1_170) or (evm_model_KI545868_1_94) or (evm_model_KI545865_1_9) or (evm_model_KI545852_1_131)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -49413,7 +49413,7 @@
           <speciesReference constant="true" species="C00004" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_6852f264_f3e9_48bf_9108_9e5265f13b82" reversible="false" id="R03004" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_6852f264_f3e9_48bf_9108_9e5265f13b82" reversible="false" id="R03004" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.6.1.22;3.6.1.9</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545868_1_48) or (evm_model_KI545868_1_48) or (evm_model_KI545891_1_283)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -49441,7 +49441,7 @@
           <speciesReference constant="true" species="C00020" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_2ae76cc4_21c1_4978_8939_1e7a38cc6331" reversible="true" id="R10948" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_2ae76cc4_21c1_4978_8939_1e7a38cc6331" reversible="false" id="R10948" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.5.5</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545868_1_94) or (evm_model_KI545865_1_9) or (evm_model_KI545852_1_131)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -49470,7 +49470,7 @@
           <speciesReference constant="true" species="C20969" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_e8a95c19_fad9_42f7_896f_c4bdcd808ee4" reversible="false" id="R01005" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_e8a95c19_fad9_42f7_896f_c4bdcd808ee4" reversible="false" id="R01005" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.4.1.117</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_185)</html:p><html:p>PROP PRIAM_probability=0.5199999809265137</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_185"/>
@@ -49526,7 +49526,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_4ef50938_4b0e_4ba6_813c_c5b103063846" reversible="true" id="R01011" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_4ef50938_4b0e_4ba6_813c_c5b103063846" reversible="false" id="R01011" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.29</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_121)</html:p><html:p>PROP PRIAM_probability=0.949999988079071</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_121"/>
@@ -49659,7 +49659,7 @@
           <speciesReference constant="true" species="C00014" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_e89b6aec_2c38_486e_8437_8c3dee49d520" reversible="false" id="R01909" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_e89b6aec_2c38_486e_8437_8c3dee49d520" reversible="false" id="R01909" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.35</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_133)</html:p><html:p>PROP PRIAM_probability=0.9300000071525574</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545891_1_133"/>
@@ -49815,7 +49815,7 @@
           <speciesReference constant="true" species="C00636" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_e7fe1693_4ff3_457a_b9e2_480c4c974afc" reversible="false" id="R00698" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_e7fe1693_4ff3_457a_b9e2_480c4c974afc" reversible="false" id="R00698" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.11.1.21</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545868_1_86)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545868_1_86"/>
@@ -49866,7 +49866,7 @@
           <speciesReference constant="true" species="C00005" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a65a5706_9c42_4316_abf1_c70b73f7b92b" reversible="true" id="R02331" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a65a5706_9c42_4316_abf1_c70b73f7b92b" reversible="false" id="R02331" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -49895,7 +49895,7 @@
           <speciesReference constant="true" species="C00460" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_79d7e71e_5bad_45b8_9dbd_5946baa86e90" reversible="false" id="R00720" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_79d7e71e_5bad_45b8_9dbd_5946baa86e90" reversible="false" id="R00720" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.6.1.19;3.6.1.8</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_588)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_588"/>
@@ -49948,7 +49948,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_12f449e8_ebea_45bf_8f6a_ad1383e95d54" reversible="true" id="R00943" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_12f449e8_ebea_45bf_8f6a_ad1383e95d54" reversible="false" id="R00943" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.4.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545893_1_67)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545893_1_67"/>
@@ -50024,7 +50024,7 @@
           <speciesReference constant="true" species="C00279" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_170269e3_cde6_4d81_978f_5232f5237eee" reversible="true" id="R04358" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_170269e3_cde6_4d81_978f_5232f5237eee" reversible="false" id="R04358" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.11.23</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545893_1_254) or (evm_model_KI545864_1_39)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -50052,7 +50052,7 @@
           <speciesReference constant="true" species="C04395" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9ae94d4e_35b2_4897_b6b0_9d116540bd16" reversible="true" id="R02090" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9ae94d4e_35b2_4897_b6b0_9d116540bd16" reversible="false" id="R02090" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.12;2.7.4.8</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_31)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545892_1_31"/>
@@ -50132,7 +50132,7 @@
           <speciesReference constant="true" species="C00117" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1163ac30_bec5_42d5_b06b_3c426dd23e85" reversible="false" id="R00104" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1163ac30_bec5_42d5_b06b_3c426dd23e85" reversible="false" id="R00104" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.23</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545856_1_45) or (evm_model_KI545873_1_521)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -50188,7 +50188,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_7c5636f6_af42_4aba_ba8b_51e761628df4" reversible="true" id="R03876" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_7c5636f6_af42_4aba_ba8b_51e761628df4" reversible="false" id="R03876" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.2.19</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_29) or (evm_model_KI545852_1_29) or (evm_model_KI545873_1_757) or (evm_model_KI545894_1_262)</html:p><html:p>PROP PRIAM_probability=0.8299999833106995</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -50219,7 +50219,7 @@
           <speciesReference constant="true" species="C03635" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9dc18c36_f2dd_4db8_bd1f_fb57a3073538" reversible="false" id="R00197" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9dc18c36_f2dd_4db8_bd1f_fb57a3073538" reversible="false" id="R00197" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.1.2.4</html:p><html:p>PREDICTION_TYPE: GF_FN1</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_104)</html:p><html:p>PROP PRIAM_probability=0.23999999463558197</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -50369,7 +50369,7 @@
           <speciesReference constant="true" species="C00020" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_7c30180e_ef37_49eb_a5fc_635819a7c7a4" reversible="false" id="R00621" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_7c30180e_ef37_49eb_a5fc_635819a7c7a4" reversible="false" id="R00621" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.4.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545853_1_151)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545853_1_151"/>
@@ -50419,7 +50419,7 @@
           <speciesReference constant="true" species="C00059" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_c7fa4f73_79b5_419e_8b21_3f2c3ff3c0c0" reversible="true" id="R01724" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_c7fa4f73_79b5_419e_8b21_3f2c3ff3c0c0" reversible="false" id="R01724" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.4.21</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545853_1_149)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545853_1_149"/>
@@ -50525,7 +50525,7 @@
           <speciesReference constant="true" species="C05923" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_b2ad7643_b379_41f9_804d_2bbd6922502c" reversible="true" id="R04144" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_b2ad7643_b379_41f9_804d_2bbd6922502c" reversible="false" id="R04144" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.4.13</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_795)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_795"/>
@@ -50661,7 +50661,7 @@
           <speciesReference constant="true" species="C00492" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_baedacbd_0de8_4cc8_a20a_29483ce72722" reversible="true" id="R00331" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_baedacbd_0de8_4cc8_a20a_29483ce72722" reversible="false" id="R00331" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -50767,7 +50767,7 @@
           <speciesReference constant="true" species="C00118" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_ee37f359_a1a1_413d_b585_7a9396c69fd5" reversible="true" id="R00129" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_ee37f359_a1a1_413d_b585_7a9396c69fd5" reversible="false" id="R00129" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.2.1.93</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_44) or (evm_model_KI545884_1_44)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -50840,7 +50840,7 @@
           <speciesReference constant="true" species="C04006" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_488da9c7_523c_4a27_a802_7b3b14b0c5c3" reversible="false" id="R10052" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_488da9c7_523c_4a27_a802_7b3b14b0c5c3" reversible="false" id="R10052" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.1.1.85</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_175) or (evm_model_KI545859_1_158)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -51006,7 +51006,7 @@
           <speciesReference constant="true" species="C01165" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_2af3b140_7fce_4b20_b33e_09e588e7d1c6" reversible="true" id="R09726" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_2af3b140_7fce_4b20_b33e_09e588e7d1c6" reversible="false" id="R09726" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.7.75</html:p><html:p>PREDICTION_TYPE: GF_FN2</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545868_1_53)</html:p><html:p>PROP PRIAM_probability=0.05999999865889549</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -51108,7 +51108,7 @@
           <speciesReference constant="true" species="C00035" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_645b79af_2ee1_4e12_85e8_207e33e6acf3" reversible="false" id="R02474" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_645b79af_2ee1_4e12_85e8_207e33e6acf3" reversible="false" id="R02474" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.5.1.22</html:p><html:p>PREDICTION_TYPE: GF_ORPHAN</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -51130,7 +51130,7 @@
           <speciesReference constant="true" species="C00099" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9c2c2ad8_85ab_47ff_9460_2f50f41e59a3" reversible="true" id="R01954" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9c2c2ad8_85ab_47ff_9460_2f50f41e59a3" reversible="false" id="R01954" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.4.5</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545857_1_174)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545857_1_174"/>
@@ -51157,7 +51157,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_ed58158d_bb9b_4199_996e_e42dc42893bf" reversible="false" id="R07456" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_ed58158d_bb9b_4199_996e_e42dc42893bf" reversible="false" id="R07456" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.3.3.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545861_1_103) or (evm_model_KI545868_1_103)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -51213,7 +51213,7 @@
           <speciesReference constant="true" species="C00363" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9a9e5c09_8691_462e_af26_ab8506366fe2" reversible="false" id="R04866" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9a9e5c09_8691_462e_af26_ab8506366fe2" reversible="false" id="R04866" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.1.1.43;2.1.1.59;2.1.1.60</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_74) or (evm_model_KI545873_1_515) or (evm_model_KI545851_1_419) or (evm_model_KI545884_1_388) or (evm_model_KI545864_1_56) or (evm_model_KI545891_1_129) or (evm_model_KI545894_1_141)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -51272,7 +51272,7 @@
           <speciesReference constant="true" species="C05754" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_f195264a_b1b9_4e6f_ac2f_302d384e4f3e" reversible="false" id="R00209" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_f195264a_b1b9_4e6f_ac2f_302d384e4f3e" reversible="false" id="R00209" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.4.1;1.8.1.4;2.3.1.12</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_352) or (evm_model_KI545851_1_280) or (evm_model_KI545873_1_567) or (evm_model_KI545873_1_567) or (evm_model_KI545863_1_120) or (evm_model_KI545861_1_134)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -51334,7 +51334,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="2"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_d0299a84_a753_435c_ae72_dd3c95163567" reversible="true" id="R10288" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_d0299a84_a753_435c_ae72_dd3c95163567" reversible="false" id="R10288" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.2.1.93</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_44) or (evm_model_KI545884_1_44)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -51549,7 +51549,7 @@
           <speciesReference constant="true" species="C06135" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_c949881d_8664_43eb_ade2_b7bcce4173b5" reversible="true" id="R00405" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_c949881d_8664_43eb_ade2_b7bcice4173b5" reversible="false" id="R00405" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.2.1.5</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_384) or (evm_model_KI545862_1_232)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -51653,7 +51653,7 @@
           <speciesReference constant="true" species="C00086" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_92b97fd5_7acf_400a_89d6_5518dccdc785" reversible="false" id="R03469" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_92b97fd5_7acf_400a_89d6_5518dccdc785" reversible="false" id="R03469" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.68</html:p><html:p>PREDICTION_TYPE: GF_FN1</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545861_1_88)</html:p><html:p>PROP PRIAM_probability=0.3700000047683716</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -51864,7 +51864,7 @@
           <speciesReference constant="true" species="C05751" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_51b2832d_836d_4848_bf7c_814e29b17f3b" reversible="false" id="R02473" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_51b2832d_836d_4848_bf7c_814e29b17f3b" reversible="false" id="R02473" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.2.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_280)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545884_1_280"/>
@@ -52046,7 +52046,7 @@
           <speciesReference constant="true" species="C00024" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_13b3fba1_c80b_4cbd_a65a_a60cbec7f817" reversible="false" id="R02746" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_13b3fba1_c80b_4cbd_a65a_a60cbec7f817" reversible="false" id="R02746" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.1.5</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_191) or (evm_model_KI545873_1_372)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -52130,7 +52130,7 @@
           <speciesReference constant="true" species="C00097" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_df331f38_5b43_4292_9dae_7b4580440bef" reversible="false" id="R08360" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_df331f38_5b43_4292_9dae_7b4580440bef" reversible="false" id="R08360" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.11.1.-;1.11.1.15</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_126) or (evm_model_KI545857_1_152) or (evm_model_KI545893_1_246) or (evm_model_KI545866_1_50)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -52290,7 +52290,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_aa4f8145_f55c_4b26_b388_f65f8e3ceaaf" reversible="true" id="R00239" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_aa4f8145_f55c_4b26_b388_f65f8e3ceaaf" reversible="false" id="R00239" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.2.11</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_232)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_232"/>
@@ -52315,7 +52315,7 @@
           <speciesReference constant="true" species="C00008" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_18b41bbe_64dd_40ea_a1b5_bad774b7a8d4" reversible="true" id="R02093" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_18b41bbe_64dd_40ea_a1b5_bad774b7a8d4" reversible="false" id="R02093" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -52397,7 +52397,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_edfbd3d7_b93a_4dd8_8a17_fa4c31e81e9b" reversible="true" id="R00575" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_edfbd3d7_b93a_4dd8_8a17_fa4c31e81e9b" reversible="false" id="R00575" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.5.5</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545868_1_94) or (evm_model_KI545865_1_9) or (evm_model_KI545852_1_131)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -52455,7 +52455,7 @@
           <speciesReference constant="true" species="C00035" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_af069f1f_659c_4d6d_8118_6a73ab00a12f" reversible="false" id="R00944" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_af069f1f_659c_4d6d_8118_6a73ab00a12f" reversible="false" id="R00944" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.5.1.10</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_248)</html:p><html:p>PROP PRIAM_probability=0.9599999785423279</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_248"/>
@@ -52480,7 +52480,7 @@
           <speciesReference constant="true" species="C00101" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_cf258ffd_6493_40c9_8f2f_beda7bb001b2" reversible="false" id="R04862" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_cf258ffd_6493_40c9_8f2f_beda7bb001b2" reversible="false" id="R04862" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.1.1.286;1.1.1.87</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545857_1_175) or (evm_model_KI545873_1_91)</html:p><html:p>PROP PRIAM_probability=0.7200000286102295</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -52536,7 +52536,7 @@
           <speciesReference constant="true" species="C00014" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a7a8083f_6e15_4584_9ee9_66f376d6d994" reversible="false" id="R02549" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a7a8083f_6e15_4584_9ee9_66f376d6d994" reversible="false" id="R02549" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.1.-;1.2.1.19;1.2.1.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545891_1_37) or (evm_model_KI545852_1_108) or (evm_model_KI545891_1_306) or (evm_model_KI545859_1_170)</html:p><html:p>PROP PRIAM_probability=0.7900000214576721</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -52645,7 +52645,7 @@
           <speciesReference constant="true" species="C00021" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_3cba88f8_d8af_4bbc_938b_58e266d5cd8d" reversible="false" id="R08549" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_3cba88f8_d8af_4bbc_938b_58e266d5cd8d" reversible="false" id="R08549" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 1.2.4.2;1.8.1.4;2.3.1.61</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545884_1_352) or (evm_model_KI545862_1_82) or (evm_model_KI545853_1_151)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -52796,7 +52796,7 @@
           <speciesReference constant="true" species="C00015" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_696fb8af_5070_4871_b99d_65bf3b7293fc" reversible="true" id="R00529" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_696fb8af_5070_4871_b99d_65bf3b7293fc" reversible="false" id="R00529" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.7.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_158)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_158"/>
@@ -53047,7 +53047,7 @@
           <speciesReference constant="true" species="C00013" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_8f4455c1_dbff_487b_b9e0_fe4c810c2977" reversible="true" id="R04509" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_8f4455c1_dbff_487b_b9e0_fe4c810c2977" reversible="false" id="R04509" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.7</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_158)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_158"/>
@@ -53122,7 +53122,7 @@
           <speciesReference constant="true" species="C01083" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_0a46c26b_3106_49a8_b403_92ca9f32a075" reversible="true" id="R00352" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_0a46c26b_3106_49a8_b403_92ca9f32a075" reversible="false" id="R00352" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.3.3.8</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545873_1_412)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545873_1_412"/>
@@ -53448,7 +53448,7 @@
           <speciesReference constant="true" species="C05382" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_ac9d73f2_b648_4922_92d7_6e89d5a5bdde" reversible="false" id="R00191" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_ac9d73f2_b648_4922_92d7_6e89d5a5bdde" reversible="false" id="R00191" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 3.1.4.17;3.1.4.53</html:p><html:p>PREDICTION_TYPE: GF_FN1</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_7) or (evm_model_KI545859_1_125)</html:p><html:p>PROP PRIAM_probability=0.0</html:p></notes>
         <annotation>
           <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
@@ -53493,7 +53493,7 @@
           <speciesReference constant="true" species="C00332" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_3cbb880a_0c37_45f6_8f63_374c988d41cc" reversible="true" id="R00124" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_3cbb880a_0c37_45f6_8f63_374c988d41cc" reversible="false" id="R00124" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -53764,7 +53764,7 @@
           <speciesReference constant="true" species="C00086" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_5abae6bd_8612_43e1_ba09_0a9293613381" reversible="false" id="R00590" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_5abae6bd_8612_43e1_ba09_0a9293613381" reversible="false" id="R00590" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.3.1.17</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_53)</html:p><html:p>PROP PRIAM_probability=0.9599999785423279</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_53"/>
@@ -53813,7 +53813,7 @@
           <speciesReference constant="true" species="C00157" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_80bbeb58_aa49_426c_9476_80d49699e3a4" reversible="false" id="R00257" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_80bbeb58_aa49_426c_9476_80d49699e3a4" reversible="false" id="R00257" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.5.1</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_142)</html:p><html:p>PROP PRIAM_probability=0.9700000286102295</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_142"/>
@@ -53943,7 +53943,7 @@
           <speciesReference constant="true" species="C00010" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_53981661_514e_4e72_97d4_b5176be3f0cf" reversible="true" id="R01280" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_53981661_514e_4e72_97d4_b5176be3f0cf" reversible="false" id="R01280" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.2.1.3</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545861_1_20) or (evm_model_KI545859_1_11)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -54120,7 +54120,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_6322156c_f504_4455_9454_9e6954cc2905" reversible="true" id="R03471" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_6322156c_f504_4455_9454_9e6954cc2905" reversible="false" id="R03471" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.49</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_158)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_158"/>
@@ -54171,7 +54171,7 @@
           <speciesReference constant="true" species="C00004" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_9e67862b_e330_459e_9c5d_afefe30dcc18" reversible="false" id="R00483" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_9e67862b_e330_459e_9c5d_afefe30dcc18" reversible="false" id="R00483" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.1.1;6.3.5.4</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545895_1_103) or (evm_model_KI545851_1_326)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -54226,7 +54226,7 @@
           <speciesReference constant="true" species="C00104" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_a734af25_ef7c_4577_a2ec_a49b109159c9" reversible="true" id="R00341" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_a734af25_ef7c_4577_a2ec_a49b109159c9" reversible="false" id="R00341" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.1.1.49</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545858_1_128)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545858_1_128"/>
@@ -54306,7 +54306,7 @@
           <speciesReference constant="true" species="C01929" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1fb39312_3884_4283_8f1d_b1e956c6d2b6" reversible="true" id="R00570" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1fb39312_3884_4283_8f1d_b1e956c6d2b6" reversible="false" id="R00570" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.4.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545892_1_148) or (evm_model_KI545855_1_118) or (evm_model_KI545891_1_28)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -54335,7 +54335,7 @@
           <speciesReference constant="true" species="C00063" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_24fa097b_e2f1_483f_ad49_46115d328d51" reversible="false" id="R09944" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_24fa097b_e2f1_483f_ad49_46115d328d51" reversible="false" id="R09944" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.174</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545854_1_191)</html:p><html:p>PROP PRIAM_probability=0.5699999928474426</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_191"/>
@@ -54435,7 +54435,7 @@
           <speciesReference constant="true" species="C00014" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_db391a60_f636_4bce_9b04_6861d9eb952c" reversible="false" id="R02480" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_db391a60_f636_4bce_9b04_6861d9eb952c" reversible="false" id="R02480" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 4.4.1.17</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545862_1_5)</html:p><html:p>PROP PRIAM_probability=0.9599999785423279</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545862_1_5"/>
@@ -54459,7 +54459,7 @@
           <speciesReference constant="true" species="C00524" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_084eafba_d2c0_458c_ade8_9b5c41d2e28d" reversible="true" id="R01771" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_084eafba_d2c0_458c_ade8_9b5c41d2e28d" reversible="false" id="R01771" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.1.39</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545856_1_105) or (evm_model_KI545856_1_105)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
@@ -54486,7 +54486,7 @@
           <speciesReference constant="true" species="C00008" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_07f8c09b_f17f_4127_b2eb_5c2551bea8ed" reversible="false" id="R02300" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_07f8c09b_f17f_4127_b2eb_5c2551bea8ed" reversible="false" id="R02300" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.1.2.10</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_449)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545851_1_449"/>
@@ -54656,7 +54656,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_1f6de4a4_f6f1_45b8_9f81_cfbe676c25a5" reversible="true" id="R03449" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_1f6de4a4_f6f1_45b8_9f81_cfbe676c25a5" reversible="false" id="R03449" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.7.11.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545864_1_24)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545864_1_24"/>
@@ -54754,7 +54754,7 @@
           <speciesReference constant="true" species="C00011" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_0dd5b829_27af_48ff_bd12_9127b434dca5" reversible="true" id="R00177" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_0dd5b829_27af_48ff_bd12_9127b434dca5" reversible="false" id="R00177" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.5.1.6</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545854_1_32)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545854_1_32"/>
@@ -54864,7 +54864,7 @@
           <speciesReference constant="true" species="C00438" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_72f95240_2bb8_4e10_962e_2d2c52ed5626" reversible="false" id="R04405" fast="false" fbc:lowerFluxBound="cobra_default_lb" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_72f95240_2bb8_4e10_962e_2d2c52ed5626" reversible="false" id="R04405" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 2.1.1.14</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545851_1_575) or (evm_model_KI545851_1_575)</html:p><html:p>PROP PRIAM_probability=1.0</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:or>
