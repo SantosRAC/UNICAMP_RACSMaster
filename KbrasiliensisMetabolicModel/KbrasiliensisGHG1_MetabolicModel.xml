@@ -46141,7 +46141,7 @@
           <speciesReference constant="true" species="C00001" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction metaid="_eba3760e_7099_4707_a8b7_197050485c6d" reversible="cobra_0_bound" id="R00253" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
+      <reaction metaid="_eba3760e_7099_4707_a8b7_197050485c6d" reversible="false" id="R00253" fast="false" fbc:lowerFluxBound="cobra_0_bound" fbc:upperFluxBound="cobra_default_ub">
 <notes><html:p>CLASSIFICATION: 6.3.1.2</html:p><html:p>PREDICTION_TYPE: PRIAM_EC</html:p><html:p>GENE ASSOCIATION: (evm_model_KI545852_1_112)</html:p><html:p>PROP PRIAM_probability=0.9800000190734863</html:p></notes>
 <fbc:geneProductAssociation>
  <fbc:geneProductRef fbc:geneProduct="G_evm_model_KI545852_1_112"/>
