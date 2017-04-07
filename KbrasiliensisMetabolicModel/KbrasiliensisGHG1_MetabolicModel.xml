@@ -10352,6 +10352,20 @@
         </rdf:RDF>
        </annotation>
       </species>
+      <species metaid="racs_addedSpecies_0787" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="D-Xylose" id="C00181">
+       <notes><html:p>COMPOUND_ID: C00181</html:p></notes>
+       <annotation>
+        <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:bqbiol="http://biomodels.net/biology-qualifiers/" xmlns:bqmodel="http://biomodels.net/model-qualifiers/">
+         <rdf:Description rdf:about="racs_addedSpecies_0787">
+          <bqbiol:is>
+           <rdf:Bag>
+            <rdf:li rdf:resource="http://identifiers.org/kegg.compound/C00181"/>
+           </rdf:Bag>
+          </bqbiol:is>
+         </rdf:Description>
+        </rdf:RDF>
+       </annotation>
+      </species>
       <species metaid="racs_addedSpecies_0001" boundaryCondition="false" compartment="UNK_COMP" constant="false" hasOnlySubstanceUnits="false" name="Ergosterol" id="C01694">
        <notes><html:p>COMPOUND_ID: C01694</html:p></notes>
        <annotation>
