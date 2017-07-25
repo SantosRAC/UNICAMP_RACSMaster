@@ -99,9 +99,15 @@ while(<EVMGFFFILE>){
   }
   if($addInfoField =~ /Parent=/){
    unless($feattype eq 'gene'){
-    $featIdentParent=$addInfoField;
-    $featIdentParent =~ s/Parent=//g;
-    $featuresInfo{$featIdentifier}{'parent'}=$featIdentParent;
+    if($feattype eq 'exon'){
+     $featIdentParent=$addInfoField;
+     $featIdentParent =~ s/Parent=//g;
+     $featuresInfo{$featIdentifier}{'parent'}=$featIdentParent;
+    } else {
+     $featIdentParent=$addInfoField;
+     $featIdentParent =~ s/Parent=//g;
+     $featuresInfo{$featIdentifier}{'parent'}=$featIdentParent;
+    }
    }
   }
  }
@@ -117,6 +123,8 @@ while(<EVMGFFFILE>){
 }
 
 close(EVMGFFFILE);
+
+my %parent2exon;
 
 foreach my $seq (@sequences){
  print ">$seq\n";
@@ -134,8 +142,10 @@ foreach my $seq (@sequences){
     print "			gene	$featuresInfo{$feat2}{'parent'}\n";
     if($interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}){
      foreach my $note (@{$interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}}){
-      print "			note	$note\n";
+      print "			product	$note\n";
      }
+    } else {
+     print "			note	hypothetical protein\n";
     }
    }
   } else {
@@ -144,15 +154,32 @@ foreach my $seq (@sequences){
    } else {
     print "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'feattype'}\n";
    }
-   if($featuresInfo{$feat}{'feattype'} eq 'gene'){
+   if($featuresInfo{$feat}{'feattype'} eq 'exon'){
+    my $feat2=$featuresInfo{$feat}{'parent'};
+    print "			gene	$featuresInfo{$feat2}{'parent'}\n";
+    if($interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}){
+     foreach my $note (@{$interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}}){
+      print "			product $note\n";
+     }
+    } else {
+     print "			note	hypothetical protein\n";
+    }
+    if($parent2exon{$featuresInfo{$feat}{'parent'}}){
+     $parent2exon{$featuresInfo{$feat}{'parent'}}++;
+     print "			number	$parent2exon{$featuresInfo{$feat}{'parent'}}\n";
+    } else {
+     $parent2exon{$featuresInfo{$feat}{'parent'}}=1;
+     print "			number	$parent2exon{$featuresInfo{$feat}{'parent'}}\n";
+    }
+   } elsif($featuresInfo{$feat}{'feattype'} eq 'gene'){
     print "			gene	$feat\n";
-   } elsif ($featuresInfo{$feat}{'feattype'} eq 'mRNA'){
-    print "			product	XXXX\n";
-   } elsif ($featuresInfo{$feat}{'feattype'} eq 'exon') {
-    print "			number XXX\n";
+
+   } elsif($featuresInfo{$feat}{'feattype'} eq 'mRNA') {
+
    } else {
-    die "Something wrong... $feat\n";
+    die "Something wrong...\n";
    }
   }
  }
 }
+
