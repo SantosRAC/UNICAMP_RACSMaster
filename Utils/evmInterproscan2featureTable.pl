@@ -5,11 +5,13 @@ use strict;
 
 my $evmGffFile = $ARGV[0];
 my $interproScanFile = $ARGV[1];
-my $tblOut = $ARGV[2];
+my $scafLengthsFile = $ARGV[2];
+my $tblOut = $ARGV[3];
 
 # Information InterProScan
 
 my %interProScanAnnotation;
+my %interProScanAnnotDbXref;
 
 open(INTERPROSCAN,$interproScanFile);
 
@@ -18,7 +20,7 @@ while(<INTERPROSCAN>){
  #evm.model.KI545862.1.400        c1932f5ac3f6f4274218e5d6b2427aa4        728     Phobius TRANSMEMBRANE   Region of a membrane-bound protein predicted to be embedded in the membrane.    367     384     -       T       07-04-2016
  my @fields=split(/\t/,$_);
  # Gene identifiers have 'TU', not 'model'
- my($gene,undef,undef,undef,undef,$desc,undef,undef,undef,undef,undef)=split(/\t/,$_);
+ my($gene,undef,undef,$db,$dbID,$desc,undef,undef,undef,undef,undef)=split(/\t/,$_);
  $gene =~ s/\.model\./\.TU\./g;
  $gene =~ s/\./\_/g;
 
@@ -155,6 +157,17 @@ while(<INTERPROSCAN>){
    @{$interProScanAnnotation{$gene}}=($desc);
   }
  }
+
+ unless (($dbID eq /^$/) or ($db eq /^$/)){
+  my $tmpDBXRef="$db"."\t"."$dbID";
+  if($interProScanAnnotDbXref{$gene}){
+   unless($tmpDBXRef ~~ @{$interProScanAnnotDbXref{$gene}}){
+    push(@{$interProScanAnnotDbXref{$gene}},$tmpDBXRef);
+   }
+  }else{
+   @{$interProScanAnnotDbXref{$gene}}=($tmpDBXRef);
+  }
+ }
 }
 
 close(INTERPROSCAN);
@@ -166,11 +179,29 @@ close(INTERPROSCAN);
 #KI545851.1      EVM     exon    695     2101    .       -       .       ID=evm.model.KI545851.1.1.exon1;Parent=evm.model.KI545851.1.1
 #KI545851.1      EVM     CDS     695     2101    .       -       0       ID=cds.evm.model.KI545851.1.1;Parent=evm.model.KI545851.1.1
 
+# Information about sequences (identifier in FASTA and length)
 my @sequences=();
+my %seqLengthInit;
+my %seqLengthEnd;
+
+# 
 my @features=();
 my %featuresInfo;
 my %CDScount;
 my %featuresSeqs;
+
+open(SEQFILE,$scafLengthsFile);
+
+while(<SEQFILE>){
+ chomp;
+ my ($seq,$seqInit,$seqEnd)=split(/\t/,$_);
+ die "There are two sequences ($seq) with the same identifier in length file!\n" if ($seq ~~ @sequences);
+ push(@sequences,$seq);
+ $seqLengthInit{$seq}=$seqInit;
+ $seqLengthEnd{$seq}=$seqEnd;
+}
+
+close(SEQFILE);
 
 open(EVMGFFFILE,$evmGffFile);
 
@@ -179,9 +210,7 @@ while(<EVMGFFFILE>){
  next if(/^#/);
  my ($seq,$source,$feattype,$init_pos,$end_pos,undef,$strand,$codon_start,$additionalInfo)=split(/\t/,$_);
  die unless(scalar(split(/\t/,$_)) == 9);
- unless($seq ~~ @sequences){
-  push(@sequences,$seq);
- }
+ die unless($seq ~~ @sequences);
  my @addInfoFields=split(/;/,$additionalInfo);
 
  my $featIdentifier='';
@@ -258,6 +287,9 @@ print TBLFILE ">Features	SeqID	table_name\n";
 
 foreach my $seq (@sequences){
  print TBLFILE ">Feature	$seq	Table1\n";
+ print TBLFILE "$seqLengthInit{$seq}	 $seqLengthEnd{$seq}	source\n";
+ print TBLFILE "			mol_type	genomic DNA\n";
+ print TBLFILE "			organism	Kalmanozyma brasiliensis GHG001\n";
  foreach my $feat (@{$featuresSeqs{$seq}}){
   $feat=~s/\./\_/g;
 
@@ -288,23 +320,36 @@ foreach my $seq (@sequences){
     } else {
      print TBLFILE "			note	hypothetical protein\n";
     }
+    # Parsing db_xref information
+    if($interProScanAnnotDbXref{$featuresInfo{$feat2}{'parent'}}){
+     foreach my $db_xref (@{$interProScanAnnotDbXref{$featuresInfo{$feat2}{'parent'}}}){
+      my ($db,$dbID)=split(/\t/,$db_xref);
+      print TBLFILE "			db_xref	$db:$dbID\n";
+     }
+    }
    }
   } # Closing CDS
 
   elsif ($featuresInfo{$feat}{'feattype'} eq 'gene') {
-   if ($featuresInfo{$feat}{'strand'} eq '-'){
-    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\tsource\n";
-   } else {
-    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\tsource\n";
-   }
    my $feat_preRemoved=$feat;
    $feat_preRemoved=~s/evm_TU_//g;
-   print TBLFILE "			gene	$feat_preRemoved\n";
-   print TBLFILE "			mol_type	genomic DNA\n";
-   print TBLFILE "			organism	Kalmanozyma brasiliensis GHG001\n";
    $locusCount++;
-   $gene2locusTag{$feat}="KALMBRA_".$locusCount;
-   print TBLFILE "			locus_tag	$gene2locusTag{$feat}\n";
+   my $final_locusTagCount='';
+   #old locus_tag has five numbers: '00098'
+   if (length($locusCount) == 1){
+    $final_locusTagCount='00000'.$locusCount;
+   } elsif (length($locusCount) == 2) {
+    $final_locusTagCount='0000'.$locusCount;
+   } elsif (length($locusCount) == 3) {
+    $final_locusTagCount='000'.$locusCount;
+   } elsif (length($locusCount) == 4) {
+    $final_locusTagCount='00'.$locusCount;
+   } elsif (length($locusCount) == 5) {
+    $final_locusTagCount='0'.$locusCount;
+   } else {
+    die "LOCUS TAG number (\$locusCount) seems to be above the allowed.\n";
+   }
+   $gene2locusTag{$feat}="PSEUBRA_".$final_locusTagCount;
    if ($featuresInfo{$feat}{'strand'} eq '-'){
     print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\tgene\n";
    } else {
