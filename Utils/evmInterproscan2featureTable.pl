@@ -25,7 +25,7 @@ while(<INTERPROSCAN>){
  $gene =~ s/\./\_/g;
 
  # Replace any problematic description (reported in disc.report)
- # tbl2ans run: ~/Software/tbl2asn/linux64.tbl2asn -p . -j "[organism=Kalmanozyma brasiliensis] [strain=GHG001]" -M n -y "Comment" -i GCA_000497045.1_PSEUBRA1_genomic.fna -Z disc.report -t template.sbt -V b
+ # tbl2asn run: ~/Software/tbl2asn/linux64.tbl2asn -p . -j "[organism=Kalmanozyma brasiliensis] [strain=GHG001]" -M n -y "Re-annotation of K. brasiliensis GHG001 including RNAseq experimental data" -i GCA_000497045.1_PSEUBRA1_genomic.fna -Z disc.report -t template.sbt -V b
 
  #FATAL: Remove organism from product name
  if($desc =~ /Animal heme peroxidase superfamily profile/){
