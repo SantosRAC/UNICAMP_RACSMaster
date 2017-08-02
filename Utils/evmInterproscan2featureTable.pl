@@ -47,6 +47,12 @@ while(<INTERPROSCAN>){
   $desc = 'Nuclease';
  }
 
+ # NCBI does not like features with more than 100 characters
+ if(length($desc) >= 100){
+  print "$gene: Feature with more than 100 characters. Renamed from \'$desc\' to \'hypothetical protein\'\n";
+  $desc = 'hypothetical protein';
+ } 
+
  #FATAL: Possible parsing error or incorrect formatting; remove inappropriate symbols
  # Features starting with '
  if(lc($desc) =~ /homeobox/){
@@ -65,12 +71,12 @@ while(<INTERPROSCAN>){
  }
  # features contains '@'
  if($desc =~ /\@/){
-  print "$gene: Found '\@'. Replaced \'$desc\' by 'hypothetical protein'\n";
+  print "$gene: Found '\@'. Renamed from \'$desc\' by 'hypothetical protein'\n";
   $desc = 'hypothetical protein';
  }
  #features starts with 'hypothetical protein' but not equals 'hypothetical protein'
  if(lc($desc) =~ /hypothetical protein/){
-  print "$gene: Replaced \'$desc\' by \'hypothetical protein\' in:\n$desc\n";
+  print "$gene: Renamed from \'$desc\' by \'hypothetical protein\' in:\n$desc\n";
   $desc = 'hypothetical protein';
  }
 
@@ -94,12 +100,17 @@ while(<INTERPROSCAN>){
 
  # Better 'hypothetical protein' than 'conserved protein'
  if(lc($desc) =~ /conserved protein/){
-  print "$gene: Renamed \'$desc\' to \'hypothetical protein\'\n";
+  print "$gene: Renamed from \'$desc\' to \'hypothetical protein\'\n";
   $desc='hypothetical protein';
  }
+ # NCBI does not like feature starting with 'region'
  if($desc =~ /Region of a membrane-bound protein/){
-  print "$gene: Renamed \'$desc\' to \'Membrane-bound protein\'\n";
+  print "$gene: Found 'region of a membrane-bound' at the beginning of the feature. Renamed from \'$desc\' to \'Membrane-bound protein\'\n";
   $desc='Membrane-bound protein';
+ }
+ if($desc =~ / gene /){
+  print "$gene: Found \'gene\'. Renamed from \'$desc\' to \'hypothetical protein\'\n";
+  $desc='hypothetical protein';
  }
 
  if($desc =~ /domain of unknown function/){
@@ -249,6 +260,7 @@ foreach my $seq (@sequences){
  print TBLFILE ">Feature	$seq	Table1\n";
  foreach my $feat (@{$featuresSeqs{$seq}}){
   $feat=~s/\./\_/g;
+
   if($featuresInfo{$feat}{'feattype'} eq 'CDS'){
    foreach my $cdsNum (keys $featuresInfo{$feat}{'CDS'}){
     if($featuresInfo{$feat}{'CDS'}{$cdsNum}{'strand'} eq '-'){
@@ -261,8 +273,9 @@ foreach my $seq (@sequences){
     $feat2 =~ s/cds\_//g;
     my $feat_preRemoved=$featuresInfo{$feat2}{'parent'};
     $feat_preRemoved=~s/evm_TU_//g;
-    print TBLFILE "			gene	$feat_preRemoved\n";
-    print TBLFILE "			protein_id	$feat_preRemoved\n";
+    #print TBLFILE "			gene	$feat_preRemoved\n";
+    print TBLFILE "			protein_id	gnl|BCE_CTBE|$feat_preRemoved\n";
+    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$feat_preRemoved\n";
     if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
      print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
     } else {
@@ -276,53 +289,84 @@ foreach my $seq (@sequences){
      print TBLFILE "			note	hypothetical protein\n";
     }
    }
-  } else {
+  } # Closing CDS
+
+  elsif ($featuresInfo{$feat}{'feattype'} eq 'gene') {
+   if ($featuresInfo{$feat}{'strand'} eq '-'){
+    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\tsource\n";
+   } else {
+    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\tsource\n";
+   }
+   my $feat_preRemoved=$feat;
+   $feat_preRemoved=~s/evm_TU_//g;
+   print TBLFILE "			gene	$feat_preRemoved\n";
+   print TBLFILE "			mol_type	genomic DNA\n";
+   print TBLFILE "			organism	Kalmanozyma brasiliensis GHG001\n";
+   $locusCount++;
+   $gene2locusTag{$feat}="KALMBRA_".$locusCount;
+   print TBLFILE "			locus_tag	$gene2locusTag{$feat}\n";
+   if ($featuresInfo{$feat}{'strand'} eq '-'){
+    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\tgene\n";
+   } else {
+    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\tgene\n";
+   }
+   print TBLFILE "			gene	$feat_preRemoved\n";   
+   print TBLFILE "			locus_tag	$gene2locusTag{$feat}\n";
+  } # Closing gene
+
+  elsif ($featuresInfo{$feat}{'feattype'} eq 'exon') {
    if ($featuresInfo{$feat}{'strand'} eq '-'){
     print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'feattype'}\n";
    } else {
     print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'feattype'}\n";
    }
-   if($featuresInfo{$feat}{'feattype'} eq 'exon'){
-    my $feat2=$featuresInfo{$feat}{'parent'};
-    my $feat_preRemoved=$featuresInfo{$feat2}{'parent'};
-    $feat_preRemoved=~s/evm_TU_//g;
+   my $feat2=$featuresInfo{$feat}{'parent'};
+   my $feat_preRemoved=$featuresInfo{$feat2}{'parent'};
+   $feat_preRemoved=~s/evm_TU_//g;
+   if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
+    print TBLFILE "			protein_id	gnl|BCE_CTBE|$feat_preRemoved\n";
+    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$feat_preRemoved\n";
+    print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
     print TBLFILE "			gene	$feat_preRemoved\n";
-    if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
-     print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
-    } else {
-     die "There is no LOCUS TAG for exon: $feat\n";
-    }
-    if($interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}){
-     foreach my $note (@{$interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}}){
-      print TBLFILE "			product $note\n";
-     }
-    } else {
-     print TBLFILE "			note	hypothetical protein\n";
-    }
-    if($parent2exon{$featuresInfo{$feat}{'parent'}}){
-     $parent2exon{$featuresInfo{$feat}{'parent'}}++;
-     print TBLFILE "			number	$parent2exon{$featuresInfo{$feat}{'parent'}}\n";
-    } else {
-     $parent2exon{$featuresInfo{$feat}{'parent'}}=1;
-     print TBLFILE "			number	$parent2exon{$featuresInfo{$feat}{'parent'}}\n";
-    }
-   } elsif($featuresInfo{$feat}{'feattype'} eq 'gene'){
-    my $feat_preRemoved=$feat;
-    $feat_preRemoved=~s/evm_TU_//g;
-    print TBLFILE "			gene	$feat_preRemoved\n";
-    $locusCount++;
-    $gene2locusTag{$feat}="KALMBRA_".$locusCount;
-    print TBLFILE "			locus_tag	$gene2locusTag{$feat}\n";
-   } elsif($featuresInfo{$feat}{'feattype'} eq 'mRNA') {
-    my $feat_preRemoved=$featuresInfo{$feat}{'parent'};
-    $feat_preRemoved=~s/evm_TU_//g;
-    print TBLFILE "			gene	$feat_preRemoved\n";
-    print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
    } else {
-    die "Something wrong...\n";
+    die "There is no LOCUS TAG for exon: $feat\n";
    }
+   if($interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}){
+    foreach my $note (@{$interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}}){
+     print TBLFILE "			product $note\n";
+    }
+   } else {
+    print TBLFILE "			note	hypothetical protein\n";
+   }
+   if($parent2exon{$featuresInfo{$feat}{'parent'}}){
+    $parent2exon{$featuresInfo{$feat}{'parent'}}++;
+    print TBLFILE "			number	$parent2exon{$featuresInfo{$feat}{'parent'}}\n";
+   } else {
+    $parent2exon{$featuresInfo{$feat}{'parent'}}=1;
+    print TBLFILE "			number	$parent2exon{$featuresInfo{$feat}{'parent'}}\n";
+   }
+  } # Closing exon
+
+
+  elsif ($featuresInfo{$feat}{'feattype'} eq 'mRNA') {
+   if ($featuresInfo{$feat}{'strand'} eq '-'){
+    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'feattype'}\n";
+   } else {
+    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'feattype'}\n";
+   }
+   my $feat_preRemoved=$featuresInfo{$feat}{'parent'};
+   $feat_preRemoved=~s/evm_TU_//g;
+   print TBLFILE "			gene	$feat_preRemoved\n";
+   print TBLFILE "			protein_id	gnl|BCE_CTBE|$feat_preRemoved\n";
+   print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$feat_preRemoved\n";
+   print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
   }
- }
+
+  else { # If it is not gene, mRNA, exon, or CDS: something is wrong!
+   die "Something wrong...\n";
+  }
+
+ } # Close the foreach feature
 }
 
 close(TBLFILE);
