@@ -6,12 +6,36 @@ use strict;
 my $evmGffFile = $ARGV[0];
 my $interproScanFile = $ARGV[1];
 my $scafLengthsFile = $ARGV[2];
-my $tblOut = $ARGV[3];
+my $gapNsFile = $ARGV[3]; # I got the ranges from the disc.report file.
+my $tblOut = $ARGV[4];
+
+# Information about gaps in sequences
+my %gapsInSeqs;
+my %numGapsInSeqs;
+
+open(GAPSFILE,$gapNsFile);
+
+while(<GAPSFILE>){
+ chomp;
+ my($seq,$init,$end)=split(/\t/,$_);
+ if($gapsInSeqs{$seq}){
+  $numGapsInSeqs{$seq}++;
+  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
+  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
+ } else {
+  $numGapsInSeqs{$seq}=1;
+  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
+  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
+ }
+}
+
+close(GAPSFILE);
 
 # Information InterProScan
 
 my %interProScanAnnotation;
 my %interProScanAnnotDbXref;
+my %interProScanECcode;
 
 open(INTERPROSCAN,$interproScanFile);
 
@@ -78,8 +102,13 @@ while(<INTERPROSCAN>){
  }
  #features starts with 'hypothetical protein' but not equals 'hypothetical protein'
  if(lc($desc) =~ /hypothetical protein/){
-  print "$gene: Renamed from \'$desc\' by \'hypothetical protein\' in:\n$desc\n";
+  print "$gene: Renamed from \'$desc\' to \'hypothetical protein\' in:\n$desc\n";
   $desc = 'hypothetical protein';
+ }
+ # Features with ';'
+ if($desc eq 'ARF-like small GTPases; ARF, ADP-ribosylation factor'){
+  print "$gene: Renamed from \'$desc\' to \'ARF, ADP-ribosylation factor\'\n";
+  $desc = 'ARF, ADP-ribosylation factor';
  }
 
  # Use American spelling
@@ -147,25 +176,45 @@ while(<INTERPROSCAN>){
   print "Renamed ($gene): \'$desc\' to \'Zinc finger protein\'\n";
   $desc='Zinc finger protein';
  }
- 
+
+ # Add description to gene
+ # If available, include E.C. number 
  unless ($desc eq /^$/){
-  if($interProScanAnnotation{$gene}){
-   unless($desc ~~ @{$interProScanAnnotation{$gene}}){
-    push(@{$interProScanAnnotation{$gene}},$desc);
+  if(($desc =~ /(EC \d+\.\d+\.\d+\.\d+)/) or ($desc =~ /(EC \d+\.\d+\.\d+\.\-)/)){
+   $desc = $1;
+   $desc =~ s/EC //g; 
+   if($interProScanECcode{$gene}){
+    unless($desc ~~ @{$interProScanECcode{$gene}}){
+     push(@{$interProScanECcode{$gene}},$desc);
+    }
+   } else {
+    @{$interProScanECcode{$gene}}=($desc);
    }
-  }else{
-   @{$interProScanAnnotation{$gene}}=($desc);
+  } else {
+   if($interProScanAnnotation{$gene}){
+    unless($desc ~~ @{$interProScanAnnotation{$gene}}){
+     push(@{$interProScanAnnotation{$gene}},$desc);
+    }
+   }else{
+    @{$interProScanAnnotation{$gene}}=($desc);
+   }
   }
  }
 
+ # Databases must be listed here: https://www.ncbi.nlm.nih.gov/genbank/collab/db_xref/
+ # Currently (August 2017), the following DBs are allowed: PFAM, TIGRFAM
+ # In the .tbl file the db_ref must be capitalized
  unless (($dbID eq /^$/) or ($db eq /^$/)){
-  my $tmpDBXRef="$db"."\t"."$dbID";
-  if($interProScanAnnotDbXref{$gene}){
-   unless($tmpDBXRef ~~ @{$interProScanAnnotDbXref{$gene}}){
-    push(@{$interProScanAnnotDbXref{$gene}},$tmpDBXRef);
+  if((uc($db) eq 'PFAM') or (uc($db) eq 'TIGRFAM')){
+   $db = uc($db);
+   my $tmpDBXRef="$db"."\t"."$dbID";
+   if($interProScanAnnotDbXref{$gene}){
+    unless($tmpDBXRef ~~ @{$interProScanAnnotDbXref{$gene}}){
+     push(@{$interProScanAnnotDbXref{$gene}},$tmpDBXRef);
+    }
+   }else{
+    @{$interProScanAnnotDbXref{$gene}}=($tmpDBXRef);
    }
-  }else{
-   @{$interProScanAnnotDbXref{$gene}}=($tmpDBXRef);
   }
  }
 }
@@ -289,7 +338,16 @@ foreach my $seq (@sequences){
  print TBLFILE ">Feature	$seq	Table1\n";
  print TBLFILE "$seqLengthInit{$seq}	 $seqLengthEnd{$seq}	source\n";
  print TBLFILE "			mol_type	genomic DNA\n";
- print TBLFILE "			organism	Kalmanozyma brasiliensis GHG001\n";
+ print TBLFILE "			organism	Kalmanozyma brasiliensis\n";
+
+ # Print gaps (assembly_gap)
+ foreach my $gapnum (keys $gapsInSeqs{$seq}) {
+  print TBLFILE "$gapsInSeqs{$seq}{$gapnum}{'init'}\t$gapsInSeqs{$seq}{$gapnum}{'end'}\tassembly_gap";
+  print TBLFILE "			gap_type	within scaffold\n";
+  print TBLFILE "			estimated_length	unknown\n";
+  print TBLFILE "			linkage_evidence	paired-ends\n";
+ }
+
  foreach my $feat (@{$featuresSeqs{$seq}}){
   $feat=~s/\./\_/g;
 
@@ -303,23 +361,30 @@ foreach my $seq (@sequences){
     print TBLFILE "			codon_start	$featuresInfo{$feat}{'CDS'}{$cdsNum}{'codon_start'}\n";
     my $feat2=$feat;
     $feat2 =~ s/cds\_//g;
-    my $feat_preRemoved=$featuresInfo{$feat2}{'parent'};
-    $feat_preRemoved=~s/evm_TU_//g;
-    #print TBLFILE "			gene	$feat_preRemoved\n";
-    print TBLFILE "			protein_id	gnl|BCE_CTBE|$feat_preRemoved\n";
-    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$feat_preRemoved\n";
+    print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
+    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
     if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
      print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
+     #print TBLFILE "			gene	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
     } else {
      die "There is no LOCUS TAG for CDS: $feat\n";
     }
     if($interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}){
      foreach my $note (@{$interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}}){
-      print TBLFILE "			product	$note\n";
+      # If there is a EC associated with this protein, it cannot be annotated as 'hypothetical'
+      unless (($interProScanECcode{$featuresInfo{$feat2}{'parent'}}) and ($note eq "hypothetical protein")) {
+       print TBLFILE "			product	$note\n";
+      }
      }
     } else {
      print TBLFILE "			note	hypothetical protein\n";
     }
+    if($interProScanECcode{$featuresInfo{$feat2}{'parent'}}){
+     foreach my $ec (@{$interProScanECcode{$featuresInfo{$feat2}{'parent'}}}){
+      print TBLFILE "			EC_number	$ec\n";
+     }
+    }
+
     # Parsing db_xref information
     if($interProScanAnnotDbXref{$featuresInfo{$feat2}{'parent'}}){
      foreach my $db_xref (@{$interProScanAnnotDbXref{$featuresInfo{$feat2}{'parent'}}}){
@@ -331,8 +396,6 @@ foreach my $seq (@sequences){
   } # Closing CDS
 
   elsif ($featuresInfo{$feat}{'feattype'} eq 'gene') {
-   my $feat_preRemoved=$feat;
-   $feat_preRemoved=~s/evm_TU_//g;
    $locusCount++;
    my $final_locusTagCount='';
    #old locus_tag has five numbers: '00098'
@@ -355,7 +418,7 @@ foreach my $seq (@sequences){
    } else {
     print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\tgene\n";
    }
-   print TBLFILE "			gene	$feat_preRemoved\n";   
+   #print TBLFILE "			gene	$gene2locusTag{$feat}\n";   
    print TBLFILE "			locus_tag	$gene2locusTag{$feat}\n";
   } # Closing gene
 
@@ -366,13 +429,11 @@ foreach my $seq (@sequences){
     print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'feattype'}\n";
    }
    my $feat2=$featuresInfo{$feat}{'parent'};
-   my $feat_preRemoved=$featuresInfo{$feat2}{'parent'};
-   $feat_preRemoved=~s/evm_TU_//g;
    if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
-    print TBLFILE "			protein_id	gnl|BCE_CTBE|$feat_preRemoved\n";
-    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$feat_preRemoved\n";
+    print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
+    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
     print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
-    print TBLFILE "			gene	$feat_preRemoved\n";
+    #print TBLFILE "			gene	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
    } else {
     die "There is no LOCUS TAG for exon: $feat\n";
    }
@@ -399,11 +460,9 @@ foreach my $seq (@sequences){
    } else {
     print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'feattype'}\n";
    }
-   my $feat_preRemoved=$featuresInfo{$feat}{'parent'};
-   $feat_preRemoved=~s/evm_TU_//g;
-   print TBLFILE "			gene	$feat_preRemoved\n";
-   print TBLFILE "			protein_id	gnl|BCE_CTBE|$feat_preRemoved\n";
-   print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$feat_preRemoved\n";
+   #print TBLFILE "			gene	$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
+   print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
+   print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
    print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
   }
 
