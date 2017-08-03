@@ -451,8 +451,6 @@ foreach my $seq (@sequences){
    }
    my $feat2=$featuresInfo{$feat}{'parent'};
    if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
-    print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
-    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
     print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
     #print TBLFILE "			gene	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
    } else {
