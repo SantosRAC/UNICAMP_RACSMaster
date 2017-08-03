@@ -116,6 +116,10 @@ while(<INTERPROSCAN>){
   print "$gene: Replaced \'organisation\' by \'organization\' in:\n$desc\n";
   $desc =~ s/organisation/organization/g;
  }
+ if($desc =~ /tetramerisation/){
+  print "$gene: Replaced \'tetramerisation\' by \'tetramerization\' in:\n$desc\n";
+  $desc =~ s/tetramerisation/tetramerization/;
+ }
  if($desc =~ /dimerisation/){
   print "$gene: Replaced \'dimerisation\' by \'dimerization\' in:\n$desc\n";
   $desc =~ s/dimerisation/dimerization/g;
@@ -142,6 +146,10 @@ while(<INTERPROSCAN>){
  if($desc =~ / gene /){
   print "$gene: Found \'gene\'. Renamed from \'$desc\' to \'hypothetical protein\'\n";
   $desc='hypothetical protein';
+ }
+ if($desc =~ /Kinetochore CENP-C fungal homologue, Mif2, N-terminal/){
+  print "$gene: Renamed from \'Kinetochore CENP-C fungal homologue, Mif2, N-terminal\' to \'Kinetochore CENP-C, Mif2\'\n";
+  $desc='Kinetochore CENP-C, Mif2';
  }
 
  if($desc =~ /domain of unknown function/){
@@ -300,7 +308,7 @@ while(<EVMGFFFILE>){
      $featuresInfo{$featIdentifier}{'strand'}=$strand;
     }
    } else {
-    die "Something wrong\n";
+    die "Something wrong: there is more than one \"ID\" in the last field of the GFF3 file.\n";
    }
   }
   if($addInfoField =~ /Parent=/){
@@ -355,45 +363,55 @@ foreach my $seq (@sequences){
   $feat=~s/\./\_/g;
 
   if($featuresInfo{$feat}{'feattype'} eq 'CDS'){
+   my $firstCDS=0;
    foreach my $cdsNum (keys $featuresInfo{$feat}{'CDS'}){
-    if($featuresInfo{$feat}{'CDS'}{$cdsNum}{'strand'} eq '-'){
-     print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\t$featuresInfo{$feat}{'feattype'}\n";
-    } else {
-     print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\t$featuresInfo{$feat}{'feattype'}\n";
-    }
-    print TBLFILE "			codon_start	$featuresInfo{$feat}{'CDS'}{$cdsNum}{'codon_start'}\n";
-    my $feat2=$feat;
-    $feat2 =~ s/cds\_//g;
-    print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
-    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
-    if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
-     print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
-     #print TBLFILE "			gene	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
-    } else {
-     die "There is no LOCUS TAG for CDS: $feat\n";
-    }
-    if($interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}){
-     foreach my $note (@{$interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}}){
-      # If there is a EC associated with this protein, it cannot be annotated as 'hypothetical'
-      unless (($interProScanECcode{$featuresInfo{$feat2}{'parent'}}) and ($note eq "hypothetical protein")) {
-       print TBLFILE "			product	$note\n";
-      }
+    if($firstCDS==0){
+     if($featuresInfo{$feat}{'CDS'}{$cdsNum}{'strand'} eq '-'){
+      print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\t$featuresInfo{$feat}{'feattype'}\n";
+     } else {
+      print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\t$featuresInfo{$feat}{'feattype'}\n";
      }
-    } else {
-     print TBLFILE "			note	hypothetical protein\n";
-    }
-    if($interProScanECcode{$featuresInfo{$feat2}{'parent'}}){
-     foreach my $ec (@{$interProScanECcode{$featuresInfo{$feat2}{'parent'}}}){
-      print TBLFILE "			EC_number	$ec\n";
+    } else{
+     if($featuresInfo{$feat}{'CDS'}{$cdsNum}{'strand'} eq '-'){
+      print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\n";
+     } else {
+      print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\n";
      }
     }
-
-    # Parsing db_xref information
-    if($interProScanAnnotDbXref{$featuresInfo{$feat2}{'parent'}}){
-     foreach my $db_xref (@{$interProScanAnnotDbXref{$featuresInfo{$feat2}{'parent'}}}){
-      my ($db,$dbID)=split(/\t/,$db_xref);
-      print TBLFILE "			db_xref	$db:$dbID\n";
+    $firstCDS++;
+   }
+   my $feat2=$feat;
+   $feat2 =~ s/cds\_//g;
+   print TBLFILE "			codon_start	$featuresInfo{$feat}{'CDS'}{1}{'codon_start'}\n";
+   print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
+   print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
+   if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
+    print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
+    #print TBLFILE "			gene	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
+   } else {
+    die "There is no LOCUS TAG for CDS: $feat\n";
+   }
+   if($interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}){
+    foreach my $note (@{$interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}}){
+     # If there is a EC associated with this protein, it cannot be annotated as 'hypothetical'
+     unless (($interProScanECcode{$featuresInfo{$feat2}{'parent'}}) and ($note eq "hypothetical protein")) {
+      print TBLFILE "			product	$note\n";
      }
+    }
+   } else {
+    print TBLFILE "			note	hypothetical protein\n";
+   }
+   # Print (if any) EC number associated with this CDS
+   if($interProScanECcode{$featuresInfo{$feat2}{'parent'}}){
+    foreach my $ec (@{$interProScanECcode{$featuresInfo{$feat2}{'parent'}}}){
+     print TBLFILE "			EC_number	$ec\n";
+    }
+   }
+   # Parsing db_xref information
+   if($interProScanAnnotDbXref{$featuresInfo{$feat2}{'parent'}}){
+    foreach my $db_xref (@{$interProScanAnnotDbXref{$featuresInfo{$feat2}{'parent'}}}){
+     my ($db,$dbID)=split(/\t/,$db_xref);
+     print TBLFILE "			db_xref	$db:$dbID\n";
     }
    }
   } # Closing CDS
