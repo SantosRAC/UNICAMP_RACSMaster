@@ -341,11 +341,14 @@ foreach my $seq (@sequences){
  print TBLFILE "			organism	Kalmanozyma brasiliensis\n";
 
  # Print gaps (assembly_gap)
- foreach my $gapnum (keys $gapsInSeqs{$seq}) {
-  print TBLFILE "$gapsInSeqs{$seq}{$gapnum}{'init'}\t$gapsInSeqs{$seq}{$gapnum}{'end'}\tassembly_gap";
-  print TBLFILE "			gap_type	within scaffold\n";
-  print TBLFILE "			estimated_length	unknown\n";
-  print TBLFILE "			linkage_evidence	paired-ends\n";
+ if($numGapsInSeqs{$seq}){
+  my $numGaps = $numGapsInSeqs{$seq};
+  foreach my $gapnum (1 .. $numGaps) {
+   print TBLFILE "$gapsInSeqs{$seq}{$gapnum}{'init'}\t$gapsInSeqs{$seq}{$gapnum}{'end'}\tassembly_gap\n";
+   print TBLFILE "			gap_type	within scaffold\n";
+   print TBLFILE "			estimated_length	unknown\n";
+   print TBLFILE "			linkage_evidence	paired-ends\n";
+  }
  }
 
  foreach my $feat (@{$featuresSeqs{$seq}}){
