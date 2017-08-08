@@ -460,9 +460,9 @@ foreach my $seq (@sequences){
    }
    $gene2locusTag{$feat}="PSEUBRA_".$final_locusTagCount;
    if ($featuresInfo{$feat}{'strand'} eq '-'){
-    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\tgene ($feat)\n";
+    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\n";
    } else {
-    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\tgene ($feat)\n";
+    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\n";
    }
    #print TBLFILE "			gene	$gene2locusTag{$feat}\n";   
    print TBLFILE "			locus_tag	$gene2locusTag{$feat}\n";
