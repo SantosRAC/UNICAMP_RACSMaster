@@ -363,23 +363,48 @@ foreach my $seq (@sequences){
   $feat=~s/\./\_/g;
 
   if($featuresInfo{$feat}{'feattype'} eq 'CDS'){
-   my $firstCDS=0;
+
+   my @initPositionsCDS=();
+   my @endPositionsCDS=();
+   my $startPosCDS=0;
+
    foreach my $cdsNum (keys $featuresInfo{$feat}{'CDS'}){
-    if($firstCDS==0){
-     if($featuresInfo{$feat}{'CDS'}{$cdsNum}{'strand'} eq '-'){
-      print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\t$featuresInfo{$feat}{'feattype'}\n";
-     } else {
-      print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\t$featuresInfo{$feat}{'feattype'}\n";
+    push(@initPositionsCDS,$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'});
+   }
+   
+   foreach my $cdsNum (keys $featuresInfo{$feat}{'CDS'}){
+    push(@endPositionsCDS,$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'});
+   }
+
+   my @sortEndPositionsCDS=();
+   my @sortInitPositionsCDS=();
+
+   if($featuresInfo{$feat}{'CDS'}{1}{'strand'} eq '-') {
+    @sortEndPositionsCDS = sort {$b <=> $a} @initPositionsCDS;
+    @sortInitPositionsCDS = sort {$b <=> $a} @endPositionsCDS;
+   } else {
+    @sortInitPositionsCDS = sort {$a <=> $b} @initPositionsCDS;
+    @sortEndPositionsCDS = sort {$a <=> $b} @endPositionsCDS;
+   }
+
+   foreach my $cdsLinePrintPositions (0 .. scalar(@sortInitPositionsCDS)-1){
+    if($featuresInfo{$feat}{'CDS'}{1}{'strand'} eq '-'){
+     if($startPosCDS==0){
+      $startPosCDS=1;
+      print TBLFILE "$sortInitPositionsCDS[$cdsLinePrintPositions]\t$sortEndPositionsCDS[$cdsLinePrintPositions]\tCDS\n";
+     }else{
+      print TBLFILE "$sortInitPositionsCDS[$cdsLinePrintPositions]\t$sortEndPositionsCDS[$cdsLinePrintPositions]\n";
      }
-    } else{
-     if($featuresInfo{$feat}{'CDS'}{$cdsNum}{'strand'} eq '-'){
-      print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\n";
-     } else {
-      print TBLFILE "$featuresInfo{$feat}{'CDS'}{$cdsNum}{'init'}\t$featuresInfo{$feat}{'CDS'}{$cdsNum}{'end'}\n";
+    } else {
+     if($startPosCDS==0){
+      $startPosCDS=1;
+      print TBLFILE "$sortInitPositionsCDS[$cdsLinePrintPositions]\t$sortEndPositionsCDS[$cdsLinePrintPositions]\tCDS\n";
+     }else{
+      print TBLFILE "$sortInitPositionsCDS[$cdsLinePrintPositions]\t$sortEndPositionsCDS[$cdsLinePrintPositions]\n";
      }
     }
-    $firstCDS++;
    }
+       
    my $feat2=$feat;
    $feat2 =~ s/cds\_//g;
    print TBLFILE "			codon_start	$featuresInfo{$feat}{'CDS'}{1}{'codon_start'}\n";
@@ -435,9 +460,9 @@ foreach my $seq (@sequences){
    }
    $gene2locusTag{$feat}="PSEUBRA_".$final_locusTagCount;
    if ($featuresInfo{$feat}{'strand'} eq '-'){
-    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\tgene\n";
+    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\tgene ($feat)\n";
    } else {
-    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\tgene\n";
+    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\tgene ($feat)\n";
    }
    #print TBLFILE "			gene	$gene2locusTag{$feat}\n";   
    print TBLFILE "			locus_tag	$gene2locusTag{$feat}\n";
