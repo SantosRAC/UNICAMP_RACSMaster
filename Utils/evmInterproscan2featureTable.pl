@@ -18,6 +18,7 @@ my $interproScanFile = '';
 my $scafLengthsFile = '';
 my $gapNsFile = '';
 my $tblOut = '';
+my $logFile = '';
 
 # Information about gaps in sequences
 my %gapsInSeqs;
@@ -34,6 +35,7 @@ GetOptions(
   'evm_gff|e=s'         => \$evmGffFile,
   'interpro_tsv|i=s'    => \$interproScanFile,
   'scaf_lengths|sl=s'   => \$scafLengthsFile,
+  'log_file=s'          => \$logFile,
   'gaps=s'              => \$gapNsFile,
   'tbl_out|o=s'         => \$tblOut,
 );
@@ -78,6 +80,16 @@ if($license) {
  exit(0);
 }
 
+if(!$logFile){
+ $logFile='log_evm2tbl.txt';
+}
+
+if(-s $logFile) {
+  print "The log file already exists.\nPlease, delete this file before running the script again.\n";
+  &usage();
+  exit(1);
+}
+
 # If user passes file with gap positions available in an external file
 # This part opens this file, storing 
 if($gapNsFile){
@@ -109,6 +121,7 @@ my %interProScanAnnotDbXref;
 my %interProScanECcode;
 
 open(INTERPROSCAN,$interproScanFile);
+open(LOGFILE,'>',$logFile);
 
 while(<INTERPROSCAN>){
  chomp;
@@ -123,136 +136,137 @@ while(<INTERPROSCAN>){
  # tbl2asn run: ~/Software/tbl2asn/linux64.tbl2asn -p . -j "[organism=Kalmanozyma brasiliensis] [strain=GHG001]" -M n -y "Re-annotation of K. brasiliensis GHG001 including RNAseq experimental data" -i GCA_000497045.1_PSEUBRA1_genomic.fna -Z disc.report -t template.sbt -V b
 
  #FATAL: Remove organism from product name
+
  if($desc =~ /Animal heme peroxidase superfamily profile/){
-  print "$gene: Replaced \'Animal heme peroxidase superfamily profile\' by \'Heme peroxidase superfamily\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'Animal heme peroxidase superfamily profile\' by \'Heme peroxidase superfamily\' in:\n$desc\n";
   $desc =~ s/Animal heme peroxidase superfamily profile/Heme peroxidase superfamily/g;
  }
  if($desc =~ /Haem peroxidase, animal/){
-  print "$gene: Replaced \'Haem peroxidase, animal\' by \'Haem peroxidase\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'Haem peroxidase, animal\' by \'Haem peroxidase\' in:\n$desc\n";
   $desc =~ s/Haem peroxidase, animal/Haem peroxidase/g;
  }
  if($desc =~ /Domain found in NIK1-like kinases, mouse citron and yeast ROM1, ROM2/){
-  print "$gene: Replaced \'Domain found in NIK1-like kinases, mouse citron and yeast ROM1, ROM2\' by \'hypothetical protein\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'Domain found in NIK1-like kinases, mouse citron and yeast ROM1, ROM2\' by \'hypothetical protein\' in:\n$desc\n";
   $desc =~ s/Domain found in NIK1-like kinases, mouse citron and yeast ROM1, ROM2/hypothetical protein/g;
  }
  if($desc =~ /Putative DNA-binding domain in centromere protein B, mouse jerky and transposases\./){
-  print "$gene: Replaced \'Putative DNA-binding domain in centromere protein B, mouse jerky and transposases.\' by \'hypothetical protein\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'Putative DNA-binding domain in centromere protein B, mouse jerky and transposases.\' by \'hypothetical protein\' in:\n$desc\n";
   $desc =~ s/Putative DNA-binding domain in centromere protein B, mouse jerky and transposases\./hypothetical protein/g;
  }
  if(($desc =~ /(Staphylococcal nuclease homologues)/) or ($desc =~ /(Staphylococcal nuclease homologue)/)){
-  print "$gene: Replaced \'$1\' by \'Nuclease\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'$1\' by \'Nuclease\' in:\n$desc\n";
   $desc = 'Nuclease';
  }
 
  # NCBI does not like features with more than 100 characters
  if(length($desc) >= 100){
-  print "$gene: Feature with more than 100 characters. Renamed from \'$desc\' to \'hypothetical protein\'\n";
+  print LOGFILE "$gene: Feature with more than 100 characters. Renamed from \'$desc\' to \'hypothetical protein\'\n";
   $desc = 'hypothetical protein';
  } 
 
  #FATAL: Possible parsing error or incorrect formatting; remove inappropriate symbols
  # Features starting with '
  if(lc($desc) =~ /homeobox/){
-  print "$gene: Renamed \'$desc\' to \'Homeobox\'\n";
+  print LOGFILE "$gene: Renamed \'$desc\' to \'Homeobox\'\n";
   $desc = 'Homeobox';
  }
  # Features ends with '.'
  if($desc =~ /\.$/){
-  print "$gene: Removed \'\.\' at the end of the feature in\n$desc\n";
+  print LOGFILE "$gene: Removed \'\.\' at the end of the feature in\n$desc\n";
   $desc =~ s/\.$//g;
  }
  # Features with '. '
  if($desc =~ /\. /){
-  print "$gene: Found '\. '. Replaced \'$desc\' by 'hypothetical protein'\n";
+  print LOGFILE "$gene: Found '\. '. Replaced \'$desc\' by 'hypothetical protein'\n";
   $desc = 'hypothetical protein';
  }
  # features contains '@'
  if($desc =~ /\@/){
-  print "$gene: Found '\@'. Renamed from \'$desc\' by 'hypothetical protein'\n";
+  print LOGFILE "$gene: Found '\@'. Renamed from \'$desc\' by 'hypothetical protein'\n";
   $desc = 'hypothetical protein';
  }
  #features starts with 'hypothetical protein' but not equals 'hypothetical protein'
  if(lc($desc) =~ /hypothetical protein/){
-  print "$gene: Renamed from \'$desc\' to \'hypothetical protein\' in:\n$desc\n";
+  print LOGFILE "$gene: Renamed from \'$desc\' to \'hypothetical protein\' in:\n$desc\n";
   $desc = 'hypothetical protein';
  }
  # Features with ';'
  if($desc eq 'ARF-like small GTPases; ARF, ADP-ribosylation factor'){
-  print "$gene: Renamed from \'$desc\' to \'ARF, ADP-ribosylation factor\'\n";
+  print LOGFILE "$gene: Renamed from \'$desc\' to \'ARF, ADP-ribosylation factor\'\n";
   $desc = 'ARF, ADP-ribosylation factor';
  }
 
  # Use American spelling
  if($desc =~ /organisation/){
-  print "$gene: Replaced \'organisation\' by \'organization\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'organisation\' by \'organization\' in:\n$desc\n";
   $desc =~ s/organisation/organization/g;
  }
  if($desc =~ /tetramerisation/){
-  print "$gene: Replaced \'tetramerisation\' by \'tetramerization\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'tetramerisation\' by \'tetramerization\' in:\n$desc\n";
   $desc =~ s/tetramerisation/tetramerization/;
  }
  if($desc =~ /dimerisation/){
-  print "$gene: Replaced \'dimerisation\' by \'dimerization\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'dimerisation\' by \'dimerization\' in:\n$desc\n";
   $desc =~ s/dimerisation/dimerization/g;
  }
  if($desc =~ /characteris/){
-  print "$gene: Replaced \'characteris\' by \'characteriz\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'characteris\' by \'characteriz\' in:\n$desc\n";
   $desc =~ s/characteris/characteriz/g;
  }
  if($desc =~ /disulphide/){
-  print "$gene: Replaced \'disulphide\' by \'disulfide\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'disulphide\' by \'disulfide\' in:\n$desc\n";
   $desc =~ s/disulphide/disulfide/g;
  }
 
  # Better 'hypothetical protein' than 'conserved protein'
  if(lc($desc) =~ /conserved protein/){
-  print "$gene: Renamed from \'$desc\' to \'hypothetical protein\'\n";
+  print LOGFILE "$gene: Renamed from \'$desc\' to \'hypothetical protein\'\n";
   $desc='hypothetical protein';
  }
  # NCBI does not like feature starting with 'region'
  if($desc =~ /Region of a membrane-bound protein/){
-  print "$gene: Found 'region of a membrane-bound' at the beginning of the feature. Renamed from \'$desc\' to \'Membrane-bound protein\'\n";
+  print LOGFILE "$gene: Found 'region of a membrane-bound' at the beginning of the feature. Renamed from \'$desc\' to \'Membrane-bound protein\'\n";
   $desc='Membrane-bound protein';
  }
  if($desc =~ / gene /){
-  print "$gene: Found \'gene\'. Renamed from \'$desc\' to \'hypothetical protein\'\n";
+  print LOGFILE "$gene: Found \'gene\'. Renamed from \'$desc\' to \'hypothetical protein\'\n";
   $desc='hypothetical protein';
  }
  if($desc =~ /Kinetochore CENP-C fungal homologue, Mif2, N-terminal/){
-  print "$gene: Renamed from \'Kinetochore CENP-C fungal homologue, Mif2, N-terminal\' to \'Kinetochore CENP-C, Mif2\'\n";
+  print LOGFILE "$gene: Renamed from \'Kinetochore CENP-C fungal homologue, Mif2, N-terminal\' to \'Kinetochore CENP-C, Mif2\'\n";
   $desc='Kinetochore CENP-C, Mif2';
  }
 
  if($desc =~ /domain of unknown function/){
-  print "$gene: Replaced \'domain of unknown function\' by \'protein of unknown function\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'domain of unknown function\' by \'protein of unknown function\' in:\n$desc\n";
   $desc =~ s/domain of unknown function/protein of unknown function/g;
  }
  if($desc =~ /SET and RING finger associated domain. Domain of unknown function in SET domain containing proteins and in Deinococcus radiodurans DRA1533\./){
-  print "$gene: Replaced \'SET and RING finger associated domain. Domain of unknown function in SET domain containing proteins and in Deinococcus radiodurans DRA1533\.\' by \'Protein of unknown function\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'SET and RING finger associated domain. Domain of unknown function in SET domain containing proteins and in Deinococcus radiodurans DRA1533\.\' by \'Protein of unknown function\' in:\n$desc\n";
   $desc =~ s/SET and RING finger associated domain. Domain of unknown function in SET domain containing proteins and in Deinococcus radiodurans DRA1533\./Protein of unknown function/;
  }
  if(/Domain of unknown function in PX-proteins/){
-  print "$gene: Replaced \'Domain of unknown function in PX-proteins\' by \'Protein of unknown function\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'Domain of unknown function in PX-proteins\' by \'Protein of unknown function\' in:\n$desc\n";
   $desc =~ s/Domain of unknown function in PX-proteins/Protein of unknown function/;
  }
  if(/Domain of unknown function in Sec63p, Brr2p and other proteins\./){
-  print "$gene: Replaced \'Domain of unknown function in Sec63p, Brr2p and other proteins\' by \'Protein of unknown function\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'Domain of unknown function in Sec63p, Brr2p and other proteins\' by \'Protein of unknown function\' in:\n$desc\n";
   $desc =~ s/Domain of unknown function in Sec63p, Brr2p and other proteins\./Protein of unknown function/;
  }
  if($desc =~ /Domain of unknown function/){
-  print "$gene: Replaced \'Domain of unknown function\' by \'Protein of unknown function\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'Domain of unknown function\' by \'Protein of unknown function\' in:\n$desc\n";
   $desc =~ s/Domain of unknown function/Protein of unknown function/g;
  }
  if($desc =~ /Predicted/){
-  print "$gene: Replaced \'Predicted\' by \'Putative\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'Predicted\' by \'Putative\' in:\n$desc\n";
   $desc =~ s/Predicted/Putative/g;
  }
  if($desc =~ /Uncharacterized/){
-  print "$gene: Replaced \'Uncharacterized\' by \'Putative\' in:\n$desc\n";
+  print LOGFILE "$gene: Replaced \'Uncharacterized\' by \'Putative\' in:\n$desc\n";
   $desc =~ s/Uncharacterized/Putative/g;
  }
  if(lc($desc) eq 'zinc finger'){
-  print "Renamed ($gene): \'$desc\' to \'Zinc finger protein\'\n";
+  print LOGFILE "Renamed ($gene): \'$desc\' to \'Zinc finger protein\'\n";
   $desc='Zinc finger protein';
  }
 
@@ -299,6 +313,7 @@ while(<INTERPROSCAN>){
 }
 
 close(INTERPROSCAN);
+close(LOGFILE);
 
 my @features=();
 my %featuresInfo;
@@ -594,6 +609,8 @@ OPTIONS
     --interpro_tsv   -i      InterProScan5 results output file in the TSV (tab-separed)       REQUIRED
     --scaf_lengths   -sl     Scaffold lengths used as input                                   REQUIRED
     --gaps                   Position of gaps in scaffolds                                    OPTIONAL
+    --log_file               
+      If the name of a log file is not set, it will be automatically named "log_evm2tbl.txt"  OPTIONAL
     --tbl_out        -o      Output file in the file, as required by tbl2asn (feature table)  REQUIRED
     --help,          -h      This help.
     --license        -l      License.
