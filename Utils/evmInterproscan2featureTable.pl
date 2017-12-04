@@ -19,6 +19,15 @@ my $scafLengthsFile = '';
 my $gapNsFile = '';
 my $tblOut = '';
 
+# Information about gaps in sequences
+my %gapsInSeqs;
+my %numGapsInSeqs;
+
+# Information about sequences (identifier in FASTA and lengths)
+my @sequences=();
+my %seqLengthInit;
+my %seqLengthEnd;
+
 GetOptions(
   'help|h|?'            => \$help,
   'license|l'           => \$license,
@@ -47,6 +56,12 @@ if(!$interproScanFile) {
   exit(1);
 }
 
+if(!$scafLengthsFile){
+ print "A file with lengths of scaffolds in the EVM GFF is required.\n";
+ &usage();
+ exit(1);
+}
+
 if($help) {
   &usage();
   exit(0);
@@ -57,23 +72,25 @@ if($license) {
  exit(0);
 }
 
-# Information about gaps in sequences
-my %gapsInSeqs;
-my %numGapsInSeqs;
+# If user passes file with gap positions available in an external file
+# This part opens this file, storing 
+if($gapNsFile){
 
-open(GAPSFILE,$gapNsFile);
+ open(GAPSFILE,$gapNsFile);
+ print "Position of gaps in scaffolds is imported from external file.\n";
 
-while(<GAPSFILE>){
- chomp;
- my($seq,$init,$end)=split(/\t/,$_);
- if($gapsInSeqs{$seq}){
-  $numGapsInSeqs{$seq}++;
-  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
-  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
- } else {
-  $numGapsInSeqs{$seq}=1;
-  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
-  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
+ while(<GAPSFILE>){
+  chomp;
+  my($seq,$init,$end)=split(/\t/,$_);
+  if($gapsInSeqs{$seq}){
+   $numGapsInSeqs{$seq}++;
+   $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
+   $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
+  } else {
+   $numGapsInSeqs{$seq}=1;
+   $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
+   $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
+  }
  }
 }
 
@@ -277,19 +294,6 @@ while(<INTERPROSCAN>){
 
 close(INTERPROSCAN);
 
-# Information GFF3
-
-#KI545851.1      EVM     gene    695     2101    .       -       .       ID=evm.TU.KI545851.1.1;Name=EVM_prediction_KI545851.1.1
-#KI545851.1      EVM     mRNA    695     2101    .       -       .       ID=evm.model.KI545851.1.1;Parent=evm.TU.KI545851.1.1;Name=EVM_prediction_KI545851.1.1
-#KI545851.1      EVM     exon    695     2101    .       -       .       ID=evm.model.KI545851.1.1.exon1;Parent=evm.model.KI545851.1.1
-#KI545851.1      EVM     CDS     695     2101    .       -       0       ID=cds.evm.model.KI545851.1.1;Parent=evm.model.KI545851.1.1
-
-# Information about sequences (identifier in FASTA and length)
-my @sequences=();
-my %seqLengthInit;
-my %seqLengthEnd;
-
-# 
 my @features=();
 my %featuresInfo;
 my %CDScount;
@@ -396,14 +400,16 @@ foreach my $seq (@sequences){
  print TBLFILE "			mol_type	genomic DNA\n";
  print TBLFILE "			organism	Kalmanozyma brasiliensis\n";
 
- # Print gaps (assembly_gap)
- if($numGapsInSeqs{$seq}){
-  my $numGaps = $numGapsInSeqs{$seq};
-  foreach my $gapnum (1 .. $numGaps) {
-   print TBLFILE "$gapsInSeqs{$seq}{$gapnum}{'init'}\t$gapsInSeqs{$seq}{$gapnum}{'end'}\tassembly_gap\n";
-   print TBLFILE "			gap_type	within scaffold\n";
-   print TBLFILE "			estimated_length	unknown\n";
-   print TBLFILE "			linkage_evidence	paired-ends\n";
+ # Print gaps (assembly_gap), if external file is available
+ if($gapNsFile){
+  if($numGapsInSeqs{$seq}){
+   my $numGaps = $numGapsInSeqs{$seq};
+   foreach my $gapnum (1 .. $numGaps) {
+    print TBLFILE "$gapsInSeqs{$seq}{$gapnum}{'init'}\t$gapsInSeqs{$seq}{$gapnum}{'end'}\tassembly_gap\n";
+    print TBLFILE "			gap_type	within scaffold\n";
+    print TBLFILE "			estimated_length	unknown\n";
+    print TBLFILE "			linkage_evidence	paired-ends\n";
+   }
   }
  }
 
