@@ -9,7 +9,10 @@ use Getopt::Long;
 # 0.2 changes:
 ## - included command-line arguments (Getopt long module)
 # 0.3 changes
-## gets information from the 
+## - get information from the output of seqkit ($ seqkit locate --ignore-case --only-positive-strand --pattern "N+" GCA_000497045.1_PSEUBRA1_genomic.fna| sed 's/ +/       /g'| cut -f1,5,6)
+## - assume the file with positions of Ns is required
+## - get information about products from the IPR description (column besides IPR identifier)
+## - fix product names
 
 my $version='0.2';
 my $help='';
@@ -101,23 +104,20 @@ if(!$locusTag){
 
 # If user passes file with gap positions available in an external file
 # This part opens this file, storing 
-if($gapNsFile){
+open(GAPSFILE,$gapNsFile);
 
- open(GAPSFILE,$gapNsFile);
- print "Position of gaps in scaffolds is imported from external file.\n";
-
- while(<GAPSFILE>){
-  chomp;
-  my($seq,$init,$end)=split(/\t/,$_);
-  if($gapsInSeqs{$seq}){
-   $numGapsInSeqs{$seq}++;
-   $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
-   $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
-  } else {
-   $numGapsInSeqs{$seq}=1;
-   $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
-   $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
-  }
+while(<GAPSFILE>){
+ chomp;
+ next if (/^seqID/);
+ my($seq,$init,$end)=split(/\t/,$_);
+ if($gapsInSeqs{$seq}){
+  $numGapsInSeqs{$seq}++;
+  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
+  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
+ } else {
+  $numGapsInSeqs{$seq}=1;
+  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
+  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
  }
 }
 
@@ -145,12 +145,76 @@ while(<INTERPROSCAN>){
 
    #Fixing description
    ## Remove organism from product name
-   ### 38 features contains 'fungi'
-   ### features contains 'staphylococcal'
+   ### feature contains 'fungi', metazoa/fungi, fungi/archaea, 'eukaryotes'
+   ### feature contains 'staphylococcal'
+   ## Typo
+   ### feature contains heam- (should be replaced by hem-)
+   ### 'homologue' implies evolutionary relationship/ change to -like
+   ### Plurals 'purines', 'domains', 'synthetases'
 
+   if(($desc =~ /Adenine nucleotide alpha hydrolase-like domains/) and ($ipr eq 'IPR023382')){
+    print LOGFILE "$gene: Substituted \'domains\' by \'domain\' in:\n$desc ($ipr)\n";
+    $desc =~ s/domains/domain/g;
+   }
+   if(($desc =~ /purines/) and ($ipr eq "IPR001248")){
+    print LOGFILE "$gene: Substituted \'purines\' by \'purine\' in:\n$desc ($ipr)\n";
+    $desc =~ s/purines/purine/g;
+   }
+   if(($desc =~ /Aspartyl-tRNA synthetases/) and ($ipr eq 'IPR004523')){
+    print LOGFILE "$gene: Substituted \'synthetases\' by \'synthetase\' in:\n$desc ($ipr)\n";
+    $desc =~ s/synthetases/synthetase/g;
+   }
+   if(($desc =~ /SLC41 divalent cation transporters, integral membrane domain/) and ($ipr eq 'IPR006667')){
+    print LOGFILE "$gene: Substituted \'transporters\' by \'transporter\' in:\n$desc ($ipr)\n";
+    $desc =~ s/transporters/transporter/g;
+   }
+   if($desc =~ /, eukaryotes$/){
+    print LOGFILE "$gene: Removed \', eukaryotes\' at the end of:\n$desc ($ipr)\n";
+    $desc =~ s/, eukaryotes//g;
+   }
    if($desc =~ /, fungi$/){
-    print LOGFILE "$gene ($ipr): Removed \', fungi\' at the end of:\n$desc\n";
+    print LOGFILE "$gene: Removed \', fungi\' at the end of:\n$desc ($ipr)\n";
     $desc =~ s/, fungi//g;
+   }
+   if(($desc =~ /Staphylococcal nuclease/) and ($ipr eq 'IPR016071')){
+    print LOGFILE "$gene: Substituted \'Staphylococcal nuclease\' by \'Nuclease\' in:\n$desc ($ipr)\n";
+    $desc =~ s/Staphylococcal n/N/g;
+   }
+   if($desc =~ /, metazoa\/fungi/){
+    print LOGFILE "$gene: Removed \', metazoa\/fungi\' at the end of:\n$desc\n";
+    $desc =~ s/, metazoa\/fungi//g;
+   }
+   if($desc =~ /, fungi\/archaea/){
+    print LOGFILE "$gene: Removed \', fungi\/archaea\' at the end of:\n$desc\n";
+    $desc =~ s/, fungi\/archaea//g;
+   }
+   if($desc =~ / fungi$/){
+    print LOGFILE "$gene: Removed \', , fungi\/archaea\' at the end of:\n$desc\n";
+    $desc =~ s/ fungi//g;
+   }
+   if($desc =~ /heam-/){
+    print LOGFILE "$gene: Substituted \'heam-\' by \'hem-\' in\n$desc\n";
+    $desc =~ s/heam-/hem-/g;
+   }
+   if(($desc =~ /^Partial /) and ($ipr eq 'IPR006693')){
+    print LOGFILE "$gene ($ipr): Removed \'Partial \' at the beginning of\n$desc ($ipr)\n";
+    $desc =~ s/Partial //g;
+   }
+   if(($desc =~ /Activator of Hsp90 ATPase homologue 1-like/) and ($ipr eq 'IPR013538')){
+    print LOGFILE "$gene ($ipr): Substituted \'ATPase homologue 1-like\' by \'ATPase 1-like\' in:\n$desc ($ipr)\n";
+    $desc =~ s/Activator of Hsp90 ATPase homologue 1-like/Activator of Hsp90 ATPase 1-like/g;
+   }
+   if(($desc =~ /DnaJ homologue, subfamily C, member 28, conserved domain/) and ($ipr eq 'IPR018961')){
+    print LOGFILE "$gene ($ipr): Substituted \'DnaJ homologue\' by \'DnaJ-like\' in:\n$desc ($ipr)\n";
+    $desc =~ s/DnaJ homologue, subfamily C, member 28, conserved domain/DnaJ-like, subfamily C, member 28, conserved domain/g;
+   }
+   if(($desc =~ /DNA mismatch repair protein MutS-homologue MSH6/) and ($ipr eq 'IPR015536')){
+    print LOGFILE "$gene ($ipr): Substituted \'MutS-homologue\' by \'MutS-like\' in:\n$desc ($ipr)\n";
+    $desc =~ s/DNA mismatch repair protein MutS-homologue MSH6/DNA mismatch repair protein MutS-like MSH6/g;
+   }
+   if(($desc =~ /Protein notum homologue/) and ($ipr eq 'IPR004963')){
+    print LOGFILE "$gene ($ipr): Substituted \'notum homologue\' by \'notum-like\' in:\n$desc ($ipr)\n";
+    $desc =~ s/Protein notum homologue/Protein notum-like/g;
    }
 
    if($interProScanAnnotation{$gene}){
@@ -456,13 +520,15 @@ NAME
     $0 takes an EVM GFF file and InterProScan5 results, and generates a tbl for NCBI annotation submission (tbl2asn input)
 
 BASIC USAGE
-    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag PSEUBRA
+    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag PSEUBRA --gaps runs_of_Ns.txt
 
 OPTIONS
     --evm_gff        -e      EVM input file in the GFF format                                 REQUIRED
     --interpro_tsv   -i      InterProScan5 results output file in the TSV (tab-separed)       REQUIRED
     --scaf_lengths   -sl     Scaffold lengths used as input                                   REQUIRED
-    --gaps                   Position of gaps in scaffolds                                    OPTIONAL
+    --gaps                   Position of gaps in scaffolds                                    
+      The script assumes a modified file after running seqkit, starting with
+      seqID   start   end                                                                     REQUIRED
     --log_file               
       If the name of a log file is not set, it will be automatically named "log_evm2tbl.txt"  OPTIONAL
     --tbl_out        -o      Output file in the file, as required by tbl2asn (feature table)  REQUIRED
