@@ -38,6 +38,12 @@ GetOptions(
   'tbl_out|o=s'         => \$tblOut,
 );
 
+if(!$tblOut) {
+  print "A name for the output file (.tbl, a feature table) is required.\n";
+  &usage();
+  exit(1);
+}
+
 if(-s $tblOut) {
   print "The output file (feature table) already exists.\nPlease, delete this file before running the script again.\n";
   &usage();
@@ -581,14 +587,14 @@ NAME
     $0 takes an EVM GFF file and InterProScan5 results, and generates a tbl for NCBI annotation submission (tbl2asn input)
 
 BASIC USAGE
-    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl
+    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt
 
 OPTIONS
     --evm_gff        -e      EVM input file in the GFF format                                 REQUIRED
     --interpro_tsv   -i      InterProScan5 results output file in the TSV (tab-separed)       REQUIRED
-    --scaf_lengths   -sl     Scaffold lengths used as input                                   REQUIRED ?
-    --gaps                   Position of gaps in scaffolds                                    REQUIRED ?
-    --tbl_out        -o      Output file in the file, as required by tbl2asn (feature table)
+    --scaf_lengths   -sl     Scaffold lengths used as input                                   REQUIRED
+    --gaps                   Position of gaps in scaffolds                                    OPTIONAL
+    --tbl_out        -o      Output file in the file, as required by tbl2asn (feature table)  REQUIRED
     --help,          -h      This help.
     --license        -l      License.
 
