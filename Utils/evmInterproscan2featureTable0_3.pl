@@ -16,7 +16,7 @@ use Getopt::Long;
 ## - how tbl2asn (version available in NCBI on Nov-27-17) is run: 
 ### $ linux64.tbl2asn -j "[organism=Kalmanozyma brasiliensis] [strain=GHG001]" -M n -y "Re-annotation of K. brasiliensis GHG001 including RNAseq experimental data" -i GCA_000497045.1_PSEUBRA1_genomic.fna -Z disc.report -t template.sbt -V b -a r10u -l paired-ends
 
-my $version='0.2';
+my $version='0.3';
 my $help='';
 my $license='';
 my $evmGffFile = '';
