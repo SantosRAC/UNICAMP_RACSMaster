@@ -19,13 +19,14 @@ my $scafLengthsFile = '';
 my $gapNsFile = '';
 my $tblOut = '';
 my $logFile = '';
+my $locusTag = '';
 
 # Information about gaps in sequences
 my %gapsInSeqs;
 my %numGapsInSeqs;
 
 # Information about sequences (identifier in FASTA and lengths)
-my @sequences=();
+my @scaf_sequences=();
 my %seqLengthInit;
 my %seqLengthEnd;
 
@@ -36,6 +37,7 @@ GetOptions(
   'interpro_tsv|i=s'    => \$interproScanFile,
   'scaf_lengths|sl=s'   => \$scafLengthsFile,
   'log_file=s'          => \$logFile,
+  'locus_tag=s'         => \$locusTag,
   'gaps=s'              => \$gapNsFile,
   'tbl_out|o=s'         => \$tblOut,
 );
@@ -47,7 +49,7 @@ if(!$tblOut) {
 }
 
 if(-s $tblOut) {
-  print "The output file (feature table) already exists.\nPlease, delete this file before running the script again.\n";
+  print "The output file ($tblOut) already exists.\nPlease, delete this file before running the script again.\n";
   &usage();
   exit(1);
 }
@@ -85,9 +87,15 @@ if(!$logFile){
 }
 
 if(-s $logFile) {
-  print "The log file already exists.\nPlease, delete this file before running the script again.\n";
+  print "The log file ($logFile) already exists.\nPlease, delete this file before running the script again.\n";
   &usage();
   exit(1);
+}
+
+if(!$locusTag){
+ print "User must provide a locus tag.\n";
+ &usage();
+ exit(1);
 }
 
 # If user passes file with gap positions available in an external file
@@ -325,8 +333,8 @@ open(SEQFILE,$scafLengthsFile);
 while(<SEQFILE>){
  chomp;
  my ($seq,$seqInit,$seqEnd)=split(/\t/,$_);
- die "There are two sequences ($seq) with the same identifier in length file!\n" if ($seq ~~ @sequences);
- push(@sequences,$seq);
+ die "There are two sequences ($seq) with the same identifier in length file!\n" if ($seq ~~ @scaf_sequences);
+ push(@scaf_sequences,$seq);
  $seqLengthInit{$seq}=$seqInit;
  $seqLengthEnd{$seq}=$seqEnd;
 }
@@ -339,8 +347,9 @@ while(<EVMGFFFILE>){
  chomp;
  next if(/^#/);
  my ($seq,$source,$feattype,$init_pos,$end_pos,undef,$strand,$codon_start,$additionalInfo)=split(/\t/,$_);
- die unless(scalar(split(/\t/,$_)) == 9);
- die unless($seq ~~ @sequences);
+ unless(scalar(split(/\t/,$_)) == 9){
+  die scalar(split(/\t/,$_))." is the number of fields in line\n$_\n";
+ }
  my @addInfoFields=split(/;/,$additionalInfo);
 
  my $featIdentifier='';
@@ -415,7 +424,7 @@ open(TBLFILE,">",$tblOut);
 
 print TBLFILE ">Features	SeqID	table_name\n";
 
-foreach my $seq (@sequences){
+foreach my $seq (@scaf_sequences){
  print TBLFILE ">Feature	$seq	Table1\n";
  print TBLFILE "$seqLengthInit{$seq}	 $seqLengthEnd{$seq}	source\n";
  print TBLFILE "			mol_type	genomic DNA\n";
@@ -533,7 +542,7 @@ foreach my $seq (@sequences){
    } else {
     die "LOCUS TAG number (\$locusCount) seems to be above the allowed.\n";
    }
-   $gene2locusTag{$feat}="PSEUBRA_".$final_locusTagCount;
+   $gene2locusTag{$feat}=$locusTag."_".$final_locusTagCount;
    if ($featuresInfo{$feat}{'strand'} eq '-'){
     print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\n";
    } else {
@@ -602,7 +611,7 @@ NAME
     $0 takes an EVM GFF file and InterProScan5 results, and generates a tbl for NCBI annotation submission (tbl2asn input)
 
 BASIC USAGE
-    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt
+    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag PSEUBRA
 
 OPTIONS
     --evm_gff        -e      EVM input file in the GFF format                                 REQUIRED
@@ -612,6 +621,7 @@ OPTIONS
     --log_file               
       If the name of a log file is not set, it will be automatically named "log_evm2tbl.txt"  OPTIONAL
     --tbl_out        -o      Output file in the file, as required by tbl2asn (feature table)  REQUIRED
+    --locus_tag              Locus tag                                                        REQUIRED
     --help,          -h      This help.
     --license        -l      License.
 
