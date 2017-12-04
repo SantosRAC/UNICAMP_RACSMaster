@@ -567,7 +567,7 @@ foreach my $seq (@scaf_sequences){
    }
    if($interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}){
     foreach my $note (@{$interProScanAnnotation{$featuresInfo{$feat2}{'parent'}}}){
-     print TBLFILE "			product $note\n";
+     print TBLFILE "			product	$note\n";
     }
    } else {
     print TBLFILE "			note	hypothetical protein\n";
