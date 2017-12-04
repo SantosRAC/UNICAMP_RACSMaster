@@ -568,7 +568,6 @@ foreach my $seq (@sequences){
 close(TBLFILE);
 
 sub usage {
-    print STDERR "$0 version $version, Renato Augusto Correa dos Santos\n";
     print STDERR <<EOF;
 
 NAME
