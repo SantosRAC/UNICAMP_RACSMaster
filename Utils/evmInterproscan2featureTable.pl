@@ -2,12 +2,47 @@
 
 use warnings;
 use strict;
+use Getopt::Long;
 
-my $evmGffFile = $ARGV[0];
-my $interproScanFile = $ARGV[1];
-my $scafLengthsFile = $ARGV[2];
-my $gapNsFile = $ARGV[3]; # I got the ranges from the disc.report file.
-my $tblOut = $ARGV[4];
+my $version='0.1';
+my $license='';
+my $evmGffFile = '';
+my $interproScanFile = '';
+my $scafLengthsFile = '';
+my $gapNsFile = '';
+my $tblOut = '';
+
+GetOptions(
+  'help|h|?'            => \$help,
+  'license|l'           => \$license,
+  'evm_gff|e=s'         => \$evmGffFile,
+  'interpro_tsv|i=s'    => \$interproScanFile,
+  'scaf_lengths|sl=s'   => \$scafLengthsFile,
+  'gaps=s'              => \$gapNsFile,
+  'tbl_out|o=s'         => \$tblOut,
+);
+
+if(-s $gmtFile) {
+  print "The output file already exists.\n";
+  &usage();
+  exit(1);
+}
+
+if(!$gmtFile) {
+  print "The output file name is required.\n";
+  &usage();
+  exit(1);
+}
+
+if($help) {
+  &usage();
+  exit(0);
+}
+
+if($license) {
+ &license();
+ exit(0);
+}
 
 # Information about gaps in sequences
 my %gapsInSeqs;
@@ -518,3 +553,52 @@ foreach my $seq (@sequences){
 }
 
 close(TBLFILE);
+
+sub usage {
+    print STDERR "$0 version $version, Renato Augusto Correa dos Santos\n";
+    print STDERR <<EOF;
+
+NAME
+    $0 takes EVM GFF file and InterProScan5 results and generates a tbl for NCBI annotation submission (.asn)
+
+USAGE
+    $0 
+
+  'scaf_lengths|sl=s'   => \$scafLengthsFile,
+  'gaps=s'              => \$gapNsFile,
+  'tbl_out|o=s'         => \$tblOut,
+
+OPTIONS
+    --evm_gff        -e      EVM input file in the GFF format                                 REQUIRED
+    --interpro_tsv   -i      InterProScan5 results output file in the TSV (tab-separed)       REQUIRED
+    --scaf_lengths   -sl     Scaffold lengths used as input                                   REQUIRED ?
+    --gaps                   Position of gaps in scaffolds                                    REQUIRED ?
+    --tbl_out        -o      Output file in the file, as required by tbl2asn (feature table)
+    --help,          -h      This help.
+    --license        -l      License.
+
+EOF
+}
+
+# Subroutine that prints 
+sub license{
+    print STDERR <<EOF;
+Copyright (C) 2017 Renato Augusto Correa dos Santos
+e-mail: renatoacsantos\@gmail.com
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
+EOF
+exit;
+}
