@@ -142,6 +142,17 @@ while(<INTERPROSCAN>){
   if ($ipr =~ /^IPR/) {
    $gene =~ s/\.model\./\.TU\./g;
    $gene =~ s/\./\_/g;
+
+   #Fixing description
+   ## Remove organism from product name
+   ### 38 features contains 'fungi'
+   ### features contains 'staphylococcal'
+
+   if($desc =~ /, fungi$/){
+    print LOGFILE "$gene ($ipr): Removed \', fungi\' at the end of:\n$desc\n";
+    $desc =~ s/, fungi//g;
+   }
+
    if($interProScanAnnotation{$gene}){
     unless($desc ~~ @{$interProScanAnnotation{$gene}}){
      push(@{$interProScanAnnotation{$gene}},$desc);
