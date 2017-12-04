@@ -347,6 +347,7 @@ foreach my $seq (@scaf_sequences){
  print TBLFILE "			mol_type	genomic DNA\n";
  print TBLFILE "			organism	Kalmanozyma brasiliensis\n";
 
+=cut
  # Print gaps (assembly_gap), if external file is available
  if($gapNsFile){
   if($numGapsInSeqs{$seq}){
@@ -359,6 +360,7 @@ foreach my $seq (@scaf_sequences){
    }
   }
  }
+=cut
 
  foreach my $feat (@{$featuresSeqs{$seq}}){
   $feat=~s/\./\_/g;
@@ -461,9 +463,9 @@ foreach my $seq (@scaf_sequences){
    }
    $gene2locusTag{$feat}=$locusTag."_".$final_locusTagCount;
    if ($featuresInfo{$feat}{'strand'} eq '-'){
-    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\n";
+    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}	gene\n";
    } else {
-    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\n";
+    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}	gene\n";
    }
    #print TBLFILE "			gene	$gene2locusTag{$feat}\n";   
    print TBLFILE "			locus_tag	$gene2locusTag{$feat}\n";
