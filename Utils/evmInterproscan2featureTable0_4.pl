@@ -9,27 +9,22 @@ use Getopt::Long;
 # 0.2 changes:
 ## - included command-line arguments (Getopt long module)
 # 0.3 changes
-## - get information from the output of seqkit ($ seqkit locate --ignore-case --only-positive-strand --pattern "N+" GCA_000497045.1_PSEUBRA1_genomic.fna| sed 's/ +/       /g'| cut -f1,5,6)
-## - assume the file with positions of Ns is required
 ## - get information about products from the IPR description (column besides IPR identifier)
 ## - fix product names
 ## - how tbl2asn (version available in NCBI on Nov-27-17) is run: 
 ### $ linux64.tbl2asn -j "[organism=Kalmanozyma brasiliensis] [strain=GHG001]" -M n -y "Re-annotation of K. brasiliensis GHG001 including RNAseq experimental data" -i GCA_000497045.1_PSEUBRA1_genomic.fna -Z disc.report -t template.sbt -V b -a r10u -l paired-ends
+# 0.4 changes:
+## - does not require file with positions of Ns
 
-my $version='0.3';
+my $version='0.4';
 my $help='';
 my $license='';
 my $evmGffFile = '';
 my $interproScanFile = '';
 my $scafLengthsFile = '';
-my $gapNsFile = '';
 my $tblOut = '';
 my $logFile = '';
 my $locusTag = '';
-
-# Information about gaps in sequences
-my %gapsInSeqs;
-my %numGapsInSeqs;
 
 # Information about sequences (identifier in FASTA and lengths)
 my @scaf_sequences=();
@@ -44,7 +39,6 @@ GetOptions(
   'scaf_lengths|sl=s'   => \$scafLengthsFile,
   'log_file=s'          => \$logFile,
   'locus_tag=s'         => \$locusTag,
-  'gaps=s'              => \$gapNsFile,
   'tbl_out|o=s'         => \$tblOut,
 );
 
@@ -103,33 +97,6 @@ if(!$locusTag){
  &usage();
  exit(1);
 }
-
-if(!$gapNsFile){
- print "User must provide gap positions (runs of Ns).\n";
- &usage();
- exit(1);
-}
-
-# If user passes file with gap positions available in an external file
-# This part opens this file, storing 
-open(GAPSFILE,$gapNsFile);
-
-while(<GAPSFILE>){
- chomp;
- next if (/^seqID/);
- my($seq,$init,$end)=split(/\t/,$_);
- if($gapsInSeqs{$seq}){
-  $numGapsInSeqs{$seq}++;
-  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
-  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
- } else {
-  $numGapsInSeqs{$seq}=1;
-  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'init'}=$init;
-  $gapsInSeqs{$seq}{$numGapsInSeqs{$seq}}{'end'}=$end;
- }
-}
-
-close(GAPSFILE);
 
 # Information InterProScan
 
@@ -347,21 +314,6 @@ foreach my $seq (@scaf_sequences){
  print TBLFILE "			mol_type	genomic DNA\n";
  print TBLFILE "			organism	Kalmanozyma brasiliensis\n";
 
-=cut
- # Print gaps (assembly_gap), if external file is available
- if($gapNsFile){
-  if($numGapsInSeqs{$seq}){
-   my $numGaps = $numGapsInSeqs{$seq};
-   foreach my $gapnum (1 .. $numGaps) {
-    print TBLFILE "$gapsInSeqs{$seq}{$gapnum}{'init'}\t$gapsInSeqs{$seq}{$gapnum}{'end'}\tassembly_gap\n";
-    print TBLFILE "			gap_type	within scaffold\n";
-    print TBLFILE "			estimated_length	unknown\n";
-    print TBLFILE "			linkage_evidence	paired-ends\n";
-   }
-  }
- }
-=cut
-
  foreach my $feat (@{$featuresSeqs{$seq}}){
   $feat=~s/\./\_/g;
 
@@ -530,15 +482,12 @@ NAME
     $0 takes an EVM GFF file and InterProScan5 results, and generates a tbl for NCBI annotation submission (tbl2asn input)
 
 BASIC USAGE
-    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag PSEUBRA --gaps runs_of_Ns.txt
+    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag PSEUBRA
 
 OPTIONS
     --evm_gff        -e      EVM input file in the GFF format                                 REQUIRED
     --interpro_tsv   -i      InterProScan5 results output file in the TSV (tab-separed)       REQUIRED
     --scaf_lengths   -sl     Scaffold lengths used as input                                   REQUIRED
-    --gaps                   Position of gaps in scaffolds                                    
-      The script assumes a modified file after running seqkit, starting with
-      seqID   start   end                                                                     REQUIRED
     --log_file               
       If the name of a log file is not set, it will be automatically named "log_evm2tbl.txt"  OPTIONAL
     --tbl_out        -o      Output file in the file, as required by tbl2asn (feature table)  REQUIRED
