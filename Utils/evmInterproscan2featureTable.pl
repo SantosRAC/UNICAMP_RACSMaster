@@ -4,7 +4,14 @@ use warnings;
 use strict;
 use Getopt::Long;
 
-my $version='0.1';
+## Versions
+# 0.1
+# 0.2 changes:
+## - included command-line arguments (Getopt long module)
+## -
+
+my $version='0.2';
+my $help='';
 my $license='';
 my $evmGffFile = '';
 my $interproScanFile = '';
@@ -22,14 +29,20 @@ GetOptions(
   'tbl_out|o=s'         => \$tblOut,
 );
 
-if(-s $gmtFile) {
-  print "The output file already exists.\n";
+if(-s $tblOut) {
+  print "The output file (feature table) already exists.\nPlease, delete this file before running the script again.\n";
   &usage();
   exit(1);
 }
 
-if(!$gmtFile) {
-  print "The output file name is required.\n";
+if(!$evmGffFile) {
+  print "A GFF from EVM is required.\n";
+  &usage();
+  exit(1);
+}
+
+if(!$interproScanFile) {
+  print "A TSV (tab-separated) file from InterProScan5 is required.\n";
   &usage();
   exit(1);
 }
@@ -559,14 +572,11 @@ sub usage {
     print STDERR <<EOF;
 
 NAME
-    $0 takes EVM GFF file and InterProScan5 results and generates a tbl for NCBI annotation submission (.asn)
+    $0 version $version
+    $0 takes an EVM GFF file and InterProScan5 results, and generates a tbl for NCBI annotation submission (tbl2asn input)
 
-USAGE
-    $0 
-
-  'scaf_lengths|sl=s'   => \$scafLengthsFile,
-  'gaps=s'              => \$gapNsFile,
-  'tbl_out|o=s'         => \$tblOut,
+BASIC USAGE
+    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl
 
 OPTIONS
     --evm_gff        -e      EVM input file in the GFF format                                 REQUIRED
