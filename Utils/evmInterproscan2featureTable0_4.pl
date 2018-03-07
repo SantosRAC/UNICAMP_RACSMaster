@@ -15,6 +15,7 @@ use Getopt::Long;
 ### $ linux64.tbl2asn -j "[organism=Kalmanozyma brasiliensis] [strain=GHG001]" -M n -y "Re-annotation of K. brasiliensis GHG001 including RNAseq experimental data" -i GCA_000497045.1_PSEUBRA1_genomic.fna -Z disc.report -t template.sbt -V b -a r10u -l paired-ends
 # 0.4 changes:
 ## - does not require file with positions of Ns
+## - mRNA features are printed with the same positions of CDS (we do not have annotation of UTRs in current version of the K. brasiliensis annotation)
 
 my $version='0.4';
 my $help='';
@@ -317,6 +318,7 @@ foreach my $seq (@scaf_sequences){
  foreach my $feat (@{$featuresSeqs{$seq}}){
   $feat=~s/\./\_/g;
 
+  # Printing CDS features in feature table
   if($featuresInfo{$feat}{'feattype'} eq 'CDS'){
 
    my @initPositionsCDS=();
@@ -444,7 +446,7 @@ foreach my $seq (@scaf_sequences){
     print TBLFILE "			note	hypothetical protein\n";
    }
    if($parent2exon{$featuresInfo{$feat}{'parent'}}){
-    $parent2exon{$featuresInfo{$feat}{'parent'}}++;
+   $parent2exon{$featuresInfo{$feat}{'parent'}}++;
     print TBLFILE "			number	$parent2exon{$featuresInfo{$feat}{'parent'}}\n";
    } else {
     $parent2exon{$featuresInfo{$feat}{'parent'}}=1;
@@ -454,11 +456,54 @@ foreach my $seq (@scaf_sequences){
 
 
   elsif ($featuresInfo{$feat}{'feattype'} eq 'mRNA') {
-   if ($featuresInfo{$feat}{'strand'} eq '-'){
-    print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'feattype'}\n";
-   } else {
-    print TBLFILE "$featuresInfo{$feat}{'init'}\t$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'feattype'}\n";
+  #evm_TU_KI545895_1_219 (gene)
+  #evm_model_KI545895_1_219 (mRNA)
+  #evm_model_KI545895_1_219_exon1 (exon)
+  #cds_evm_model_KI545895_1_219 (CDS)
+
+   my $featCDS="cds_".$feat;
+
+   my @initPositionsCDS=();
+   my @endPositionsCDS=();
+   my $startPosCDS=0;
+
+   foreach my $cdsNum (keys $featuresInfo{$featCDS}{'CDS'}){
+    push(@initPositionsCDS,$featuresInfo{$featCDS}{'CDS'}{$cdsNum}{'init'});
    }
+
+   foreach my $cdsNum (keys $featuresInfo{$featCDS}{'CDS'}){
+    push(@endPositionsCDS,$featuresInfo{$featCDS}{'CDS'}{$cdsNum}{'end'});
+   }
+
+   my @sortEndPositionsCDS=();
+   my @sortInitPositionsCDS=();
+
+   if($featuresInfo{$featCDS}{'CDS'}{1}{'strand'} eq '-') {
+    @sortEndPositionsCDS = sort {$b <=> $a} @initPositionsCDS;
+    @sortInitPositionsCDS = sort {$b <=> $a} @endPositionsCDS;
+   } else {
+    @sortInitPositionsCDS = sort {$a <=> $b} @initPositionsCDS;
+    @sortEndPositionsCDS = sort {$a <=> $b} @endPositionsCDS;
+   }
+
+   foreach my $cdsLinePrintPositions (0 .. scalar(@sortInitPositionsCDS)-1){
+    if($featuresInfo{$featCDS}{'CDS'}{1}{'strand'} eq '-'){
+     if($startPosCDS==0){
+      $startPosCDS=1;
+      print TBLFILE "$sortInitPositionsCDS[$cdsLinePrintPositions]\t$sortEndPositionsCDS[$cdsLinePrintPositions]\tmRNA\n";
+     }else{
+      print TBLFILE "$sortInitPositionsCDS[$cdsLinePrintPositions]\t$sortEndPositionsCDS[$cdsLinePrintPositions]\n";
+     }
+    } else {
+     if($startPosCDS==0){
+      $startPosCDS=1;
+      print TBLFILE "$sortInitPositionsCDS[$cdsLinePrintPositions]\t$sortEndPositionsCDS[$cdsLinePrintPositions]\tmRNA\n";
+     }else{
+      print TBLFILE "$sortInitPositionsCDS[$cdsLinePrintPositions]\t$sortEndPositionsCDS[$cdsLinePrintPositions]\n";
+     }
+    }
+   }
+
    #print TBLFILE "			gene	$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
    print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
@@ -466,7 +511,7 @@ foreach my $seq (@scaf_sequences){
   }
 
   else { # If it is not gene, mRNA, exon, or CDS: something is wrong!
-   die "Something wrong...\n";
+   die "Something wrong... $featuresInfo{$feat}{'feattype'}\n";
   }
 
  } # Close the foreach feature
