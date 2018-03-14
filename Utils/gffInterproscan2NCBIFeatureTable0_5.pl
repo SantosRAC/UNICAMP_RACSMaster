@@ -29,6 +29,7 @@ my $tblOut = '';
 my $logFile = '';
 my $locusTag = '';
 my $locusTagD = '';
+my $org_sp='';
 
 # Information about sequences (identifier in FASTA and lengths)
 my @scaf_sequences=();
@@ -45,6 +46,7 @@ GetOptions(
   'locus_tag=s'         => \$locusTag,
   'locus_tag_d=i'       => \$locusTagD,
   'tbl_out|o=s'         => \$tblOut,
+  'org_sp=s'            => \$org_sp,
 );
 
 if(!$tblOut) {
@@ -105,6 +107,12 @@ if(!$locusTag){
 
 if(!$locusTagD){
  print "User must provide the number of digits for the locus tag (--locus_tag_d).\n";
+ &usage();
+ exit(1);
+}
+
+if(!$org_sp){
+ print "User must provide the organism species (--org_sp).\n";
  &usage();
  exit(1);
 }
@@ -324,7 +332,7 @@ foreach my $seq (@scaf_sequences){
  print TBLFILE ">Feature	$seq	Table1\n";
  print TBLFILE "$seqLengthInit{$seq}	 $seqLengthEnd{$seq}	source\n";
  print TBLFILE "			mol_type	genomic DNA\n";
- print TBLFILE "			organism	Kalmanozyma brasiliensis\n";
+ print TBLFILE "			organism	$org_sp\n";
 
  foreach my $feat (@{$featuresSeqs{$seq}}){
   $feat=~s/\./\_/g;
@@ -376,7 +384,29 @@ foreach my $seq (@scaf_sequences){
    my $feat2=$feat;
    $feat2 =~ s/cds\_//g;
    $feat2 =~ s/\_cds//g;
-   print TBLFILE "			codon_start	$featuresInfo{$feat}{'CDS'}{1}{'codon_start'}\n";
+
+   my $refCodon2start='';
+   for my $sCodon (sort(keys $featuresInfo{$feat}{'CDS'})){
+    if($featuresInfo{$feat}{'CDS'}{$sCodon}{'strand'} eq '-'){
+     if($refCodon2start){
+      if($featuresInfo{$feat}{'CDS'}{$sCodon}{'init'} > $featuresInfo{$feat}{'CDS'}{$sCodon-1}{'init'}){
+       $refCodon2start=$featuresInfo{$feat}{'CDS'}{$sCodon}{'codon_start'};
+      }
+     } else {
+      $refCodon2start=$featuresInfo{$feat}{'CDS'}{$sCodon}{'codon_start'};
+     }
+    } else {
+     if($refCodon2start){
+      if($featuresInfo{$feat}{'CDS'}{$sCodon}{'init'} < $featuresInfo{$feat}{'CDS'}{$sCodon-1}{'init'}){
+       $refCodon2start=$featuresInfo{$feat}{'CDS'}{$sCodon}{'codon_start'};
+      }
+     } else {
+      $refCodon2start=$featuresInfo{$feat}{'CDS'}{$sCodon}{'codon_start'};
+     }
+    }
+   }
+
+   print TBLFILE "			codon_start	$refCodon2start\n";
    print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
    if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
@@ -536,7 +566,7 @@ NAME
     $0 takes an annotation file (GFF) and InterProScan5 results, and generates a NCBI feature table (.tbl, used as tbl2asn input)
 
 BASIC USAGE
-    $0 --gff annotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag XXXXXX --locus_tag_d 5
+    $0 --gff annotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag XXXXXX --locus_tag_d 5 --org_sp "Kalmanozyma brasiliensis"
 
 OPTIONS
     --gff        -e         GFF output from annotation pipeline
@@ -544,6 +574,8 @@ OPTIONS
     --interpro_tsv   -i      InterProScan5 results output file in the TSV (tab-separed)
                             (REQUIRED)
     --scaf_lengths   -sl     Scaffold lengths used as input
+                            (REQUIRED)
+    --org_sp                 Organism (species; must add quotes, as shown in USAGE)
                             (REQUIRED)
     --log_file               
       If the name of a log file is not set, it will be automatically named "annot2tbl.log"
