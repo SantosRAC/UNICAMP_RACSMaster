@@ -16,16 +16,19 @@ use Getopt::Long;
 # 0.4 changes:
 ## - does not require file with positions of Ns
 ## - mRNA features are printed with the same positions of CDS (we do not have annotation of UTRs in current version of the K. brasiliensis annotation)
+# 0.5 changes:
+## More general script, that allows usage of a different GFF file, not only the EVM one
 
-my $version='0.4';
+my $version='0.5';
 my $help='';
 my $license='';
-my $evmGffFile = '';
+my $GffFile = '';
 my $interproScanFile = '';
 my $scafLengthsFile = '';
 my $tblOut = '';
 my $logFile = '';
 my $locusTag = '';
+my $locusTagD = '';
 
 # Information about sequences (identifier in FASTA and lengths)
 my @scaf_sequences=();
@@ -35,11 +38,12 @@ my %seqLengthEnd;
 GetOptions(
   'help|h|?'            => \$help,
   'license|l'           => \$license,
-  'evm_gff|e=s'         => \$evmGffFile,
+  'gff|e=s'             => \$GffFile,
   'interpro_tsv|i=s'    => \$interproScanFile,
   'scaf_lengths|sl=s'   => \$scafLengthsFile,
   'log_file=s'          => \$logFile,
   'locus_tag=s'         => \$locusTag,
+  'locus_tag_d=i'       => \$locusTagD,
   'tbl_out|o=s'         => \$tblOut,
 );
 
@@ -55,8 +59,8 @@ if(-s $tblOut) {
   exit(1);
 }
 
-if(!$evmGffFile) {
-  print "A GFF from EVM is required.\n";
+if(!$GffFile) {
+  print "A GFF is required.\n";
   &usage();
   exit(1);
 }
@@ -68,7 +72,7 @@ if(!$interproScanFile) {
 }
 
 if(!$scafLengthsFile){
- print "A file with lengths of scaffolds in the EVM GFF is required.\n";
+ print "A file with lengths of scaffolds in the GFF is required.\n";
  &usage();
  exit(1);
 }
@@ -84,7 +88,7 @@ if($license) {
 }
 
 if(!$logFile){
- $logFile='log_evm2tbl.txt';
+ $logFile='annot2tbl.log';
 }
 
 if(-s $logFile) {
@@ -94,7 +98,13 @@ if(-s $logFile) {
 }
 
 if(!$locusTag){
- print "User must provide a locus tag.\n";
+ print "User must provide a locus tag (--locus_tag).\n";
+ &usage();
+ exit(1);
+}
+
+if(!$locusTagD){
+ print "User must provide the number of digits for the locus tag (--locus_tag_d).\n";
  &usage();
  exit(1);
 }
@@ -110,14 +120,14 @@ open(LOGFILE,'>',$logFile);
 
 while(<INTERPROSCAN>){
  chomp;
- # evm.model.KI545862.1.400	c1932f5ac3f6f4274218e5d6b2427aa4	728	SUPERFAMILY	SSF74788		418727	4.92E-86	T	07-04-2016	IPR016159	Cullin repeat-like-containing domain		
-
  my @fields=split(/\t/,$_);
  my($gene,undef,undef,$db,$dbID,undef,undef,undef,undef,undef,undef,$ipr,$desc)=split(/\t/,$_);
  if ($ipr){
   if ($ipr =~ /^IPR/) {
-   $gene =~ s/\.model\./\.TU\./g;
-   $gene =~ s/\./\_/g;
+   if($gene =~ /\.model\./){
+    $gene =~ s/\.model\./\.TU\./g;
+    $gene =~ s/\./\_/g;
+   }
 
    #Fixing description
    ## Remove organism from product name
@@ -226,15 +236,16 @@ while(<SEQFILE>){
 
 close(SEQFILE);
 
-open(EVMGFFFILE,$evmGffFile);
+open(GFFFILE,$GffFile);
 
-while(<EVMGFFFILE>){
+while(<GFFFILE>){
  chomp;
  next if(/^#/);
  my ($seq,$source,$feattype,$init_pos,$end_pos,undef,$strand,$codon_start,$additionalInfo)=split(/\t/,$_);
  unless(scalar(split(/\t/,$_)) == 9){
   die scalar(split(/\t/,$_))." is the number of fields in line\n$_\n";
  }
+ next unless ($additionalInfo =~ /ID=/);
  my @addInfoFields=split(/;/,$additionalInfo);
 
  my $featIdentifier='';
@@ -298,7 +309,7 @@ while(<EVMGFFFILE>){
 
 }
 
-close(EVMGFFFILE);
+close(GFFFILE);
 
 my %parent2exon;
 my $locusCount=0;
@@ -364,6 +375,7 @@ foreach my $seq (@scaf_sequences){
        
    my $feat2=$feat;
    $feat2 =~ s/cds\_//g;
+   $feat2 =~ s/\_cds//g;
    print TBLFILE "			codon_start	$featuresInfo{$feat}{'CDS'}{1}{'codon_start'}\n";
    print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
    print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
@@ -401,20 +413,13 @@ foreach my $seq (@scaf_sequences){
   elsif ($featuresInfo{$feat}{'feattype'} eq 'gene') {
    $locusCount++;
    my $final_locusTagCount='';
-   #old locus_tag has five numbers: '00098'
-   if (length($locusCount) == 1){
-    $final_locusTagCount='00000'.$locusCount;
-   } elsif (length($locusCount) == 2) {
-    $final_locusTagCount='0000'.$locusCount;
-   } elsif (length($locusCount) == 3) {
-    $final_locusTagCount='000'.$locusCount;
-   } elsif (length($locusCount) == 4) {
-    $final_locusTagCount='00'.$locusCount;
-   } elsif (length($locusCount) == 5) {
-    $final_locusTagCount='0'.$locusCount;
+   my $nDigits= '0' x ($locusTagD-length($locusCount));
+   if(($nDigits) <= $locusTagD){
+    $final_locusTagCount=$nDigits.$locusCount;
    } else {
-    die "LOCUS TAG number (\$locusCount) seems to be above the allowed.\n";
+    die "Number of genes (loci) exceeds the locus_tag allowed number of digits.\n";
    }
+ 
    $gene2locusTag{$feat}=$locusTag."_".$final_locusTagCount;
    if ($featuresInfo{$feat}{'strand'} eq '-'){
     print TBLFILE "$featuresInfo{$feat}{'end'}\t$featuresInfo{$feat}{'init'}	gene\n";
@@ -455,13 +460,17 @@ foreach my $seq (@scaf_sequences){
   } # Closing exon
 
 
-  elsif ($featuresInfo{$feat}{'feattype'} eq 'mRNA') {
-  #evm_TU_KI545895_1_219 (gene)
-  #evm_model_KI545895_1_219 (mRNA)
-  #evm_model_KI545895_1_219_exon1 (exon)
-  #cds_evm_model_KI545895_1_219 (CDS)
+  elsif (($featuresInfo{$feat}{'feattype'} eq 'mRNA') or ($featuresInfo{$feat}{'feattype'} eq 'transcript')) {
 
-   my $featCDS="cds_".$feat;
+   my $featCDS='';
+   if($featuresInfo{"cds_".$feat}{'CDS'}){
+    $featCDS="cds_".$feat;
+   }elsif($featuresInfo{$feat."_cds"}{'CDS'}){
+    $featCDS=$feat."_cds";
+   } else{
+    die "Something wrong with $featCDS; there is not a CDS with this name.\n
+    Remember this script works for protein-coding genes\n";
+   }
 
    my @initPositionsCDS=();
    my @endPositionsCDS=();
@@ -524,19 +533,27 @@ sub usage {
 
 NAME
     $0 version $version
-    $0 takes an EVM GFF file and InterProScan5 results, and generates a tbl for NCBI annotation submission (tbl2asn input)
+    $0 takes an annotation file (GFF) and InterProScan5 results, and generates a NCBI feature table (.tbl, used as tbl2asn input)
 
 BASIC USAGE
-    $0 --evm_gff evmannotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag PSEUBRA
+    $0 --gff annotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag XXXXXX --locus_tag_d 5
 
 OPTIONS
-    --evm_gff        -e      EVM input file in the GFF format                                 REQUIRED
-    --interpro_tsv   -i      InterProScan5 results output file in the TSV (tab-separed)       REQUIRED
-    --scaf_lengths   -sl     Scaffold lengths used as input                                   REQUIRED
+    --gff        -e         GFF output from annotation pipeline
+                            (REQUIRED)
+    --interpro_tsv   -i      InterProScan5 results output file in the TSV (tab-separed)
+                            (REQUIRED)
+    --scaf_lengths   -sl     Scaffold lengths used as input
+                            (REQUIRED)
     --log_file               
-      If the name of a log file is not set, it will be automatically named "log_evm2tbl.txt"  OPTIONAL
-    --tbl_out        -o      Output file in the file, as required by tbl2asn (feature table)  REQUIRED
-    --locus_tag              Locus tag                                                        REQUIRED
+      If the name of a log file is not set, it will be automatically named "annot2tbl.log"
+                            (OPTIONAL)
+    --tbl_out        -o      Output file name (feature table)
+                            (REQUIRED)
+    --locus_tag              Locus tag
+                            (REQUIRED)
+    --locus_tag_d
+                            (REQUIRED)
     --help,          -h      This help.
     --license        -l      License.
 
@@ -546,7 +563,7 @@ EOF
 # Subroutine that prints 
 sub license{
     print STDERR <<EOF;
-Copyright (C) 2017 Renato Augusto Correa dos Santos
+Copyright (C) 2017,2018 Renato Augusto Correa dos Santos
 e-mail: renatoacsantos\@gmail.com
 
 This program is free software; you can redistribute it and/or
