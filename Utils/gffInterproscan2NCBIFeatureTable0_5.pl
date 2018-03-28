@@ -18,6 +18,7 @@ use Getopt::Long;
 ## - mRNA features are printed with the same positions of CDS (we do not have annotation of UTRs in current version of the K. brasiliensis annotation)
 # 0.5 changes:
 ## More general script, that allows usage of a different GFF file, not only the EVM one
+## Added command-line argument to add research group
 
 my $version='0.5';
 my $help='';
@@ -30,6 +31,7 @@ my $logFile = '';
 my $locusTag = '';
 my $locusTagD = '';
 my $org_sp='';
+my $researchGroup='';
 
 # Information about sequences (identifier in FASTA and lengths)
 my @scaf_sequences=();
@@ -47,6 +49,7 @@ GetOptions(
   'locus_tag_d=i'       => \$locusTagD,
   'tbl_out|o=s'         => \$tblOut,
   'org_sp=s'            => \$org_sp,
+  'res_group|rg=s'      => \$researchGroup,
 );
 
 if(!$tblOut) {
@@ -113,6 +116,12 @@ if(!$locusTagD){
 
 if(!$org_sp){
  print "User must provide the organism species (--org_sp).\n";
+ &usage();
+ exit(1);
+}
+
+if(!$researchGroup){
+ print "User must provide the research group identifier (--res_group).\n";
  &usage();
  exit(1);
 }
@@ -407,8 +416,8 @@ foreach my $seq (@scaf_sequences){
    }
 
    print TBLFILE "			codon_start	$refCodon2start\n";
-   print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
-   print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
+   print TBLFILE "			protein_id	gnl|$researchGroup|$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
+   print TBLFILE "			transcript_id	gnl|$researchGroup|mrna.$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
    if($gene2locusTag{$featuresInfo{$feat2}{'parent'}}){
     print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
     #print TBLFILE "			gene	$gene2locusTag{$featuresInfo{$feat2}{'parent'}}\n";
@@ -544,8 +553,8 @@ foreach my $seq (@scaf_sequences){
    }
 
    #print TBLFILE "			gene	$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
-   print TBLFILE "			protein_id	gnl|BCE_CTBE|$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
-   print TBLFILE "			transcript_id	gnl|BCE_CTBE|mrna.$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
+   print TBLFILE "			protein_id	gnl|$researchGroup|$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
+   print TBLFILE "			transcript_id	gnl|$researchGroup|mrna.$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
    print TBLFILE "			locus_tag	$gene2locusTag{$featuresInfo{$feat}{'parent'}}\n";
   }
 
@@ -566,7 +575,7 @@ NAME
     $0 takes an annotation file (GFF) and InterProScan5 results, and generates a NCBI feature table (.tbl, used as tbl2asn input)
 
 BASIC USAGE
-    $0 --gff annotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag XXXXXX --locus_tag_d 5 --org_sp "Kalmanozyma brasiliensis"
+    $0 --gff annotation.gff --interpro_tsv interproannot.tsv --tbl_out organismannot.tbl --scaf_lengths scaffolds_lengths.txt --locus_tag XXXXXX --locus_tag_d 5 --org_sp "Kalmanozyma brasiliensis" --res_group BCE_CTBE
 
 OPTIONS
     --gff        -e         GFF output from annotation pipeline
@@ -584,8 +593,9 @@ OPTIONS
                             (REQUIRED)
     --locus_tag              Locus tag
                             (REQUIRED)
-    --locus_tag_d
+    --locus_tag_d            Number of digits the locus tag must have
                             (REQUIRED)
+    --res_group      -rg     The research group identifier (included in tags. e.g. BCE_CTBE)
     --help,          -h      This help.
     --license        -l      License.
 
