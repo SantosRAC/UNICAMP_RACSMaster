@@ -57,7 +57,7 @@ for seq_record in SeqIO.parse(inFastaOBJ, "fasta"):
     else:
      print("Something is wrong.")
      exit(1)
- gffOBJ.close()
+ inGFFOBJ.close()
 
 inFastaOBJ.close()
 outFastaOBJ.close()
