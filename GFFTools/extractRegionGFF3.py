@@ -12,7 +12,7 @@ parser.add_argument('-o','--out', dest='OUTFASTA', metavar='out.fasta', type=str
 
 args = parser.parse_args()
 inFastaOBJ = args.INFASTA
-outFastaOBJ = OUTFASTA
+outFastaOBJ = args.OUTFASTA
 
 # Open FASTA with chromosomes
 open(inFastaOBJ,"r")
