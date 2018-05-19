@@ -11,14 +11,12 @@ parser.add_argument('-g','--genome', dest='INFASTA', metavar='genome.fasta', typ
 parser.add_argument('-o','--out', dest='OUTFASTA', metavar='out.fasta', type=str, help='Output gene upstream regions (FASTA)', required=True)
 
 args = parser.parse_args()
-inFastaOBJ = args.INFASTA
-outFastaOBJ = args.OUTFASTA
 
 # Open FASTA with chromosomes
-open(inFastaOBJ,"r")
+inFastaOBJ = open(args.INFASTA,"r")
 
 # Open output FASTA with gene upstream region
-open(outFastaOBJ, "w")
+outFastaOBJ = open(args.OUTFASTA, "w")
 
 for seq_record in SeqIO.parse(inFastaOBJ, "fasta"):
  seqIdentifier = seq_record.id
