@@ -28,27 +28,27 @@ for seq_record in SeqIO.parse(inFastaOBJ, "fasta"):
   else:
    scaff,prediction,feattype,geneinit,geneend,frame,strand,misc,notes=line.split("\t")
    notes=notes.rstrip("\n")
-   if (feattype == 'mRNA') and (scaff == seqIdentifier):
+   if (feattype == 'start_codon') and (scaff == seqIdentifier):
     if strand == '+':
      if 0 <= (int(geneinit)-2)-1500 < len(seqItself):
       gene_sequps=seqItself[(int(geneinit)-1)-1500:(int(geneinit)-1)]
       lenseq=len(gene_sequps)
-      print(">%s %s\n%s" % (notes,lenseq,gene_sequps))
+      print(">%s\n%s" % (notes,gene_sequps))
      else:
       gene_sequps=seqItself[0:(int(geneinit)-1)]
       lenseq=len(gene_sequps)
-      print(">%s %s\n%s" % (notes,lenseq,gene_sequps))
+      print(">%s\n%s" % (notes,gene_sequps))
     elif strand == '-':
      if 0 <= (int(geneend)+1)+1500 < len(seqItself):
       gene_sequps=seqItself[int(geneend):(int(geneend))+1500]
       gene_sequps_revcomp = gene_sequps.reverse_complement()
       lenseq=len(gene_sequps_revcomp)
-      print(">%s %s\n%s" % (notes,lenseq,gene_sequps_revcomp))
+      print(">%s\n%s" % (notes,gene_sequps_revcomp))
      else:
       gene_sequps=seqItself[int(geneend):-1]
       gene_sequps_revcomp = gene_sequps.reverse_complement()
       lenseq=len(gene_sequps_revcomp)
-      print(">%s %s\n%s" % (notes,lenseq,gene_sequps_revcomp))
+      print(">%s\n%s" % (notes,gene_sequps_revcomp))
     else:
      print("Something is wrong.")
      exit(1)
