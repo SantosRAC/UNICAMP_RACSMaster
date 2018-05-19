@@ -12,10 +12,13 @@ parser.add_argument('-o','--out', dest='OUTFASTA', metavar='out.fasta', type=str
 
 args = parser.parse_args()
 inFastaOBJ = args.INFASTA
-outFastaOBJ = args.OUTFASTA
+outFastaOBJ = OUTFASTA
 
 # Open FASTA with chromosomes
 open(inFastaOBJ,"r")
+
+# Open output FASTA with gene upstream region
+open(outFastaOBJ, "w")
 
 for seq_record in SeqIO.parse(inFastaOBJ, "fasta"):
  seqIdentifier = seq_record.id
