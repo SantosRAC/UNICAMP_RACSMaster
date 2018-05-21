@@ -3,7 +3,7 @@ import argparse
 from Bio import SeqIO
 import re
 
-# Extracts regions from genes in FASTA/GFF3 annotation file
+# Extracts upstream region (1500 bp) from genes in FASTA (using GFF3 annotation file with start codon position)
 version=sys.argv[0] + 'v.1'
 parser = argparse.ArgumentParser(description='Extract regions from FASTA and GFF3 (annotation)', add_help=True)
 parser.add_argument('-gff','--gff', dest='GFF3', metavar='genome.gff3', type=str, help='Annotation file (GFF3)', required=True)
