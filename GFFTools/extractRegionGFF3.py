@@ -34,11 +34,15 @@ for seq_record in SeqIO.parse(inFastaOBJ, "fasta"):
      if 0 <= (int(geneinit)-2)-1500 < len(seqItself):
       gene_sequps=seqItself[(int(geneinit)-1)-1500:(int(geneinit)-1)]
       lenseq=len(gene_sequps)
+      notes = notes.replace("name \"","")
+      notes = notes.replace("\"","")
       outFastaOBJ.write(">%s\n%s" % (notes,gene_sequps))
       outFastaOBJ.write("\n")
      else:
       gene_sequps=seqItself[0:(int(geneinit)-1)]
       lenseq=len(gene_sequps)
+      notes = notes.replace("name \"","")
+      notes = notes.replace("\"","")
       outFastaOBJ.write(">%s\n%s" % (notes,gene_sequps))
       outFastaOBJ.write("\n")
     elif strand == '-':
@@ -46,12 +50,16 @@ for seq_record in SeqIO.parse(inFastaOBJ, "fasta"):
       gene_sequps=seqItself[int(geneend):(int(geneend))+1500]
       gene_sequps_revcomp = gene_sequps.reverse_complement()
       lenseq=len(gene_sequps_revcomp)
+      notes = notes.replace("name \"","")
+      notes = notes.replace("\"","")
       outFastaOBJ.write(">%s\n%s" % (notes,gene_sequps_revcomp))
       outFastaOBJ.write("\n")
      else:
       gene_sequps=seqItself[int(geneend):-1]
       gene_sequps_revcomp = gene_sequps.reverse_complement()
       lenseq=len(gene_sequps_revcomp)
+      notes = notes.replace("name \"","")
+      notes = notes.replace("\"","")
       outFastaOBJ.write(">%s\n%s" % (notes,gene_sequps_revcomp))
       outFastaOBJ.write("\n")
     else:
